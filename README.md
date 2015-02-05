@@ -7,7 +7,7 @@ This project handles the DocdokuPLM user-guide and documentation.
 
 Jekyll 2.0.3, nodejs, git, grunt, bower
 
-Please edit the \_config.yml file if you plan to deply on a different path than server root
+Please edit the \_config.yml file if you plan to deploy on a different path than server root
 
 To build the doc, run 
 
