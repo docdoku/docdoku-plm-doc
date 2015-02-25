@@ -13,6 +13,6 @@ To build the doc, run
 
 	grunt build
 
-To developp, use
+To develop, use
 	
 	grunt serve

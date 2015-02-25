@@ -42,33 +42,33 @@ Chaque nouvel utilisateur doit effectuer cette action.
 
 La toute première étape consiste ainsi à s'enregistrer. Ici, tous les champs sont obligatoires.
 
-{% image /assets/images/documentation/fr/image17.png "Création d'un utilisateur"%}
+{% image /assets/images/documentation/dev/fr/image17.png "Création d'un utilisateur"%}
 
 ##Modification de l’utilisateur
 
-{% image /assets/images/documentation/fr/image04.png "Gestion du compte"%}
+{% image /assets/images/documentation/dev/fr/image04.png "Gestion du compte"%}
 
-Dans le sous-menu “Mon Compte” vous pouvez modifier toutes vos caractéristiques à l'exception de votre identifiant utilisateur.
+Dans le sous-menu “Mon compte” vous pouvez modifier toutes vos caractéristiques à l'exception de votre identifiant utilisateur.
 
 Cette page vous permet également de modifier votre mot de passe.
 
-{% image /assets/images/documentation/fr/image10.png "Édition du compte"%}
+{% image /assets/images/documentation/dev/fr/image10.png "Édition du compte"%}
 
 #Gestion des espaces de travail
 
 ##Création d'un espace de travail
 Votre compte désormais créé, vous avez la possibilité de créer un espace de travail.
 
-{% image /assets/images/documentation/fr/image37.png "image37"%}
+{% image /assets/images/documentation/fr/image37.png "Création d’un espace de travail"%}
 
 Une fois cette opération effectuée, vous en serez l’administrateur. Celui-ci regroupera l’ensemble des documents, articles, processus métier et produits.
 
 L’option “geler la structure des répertoires sauf pour le gestionnaire de l’espace de travail” doit être cochée si vous ne souhaitez pas que les autres utilisateurs puissent modifier la structure des répertoires.
 
 ##Modification d'un espace de travail
-Pour accéder aux options d’un espace de travail, cliquez sur le lien “Administration”.
+Pour accéder aux options d’un espace de travail, cliquez sur le lien “Administration des espaces de travail”.
 
-{% image /assets/images/documentation/fr/image04.png "Gestion du compte"%}
+{% image /assets/images/documentation/dev/fr/image04.png "Gestion du compte"%}
 
 Plusieurs actions sont ici possibles :
 
@@ -96,9 +96,9 @@ Depuis le menu Collaborateurs, vous visualisez en temps réel les utilisateurs c
 
 {% image /assets/images/documentation/fr/image16.png "Invitation session vidéo"%}
 
-En complément du menu Collaborateurs, chaque fois qu’un nom d’utilisateur apparaît en bleu dans l’application, cliquez dessus et un menu de conversation contextualisé avec le nom de l’espace de travail et le nom du l’élément concerné apparaît. Ce contexte est indiqué dans le titre de chaque fenêtre de conversation.
+En complément du menu Collaborateurs, chaque fois qu’un nom d’utilisateur apparaît en bleu dans l’application, cliquez dessus et un menu de conversation contextualisé avec le nom de l’espace de travail et le nom de l’élément concerné apparaît. Ce contexte est indiqué dans le titre de chaque fenêtre de conversation.
 
-{% image /assets/images/documentation/fr/image29.png "Menu collaboratif contextuel"%}
+{% image /assets/images/documentation/dev/fr/image29.png "Menu collaboratif contextuel"%}
 
 #Gestion des contrôles d’accès
 
@@ -106,6 +106,8 @@ En complément du menu Collaborateurs, chaque fois qu’un nom d’utilisateur a
 
 ###Gestion des accès utilisateurs
 L’administrateur de l’espace de travail peut définir des droits par défaut aux utilisateurs. Un utilisateur peut avoir un accès complet en lecture/écriture, un accès en lecture seule, ou bien n’avoir aucun droit.
+
+Il est également possible de désactiver un utilisateur, il ne pourra alors plus se connecter.
 
 {% image /assets/images/documentation/fr/image44.png "Gestion des utilisateurs et des groupes "%}
 
@@ -133,32 +135,39 @@ Pour gérer les utilisateurs d’un groupe, vous devez cliquer sur son nom. Vous
 {% image /assets/images/documentation/fr/image33.png "Gestion des utilisateurs d’un groupe"%}
 
 ##Droits appliqués au niveau des documents et des articles
-A la création d’un document ou d’un article, les droits appliqués à ceux-ci sont par défaut ceux définis sur l’espace de travail. Pour redéfinir spécialement les droits de l’entité à créer, vous devez utiliser l’onglet “Droits”. Vous pouvez alors modifier les droits spécifiquement pour cette entité.
+A la création d’un document ou d’un article, les droits appliqués à ceux-ci sont par défaut ceux définis sur l’espace de travail. Pour redéfinir les droits de l’entité à créer, vous devez utiliser l’onglet “Droits”. Vous pouvez alors modifier les droits spécifiquement pour cette entité.
 
-Vous pouvez ainsi donner des droits supplémentaires aux utilisateurs en lecture seule au niveau de l’espace de travail sur des entités ciblées, ou au contraire restreindre l’accès à des données à des utilisateurs en accès complet.
+Vous pouvez ainsi donner des droits supplémentaires sur des entités ciblées aux utilisateurs en lecture seule au niveau de l’espace de travail, ou au contraire restreindre l’accès à des données à des utilisateurs en accès complet.
 
-En choisissant “interdit” pour un utilisateur sur une entité, celle-ci ne sera pas visible dans la liste qui lui est servie.
+En choisissant “Interdit” pour un utilisateur sur une entité, celle-ci ne sera pas visible dans la liste qui lui est servie.
 
-{% image /assets/images/documentation/fr/image01.png "Formulaire de création de document, onglet de gestion de droits d'accès "%}
+{% image /assets/images/documentation/dev/fr/image01.png "Formulaire de création de document, onglet de gestion de droits d'accès "%}
 
-Ces droits sont modifiables, seuls l’administrateur de l’espace de travail et l’auteur du document ou de l’article peuvent le faire.
+Ces droits sont modifiables une fois le document créé, seuls l’administrateur de l’espace de travail et l’auteur du document ou de l’article peuvent le faire.
 
-Une fois l’entité sélectionnée l’icône suivante apparaît dans le bandeau du haut.
+Une fois l’entité sélectionnée, l’icône suivante apparaît dans le bandeau du haut.
 
 {% image /assets/images/documentation/fr/image13.png%}
 
-Vous pouvez alors modifier les droits associés au document ou à l’article ou bien vous pouvez choisir de les désactiver.
+Vous pouvez alors modifier les droits associés au document ou à l’article, ou bien choisir de les désactiver.
 
 Quand des droits sont appliqués sur un élément, un cadenas est visible en fin de ligne. La couleur verte signifie que vous avez un accès complet sur l’entité, la couleur jaune signifie un accès en lecture seule.
 
-{% image /assets/images/documentation/fr/image15.png "accès complet"%}
-{% image /assets/images/documentation/fr/image21.png "lecture seule "%}
+{% image /assets/images/documentation/dev/full_access.png "Accès complet"%}
+{% image /assets/images/documentation/dev/read_only.png "Lecture seule "%}
 
 ##Combinaison et priorité des droits
 
-Une notion importante à retenir : les droits définis sur une entité pour un utilisateur prime sur tous les autres droits (à l’exception de l’utilisateur désactivé).
+Notions importantes :
 
-De plus, l’administrateur de l’espace de travail outrepasse ces droits.
+* Ordre de priorité des droits :
+1. Droits utilisateur sur un document / article
+2. Droits de groupe sur un document / article
+3. Droits utilisateur sur l'espace de travail
+4. Droits de groupe sur l'espace de travail
+5. Droits du groupe le plus permissif
+* Les droits ne s'appliquent pas aux utilisateurs désactivés dans un espace de travail.
+* L’administrateur de l’espace de travail outrepasse ces droits.
 
 Ci-après les tableaux récapitulatifs des combinaisons possibles.
 
@@ -167,8 +176,8 @@ Ci-après les tableaux récapitulatifs des combinaisons possibles.
 | Groupe        | Utilisateur       | Droits effectifs |
 | ------------- | ----------------- | ---------------- |
 | accès complet | lecture seule     | lecture seule    |
-| accès complet | accès complet     |  accès complet   |
-| lecture seule | lecture seule     |  read only       |
+| accès complet | accès complet     | accès complet    |
+| lecture seule | lecture seule     | lecture seule    |
 | lecture seule | accès complet     | accès complet
 
 
@@ -218,7 +227,7 @@ La création d’articles et de produits est expliquée dans le paragraphe qui s
 
 ##La structure produit
 Il s'agit de rendre compte de la structure d'un produit et de l'organisation de ses composants.
-Les composants sont appelés articles. DocDokuPLM permet de créer des articles à partir de rien ou bien à partir de modèles existants.
+Les composants sont appelés articles, ou assemblages s'ils sont eux-mêmes composés d'articles. DocDokuPLM permet de créer des articles à partir de rien ou bien à partir de modèles existants.
 
 ###Création de modèle d’article
 DocdokuPLM offre la possibilité de créer des modèles types d’article et de leur associer des attributs, des fichiers et un masque de saisie permettant de faciliter la gestion de nomenclature des articles qui auront ce modèle.
@@ -227,21 +236,26 @@ Cette opération permet par la suite de créer des articles reposant sur ces mod
 ###Création d’article
 Lors de la création d’un article, vous pouvez donc renseigner un modèle d’article. L’article ainsi créé aura les mêmes propriétés que celles du modèle (fichiers, attributs et liens).
 
-Vous pouvez tout aussi bien lui associer de façon individuelle des attributs, un workflow afin de gérer le cycle de vie de l’article et régir l'accès à cet article pour les autres collaborateurs de l’espace de travail.
+Vous pouvez tout aussi bien lui associer de façon individuelle :
 
-{% image /assets/images/documentation/fr/image05.png "Création d'un article"%}
+* des attributs
+* un workflow, afin de gérer le cycle de vie de l’article et régir l'accès à cet article pour les autres collaborateurs de l’espace de travail.
+
+{% image /assets/images/documentation/dev/fr/image05.png "Création d'un article"%}
 
 L’article créé sera rajouté à la liste des articles déjà présents.
 
-{% image /assets/images/documentation/fr/image19.png "Liste des articles"%}
+{% image /assets/images/documentation/dev/fr/image19.png "Liste des articles"%}
 
 En cliquant sur le numéro d’un article, une fenêtre affichera ses détails. Vous pouvez en modifier les éléments suivants : les attributs, le fichier CAD ou encore les liens vers des documents.
 
 En sélectionnant un article, vous pouvez lui appliquer un ensemble d’actions à savoir :
 
 * Suppression
-* Réservation  / annulation de la réservation / libération
+* Réservation / Annulation de la réservation / Libération
 * Gestion de ses droits d’accès
+* Création d'une nouvelle version
+* Finalisation
 
 ###Assemblage d’articles
 Lors de la modification d’un article vous pouvez définir son assemblage.

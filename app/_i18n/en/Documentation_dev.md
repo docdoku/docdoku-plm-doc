@@ -28,16 +28,16 @@ To create an account, click on the link “sign up!” from the home page.
 
 The first step is thus to register. All fields are required.
 
-{% image /assets/images/documentation/en/register2.png "Creating a User"%}
+{% image /assets/images/documentation/dev/en/register2.png "Creating a User"%}
 
 ##User settings
 
-{% image /assets/images/documentation/en/settings.png "Account Management"%}
+{% image /assets/images/documentation/endev/en/settings.png "Account Management"%}
 
 Subsequently all settings can be changed, except the User ID which is immutable.
-The account edition page is accessible on the "My Account" submenu which also allows to reset the password.
+The account edition page is accessible on the "My account" submenu which also allows to reset the password.
 
-{% image /assets/images/documentation/en/edition.png "Account Edition"%}
+{% image /assets/images/documentation/dev/en/edition.png "Account Edition"%}
 
 #Workspace Management
 
@@ -51,9 +51,9 @@ Workspace is the top level context object that gathers documents, parts, busines
 The "freeze folder structure except for workspace manager" option must be checked if you do not want other users to modify the directory structure.
 
 ##Workspace settings
-To edit the workspace properties, click on "Administration".
+To edit the workspace properties, click on "Workspaces administration".
 
-{% image /assets/images/documentation/en/account.png "Account Management"%}
+{% image /assets/images/documentation/dev/en/settings.png "Account Management"%}
 
 Then, select the workspace you want to edit.
 
@@ -71,15 +71,15 @@ The dashboard provides statistics on your workspace (disk space, number of docum
 All users of the same workspace can communicate in real-time with our built-in communication module.
 This module offers the ability to engage an instant messaging conversation or a video conference on the fly. Hence, users can easily exchange parts and documents and thus speed up the process of product development.
 
-The co-workers menu lists the current connected users (green). A click on the camera icon will start a video conversation.
+The co-workers menu lists the current connected users (green) and others. A click on the camera icon will start a video conversation.
 
-{% image /assets/images/documentation/en/coworkers.png "co-workers menu"%}
+{% image /assets/images/documentation/en/coworkers.png "Co-workers menu"%}
 
-{% image /assets/images/documentation/en/videochat.png "video chat invitation"%}
+{% image /assets/images/documentation/en/videochat.png "Video chat invitation"%}
 
 In addition to the co-workers menu, whenever a user name appears in blue inside the application, a simple click brings up a contextual menu. A conversation started this way carries out the context to the recipient user so he is informed of what is probably the subject of the communication (document, part).
 
-{% image /assets/images/documentation/en/conversation.png "Co-worker contextual conversation menu"%}
+{% image /assets/images/documentation/dev/en/conversation.png "Co-worker contextual conversation menu"%}
 
 #Access right controls
 
@@ -91,6 +91,8 @@ Workspace administrator defines permissions to users which can be either full or
 It’s also possible to disable users which has the effect to forbid them to log in.
 
 {% image /assets/images/documentation/en/user_management.png "Workspace Users Management"%}
+
+Furthermore, users can be assigned into groups holding the permissions.
 
 A full access user can:
 
@@ -106,15 +108,19 @@ A read-only user can:
 
 A disabled user cannot do anything.
 
+To update user or group access, check the related checkbox and click on the desired action button (remove, disable, enable...) below the list.
+
 ###Managing Groups
 Groups are useful when the number of users tends to increase. They can hold the same kind of permissions.
+
+Just click on group's name to open the detail view. You can then add or remove users within the selected group.
 
 {% image /assets/images/documentation/en/group_user_management.png "Group Users Management"%}
 
 ##Documents and Parts Access Control List
-If newly created documents and parts are accessible according to the permissions defined at workspace level, it’s possible to override them by selecting the "Rights" tab. From that panel you can upgrade or downgrade access rights to any user in the workspace for the specific entity (document or part). The lower level is "forbidden" which means that the entity will not be visible by the user or group.
+If newly created documents and parts are accessible according to the permissions defined at workspace level, it’s possible to override them by selecting the "ACL" tab. From that panel you can upgrade or downgrade access rights to any user or group in the workspace for the specific entity (document or part). The lower level is "forbidden" which means that the entity will not be visible by the user or group.
 
-{% image /assets/images/documentation/en/document_creation.png "Document creation, ACL tab"%}
+{% image /assets/images/documentation/dev/en/document_creation.png "Document creation, ACL tab"%}
 
 Only the administrator of the workspace and the authors can modify the permissions of existing entities.
 Once you've selected an entity the following icon appears in the banner at the top.
@@ -123,10 +129,10 @@ Once you've selected an entity the following icon appears in the banner at the t
 
 You can then change the permissions in the same way as creation time.
 
-Entities that hold specific rights display a padlock at the end of the line. Green means you have full access to the entity, yellow means read-only access.
+Entities holding specific rights display a prohibition sign at the end of the line. Green means you have full access to the entity, yellow means read-only access.
 
-{% image /assets/images/documentation/en/full_access.png "Full access"%}
-{% image /assets/images/documentation/en/read_only.png "Read-only"%}
+{% image /assets/images/documentation/dev/full_access.png "Full access"%}
+{% image /assets/images/documentation/dev/read_only.png "Read only"%}
 
 ##Combined Access Rights
 
@@ -138,18 +144,18 @@ Important concepts:
 3. User rights on the workspace
 4. Group rights on the workspace
 5. Rights of the most permissive group
-* Access rights are not use for users disable on workspace.
-* The administrator of the workspace exceeds these rights.
+* Access rights are useless for users disabled on workspace.
+* The workspace administrator exceeds these rights.
 
 Below the summary tables of possible combinations.
 
-###User present in one groups
+###User present in one group
 
 | Group rights | User rights on Workspace | Effective rights |
 | ------------ | ------------------------ | ---------------- |
 | full access  | read only                | read only        |
-| full access  | full access              |  full access     |
-| read only    | read only                |  read only       |
+| full access  | full access              | full access      |
+| read only    | read only                | read only        |
 | read only    | full access              | full access
 
 
@@ -196,6 +202,8 @@ The product management module offers, among others, the following features:
 * Parts metadata
 * Part-document links
 
+Parts and products creation is explained below.
+
 ##Product structure
 The product structure is a breakdown showing the various items that compose a product.
 These components are named parts, they are assemblies if they are made of other parts. Within DocDokuPLM parts can be created from scratch or imported from CAD tools.
@@ -206,24 +214,26 @@ Sometimes, it’s interesting to ensure that parts are always filled with predef
 ###Part creation
 As seen, part creation panel has an optional template property but there are also several other input fields like name, description, attributes, workflow (see paragraph below) or ACL (Access Control List).
 
-{% image /assets/images/documentation/en/part.png "Part creation"%}
+{% image /assets/images/documentation/dev/en/part.png "Part creation"%}
 
 The newly created part will be added to the list.
 
-{% image /assets/images/documentation/en/part_list.png "Part list"%}
+{% image /assets/images/documentation/dev/en/part_list.png "Parts list"%}
 
-From the list, a click on the part number will bring the details window to the front. From that screen, you could modify (if you checked out the part) the following elements: attributes, the CAD file and links to documents.
+From the list, a click on the part number will bring the details window to the front. From that screen, you can modify (if you checked out the part) the following elements: attributes, the CAD file and links to documents.
 
 By selecting a part, you can apply a set of actions including:
 
 * Deletion
-* check-out / undo check-out / check-in
+* Check-out / Undo check-out / Check-in
 * Access rights management
+* New version creation
+* Release
 
 ###Part assembly
-The assembly tab allows to edit the composition of the assembly if obviously the part is not a leaf of the product structure.
+The assembly tab allows you to edit the composition of the assembly if obviously the part is not a leaf of the product structure.
 
-{% image /assets/images/documentation/en/part_assembly.png "Part Assembly"%}
+{% image /assets/images/documentation/en/part_assembly.png "Part assembly"%}
 
 ###Product creation
 The creation of a product involves supplying an identifier and a part number, filling a description is optional.
