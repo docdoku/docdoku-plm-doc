@@ -231,44 +231,46 @@ By selecting a part, you can apply a set of actions including:
 * Release
 
 ###Part assembly
-The assembly tab allows you to edit the composition of the assembly if obviously the part is not a leaf of the product structure.
+When modifying a part, you can edit the assembly composition.
 
-{% image /assets/images/documentation/en/part_assembly.png "Part assembly"%}
+An assembly is composed of other parts.
+
+{% image /assets/images/documentation/dev/en/part_assembly.png "Part assembly"%}
 
 ###Product creation
 The creation of a product involves supplying an identifier and a part number, filling a description is optional.
 
-The part number designates the root part of your product.
+The part number designates the root part of your product. It can be a simple part or a parts assembly.
 
-{% image /assets/images/documentation/en/product_creation.png "Product creation form"%}
+{% image /assets/images/documentation/dev/en/product_creation.png "Product creation form"%}
 
 The new product will be added to the product list. Selecting an item from that list proposes two actions: deletion and baseline creation.
 
-Baselines are kinds of snapshots of the entire product structure at a given version.
+Baselines are kinds of snapshots of the entire product structure at a given time so you can manage different versions of the same product.
 
-{% image /assets/images/documentation/en/image40.png "Baseline creation form"%}
+{% image /assets/images/documentation/dev/en/image40.png "Baseline creation form"%}
 
 ##Product explorer
-The product structure is displayed as a tree view where each node represents an assembly which is expandable.
+The product structure is displayed as a tree view where each node represents an assembly which is expandable. The node itself is clickable in order to display its main properties.
 
-{% image /assets/images/documentation/en/tree_structure.png "Tree structure of the product"%}
+{% image /assets/images/documentation/en/tree_structure.png "Tree structure of a product"%}
 
-The node itself is clickable which has the effect to display its main properties on the bottom right. Sometimes, especially for complex products, locating a part in the tree could be cumbersome. To facilitate this operation, there is a search bar on the top left that allows to easily find a part from its number.
+Sometimes, especially for complex products, locating a part in the tree could be cumbersome. Look at the above example. To facilitate this operation, there is a search bar on the top left allowing you to easily find a part from its number.
 
 {% image /assets/images/documentation/en/search_bar.png "Search bar"%}
 
 As an alternative, you can select the part directly on the 3D scene.
 
-{% image /assets/images/documentation/en/visualization.png "3D model visualization"%}
+One click on a 3D object selects the results on the left hand panel. The associated part and all its ancestors will be highlighted in yellow. Moreover the part properties are displayed in the right hand panel.
+This feature is useful when the user wants to find a part he ignores the part number.
 
-One click on a 3D object select the part on the structure (part properties are displayed in the right hand panel) and all its ancestors will be highlighted in yellow.
-This feature is useful when the user wants to find a part which he ignores the part number.
+{% image /assets/images/documentation/dev/en/visualization.png "3D model visualization"%}
 
 The possible actions in the 3D visualization mode are:
 
-* Creating markers for example to report a design issue
+* Creating markers to report a design issue for example
 * Creating layers that hold a set of markers
-* Export 3D visualization of a part. Produces the html code to embed in other web pages (like YouTube, or Google Maps)
+* Export 3D visualization of a part. Produces the html code to embed in other web pages (like YouTube or Google Maps)
 
 #Document Management
 DocDokuPLM has a document management module that includes a comprehensive versioning system (master, revision and iteration), functions for sharing, publishing documents, treeview and tags organisation...

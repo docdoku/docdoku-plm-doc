@@ -239,26 +239,26 @@ Baselines are kinds of snapshots of the entire product structure at a given vers
 {% image /assets/images/documentation/en/image40.png "Baseline creation form"%}
 
 ##Product explorer
-The product structure is displayed as a tree view where each node represents an assembly which is expandable.
+The product structure is displayed as a tree view where each node represents an assembly which is expandable. The node itself is clickable in order to display its main properties.
 
 {% image /assets/images/documentation/en/tree_structure.png "Tree structure of the product"%}
 
-The node itself is clickable which has the effect to display its main properties on the bottom right. Sometimes, especially for complex products, locating a part in the tree could be cumbersome. To facilitate this operation, there is a search bar on the top left that allows to easily find a part from its number.
+Sometimes, especially for complex products, locating a part in the tree could be cumbersome. Look at the above example. To facilitate this operation, there is a search bar on the top left allowing you to easily find a part from its number.
 
 {% image /assets/images/documentation/en/search_bar.png "Search bar"%}
 
 As an alternative, you can select the part directly on the 3D scene.
 
-{% image /assets/images/documentation/en/visualization.png "3D model visualization"%}
+One click on a 3D object selects the results on the left hand panel. The associated part and all its ancestors will be highlighted in yellow. Moreover the part properties are displayed in the right hand panel.
+This feature is useful when the user wants to find a part he ignores the part number.
 
-One click on a 3D object select the part on the structure (part properties are displayed in the right hand panel) and all its ancestors will be highlighted in yellow.
-This feature is useful when the user wants to find a part which he ignores the part number.
+{% image /assets/images/documentation/en/visualization.png "3D model visualization"%}
 
 The possible actions in the 3D visualization mode are:
 
-* Creating markers for example to report a design issue
+* Creating markers to report a design issue for example
 * Creating layers that hold a set of markers
-* Export 3D visualization of a part. Produces the html code to embed in other web pages (like YouTube, or Google Maps)
+* Export 3D visualization of a part. Produces the html code to embed in other web pages (like YouTube or Google Maps)
 
 #Document Management
 DocDokuPLM has a document management module that includes a comprehensive versioning system (master, revision and iteration), functions for sharing, publishing documents, treeview and tags organisation...

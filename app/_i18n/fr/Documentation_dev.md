@@ -261,41 +261,41 @@ En sélectionnant un article, vous pouvez lui appliquer un ensemble d’actions 
 Lors de la modification d’un article vous pouvez définir son assemblage.
 
 Un assemblage est composé d'autres articles.
-{% image /assets/images/documentation/fr/image24.png "Définition de l’assemblage"%}
+{% image /assets/images/documentation/dev/fr/image24.png "Assemblage d'articles"%}
 
 ###Création de produit
-Au moment de la création d’un produit l’identifiant du produit ainsi que le numéro de l’article sont obligatoires, la description est par contre optionnelle.
+Au moment de la création d’un produit, l’identifiant du produit ainsi que le numéro de l’article sont obligatoires, la description est par contre optionnelle.
 
 Le numéro d’article est l’élément de tête de votre produit. Celui-ci peut être un simple article ou un assemblage d’articles.
 
-{% image /assets/images/documentation/fr/image12.png "Formulaire de création de produit"%}
+{% image /assets/images/documentation/dev/fr/image12.png "Formulaire de création de produit"%}
 
 Le produit créé sera rajouté à la liste des produits. En sélectionnant un produit dans la liste, les actions possibles sont sa suppression et la création d’une ligne de base.
 
 La création d’une ligne de base permet d’enregistrer à un instant donné une version du produit et donc de gérer différentes versions d’un même produit.
 
-{% image /assets/images/documentation/fr/image02.png "Création d’une ligne de base"%}
+{% image /assets/images/documentation/dev/fr/image02.png "Création d’une ligne de base"%}
 
 ##Explorateur produit
-Via la structure produit, la possibilité vous est offerte de rechercher et localiser l'information relative à un article donné. Cependant, pour les produits complexes comprenant un très grand nombre d'articles, la tâche peut s'avérer fastidieuse.
-
-Prenez l'exemple du parcours de la structure produit représentée ci-dessous.
+La structure produit vous permet de localiser un article donné. Chaque noeud représente un assemblage d'articles, il suffit de l'étendre pour voir de quels articles il est composé. Un clic sur l'article affiche ses propriétés.
 
 {% image /assets/images/documentation/fr/image08.png "Structure produit"%}
 
-Afin de facilite l'opération, DocDokuPLM intègre une barre de recherche qui permet de trouver facilement un article à partir de son numéro.
+Cependant, pour les produits complexes comprenant un très grand nombre d'articles, la tâche peut s'avérer fastidieuse. Prenez l'exemple du parcours de la structure produit représentée ci-dessus. Afin de faciliter l'opération, DocDokuPLM intègre une barre de recherche qui permet de trouver facilement un article à partir de son numéro.
 
-Une alternative au moteur de recherche est la navigation dans le modèle géométrique 3D permettant ainsi de localiser rapidement un article. En cliquant sur une pièce, les résultats s’affichent sur la partie gauche de la page. L’article associé à cette pièce sera mis en valeur (surligné en jaune) ainsi que tous ses ascendants. Les informations relatives à cet article sont aussi affichées dans le menu de droite.
+{% image /assets/images/documentation/fr/image46.png "Barre de recherche"%}
 
-Cette solution peut s’avérer utile dans le cas où l’utilisateur ne connaît pas l’identifant de l’article, dans ce cas l’utilisateur peut cliquer directement sur la pièce dans le rendu 3D.
+Une alternative au moteur de recherche est la navigation dans le modèle géométrique 3D. En cliquant sur une pièce, les résultats s’affichent sur la partie gauche de la page. L’article associé à cette pièce sera surligné en jaune ainsi que tous ses ascendants. Les informations relatives à cet article sont aussi affichées dans le menu de droite.
 
-{% image /assets/images/documentation/fr/image22.png "Navigation dans le modèle 3D"%}
+Cette solution peut s’avérer utile dans le cas où l’utilisateur ne connaît pas l’identifant de l’article.
+
+{% image /assets/images/documentation/dev/fr/image22.png "Navigation dans le modèle 3D"%}
 
 Parmi les actions possibles dans le mode de visualisation en 3D, vous retrouverez :
 
-* Creating markers for example to report a design issue
-* La création de marqueurs permettant par exemple de rapporter un dysfonctionnement d’une pièce sur le schéma 3D. Notez qu’un calque peut comporter plusieurs marqueurs.
-* Export de l’article qui produit le code html à intégrer dans d’autres pages web.
+* La création de marqueurs permettant par exemple de rapporter un dysfonctionnement d’une pièce sur le schéma 3D
+* La création de calques comportant plusieurs marqueurs
+* L'export d'un article pour produire le code html à intégrer dans d’autres pages web (comme YouTube ou Google Maps)
 
 #Gestion des documents
 DocDokuPLM offre aussi une gestion complète de documents avec prise en compte des versions, le partage et la publication, une organisation arborescente ainsi qu'une configuration fine des droits d’accès.
