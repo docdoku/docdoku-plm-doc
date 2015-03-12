@@ -400,12 +400,14 @@ Vous pouvez supprimer un libellé en cliquant sur la flèche dans la zone du lib
 
 {% image /assets/images/documentation/fr/image38.png "Suppression d’un libellé"%}
 
-##Liens réservés et tâches
+##Liens Réservés et Tâches
 
-Afin d’assurer un accès rapide aux documents qui concerne un utilisateur donné, vous trouverez dans le menu de gauche deux liens :
+Afin d’assurer un accès rapide aux documents qui concernent un utilisateur donné, vous trouverez deux liens dans le menu de gauche :
 
-* Réservés : ce lien affichera l’ensemble des documents réservés par l’utilisateur.
-* Tâches : sert à visualiser les différents documents sur lesquels l’utilisateur est directement impliqué dans un workflow.
+* Réservés : ce lien affichera l’ensemble des documents réservés par l’utilisateur
+* Tâches : ce lien sert à visualiser les différents documents sur lesquels l’utilisateur est directement impliqué via un workflow
+
+{% image /assets/images/documentation/fr/image47.png "Section des liens"%}
 
 #Gestion des workflows
 

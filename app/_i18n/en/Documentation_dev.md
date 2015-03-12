@@ -273,51 +273,53 @@ The possible actions in the 3D visualization mode are:
 * Export 3D visualization of a part. Produces the html code to embed in other web pages (like YouTube or Google Maps)
 
 #Document Management
-DocDokuPLM has a document management module that includes a comprehensive versioning system (master, revision and iteration), functions for sharing, publishing documents, treeview and tags organisation...
+DocDokuPLM has a document management module that includes a comprehensive versioning system (master, revision and iteration), functions for sharing, publishing documents, treeview and tags organization, ACL configuration...
 In the following paragraph, we will detail all of these functionalities.
 
-{% image /assets/images/documentation/en/image00.png "Document management menu"%}
+{% image /assets/images/documentation/dev/en/image00.png "Document management menu"%}
 
 ##Document template
 
 ###Document template creation
 
-You can create templates that will be used to instantiate documents. You can choose to restrict document name by filling a mask format and selecting the identifier generation option. This will lead to an automatic creation of identifiers for documents that use the template.
+You can create templates that will be used to instantiate documents. You can choose to restrict document naming by filling a mask format and selecting the identifier generation option. This will lead to an automatic creation of identifiers for documents using the template.
 
-{% image /assets/images/documentation/en/image25.png "Document template creation form"%}
+{% image /assets/images/documentation/dev/en/image25.png "Document template creation form"%}
 
 ###Adding files and attributes
 
-You can define attribute types in the template as well as attach files to it. All documents created using the same template will have the same attribute set and attached files. Attribute values will be set on those documents and obviously files will evolve as they are simply themselves template files.
+You can define attribute types in the template and attach files to it. All documents created with the same template will have the same attributes set and attached files. Attribute values will be set on those documents and obviously, files will evolve independently.
 
-{% image /assets/images/documentation/en/image42.png "Attaching files to the template"%}
+{% image /assets/images/documentation/dev/en/image42.png "Attaching files to the template"%}
 
 ## Document creation
 
-All documents must belong to a folder. To create a new document in a specific directory, you must select first the directory then click on the ‘new document’ button.
+Each documents must belong to a folder. To create a new document in a specific directory, you must first select the directory then click on the “New document“ button.
 
-{% image /assets/images/documentation/en/image09.png "Document creation form"%}
+{% image /assets/images/documentation/dev/en/image09.png "Document creation form"%}
 
-When creating a document, you can edit its attributes, specify a workflow and set access rights. Note that you will not be able to upload files or link the current document to another one until you finish the creation process.
+When creating a document, you can edit its attributes, specify a workflow and set specific access rights. Note that you will not be able to upload files or link the current document to another until you finish the creation process.
 
-Once the document created you can perform the following actions:
+Once the document is created you can perform the following actions:
 
-* Check in / check out the document
-* Delete the document
-* Subscribe to document state change notifications. In this case the user receives an email each time a change is made on the document by other users
-* Subscribe to iteration change notifications. The user receives a notification when there is a new iteration on the document
-* Adding tag to documents, for example, classifying a document as important
-* Enabling access rights to documents
-* Creating a new version of document
+* Check-in / Undo check-out / Check-out
+* Deletion
+* Subscription to document state change notifications. In this case the user receives an email each time a change is made by other users on the document
+* Subscription to iteration change notifications. The user receives a notification when there is a new iteration on the document
+* Adding tag to documents - for example, classifying a document as important
+* Access rights management
+* New version creation
 * Public or private document publishing
 
-##Modifying document
+##Document modification
 
 In order to modify a document, you must first reserve it. You can access the document modification window by clicking on its name.
 
-The arrows at the bottom left are used to visualize the different changes done in previous iterations.
+The arrows at the bottom left of the window allow you to visualize the different changes done in previous iterations.
 
-{% image /assets/images/documentation/en/image10.png "Document details window"%}
+You can open the directory containing the document by clicking on the “Folder“ info link.
+
+{% image /assets/images/documentation/dev/en/image10.png "Document details window"%}
 
 ##Document viewer
 
@@ -325,85 +327,83 @@ Each document provides a permanent link where you see details of its latest revi
 
 {% image /assets/images/documentation/en/image22.png %}
 
-You can explore all properties of the document as well as visualize their attached files.The viewer supports a large number of formats: pdf, jpg, mp4, doc...
+You can explore all properties of the document as well as visualize their attached files. The viewer supports a large number of formats: pdf, jpg, mp4, doc... Files not supported by the viewer will be downloaded.
 
 {% image /assets/images/documentation/en/image02.png "Document viewer"%}
 
-Files not supported by the viewer will be downloaded.
-
 ##Document conversion
 
-In addition to the mentioned features, DocDokuPLM can convert documents into pdf. The majority of word processing formats are supported.
+In addition to the mentioned features, DocDokuPLM can convert attached files into pdf. The majority of word processing formats are supported.
 
-##Document checkout/checkin
+##Document check-out/check-in
 
-To lock a document for modification, just select it and then push the checkout button:
+To lock a document to prevent modification, just select it and press the check-out button:
 
-{% image /assets/images/documentation/en/image16.png "Document lock : check-out / undo check-out / check-in"%}
+{% image /assets/images/documentation/en/image16.png "Document lock: check-out / undo check-out / check-in"%}
 
-A checked out document cannot be edited by other users. To validate the modifications you will have to check in it. Otherwise, you can cancel the change with the help of the undo check-out action.
+A checked out document cannot be edited by other users. To validate the modifications you will have to check in it. Otherwise, you can cancel the changes with the undo check-out action.
 
-When releasing (check-in operation) the document, you have the opportunity to enter an optional revision note.
+While releasing (check-in operation) the document, you have a chance to enter an optional revision note. If you do not want to fill a note, press the "Ignore" button.
 
-{% image /assets/images/documentation/en/image19.png "Window of revision note"%}
+{% image /assets/images/documentation/en/image19.png "Revision note window"%}
 
-##Search a document
+##Document search
 
 We distinguish two types of search:
 
 ###Quick search
 
-The quick search bar appears on top of the document list. It lets you quickly find a document from its name.
+The quick search bar appears on top of the documents list. It lets you quickly find a document from its name.
 
 {% image /assets/images/documentation/en/image08.png "Quick search bar"%}
 
 ###Advanced search
 
-You can access the advanced search in two ways:
+There are two ways to get access to the advanced search:
 
-* Through the “Search” link from the left menu
-* Through the small arrow from the quick search bar
+* through the “Search” link from the left menu
+* through the small arrow from the quick search bar
 
-{% image /assets/images/documentation/en/image30.png "Advanced search of documents"%}
+This advanced search allows you to find a document from its title, type, identifier, version, author, creation date or content files.
 
-This advanced search allows you to find a document from its title, type, reference, version, author, creation date or content files.
+{% image /assets/images/documentation/dev/en/image30.png "Advanced search of documents"%}
 
 ##Tags
 
-You have the possibility to tag documents. To do so, select one or more documents and push the tag icon:
+You have the possibility to tag documents. To do so, select one or more documents and press the tag icon:
 
 {% image /assets/images/documentation/en/image27.png %}
 
-From the tag management window, you can affect existing tags or create new ones.
+From the tag management window, you can affect existing tags or new ones.
 
-{% image /assets/images/documentation/en/image34.png "Tag window"%}
+{% image /assets/images/documentation/dev/en/image34.png "Tags window"%}
 
-To display the documents which have been tagged, select the given tag from the left menu.
+To display the documents associated with a specific tag, select that tag from the left menu.
 
-{% image /assets/images/documentation/en/image37.png "Selection of a tag"%}
+{% image /assets/images/documentation/en/image37.png "Tag selection"%}
 
-You can delete a tag by clicking on the right arrow into the area of the tag, then click on “Delete”. Only the tag will be removed, the associated documents will remain unchanged.
+You can delete a tag by clicking on the right arrow into the area of the tag, then click on “Delete”. The tag will be removed but the associated documents will not.
 
-{% image /assets/images/documentation/en/image39.png "Delete a label"%}
+{% image /assets/images/documentation/en/image39.png "Tag deletion"%}
 
 ##“Checked out” and “Tasks” links
 
-To ensure fast access to documents, you will find from the left menu two shortcut links:
+To ensure fast access to documents, you will find two shortcut links in the left menu:
 
 * Checked out: this link displays all the documents reserved by the current user
-* Tasks: Shows the documents on which the user is directly involved in a workflow
+* Tasks: this link shows the documents the user is directly involved in through a workflow
 
-{% image /assets/images/documentation/en/image06.png "Checked out and Tasks links"%}
+{% image /assets/images/documentation/en/image06.png "Links section"%}
 
 #Workflow Management
 
-A workflow is a representation of the various tasks that need to be completed and their interactions. These operations are assigned to different users of the same workspace and are related to an identified document or part.
+A workflow is a representation of the various tasks that need to be completed and their interactions. These operations are assigned to different users belonging to the same workspace and are related to an identified document or part.
 
 ##Roles
 
-DocDokuPLM Workflows are role-based. That means to increase the applicability of any workflow models, task assignees are not expressed directly by user names but rather by roles.
+DocDokuPLM workflows are role-based. This means that to increase the applicability of any workflow model, task assignees are not expressed directly by user names but rather by roles.
 
-Thus, the first step involved in workflow creations is to define the roles used inside the workspace. These roles can optionally be mapped to a default user assignee. Anyway when the workflow model will be instantiated and attached to a document or a part we will have the opportunity to refine those mappings.
+Thus, the first step involved in workflow creations is to define the roles used inside the workspace. These roles can optionally be mapped to a default user assignee. Anyway, when the workflow model is instantiated and attached to a document or a part, we will have the opportunity to refine those mappings.
 
 {% image /assets/images/documentation/en/image32.png "Roles definition panel"%}
 

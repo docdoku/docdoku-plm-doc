@@ -298,44 +298,47 @@ Parmi les actions possibles dans le mode de visualisation en 3D, vous retrouvere
 * L'export d'un article pour produire le code html à intégrer dans d’autres pages web (comme YouTube ou Google Maps)
 
 #Gestion des documents
-DocDokuPLM offre aussi une gestion complète de documents avec prise en compte des versions, le partage et la publication, une organisation arborescente ainsi qu'une configuration fine des droits d’accès.
+DocDokuPLM offre une gestion complète de documents avec prise en compte des versions (révision, itération), partage et publication de documents, organisation arborescente et par tags, configuration fine des droits d’accès.
 
 Dans ce qui suit nous détaillons l’ensemble de ces fonctions.
 
-{% image /assets/images/documentation/fr/image09.png "Menu de gestion de documents"%}
+{% image /assets/images/documentation/dev/fr/image09.png "Menu de gestion de documents"%}
 
 ##Modèles de document
 
 ###Création d’un modèle de document
 
-Vous pouvez créer des modèles de documents qui serviront à la création des documents. Au moment de la création d’un modèle vous pouvez choisir de gérer la nomenclature des documents en déterminant un masque de saisie et en cochant la génération de l’identifiant. Ceci entraînera la création automatique d’identifiants pour les documents qui utiliseront ce modèle.
+Vous pouvez créer des modèles de documents qui serviront à la création des documents. Au moment de la création d’un modèle, vous pouvez choisir de gérer la nomenclature des documents en déterminant un masque de saisie et en cochant la génération de l’identifiant. Ceci entraînera la création automatique d’identifiants pour les documents qui utiliseront ce modèle.
 
-{% image /assets/images/documentation/fr/image31.png "Formulaire de création de modèle de document"%}
+{% image /assets/images/documentation/dev/fr/image31.png "Formulaire de création d'un modèle de document"%}
 
 ###Ajout de fichiers et d’attributs
 
-Vous pouvez définir des types d’attributs dans le modèle et lui associer des fichiers. Tous les documents qui seront créés avec ce modèle auront ces mêmes attributs, il faudra alors renseigner leur valeur, et fichiers. Ces derniers pourront bien sûr évoluer, le fichier positionné au niveau du modèle n’étant qu’un squelette.
+Vous pouvez définir des types d’attributs au modèle et lui associer des fichiers. Tous les documents qui seront créés avec ce modèle auront :
 
-{% image /assets/images/documentation/fr/image41.png "Rattachement de fichiers au modèle"%}
+* ses attributs - il faudra alors renseigner leur valeur
+* ses fichiers - qui pourront bien sûr évoluer, le fichier positionné au niveau du modèle n’étant qu’un squelette
+
+{% image /assets/images/documentation/dev/fr/image41.png "Rattachement de fichiers au modèle"%}
 
 ## Création de document
 
 Tout document doit appartenir à un dossier. Afin de créer un document dans un répertoire spécifique, il faut se placer dessus en cliquant sur son nom dans le menu de gauche.
 
-{% image /assets/images/documentation/fr/image35.png "Formulaire de création de document"%}
+{% image /assets/images/documentation/dev/fr/image35.png "Formulaire de création d'un document"%}
 
 Vous pouvez éditer les attributs, spécifier un workflow et définir des droits d’accès dès la création du document. Le chargement des fichiers et l’édition des liens vers d’autres documents ne pourra se faire qu’une fois le document créé.
 
-Une fois créé vous pourrez effectuer les actions suivantes :
+Une fois créé, vous pourrez effectuer les actions suivantes :
 
-* Réservation du document / annulation de la réservation/ libération du document
-* Suppression du document
+* Réservation / Annulation de la réservation / Libération
+* Suppression
 * Abonnement aux changements d’état du document. Dans ce cas l’utilisateur reçoit un mail à chaque fois qu’une modification est apportée sur le document par d'autres utilisateurs
 * Abonnement aux changements d’itération du document. L’utilisateur reçoit également un mail de notification  en cas de nouvelle itération sur le document
-* Ajout d'un libellé au document, par exemple         le classer comme important
-* Activation des droits d’accès à ce document
-* Création d’une nouvelle version du document
-* Publication du document selon deux modes public ou privé
+* Ajout de libellés - par exemple classer un document comme important
+* Gestion de ses droits d’accès
+* Création d’une nouvelle version
+* Publication du document en mode public ou privé
 
 ##Modification d’un document
 
@@ -345,33 +348,32 @@ Les flèches situées en bas à gauche servent à visualiser les différents cha
 
 Vous pouvez accéder au dossier qui contient le document en cliquant sur le lien à droite de “Dossier”.
 
-{% image /assets/images/documentation/fr/image28.png "Fenêtre d’informations relatives à un document"%}
+{% image /assets/images/documentation/dev/fr/image28.png "Fenêtre d’informations relatives à un document"%}
 
 ##Visualisation de document
 
-Pour chaque document, il est possible d’ouvrir un nouvel onglet contenant les détails de sa dernière révision. Pour y accéder, il vous suffit de cliquer sur le titre contenu dans la fenêtre de détails.
+Pour chaque document, il est possible d’ouvrir un nouvel onglet dans le navigateur contenant les détails de sa dernière révision. Pour y accéder, il vous suffit de cliquer sur le titre de la fenêtre de détail.
 
 {% image /assets/images/documentation/fr/image06.png %}
 
-Vous pouvez visualiser les différents documents créés ainsi que les fichiers qui leur sont rattachés. La visionneuse prend en charge un nombre important de formats : pdf, jpg, mp4, doc…
+Vous pouvez visualiser les différentes propriétés des documents créés ainsi que les fichiers qui leur sont rattachés. La visionneuse prend en charge un nombre important de formats : pdf, jpg, mp4, doc… Les fichiers non supportés par la visionneuse seront automatiquement téléchargés.
 
-{% image /assets/images/documentation/fr/image30.png "Visionneur de document"%}
+{% image /assets/images/documentation/fr/image30.png "Visionneuse de document"%}
 
-Les fichiers non pris en charge par la visionneuse seront téléchargés.
 
 ##Conversion de document
 
-Outre les fonctionnalités citées, DocDokuPLM peut convertir les documents en pdf. La majorité des formats utilisés avec les logiciels de traitement de texte sont pris en charge.
+Outre les fonctionnalités citées, DocDokuPLM peut convertir les fichiers rattachés en pdf. La majorité des formats utilisés avec les logiciels de traitement de texte est prise en charge.
 
-##Réservation des documents
+##Réservation de documents
 
-En sélectionnant un document via sa case à cocher, vous pouvez le réserver.
+Vous pouvez réserver un document en le sélectionnant via sa case à cocher.
 
 {% image /assets/images/documentation/fr/image14.png "Réservation d’un document : réserver / annuler la réservation / libérer"%}
 
-Une fois réservé le document ne sera pas éditable par les autres utilisateurs. Il vous faudra alors le libérer une fois les modifications effectuées, ou annuler la réservation si vous ne souhaitez pas enregistrer les changements apportés.
+Une fois réservé, le document ne sera pas éditable par les autres utilisateurs. Il vous faudra alors le libérer une fois les modifications effectuées, ou annuler la réservation si vous ne souhaitez pas enregistrer les changements apportés.
 
-Si vous choisissez de libérer le document, une fenêtre vous proposera d’entrer la note de révision. Cette information n’est pas obligatoire, vous pouvez passer cette étape en cliquant sur “Ignorer”.
+Si vous choisissez de libérer le document, une fenêtre vous proposera de saisir la note de révision. Cette information n’est pas obligatoire, vous pouvez passer cette étape en cliquant sur “Ignorer”.
 
 {% image /assets/images/documentation/fr/image03.png "Fenêtre de note de révision"%}
 
@@ -389,24 +391,24 @@ La barre de recherche rapide se présente au-dessus de la liste des documents. E
 
 Vous pouvez accéder à la recherche avancée de deux manières :
 
-* En cliquant sur le lien ‘Rechercher’ présent sur le menu gauche.
-* En cliquant sur la petite flèche sur la barre de ‘Recherche Rapide’.
-
-{% image /assets/images/documentation/fr/image25.png "Recherche avancée de documents"%}
+* en cliquant sur le lien “Rechercher“ présent dans le menu de gauche
+* en cliquant sur la petite flèche dans la barre de “Recherche Rapide“
 
 Cette recherche avancée permet de trouver un document à partir de son titre, son type, sa référence, sa version, son auteur, sa date de création ou encore le contenu des fichiers chargés.
 
+{% image /assets/images/documentation/dev/fr/image25.png "Recherche avancée de documents"%}
+
 ##Libellés
 
-Vous pouvez associer des libellés à vos documents. En sélectionnant un document via sa case à cocher l’icône suivante apparaît :
+Vous pouvez associer des libellés à vos documents. En sélectionnant un ou des document(s), l’icône suivante apparaît :
 
 {% image /assets/images/documentation/fr/image26.png %}
 
-Une fois cliqué, une fenêtre s’affiche et vous pouvez associer des libellés à ce document. Vous pouvez choisir parmi les libellés existants, ou en créer de nouveaux.
+Une fois cliquée, une fenêtre s’affiche et vous pouvez associer des libellés à ce document. Vous pouvez choisir parmi les libellés existants ou en créer de nouveaux.
 
-{% image /assets/images/documentation/fr/image11.png "Fenêtre des libellés"%}
+{% image /assets/images/documentation/dev/fr/image11.png "Fenêtre des libellés"%}
 
-Pour afficher tous les documents liés à un libellé, il vous suffit de choisir le libellé en question dans le menu de gauche.
+Pour afficher tous les documents liés à un libellé, il vous suffit de sélectionner ce libellé dans le menu de gauche.
 
 {% image /assets/images/documentation/fr/image34.png "Sélection d’un libellé"%}
 
@@ -414,12 +416,14 @@ Vous pouvez supprimer un libellé en cliquant sur la flèche dans la zone du lib
 
 {% image /assets/images/documentation/fr/image38.png "Suppression d’un libellé"%}
 
-##Liens réservés et tâches
+##Liens Réservés et Tâches
 
-Afin d’assurer un accès rapide aux documents qui concerne un utilisateur donné, vous trouverez dans le menu de gauche deux liens :
+Afin d’assurer un accès rapide aux documents qui concernent un utilisateur donné, vous trouverez deux liens dans le menu de gauche :
 
-* Réservés : ce lien affichera l’ensemble des documents réservés par l’utilisateur.
-* Tâches : sert à visualiser les différents documents sur lesquels l’utilisateur est directement impliqué dans un workflow.
+* Réservés : ce lien affichera l’ensemble des documents réservés par l’utilisateur
+* Tâches : ce lien sert à visualiser les différents documents sur lesquels l’utilisateur est directement impliqué via un workflow
+
+{% image /assets/images/documentation/fr/image47.png "Section des liens"%}
 
 #Gestion des workflows
 

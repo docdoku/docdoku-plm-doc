@@ -376,12 +376,12 @@ You can delete a tag by clicking on the right arrow into the area of the tag, th
 
 ##“Checked out” and “Tasks” links
 
-To ensure fast access to documents, you will find from the left menu two shortcut links:
+To ensure fast access to documents, you will find two shortcut links in the left menu:
 
 * Checked out: this link displays all the documents reserved by the current user
-* Tasks: Shows the documents on which the user is directly involved in a workflow
+* Tasks: this link shows the documents the user is directly involved in through a workflow
 
-{% image /assets/images/documentation/en/image06.png "Checked out and Tasks links"%}
+{% image /assets/images/documentation/en/image06.png "Links section"%}
 
 #Workflow Management
 
