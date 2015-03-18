@@ -449,7 +449,7 @@ Une fois la première activité démarrée, les utilisateurs désignés effectue
 
 {% image /assets/images/documentation/fr/image43.png "Workflow instancié sur un document"%}
 
-Les autres utilisateurs peuvent aussi s'abonner aux changements d'état du workflow[m], un mail de notification leur est alors envoyé.
+Les autres utilisateurs peuvent aussi s'abonner aux changements d'état du workflow, un mail de notification leur est alors envoyé.
 
 Une tâche peut être approuvée ou rejetée si :
 

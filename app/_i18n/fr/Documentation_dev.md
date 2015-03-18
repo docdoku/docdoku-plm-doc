@@ -431,63 +431,68 @@ Un workflow, ou flux des travaux, est la représentation des opérations affect�
 
 ##Les rôles
 
-Pour créer un modèle de workflow, il faut au préalable créer des rôles dans l’espace de travail. Ces rôles peuvent être assignés par défaut à des utilisateurs, mais peuvent être redéfinis lors de l'affectation du workflow à la création d'un document ou d'un article.
+Pour créer un modèle de workflow, il faut au préalable créer des rôles dans l’espace de travail. Ces rôles peuvent être assignés par défaut à des utilisateurs, mais ils peuvent être redéfinis lors de l'affectation du workflow à la création d'un document ou d'un article.
 
 {% image /assets/images/documentation/fr/image00.png "Création des rôles"%}
 
 ##Modèle de workflow
 
-Un modèle de workflow est composé d'un état initial, d'une série d'activités et d'un état final. Chaque activité contient des tâches à effectuer. Ces tâches peuvent être effectuées en série, ou en parallèle.
+Un modèle de workflow est composé d'un état initial, d'une série d'activités et d'un état final. Chaque activité contient un libellé définissant son état intermédiaire et une liste de tâches à effectuer. Ces tâches peuvent être effectuées en série ou en parallèle.
 
-Pour une activité de type série, les tâches sont réalisées dans l'ordre et le rejet d'une tâche entraîne l'arrêt de l'activité courante.
+Pour une activité de type série, les tâches doivent être réalisées dans l'ordre. Le rejet d'une tâche entraîne l'arrêt de l'activité courante.
 
-Pour une activité en parallèle, les tâches sont déroulées indépendamment de l'ordre dans lequel elles ont été créées. Il faut alors définir un nombre de tâche à compléter validant l’activité.
+Pour une activité en parallèle, les tâches sont déroulées indépendamment de l'ordre dans lequel elles ont été créées. Il faut alors définir un nombre de tâche à compléter validant l’activité, variant de 1 au nombre total de tâches.
 
-Une activité validée entraîne le démarrage de la suivante. Une activité invalidée entraînera la suspension du workflow.
+La validation d'une activité entraîne le démarrage de la suivante. Une activité invalidée entraînera la suspension du workflow.
 
-En cas d’invalidation, le workflow reprendra à l’activité de relance si celle ci a été auparavant définie.
+En cas d’invalidation, le workflow reprendra à l’activité de relance si celle-ci a été préalablement définie.
 
-Un modèle de workflow peut être modifié à n’importe quel instant mais cela n’entrainera pas la modification des workflows instanciés depuis celui-ci.
+Un modèle de workflow peut être modifié à n’importe quand. Cela n’entrainera en aucun cas la modification des workflows instanciés depuis ce modèle.
 
-{% image /assets/images/documentation/fr/image20.png "Création d'un modèle de workflow"%}
+{% image /assets/images/documentation/dev/fr/image20.png "Création d'un modèle de workflow"%}
 
 ##Instance de workflow
 
 Chaque modèle de workflow créé peut être instancié à la création d'un document ou d'un article. Les rôles peuvent être alors redéfinis.
 
-{% image /assets/images/documentation/fr/image23.png "Définition des rôles à la création d’un document"%}
+{% image /assets/images/documentation/dev/fr/image23.png "Définition des rôles à la création d’un document"%}
 
 Une fois le document (ou l’article) créé, le workflow démarre sur la première activité. Lorsqu'une tâche est ouverte, un mail est envoyé au responsable de la tâche en cours. Le responsable peut alors l'approuver ou la rejeter et signer.
 
 ##Etat du cycle de vie
 
-Une fois la première activité démarrée, les utilisateurs désignés effectuent les opérations renseignées.
+Une fois la première activité démarrée, les utilisateurs désignés reçoivent par mail un message contenant la description complète de leur(s) tâche(s) à effectuer.
 
-{% image /assets/images/documentation/fr/image43.png "Workflow instancié sur un document"%}
-
-Les autres utilisateurs peuvent aussi s'abonner aux changements d'état du workflow[m], un mail de notification leur est alors envoyé.
+{% image /assets/images/documentation/dev/fr/image43.png "Workflow instancié sur un document"%}
 
 Une tâche peut être approuvée ou rejetée si :
 
-* Le responsable a téléchargé au moins une fois un fichier associé
-* Le document ou l'article est libéré.
+* le responsable a téléchargé au moins une fois un fichier associé
+* le document ou l'article est libéré (pas réservé)
 
+Tous les utilisateurs abonnés aux changements d'état du workflow en seront informés par mail.
 
 #Options de partage et de publication
 
 ##Publication
 
-Chaque document et article peut être publié. Pour cela il faut cliquer sur l’icône située à droite de chaque ligne, la fenêtre suivante apparaît alors.
+Chaque document et article peut être publié. Pour cela il faut cliquer sur l’icône située à droite de chaque ligne.
 
-{% image /assets/images/documentation/fr/image45.png "Fenêtre de publication d’un document"%}
+{% image /assets/images/documentation/dev/fr/publier.png %}
+
+La fenêtre suivante apparaît :
+
+{% image /assets/images/documentation/dev/fr/image45.png "Fenêtre de publication d’un document"%}
 
 Une fois le document publié en cliquant sur le bouton ON/OFF, il sera accessible depuis internet sans qu’une authentification soit nécessaire.
 
 ##Accès privé
 
-Vous pouvez aussi protéger vos publications en utilisant l’accès privé. L’opération se fait dans la même fenêtre que le partage publique. Vous pouvez choisir une date d’expiration et un mot de passe. Ces deux champs ne sont pas obligatoires, mais seront vérifiés à l’accès si vous les renseignés.
+Vous pouvez aussi protéger vos publications en utilisant l’accès privé. Vous pouvez choisir une date d’expiration et un mot de passe. Ces deux champs ne sont pas obligatoires, mais seront vérifiés à l’accès si vous les avez renseignés.
+
+{% image /assets/images/documentation/dev/fr/image40.png "Partage privé"%}
 
 Ensuite vous devez cliquer sur “Partager” pour générer un lien. Ce lien est offusqué, il n’est pas devinable.
 
-{% image /assets/images/documentation/fr/image40.png "Lien généré lors d’un partage privé"%}
+{% image /assets/images/documentation/dev/fr/image42.png "Lien généré"%}
 

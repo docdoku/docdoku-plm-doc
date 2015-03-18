@@ -32,7 +32,7 @@ The first step is thus to register. All fields are required.
 
 ##User settings
 
-{% image /assets/images/documentation/endev/en/settings.png "Account Management"%}
+{% image /assets/images/documentation/dev/en/settings.png "Account Management"%}
 
 Subsequently all settings can be changed, except the User ID which is immutable.
 The account edition page is accessible on the "My account" submenu which also allows to reset the password.
@@ -409,53 +409,61 @@ Thus, the first step involved in workflow creations is to define the roles used 
 
 ##Workflow template
 
-A workflow template or model consists of a serie of activities. Each activity contains tasks to be done and an associated label which represents the state the entity when the workflow current step will be the activity. Those tasks can be performed in series or in parallel.
+A workflow template (or model) lists several activities from an initial state to a final state. Each activity contains a label naming its intermediate state and a list of tasks to complete. Those tasks can be performed in series or in parallel.
 
 For a serial activity, the tasks are performed sequentially. If one task is rejected, the current activity is stopped.
 
-For a parallel activity, the tasks are open simultaneously and as a consequence can be closed in any order. A rejected task does not necessarily lead to stop the current activity. In effect, parallel activities have an additional property which is the number of done tasks needed to progress to the next activity. This number ranges from 1 to the total number of tasks.
+For a parallel activity, the tasks are simultaneously open and as a consequence can be closed in any order. A rejected task does not necessarily lead to stop the current activity. In effect, parallel activities have an additional property which is the number of done tasks needed to progress to the next activity. This number ranges from 1 to the total number of tasks.
 
-A validated activity results to start the next one. An unvalidated activity results in the suspension of the entire workflow.
+Validating an activity results to start the next one. Invalidating an activity results in the suspension of the entire workflow.
 
-In case of an unvalidated activity, the workflow will continue to the recovery activity if this one has been previously defined on the template.
+In case of an unvalidated activity, the workflow will go on the recovery activity if one has been previously defined.
 
-A workflow template can be changed at any time, but that will not have any incidence to the already instantiated workflows.
+A workflow template can be changed at any time. That will have no incidence to the already instantiated workflows.
 
-{% image /assets/images/documentation/en/image12.png "Creation of a workflow template"%}
+{% image /assets/images/documentation/dev/en/image12.png "Workflow template creation"%}
 
 ##Workflow instance
 
-When creating a document or a part, the author can choose the workflow template to apply. All the roles implied have then to be resolved.
+When creating a document or a part, the author can choose the workflow template he wants to apply. All the implied roles can then be respecified.
 
-{% image /assets/images/documentation/en/image41.png "Definition of the roles during the creation of a document"%}
+{% image /assets/images/documentation/dev/en/image41.png "Roles definition during document creation"%}
 
-Immediately after the creation of a document (or a part), the associated workflow (if any) starts on the first activity.
+Once the document or part has been created, the associated workflow (if any) starts on the first activity. When a task has been opened, a mail is sent to the current task responsible user so he can approve or reject it and sign.
 
 ##Lifecycle state
 
 Once an activity is started, every task assignee receives a mail which includes a full description of the task to complete.
 
-{% image /assets/images/documentation/en/image46.png "Workflow instantiated on a document"%}
+{% image /assets/images/documentation/dev/en/image46.png "Workflow instantiated on a document"%}
 
 A running task can be marked as done or rejected if:
 
-* the responsible of the task has downloaded at least once the document file
+* the responsible of the task has downloaded at least once an associated file
 * the document or the part is released (not checked out)
 
-All the users who have subscribed to state change notification will be informed.
+All the users who have subscribed to state change notification will be informed by email.
 
 #Sharing and publishing
 
 ##Publishing
 
-Each document and part can be published. To do so, click on the  icon to the right of the table line, then the following window will appear.
+Each document and part can be published. To do so, click on the right icon on the table line.
 
-{% image /assets/images/documentation/en/image21.png "Publishing window"%}
+{% image /assets/images/documentation/dev/en/publish.png %}
 
-As soon as the ON/OFF button will be pressed, the document or part will be publicly accessible from the Internet.
+The following window will appear:
+
+{% image /assets/images/documentation/dev/en/image21.png "Publishing window"%}
+
+By activating the public share, the document or part is publicly accessible from the Internet.
 
 ##Private access
 
-You may also want to generate a private link protected by a password and with an optional expiration date. For that, just fill the password and/or expiration date and push the share button.
+You may also want to generate a private link optionally protected by a password or an expiration date. For that, just fill the password and/or expiration date and push the share button.
 
-{% image /assets/images/documentation/en/image07.png "Private share"%}
+{% image /assets/images/documentation/dev/en/image07.png "Private share"%}
+
+The generated link is obfuscated, it cannot be guessed.
+
+{% image /assets/images/documentation/dev/en/image08.png "Generated link"%}
