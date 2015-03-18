@@ -20,7 +20,7 @@ Smartphones) directement dans le navigateur internet sans aucune installation ou
 
 De plus, DocDokuPLM offre des fonctions avancées telles que la gestion des droits d’accès, les
 modèles de document ou encore le BPM (Business Process Management) au travers d’un
-éditeur graphique de workflow.
+éditeur graphique de processus.
 
 DocDokuPLM est un outil simple, à l’ergonomie soignée dont la prise en main est très rapide.
 L’objectif de ce document est de présenter en détail l’ensemble des possibilités offertes par
@@ -29,7 +29,7 @@ cette solution pour une utilisation optimale.
 #Gestion des utilisateurs
 Dans DocDokuPLM, la notion d'utilisateur ne se restreint pas à un simple accès à l'application.
 C'est par exemple à partir de ce même utilisateur que vous pourrez spécifier des droits sur un
-document ou encore lui attribuer un rôle dans un workflow.
+document ou encore lui attribuer un rôle dans un processus.
 
 Vous découvrez DocDokuPLM ? Les chapitres suivants devraient retenir toute votre attention...
 
@@ -239,7 +239,7 @@ Lors de la création d’un article, vous pouvez donc renseigner un modèle d’
 Vous pouvez tout aussi bien lui associer de façon individuelle :
 
 * des attributs
-* un workflow, afin de gérer le cycle de vie de l’article et régir l'accès à cet article pour les autres collaborateurs de l’espace de travail.
+* un processus, afin de gérer le cycle de vie de l’article et régir l'accès à cet article pour les autres collaborateurs de l’espace de travail.
 
 {% image /assets/images/documentation/dev/fr/image05.png "Création d'un article"%}
 
@@ -327,7 +327,7 @@ Tout document doit appartenir à un dossier. Afin de créer un document dans un 
 
 {% image /assets/images/documentation/dev/fr/image35.png "Formulaire de création d'un document"%}
 
-Vous pouvez éditer les attributs, spécifier un workflow et définir des droits d’accès dès la création du document. Le chargement des fichiers et l’édition des liens vers d’autres documents ne pourra se faire qu’une fois le document créé.
+Vous pouvez éditer les attributs, spécifier un processus et définir des droits d’accès dès la création du document. Le chargement des fichiers et l’édition des liens vers d’autres documents ne pourra se faire qu’une fois le document créé.
 
 Une fois créé, vous pourrez effectuer les actions suivantes :
 
@@ -421,56 +421,56 @@ Vous pouvez supprimer un libellé en cliquant sur la flèche dans la zone du lib
 Afin d’assurer un accès rapide aux documents qui concernent un utilisateur donné, vous trouverez deux liens dans le menu de gauche :
 
 * Réservés : ce lien affichera l’ensemble des documents réservés par l’utilisateur
-* Tâches : ce lien sert à visualiser les différents documents sur lesquels l’utilisateur est directement impliqué via un workflow
+* Tâches : ce lien sert à visualiser les différents documents sur lesquels l’utilisateur est directement impliqué via un processus
 
 {% image /assets/images/documentation/fr/image47.png "Section des liens"%}
 
-#Gestion des workflows
+#Gestion des processus
 
-Un workflow, ou flux des travaux, est la représentation des opérations affectées à un document ou un article. Ces opérations peuvent être effectuées par différents utilisateurs d’un même espace de travail.
+Un processus, ou flux des travaux, est la représentation des opérations affectées à un document ou un article. Ces opérations peuvent être effectuées par différents utilisateurs d’un même espace de travail.
 
 ##Les rôles
 
-Pour créer un modèle de workflow, il faut au préalable créer des rôles dans l’espace de travail. Ces rôles peuvent être assignés par défaut à des utilisateurs, mais ils peuvent être redéfinis lors de l'affectation du workflow à la création d'un document ou d'un article.
+Pour créer un modèle de processus, il faut au préalable créer des rôles dans l’espace de travail. Ces rôles peuvent être assignés par défaut à des utilisateurs, mais ils peuvent être redéfinis lors de l'affectation du processus à la création d'un document ou d'un article.
 
 {% image /assets/images/documentation/fr/image00.png "Création des rôles"%}
 
-##Modèle de workflow
+##Modèle de processus
 
-Un modèle de workflow est composé d'un état initial, d'une série d'activités et d'un état final. Chaque activité contient un libellé définissant son état intermédiaire et une liste de tâches à effectuer. Ces tâches peuvent être effectuées en série ou en parallèle.
+Un modèle de processus est composé d'un état initial, d'une série d'activités et d'un état final. Chaque activité contient un libellé définissant son état intermédiaire et une liste de tâches à effectuer. Ces tâches peuvent être effectuées en série ou en parallèle.
 
 Pour une activité de type série, les tâches doivent être réalisées dans l'ordre. Le rejet d'une tâche entraîne l'arrêt de l'activité courante.
 
 Pour une activité en parallèle, les tâches sont déroulées indépendamment de l'ordre dans lequel elles ont été créées. Il faut alors définir un nombre de tâche à compléter validant l’activité, variant de 1 au nombre total de tâches.
 
-La validation d'une activité entraîne le démarrage de la suivante. Une activité invalidée entraînera la suspension du workflow.
+La validation d'une activité entraîne le démarrage de la suivante. Une activité invalidée entraînera la suspension du processus.
 
-En cas d’invalidation, le workflow reprendra à l’activité de relance si celle-ci a été préalablement définie.
+En cas d’invalidation, le processus reprendra à l’activité de relance si celle-ci a été préalablement définie.
 
-Un modèle de workflow peut être modifié à n’importe quand. Cela n’entrainera en aucun cas la modification des workflows instanciés depuis ce modèle.
+Un modèle de processus peut être modifié à n’importe quand. Cela n’entrainera en aucun cas la modification des processus instanciés depuis ce modèle.
 
-{% image /assets/images/documentation/dev/fr/image20.png "Création d'un modèle de workflow"%}
+{% image /assets/images/documentation/dev/fr/image20.png "Création d'un modèle de processus"%}
 
-##Instance de workflow
+##Instance de processus
 
-Chaque modèle de workflow créé peut être instancié à la création d'un document ou d'un article. Les rôles peuvent être alors redéfinis.
+Chaque modèle de processus créé peut être instancié à la création d'un document ou d'un article. Les rôles peuvent être alors redéfinis.
 
 {% image /assets/images/documentation/dev/fr/image23.png "Définition des rôles à la création d’un document"%}
 
-Une fois le document (ou l’article) créé, le workflow démarre sur la première activité. Lorsqu'une tâche est ouverte, un mail est envoyé au responsable de la tâche en cours. Le responsable peut alors l'approuver ou la rejeter et signer.
+Une fois le document (ou l’article) créé, le processus démarre sur la première activité. Lorsqu'une tâche est ouverte, un mail est envoyé au responsable de la tâche en cours. Le responsable peut alors l'approuver ou la rejeter et signer.
 
 ##Etat du cycle de vie
 
 Une fois la première activité démarrée, les utilisateurs désignés reçoivent par mail un message contenant la description complète de leur(s) tâche(s) à effectuer.
 
-{% image /assets/images/documentation/dev/fr/image43.png "Workflow instancié sur un document"%}
+{% image /assets/images/documentation/dev/fr/image43.png "Processus instancié sur un document"%}
 
 Une tâche peut être approuvée ou rejetée si :
 
 * le responsable a téléchargé au moins une fois un fichier associé
 * le document ou l'article est libéré (pas réservé)
 
-Tous les utilisateurs abonnés aux changements d'état du workflow en seront informés par mail.
+Tous les utilisateurs abonnés aux changements d'état du processus en seront informés par mail.
 
 #Options de partage et de publication
 
