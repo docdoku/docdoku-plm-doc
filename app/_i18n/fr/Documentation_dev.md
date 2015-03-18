@@ -478,7 +478,7 @@ Tous les utilisateurs abonnés aux changements d'état du processus en seront in
 
 Chaque document et article peut être publié. Pour cela il faut cliquer sur l’icône située à droite de chaque ligne.
 
-{% image /assets/images/documentation/dev/fr/publier.png %}
+{% image /assets/images/documentation/fr/publier.png %}
 
 La fenêtre suivante apparaît :
 
@@ -490,9 +490,8 @@ Une fois le document publié en cliquant sur le bouton ON/OFF, il sera accessibl
 
 Vous pouvez aussi protéger vos publications en utilisant l’accès privé. Vous pouvez choisir une date d’expiration et un mot de passe. Ces deux champs ne sont pas obligatoires, mais seront vérifiés à l’accès si vous les avez renseignés.
 
-{% image /assets/images/documentation/dev/fr/image40.png "Partage privé"%}
+{% image /assets/images/documentation/fr/image40.png "Partage privé"%}
 
 Ensuite vous devez cliquer sur “Partager” pour générer un lien. Ce lien est offusqué, il n’est pas devinable.
 
-{% image /assets/images/documentation/dev/fr/image42.png "Lien généré"%}
-
+{% image /assets/images/documentation/fr/image42.png "Lien généré"%}

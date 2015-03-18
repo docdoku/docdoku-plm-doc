@@ -436,14 +436,22 @@ All the users who have subscribed to state change notification will be informed.
 
 ##Publishing
 
-Each document and part can be published. To do so, click on the  icon to the right of the table line, then the following window will appear.
+Each document and part can be published. To do so, click on the right icon on the table line.
+
+{% image /assets/images/documentation/en/publish.png %}
+
+The following window will appear:
 
 {% image /assets/images/documentation/en/image21.png "Publishing window"%}
 
-As soon as the ON/OFF button will be pressed, the document or part will be publicly accessible from the Internet.
+By activating the public share, the document or part is publicly accessible from the Internet.
 
 ##Private access
 
-You may also want to generate a private link protected by a password and with an optional expiration date. For that, just fill the password and/or expiration date and push the share button.
+You may also want to generate a private link optionally protected by a password or an expiration date. For that, just fill the password and/or expiration date and push the share button.
 
 {% image /assets/images/documentation/en/image07.png "Private share"%}
+
+The generated link is obfuscated, it cannot be guessed.
+
+{% image /assets/images/documentation/en/image08.png "Generated link"%}

@@ -450,7 +450,7 @@ All the users who have subscribed to state change notification will be informed 
 
 Each document and part can be published. To do so, click on the right icon on the table line.
 
-{% image /assets/images/documentation/dev/en/publish.png %}
+{% image /assets/images/documentation/en/publish.png %}
 
 The following window will appear:
 
@@ -462,8 +462,8 @@ By activating the public share, the document or part is publicly accessible from
 
 You may also want to generate a private link optionally protected by a password or an expiration date. For that, just fill the password and/or expiration date and push the share button.
 
-{% image /assets/images/documentation/dev/en/image07.png "Private share"%}
+{% image /assets/images/documentation/en/image07.png "Private share"%}
 
 The generated link is obfuscated, it cannot be guessed.
 
-{% image /assets/images/documentation/dev/en/image08.png "Generated link"%}
+{% image /assets/images/documentation/en/image08.png "Generated link"%}
