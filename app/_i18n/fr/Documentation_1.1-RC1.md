@@ -353,7 +353,7 @@ Outre les fonctionnalités citées, DocDokuPLM peut convertir les documents en p
 
 En sélectionnant un document via sa case à cocher, vous pouvez le réserver.
 
-{% image /assets/images/documentation/fr/image14.png "Réservation d’un document : réserver / annuler la réservation / libérer"%}
+{% image /assets/images/documentation/image14.png "Réservation d’un document : réserver / annuler la réservation / libérer"%}
 
 Une fois réservé le document ne sera pas éditable par les autres utilisateurs. Il vous faudra alors le libérer une fois les modifications effectuées, ou annuler la réservation si vous ne souhaitez pas enregistrer les changements apportés.
 
@@ -479,4 +479,4 @@ Vous pouvez aussi protéger vos publications en utilisant l’accès privé. Vou
 
 Ensuite vous devez cliquer sur “Partager” pour générer un lien. Ce lien est offusqué, il n’est pas devinable.
 
-{% image /assets/images/documentation/fr/image42.png "Lien généré"%}
+{% image /assets/images/documentation/fr/image48.png "Lien généré"%}

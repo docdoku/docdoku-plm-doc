@@ -42,7 +42,7 @@ The account edition page is accessible on the "My account" submenu which also al
 #Workspace Management
 
 ##Workspace creation
-Once account created, you can instantiate new workspaces.
+Once your account created, you can instantiate new workspaces.
 
 {% image /assets/images/documentation/en/creation.png "Workspace creation"%}
 
@@ -336,39 +336,6 @@ You can explore all properties of the document as well as visualize their attach
 
 In addition to the mentioned features, DocDokuPLM can convert attached files into pdf. The majority of word processing formats are supported.
 
-##Document check-out/check-in
-
-To lock a document to prevent modification, just select it and press the check-out button:
-
-{% image /assets/images/documentation/en/image16.png "Document lock: check-out / undo check-out / check-in"%}
-
-A checked out document cannot be edited by other users. To validate the modifications you will have to check in it. Otherwise, you can cancel the changes with the undo check-out action.
-
-While releasing (check-in operation) the document, you have a chance to enter an optional revision note. If you do not want to fill a note, press the "Ignore" button.
-
-{% image /assets/images/documentation/en/image19.png "Revision note window"%}
-
-##Document search
-
-We distinguish two types of search:
-
-###Quick search
-
-The quick search bar appears on top of the documents list. It lets you quickly find a document from its name.
-
-{% image /assets/images/documentation/en/image08.png "Quick search bar"%}
-
-###Advanced search
-
-There are two ways to get access to the advanced search:
-
-* through the “Search” link from the left menu
-* through the small arrow from the quick search bar
-
-This advanced search allows you to find a document from its title, type, identifier, version, author, creation date or content files.
-
-{% image /assets/images/documentation/dev/en/image30.png "Advanced search of documents"%}
-
 ##“Checked out” and “Tasks” links
 
 To ensure fast access to documents, you will find two shortcut links in the left menu:
@@ -427,6 +394,22 @@ A running task can be marked as done or rejected if:
 
 All the users who have subscribed to state change notification will be informed by email.
 
+#Check-out / Check-in
+
+To lock a document/part to prevent modification, just select it and press the check-out button. A new item iteration will be created.
+
+{% image /assets/images/documentation/image14.png "Buttons check-out / undo check-out / check-in"%}
+
+A checked out item cannot be edited by other users. To validate the modifications you will have to check it in. Otherwise, you can cancel the changes with the undo check-out action.
+
+While releasing (check-in operation) the item, you have a chance to enter an optional revision note. If you do not want to fill a note, press the "Ignore" button.
+
+{% image /assets/images/documentation/en/image19.png "Revision note window"%}
+
+All these actions can be performed from the “Iteration“ tab on the item details window.
+
+{% image /assets/images/documentation/dev/en/image49.png "Buttons Check in and Cancel checkout"%}
+
 #Tags
 
 You have the possibility to tag documents/parts. To do so, select one or more items and press the tag icon:
@@ -444,6 +427,27 @@ To display the items associated with a specific tag, select that tag from the le
 You can delete a tag by clicking on the right arrow into the area of the tag, then click on “Delete”. The tag will be removed but the associated items will not.
 
 {% image /assets/images/documentation/en/image39.png "Tag deletion"%}
+
+#Search
+
+We distinguish two types of search:
+
+##Quick search
+
+The quick search bar appears on top of the documents/parts list. It lets you quickly find an item from its reference or name.
+
+{% image /assets/images/documentation/en/image08.png "Quick search bar"%}
+
+##Advanced search
+
+There are two ways to get access to the advanced search:
+
+* through the “Search” link from the left menu, only for documents
+* through the small arrow from the quick search bar
+
+This advanced search allows you to find an item from its name, type, identifier, version, author, creation date or content files.
+
+{% image /assets/images/documentation/dev/en/image30.png "Advanced search"%}
 
 #Sharing and publishing
 
@@ -467,4 +471,4 @@ You may also want to generate a private link optionally protected by a password 
 
 The generated link is obfuscated, it cannot be guessed.
 
-{% image /assets/images/documentation/en/image08.png "Generated link"%}
+{% image /assets/images/documentation/en/image48.png "Generated link"%}

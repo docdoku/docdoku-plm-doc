@@ -327,7 +327,7 @@ In addition to the mentioned features, DocDokuPLM can convert documents into pdf
 
 To lock a document for modification, just select it and then push the checkout button:
 
-{% image /assets/images/documentation/en/image16.png "Document lock : check-out / undo check-out / check-in"%}
+{% image /assets/images/documentation/image14.png "Document lock : check-out / undo check-out / check-in"%}
 
 A checked out document cannot be edited by other users. To validate the modifications you will have to check in it. Otherwise, you can cancel the change with the help of the undo check-out action.
 
@@ -454,4 +454,4 @@ You may also want to generate a private link optionally protected by a password 
 
 The generated link is obfuscated, it cannot be guessed.
 
-{% image /assets/images/documentation/en/image08.png "Generated link"%}
+{% image /assets/images/documentation/en/image48.png "Generated link"%}

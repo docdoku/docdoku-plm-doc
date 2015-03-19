@@ -366,39 +366,6 @@ Vous pouvez visualiser les différentes propriétés des documents créés ainsi
 
 Outre les fonctionnalités citées, DocDokuPLM peut convertir les fichiers rattachés en pdf. La majorité des formats utilisés avec les logiciels de traitement de texte est prise en charge.
 
-##Réservation de documents
-
-Vous pouvez réserver un document en le sélectionnant via sa case à cocher.
-
-{% image /assets/images/documentation/fr/image14.png "Réservation d’un document : réserver / annuler la réservation / libérer"%}
-
-Une fois réservé, le document ne sera pas éditable par les autres utilisateurs. Il vous faudra alors le libérer une fois les modifications effectuées, ou annuler la réservation si vous ne souhaitez pas enregistrer les changements apportés.
-
-Si vous choisissez de libérer le document, une fenêtre vous proposera de saisir la note de révision. Cette information n’est pas obligatoire, vous pouvez passer cette étape en cliquant sur “Ignorer”.
-
-{% image /assets/images/documentation/fr/image03.png "Fenêtre de note de révision"%}
-
-##Recherche de document
-
-Nous distinguons deux types de recherche :
-
-###Recherche rapide
-
-La barre de recherche rapide se présente au-dessus de la liste des documents. Elle permet de trouver rapidement un document à partir de son nom.
-
-{% image /assets/images/documentation/fr/image42.png "Barre de recherche rapide"%}
-
-###Recherche avancée
-
-Vous pouvez accéder à la recherche avancée de deux manières :
-
-* en cliquant sur le lien “Rechercher“ présent dans le menu de gauche
-* en cliquant sur la petite flèche dans la barre de “Recherche Rapide“
-
-Cette recherche avancée permet de trouver un document à partir de son titre, son type, sa référence, sa version, son auteur, sa date de création ou encore le contenu des fichiers chargés.
-
-{% image /assets/images/documentation/dev/fr/image25.png "Recherche avancée de documents"%}
-
 ##Liens Réservés et Tâches
 
 Afin d’assurer un accès rapide aux documents qui concernent un utilisateur donné, vous trouverez deux liens dans le menu de gauche :
@@ -455,6 +422,22 @@ Une tâche peut être approuvée ou rejetée si :
 
 Tous les utilisateurs abonnés aux changements d'état du processus en seront informés par mail.
 
+#Réservation et libération
+
+Vous pouvez réserver un document/article en le sélectionnant via sa case à cocher. Une nouvelle itération de l'élément sera créée.
+
+{% image /assets/images/documentation/image14.png "Boutons réserver / annuler la réservation / libérer"%}
+
+Une fois réservé, l'élément ne sera pas éditable par les autres utilisateurs. Il vous faudra alors le libérer une fois les modifications effectuées, ou annuler la réservation si vous ne souhaitez pas enregistrer les changements apportés.
+
+Si vous choisissez de libérer l'élément, une fenêtre vous proposera de saisir la note de révision. Cette information n’est pas obligatoire, vous pouvez passer cette étape en cliquant sur “Ignorer”.
+
+{% image /assets/images/documentation/fr/image03.png "Fenêtre de note de révision"%}
+
+Toutes ces actions sont également disponibles depuis l'onglet “Itération“ dans la fenêtre de détails de l'élément.
+
+{% image /assets/images/documentation/dev/fr/image49.png "Boutons Libérer et Annuler la réservation"%}
+
 #Libellés
 
 Vous pouvez associer des libellés à vos documents/articles. En sélectionnant un ou des élément(s), l’icône suivante apparaît :
@@ -472,6 +455,27 @@ Pour afficher tous les éléments liés à un libellé, il vous suffit de sélec
 Vous pouvez supprimer un libellé en cliquant sur la flèche dans la zone du libellé, puis sur “Supprimer”. Les éléments associés à ce libellé ne seront pas supprimés.
 
 {% image /assets/images/documentation/fr/image38.png "Suppression d’un libellé"%}
+
+#Recherche
+
+Nous distinguons deux types de recherche :
+
+##Recherche rapide
+
+La barre de recherche rapide se présente au-dessus de la liste des documents/articles. Elle permet de trouver rapidement un élément à partir de sa référence ou son nom.
+
+{% image /assets/images/documentation/fr/image42.png "Barre de recherche rapide"%}
+
+##Recherche avancée
+
+Vous pouvez accéder à la recherche avancée de deux manières :
+
+* en cliquant sur le lien “Rechercher“ présent dans le menu de gauche, seulement pour les documents
+* en cliquant sur la petite flèche dans la barre de “Recherche Rapide“
+
+Cette recherche avancée permet de trouver un élément à partir de son nom, son type, sa référence, sa version, son auteur, sa date de création ou encore le contenu des fichiers chargés.
+
+{% image /assets/images/documentation/dev/fr/image25.png "Recherche avancée"%}
 
 #Options de partage et de publication
 
@@ -495,4 +499,4 @@ Vous pouvez aussi protéger vos publications en utilisant l’accès privé. Vou
 
 Ensuite vous devez cliquer sur “Partager” pour générer un lien. Ce lien est offusqué, il n’est pas devinable.
 
-{% image /assets/images/documentation/fr/image42.png "Lien généré"%}
+{% image /assets/images/documentation/fr/image48.png "Lien généré"%}
