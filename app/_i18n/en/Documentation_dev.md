@@ -202,6 +202,85 @@ Below the summary tables of possible combinations.
 | read only                 | read only                     | read only        |
 | read only                 | forbidden                     | forbidden        |
 
+#Document Management
+
+DocDokuPLM has a document management module that includes a comprehensive versioning system (master, revision and iteration), functions for sharing, publishing documents, treeview and tags organization, ACL configuration...
+In the following paragraph, we will detail all of these functionalities.
+
+{% image /assets/images/documentation/dev/en/image00.png "Document management menu"%}
+
+##Document template
+
+###Document template creation
+
+You can create templates that will be used to instantiate documents. You can choose to restrict document naming by filling a mask format and selecting the identifier generation option. This will lead to an automatic creation of identifiers for documents using the template.
+
+{% image /assets/images/documentation/dev/en/image25.png "Document template creation form"%}
+
+###Adding files and attributes
+
+You can define attribute types in the template and attach files to it. All documents created with the same template will have the same attributes set and attached files. Attribute values will be set on those documents and obviously, files will evolve independently.
+
+{% image /assets/images/documentation/dev/en/image42.png "Attaching files to the template"%}
+
+## Document creation
+
+Each documents must belong to a folder. To create a new document in a specific directory, you must first select the directory then click on the “New document“ button.
+
+{% image /assets/images/documentation/dev/en/image09.png "Document creation form"%}
+
+When creating a document, you can edit its attributes, specify a workflow and set specific access rights. Note that you will not be able to upload files or link the current document to another until you finish the creation process.
+
+Once the document is created you can perform the following actions:
+
+* Check-in / Undo check-out / Check-out
+* Deletion
+* Subscription to document state change notifications. In this case the user receives an email each time a change is made by other users on the document
+* Subscription to iteration change notifications. The user receives a notification when there is a new iteration on the document
+* Adding tag to documents - for example, classifying a document as important
+* Access rights management
+* New version creation
+* Public or private document publishing
+
+##Document move
+
+You can move a document to another directory with the below icon. To do so just drag and drop the document from the icon to the targetted folder.
+
+{% image /assets/images/documentation/dev/document_move.png "Move button"%}
+
+##Document modification
+
+In order to modify a document, you must first reserve it. You can access the document modification window by clicking on its title.
+
+The arrows at the bottom left of the window allow you to visualize the different changes done in previous iterations.
+
+You can open the directory containing the document by clicking on the “Folder“ info link.
+
+{% image /assets/images/documentation/dev/en/image10.png "Document details window"%}
+
+##Document viewer
+
+Each document provides a permanent link where you see details of its latest revision. To get there, you should simply click on the title of the document window.
+
+{% image /assets/images/documentation/en/image22.png %}
+
+You can explore all properties of the document as well as visualize their attached files. The viewer supports a large number of formats: pdf, jpg, mp4, doc... Files not supported by the viewer will be downloaded.
+
+{% image /assets/images/documentation/en/image02.png "Document viewer"%}
+
+##Document conversion
+
+In addition to the mentioned features, DocDokuPLM can convert attached files into pdf. The majority of word processing formats are supported.
+
+##“Checked out” and “Tasks” links
+
+To ensure fast access to documents, you will find two shortcut links in the left menu:
+
+* Checked out: this link displays all the documents reserved by the current user
+* Tasks: this link shows the documents the user is directly involved in through a workflow
+
+{% image /assets/images/documentation/en/image06.png "Links section"%}
+
 #Product Management
 
 DocDokuPLM is a management system for collaborative product development which purpose is to help members of the same organization create and exchange data around products.
@@ -297,79 +376,6 @@ The possible actions in the 3D visualization mode are:
 * Creating layers that hold a set of markers
 * Export 3D visualization of a part. Produces the html code to embed in other web pages (like YouTube or Google Maps)
 
-#Document Management
-
-DocDokuPLM has a document management module that includes a comprehensive versioning system (master, revision and iteration), functions for sharing, publishing documents, treeview and tags organization, ACL configuration...
-In the following paragraph, we will detail all of these functionalities.
-
-{% image /assets/images/documentation/dev/en/image00.png "Document management menu"%}
-
-##Document template
-
-###Document template creation
-
-You can create templates that will be used to instantiate documents. You can choose to restrict document naming by filling a mask format and selecting the identifier generation option. This will lead to an automatic creation of identifiers for documents using the template.
-
-{% image /assets/images/documentation/dev/en/image25.png "Document template creation form"%}
-
-###Adding files and attributes
-
-You can define attribute types in the template and attach files to it. All documents created with the same template will have the same attributes set and attached files. Attribute values will be set on those documents and obviously, files will evolve independently.
-
-{% image /assets/images/documentation/dev/en/image42.png "Attaching files to the template"%}
-
-## Document creation
-
-Each documents must belong to a folder. To create a new document in a specific directory, you must first select the directory then click on the “New document“ button.
-
-{% image /assets/images/documentation/dev/en/image09.png "Document creation form"%}
-
-When creating a document, you can edit its attributes, specify a workflow and set specific access rights. Note that you will not be able to upload files or link the current document to another until you finish the creation process.
-
-Once the document is created you can perform the following actions:
-
-* Check-in / Undo check-out / Check-out
-* Deletion
-* Subscription to document state change notifications. In this case the user receives an email each time a change is made by other users on the document
-* Subscription to iteration change notifications. The user receives a notification when there is a new iteration on the document
-* Adding tag to documents - for example, classifying a document as important
-* Access rights management
-* New version creation
-* Public or private document publishing
-
-##Document modification
-
-In order to modify a document, you must first reserve it. You can access the document modification window by clicking on its name.
-
-The arrows at the bottom left of the window allow you to visualize the different changes done in previous iterations.
-
-You can open the directory containing the document by clicking on the “Folder“ info link.
-
-{% image /assets/images/documentation/dev/en/image10.png "Document details window"%}
-
-##Document viewer
-
-Each document provides a permanent link where you see details of its latest revision. To get there, you should simply click on the title of the document window.
-
-{% image /assets/images/documentation/en/image22.png %}
-
-You can explore all properties of the document as well as visualize their attached files. The viewer supports a large number of formats: pdf, jpg, mp4, doc... Files not supported by the viewer will be downloaded.
-
-{% image /assets/images/documentation/en/image02.png "Document viewer"%}
-
-##Document conversion
-
-In addition to the mentioned features, DocDokuPLM can convert attached files into pdf. The majority of word processing formats are supported.
-
-##“Checked out” and “Tasks” links
-
-To ensure fast access to documents, you will find two shortcut links in the left menu:
-
-* Checked out: this link displays all the documents reserved by the current user
-* Tasks: this link shows the documents the user is directly involved in through a workflow
-
-{% image /assets/images/documentation/en/image06.png "Links section"%}
-
 #Workflow Management
 
 A workflow is a representation of the various tasks that need to be completed and their interactions. These operations are assigned to different users belonging to the same workspace and are related to an identified document or part.
@@ -455,7 +461,7 @@ You can delete a tag by clicking on the right arrow into the area of the tag, th
 
 #Search
 
-We distinguish two types of search:
+We distinguish two types of search: quick and advanced.
 
 ##Quick search
 

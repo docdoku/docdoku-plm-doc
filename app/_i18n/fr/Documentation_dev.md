@@ -221,7 +221,91 @@ Ci-après les tableaux récapitulatifs des combinaisons possibles.
 | accès complet   | interdit              | interdit         |
 | lecture seule   | accès complet         | accès complet    |
 | lecture seule   | lecture seule         | lecture seule    |
-| lecture seule   | interdit              | interdit
+| lecture seule   | interdit              | interdit         |
+
+#Gestion des documents
+
+DocDokuPLM offre une gestion complète de documents avec prise en compte des versions (révision, itération), partage et publication de documents, organisation arborescente et par libellés, configuration fine des droits d’accès.
+
+Dans ce qui suit nous détaillons l’ensemble de ces fonctions.
+
+{% image /assets/images/documentation/dev/fr/image09.png "Menu de gestion de documents"%}
+
+##Modèles de document
+
+###Création d’un modèle de document
+
+Vous pouvez créer des modèles de documents qui serviront à la création des documents. Au moment de la création d’un modèle, vous pouvez choisir de gérer la nomenclature des documents en déterminant un masque de saisie et en cochant la génération de l’identifiant. Ceci entraînera la création automatique d’identifiants pour les documents qui utiliseront ce modèle.
+
+{% image /assets/images/documentation/dev/fr/image31.png "Formulaire de création d'un modèle de document"%}
+
+###Ajout de fichiers et d’attributs
+
+Vous pouvez définir des types d’attributs au modèle et lui associer des fichiers. Tous les documents qui seront créés avec ce modèle auront :
+
+* ses attributs - il faudra alors renseigner leur valeur
+* ses fichiers - qui pourront bien sûr évoluer, le fichier positionné au niveau du modèle n’étant qu’un squelette
+
+{% image /assets/images/documentation/dev/fr/image41.png "Rattachement de fichiers au modèle"%}
+
+## Création de document
+
+Tout document doit appartenir à un dossier. Afin de créer un document dans un répertoire spécifique, il faut se placer dessus en cliquant sur son nom dans le menu de gauche.
+
+{% image /assets/images/documentation/dev/fr/image35.png "Formulaire de création d'un document"%}
+
+Vous pouvez éditer les attributs, spécifier un processus et définir des droits d’accès dès la création du document. Le chargement des fichiers et l’édition des liens vers d’autres documents ne pourra se faire qu’une fois le document créé.
+
+Une fois créé, vous pourrez effectuer les actions suivantes :
+
+* Réservation / Annulation de la réservation / Libération
+* Suppression
+* Abonnement aux changements d’état du document. Dans ce cas l’utilisateur reçoit un mail à chaque fois qu’une modification est apportée sur le document par d'autres utilisateurs
+* Abonnement aux changements d’itération du document. L’utilisateur reçoit également un mail de notification  en cas de nouvelle itération sur le document
+* Ajout de libellés - par exemple classer un document comme important
+* Gestion de ses droits d’accès
+* Création d’une nouvelle version
+* Publication du document en mode public ou privé
+
+##Déplacement d'un document
+
+Vous pouvez déplacer un document vers un dossier grace à l'icône ci-dessous. Pour ce faire, il suffit de glisser-déposer le document depuis l'icône vers le dossier voulu.
+
+{% image /assets/images/documentation/dev/document_move.png "Bouton de déplacement"%}
+
+##Modification d’un document
+
+Pour modifier un document, il vous faut d'abord le réserver. Vous pouvez accéder à la fenêtre de modification en cliquant sur le titre d’un document de la liste.
+
+Les flèches situées en bas à gauche servent à visualiser les différents changements apportés lors des itérations précédentes.
+
+Vous pouvez accéder au dossier qui contient le document en cliquant sur le lien à droite de “Dossier”.
+
+{% image /assets/images/documentation/dev/fr/image28.png "Fenêtre d’informations relatives à un document"%}
+
+##Visualisation de document
+
+Pour chaque document, il est possible d’ouvrir un nouvel onglet dans le navigateur contenant les détails de sa dernière révision. Pour y accéder, il vous suffit de cliquer sur le titre de la fenêtre de détail.
+
+{% image /assets/images/documentation/fr/image06.png %}
+
+Vous pouvez visualiser les différentes propriétés des documents créés ainsi que les fichiers qui leur sont rattachés. La visionneuse prend en charge un nombre important de formats : pdf, jpg, mp4, doc… Les fichiers non supportés par la visionneuse seront automatiquement téléchargés.
+
+{% image /assets/images/documentation/fr/image30.png "Visionneuse de document"%}
+
+
+##Conversion de document
+
+Outre les fonctionnalités citées, DocDokuPLM peut convertir les fichiers rattachés en pdf. La majorité des formats utilisés avec les logiciels de traitement de texte est prise en charge.
+
+##Liens Réservés et Tâches
+
+Afin d’assurer un accès rapide aux documents qui concernent un utilisateur donné, vous trouverez deux liens dans le menu de gauche :
+
+* Réservés : ce lien affichera l’ensemble des documents réservés par l’utilisateur
+* Tâches : ce lien sert à visualiser les différents documents sur lesquels l’utilisateur est directement impliqué via un processus
+
+{% image /assets/images/documentation/fr/image47.png "Section des liens"%}
 
 #Gestion des produits
 
@@ -321,84 +405,6 @@ Parmi les actions possibles dans le mode de visualisation en 3D, vous retrouvere
 * La création de calques comportant plusieurs marqueurs
 * L'export d'un article pour produire le code html à intégrer dans d’autres pages web (comme YouTube ou Google Maps)
 
-#Gestion des documents
-
-DocDokuPLM offre une gestion complète de documents avec prise en compte des versions (révision, itération), partage et publication de documents, organisation arborescente et par libellés, configuration fine des droits d’accès.
-
-Dans ce qui suit nous détaillons l’ensemble de ces fonctions.
-
-{% image /assets/images/documentation/dev/fr/image09.png "Menu de gestion de documents"%}
-
-##Modèles de document
-
-###Création d’un modèle de document
-
-Vous pouvez créer des modèles de documents qui serviront à la création des documents. Au moment de la création d’un modèle, vous pouvez choisir de gérer la nomenclature des documents en déterminant un masque de saisie et en cochant la génération de l’identifiant. Ceci entraînera la création automatique d’identifiants pour les documents qui utiliseront ce modèle.
-
-{% image /assets/images/documentation/dev/fr/image31.png "Formulaire de création d'un modèle de document"%}
-
-###Ajout de fichiers et d’attributs
-
-Vous pouvez définir des types d’attributs au modèle et lui associer des fichiers. Tous les documents qui seront créés avec ce modèle auront :
-
-* ses attributs - il faudra alors renseigner leur valeur
-* ses fichiers - qui pourront bien sûr évoluer, le fichier positionné au niveau du modèle n’étant qu’un squelette
-
-{% image /assets/images/documentation/dev/fr/image41.png "Rattachement de fichiers au modèle"%}
-
-## Création de document
-
-Tout document doit appartenir à un dossier. Afin de créer un document dans un répertoire spécifique, il faut se placer dessus en cliquant sur son nom dans le menu de gauche.
-
-{% image /assets/images/documentation/dev/fr/image35.png "Formulaire de création d'un document"%}
-
-Vous pouvez éditer les attributs, spécifier un processus et définir des droits d’accès dès la création du document. Le chargement des fichiers et l’édition des liens vers d’autres documents ne pourra se faire qu’une fois le document créé.
-
-Une fois créé, vous pourrez effectuer les actions suivantes :
-
-* Réservation / Annulation de la réservation / Libération
-* Suppression
-* Abonnement aux changements d’état du document. Dans ce cas l’utilisateur reçoit un mail à chaque fois qu’une modification est apportée sur le document par d'autres utilisateurs
-* Abonnement aux changements d’itération du document. L’utilisateur reçoit également un mail de notification  en cas de nouvelle itération sur le document
-* Ajout de libellés - par exemple classer un document comme important
-* Gestion de ses droits d’accès
-* Création d’une nouvelle version
-* Publication du document en mode public ou privé
-
-##Modification d’un document
-
-Pour modifier un document, il vous faut d'abord le réserver. Vous pouvez accéder à la fenêtre de modification en cliquant sur le nom d’un document dans une liste.
-
-Les flèches situées en bas à gauche servent à visualiser les différents changements apportés lors des itérations précédentes.
-
-Vous pouvez accéder au dossier qui contient le document en cliquant sur le lien à droite de “Dossier”.
-
-{% image /assets/images/documentation/dev/fr/image28.png "Fenêtre d’informations relatives à un document"%}
-
-##Visualisation de document
-
-Pour chaque document, il est possible d’ouvrir un nouvel onglet dans le navigateur contenant les détails de sa dernière révision. Pour y accéder, il vous suffit de cliquer sur le titre de la fenêtre de détail.
-
-{% image /assets/images/documentation/fr/image06.png %}
-
-Vous pouvez visualiser les différentes propriétés des documents créés ainsi que les fichiers qui leur sont rattachés. La visionneuse prend en charge un nombre important de formats : pdf, jpg, mp4, doc… Les fichiers non supportés par la visionneuse seront automatiquement téléchargés.
-
-{% image /assets/images/documentation/fr/image30.png "Visionneuse de document"%}
-
-
-##Conversion de document
-
-Outre les fonctionnalités citées, DocDokuPLM peut convertir les fichiers rattachés en pdf. La majorité des formats utilisés avec les logiciels de traitement de texte est prise en charge.
-
-##Liens Réservés et Tâches
-
-Afin d’assurer un accès rapide aux documents qui concernent un utilisateur donné, vous trouverez deux liens dans le menu de gauche :
-
-* Réservés : ce lien affichera l’ensemble des documents réservés par l’utilisateur
-* Tâches : ce lien sert à visualiser les différents documents sur lesquels l’utilisateur est directement impliqué via un processus
-
-{% image /assets/images/documentation/fr/image47.png "Section des liens"%}
-
 #Gestion des processus
 
 Un processus, ou flux des travaux, est la représentation des opérations affectées à un document ou un article. Ces opérations peuvent être effectuées par différents utilisateurs d’un même espace de travail.
@@ -482,7 +488,7 @@ Vous pouvez supprimer un libellé en cliquant sur la flèche dans la zone du lib
 
 #Recherche
 
-Nous distinguons deux types de recherche :
+Nous distinguons deux types de recherche : rapide et avancée.
 
 ##Recherche rapide
 
