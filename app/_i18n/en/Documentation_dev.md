@@ -30,12 +30,13 @@ The first step is thus to register. All fields are required.
 
 {% image /assets/images/documentation/dev/en/register2.png "Creating a User"%}
 
-##User settings
+##User edition
 
 {% image /assets/images/documentation/dev/en/settings.png "Account Management"%}
 
 Subsequently all settings can be changed, except the User ID which is immutable.
-The account edition page is accessible on the "My account" submenu which also allows to reset the password.
+
+The account edition page is accessible on the "My account" submenu which also allows to reset the password. The time zone is used to display times.
 
 {% image /assets/images/documentation/dev/en/edition.png "Account Edition"%}
 

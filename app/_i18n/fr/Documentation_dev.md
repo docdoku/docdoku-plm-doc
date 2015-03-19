@@ -50,7 +50,7 @@ La toute première étape consiste ainsi à s'enregistrer. Ici, tous les champs 
 
 Dans le sous-menu “Mon compte” vous pouvez modifier toutes vos caractéristiques à l'exception de votre identifiant utilisateur.
 
-Cette page vous permet également de modifier votre mot de passe.
+Cette page vous permet également de modifier votre mot de passe. Le fuseau horaire permet d'afficher les heures selon vos préférences.
 
 {% image /assets/images/documentation/dev/fr/image10.png "Édition du compte"%}
 
