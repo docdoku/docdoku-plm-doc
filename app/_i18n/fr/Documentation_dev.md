@@ -4,6 +4,7 @@
 {:toc}
 
 #Présentation
+
 Le PLM (Product Lifecycle Management, littéralement gestion du cycle de vie du produit) est un
 domaine d'activité dont le but est de créer et maintenir des produits tout au long de leur cycle de
 vie, depuis l'établissement du cahier des charges du produit et des services associés jusqu'à la
@@ -27,6 +28,7 @@ L’objectif de ce document est de présenter en détail l’ensemble des possib
 cette solution pour une utilisation optimale.
 
 #Gestion des utilisateurs
+
 Dans DocDokuPLM, la notion d'utilisateur ne se restreint pas à un simple accès à l'application.
 C'est par exemple à partir de ce même utilisateur que vous pourrez spécifier des droits sur un
 document ou encore lui attribuer un rôle dans un processus.
@@ -34,6 +36,7 @@ document ou encore lui attribuer un rôle dans un processus.
 Vous découvrez DocDokuPLM ? Les chapitres suivants devraient retenir toute votre attention...
 
 ##Création d'un utilisateur
+
 Pour créer un compte, cliquez sur le lien inscrivez-vous depuis la page d'accueil.
 
 {% image /assets/images/documentation/fr/image32.png "Lien d’inscription"%}
@@ -57,6 +60,7 @@ Cette page vous permet également de modifier votre mot de passe. Le fuseau hora
 #Gestion des espaces de travail
 
 ##Création d'un espace de travail
+
 Votre compte désormais créé, vous avez la possibilité de créer un espace de travail.
 
 {% image /assets/images/documentation/fr/image37.png "Création d’un espace de travail"%}
@@ -66,6 +70,7 @@ Une fois cette opération effectuée, vous en serez l’administrateur. Celui-ci
 L’option “geler la structure des répertoires sauf pour le gestionnaire de l’espace de travail” doit être cochée si vous ne souhaitez pas que les autres utilisateurs puissent modifier la structure des répertoires.
 
 ##Modification d'un espace de travail
+
 Pour accéder aux options d’un espace de travail, cliquez sur le lien “Administration des espaces de travail”.
 
 {% image /assets/images/documentation/dev/fr/image04.png "Gestion du compte"%}
@@ -81,11 +86,13 @@ Vous pouvez également gérer les accès sur l'espace de travail, soit au niveau
 Cette gestion des droits est abordée dans le chapitre suivant.
 
 ###Tableau de bord
+
 Le tableau de bord donne accès à des statistiques sur votre espace de travail (espace disque, nombre de documents et d'articles, taux de réservation par utilisateur, etc.).
 
 {% image /assets/images/documentation/fr/image39.png "Tableau de bord de l’espace de travail Airplane-T01"%}
 
 ##Messagerie collaborative
+
 L’ensemble des utilisateurs d’un même espace de travail peuvent échanger en temps réel grâce aux modules de communication intégrés dans DocDokuPLM.
 
 Ces modules offrent la possibilité d’avoir des conversations de type messagerie instantanée et visioconférence. Il est par ailleurs possible de partager les visualisations d’articles entre collaborateurs dans l’objectif de faciliter l’échange d’informations et d’accélérer le processus de développement de produits.
@@ -105,6 +112,7 @@ En complément du menu Collaborateurs, chaque fois qu’un nom d’utilisateur a
 ##Droits appliqués au niveau de l’espace de travail
 
 ###Gestion des accès utilisateurs
+
 L’administrateur de l’espace de travail peut définir des droits par défaut aux utilisateurs. Un utilisateur peut avoir un accès complet en lecture/écriture, un accès en lecture seule, ou bien n’avoir aucun droit.
 
 Il est également possible de désactiver un utilisateur, il ne pourra alors plus se connecter.
@@ -130,11 +138,13 @@ Un utilisateur désactivé ne peut accéder ni aux documents ni aux articles.
 Pour changer les droits d’un utilisateur ou d’un groupe, il faut cliquer sur la case à cocher correspondante, puis cliquer sur un bouton d’action (supprimer, désactiver, activer, ...) en bas de la liste.
 
 ###Gestion des groupes
+
 Pour gérer les utilisateurs d’un groupe, vous devez cliquer sur son nom. Vous pouvez alors ajouter ou enlever des utilisateurs au groupe sélectionné.
 
 {% image /assets/images/documentation/fr/image33.png "Gestion des utilisateurs d’un groupe"%}
 
 ##Droits appliqués au niveau des documents et des articles
+
 A la création d’un document ou d’un article, les droits appliqués à ceux-ci sont par défaut ceux définis sur l’espace de travail. Pour redéfinir les droits de l’entité à créer, vous devez utiliser l’onglet “Droits”. Vous pouvez alors modifier les droits spécifiquement pour cette entité.
 
 Vous pouvez ainsi donner des droits supplémentaires sur des entités ciblées aux utilisateurs en lecture seule au niveau de l’espace de travail, ou au contraire restreindre l’accès à des données à des utilisateurs en accès complet.
@@ -214,6 +224,7 @@ Ci-après les tableaux récapitulatifs des combinaisons possibles.
 | lecture seule   | interdit              | interdit
 
 #Gestion des produits
+
 DocDokuPLM est donc un système de gestion collaborative de produits dont le but est d’aider les membres d’une même organisation à gérer et partager l'ensemble des actions et des itérations apportées à un produit tout au long de son cycle.
 
 Vous retrouvez, entre autres, les fonctionnalités suivantes :
@@ -226,14 +237,17 @@ Vous retrouvez, entre autres, les fonctionnalités suivantes :
 La création d’articles et de produits est expliquée dans le paragraphe qui suit.
 
 ##La structure produit
+
 Il s'agit de rendre compte de la structure d'un produit et de l'organisation de ses composants.
 Les composants sont appelés articles, ou assemblages s'ils sont eux-mêmes composés d'articles. DocDokuPLM permet de créer des articles à partir de rien ou bien à partir de modèles existants.
 
 ###Création de modèle d’article
+
 DocdokuPLM offre la possibilité de créer des modèles types d’article et de leur associer des attributs, des fichiers et un masque de saisie permettant de faciliter la gestion de nomenclature des articles qui auront ce modèle.
 Cette opération permet par la suite de créer des articles reposant sur ces modèles.
 
 ###Création d’article
+
 Lors de la création d’un article, vous pouvez donc renseigner un modèle d’article. L’article ainsi créé aura les mêmes propriétés que celles du modèle (fichiers, attributs et liens).
 
 Vous pouvez tout aussi bien lui associer de façon individuelle :
@@ -259,12 +273,20 @@ En sélectionnant un article, vous pouvez lui appliquer un ensemble d’actions 
 * Finalisation
 
 ###Assemblage d’articles
+
 Lors de la modification d’un article vous pouvez définir son assemblage.
 
 Un assemblage est composé d'autres articles.
 {% image /assets/images/documentation/dev/fr/image24.png "Assemblage d'articles"%}
 
+###Liens rapides
+
+Vous trouverez un accès rapide à vos articles réservés dans le menu de gauche.
+
+{% image /assets/images/documentation/dev/fr/image50.png "Section des liens"%}
+
 ###Création de produit
+
 Au moment de la création d’un produit, l’identifiant du produit ainsi que le numéro de l’article sont obligatoires, la description est par contre optionnelle.
 
 Le numéro d’article est l’élément de tête de votre produit. Celui-ci peut être un simple article ou un assemblage d’articles.
@@ -278,6 +300,7 @@ La création d’une ligne de base permet d’enregistrer à un instant donné u
 {% image /assets/images/documentation/dev/fr/image02.png "Création d’une ligne de base"%}
 
 ##Explorateur produit
+
 La structure produit vous permet de localiser un article donné. Chaque noeud représente un assemblage d'articles, il suffit de l'étendre pour voir de quels articles il est composé. Un clic sur l'article affiche ses propriétés.
 
 {% image /assets/images/documentation/fr/image08.png "Structure produit"%}
@@ -299,6 +322,7 @@ Parmi les actions possibles dans le mode de visualisation en 3D, vous retrouvere
 * L'export d'un article pour produire le code html à intégrer dans d’autres pages web (comme YouTube ou Google Maps)
 
 #Gestion des documents
+
 DocDokuPLM offre une gestion complète de documents avec prise en compte des versions (révision, itération), partage et publication de documents, organisation arborescente et par libellés, configuration fine des droits d’accès.
 
 Dans ce qui suit nous détaillons l’ensemble de ces fonctions.

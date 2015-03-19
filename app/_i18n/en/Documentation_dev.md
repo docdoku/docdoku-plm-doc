@@ -4,6 +4,7 @@
 {:toc}
 
 #Presentation
+
 PLM (Product Lifecycle Management) is an area of ​​activity whose purpose is to create and maintain products throughout their life cycle, since the establishment of the specification of product and related services until the end of life. (source: Wikipedia)
 
 PLM is a strategy that allows companies to share product data allowing all stakeholders (employees, suppliers, customers, etc...) to act collaboratively on product development.
@@ -17,11 +18,13 @@ DocDokuPLM is a user friendly, ergonomic tool.
 DocDokuPLM User Guide describes and explains how to use the software. It is a comprehensive manual useful for any end users.
 
 #User Management
+
 To be able to log into the application, everyone needs an account identified by a login and protected by a password.
 
 Each user which hence represents an actor of the system holds specific access rights for every workspace he belongs to. Users can also participate in business processes.
 
 ##User creation
+
 To create an account, click on the link “sign up!” from the home page.
 
 {% image /assets/images/documentation/en/register.png "Registration link"%}
@@ -43,6 +46,7 @@ The account edition page is accessible on the "My account" submenu which also al
 #Workspace Management
 
 ##Workspace creation
+
 Once your account created, you can instantiate new workspaces.
 
 {% image /assets/images/documentation/en/creation.png "Workspace creation"%}
@@ -52,6 +56,7 @@ Workspace is the top level context object that gathers documents, parts, busines
 The "freeze folder structure except for workspace manager" option must be checked if you do not want other users to modify the directory structure.
 
 ##Workspace settings
+
 To edit the workspace properties, click on "Workspaces administration".
 
 {% image /assets/images/documentation/dev/en/settings.png "Account Management"%}
@@ -64,11 +69,13 @@ You manage workspaces access at user level or by creating groups.
 Access rights administration is discussed in the next chapter.
 
 ###Dashboard
+
 The dashboard provides statistics on your workspace (disk space, number of documents and parts, checkin/checkout per user, etc..).
 
 {% image /assets/images/documentation/en/dashboard.png "Airplane-T01 workspace dashboard"%}
 
 ##Collaborative messaging
+
 All users of the same workspace can communicate in real-time with our built-in communication module.
 This module offers the ability to engage an instant messaging conversation or a video conference on the fly. Hence, users can easily exchange parts and documents and thus speed up the process of product development.
 
@@ -87,6 +94,7 @@ In addition to the co-workers menu, whenever a user name appears in blue inside 
 ##Workspace access rights
 
 ###User access management
+
 Workspace administrator defines permissions to users which can be either full or read-only access.
 
 It’s also possible to disable users which has the effect to forbid them to log in.
@@ -112,6 +120,7 @@ A disabled user cannot do anything.
 To update user or group access, check the related checkbox and click on the desired action button (remove, disable, enable...) below the list.
 
 ###Managing Groups
+
 Groups are useful when the number of users tends to increase. They can hold the same kind of permissions.
 
 Just click on group's name to open the detail view. You can then add or remove users within the selected group.
@@ -119,6 +128,7 @@ Just click on group's name to open the detail view. You can then add or remove u
 {% image /assets/images/documentation/en/group_user_management.png "Group Users Management"%}
 
 ##Documents and Parts Access Control List
+
 If newly created documents and parts are accessible according to the permissions defined at workspace level, it’s possible to override them by selecting the "ACL" tab. From that panel you can upgrade or downgrade access rights to any user or group in the workspace for the specific entity (document or part). The lower level is "forbidden" which means that the entity will not be visible by the user or group.
 
 {% image /assets/images/documentation/dev/en/document_creation.png "Document creation, ACL tab"%}
@@ -193,6 +203,7 @@ Below the summary tables of possible combinations.
 | read only                 | forbidden                     | forbidden        |
 
 #Product Management
+
 DocDokuPLM is a management system for collaborative product development which purpose is to help members of the same organization create and exchange data around products.
 
 The product management module offers, among others, the following features:
@@ -206,13 +217,16 @@ The product management module offers, among others, the following features:
 Parts and products creation is explained below.
 
 ##Product structure
+
 The product structure is a breakdown showing the various items that compose a product.
 These components are named parts, they are assemblies if they are made of other parts. Within DocDokuPLM parts can be created from scratch or imported from CAD tools.
 
 ###Part template creation
+
 Sometimes, it’s interesting to ensure that parts are always filled with predefined properties or their reference number respects a given formalism. To enforce such constraints you have to create parts from templates.
 
 ###Part creation
+
 As seen, part creation panel has an optional template property but there are also several other input fields like name, description, attributes, workflow (see paragraph below) or ACL (Access Control List).
 
 {% image /assets/images/documentation/dev/en/part.png "Part creation"%}
@@ -233,13 +247,21 @@ By selecting a part, you can apply a set of actions including:
 * Release
 
 ###Part assembly
+
 When modifying a part, you can edit the assembly composition.
 
 An assembly is composed of other parts.
 
 {% image /assets/images/documentation/dev/en/part_assembly.png "Part assembly"%}
 
+###Quick links
+
+You have a fast access to your checked out parts in the left menu.
+
+{% image /assets/images/documentation/dev/en/image50.png "Links section"%}
+
 ###Product creation
+
 The creation of a product involves supplying an identifier and a part number, filling a description is optional.
 
 The part number designates the root part of your product. It can be a simple part or a parts assembly.
@@ -253,6 +275,7 @@ Baselines are kinds of snapshots of the entire product structure at a given time
 {% image /assets/images/documentation/dev/en/image40.png "Baseline creation form"%}
 
 ##Product explorer
+
 The product structure is displayed as a tree view where each node represents an assembly which is expandable. The node itself is clickable in order to display its main properties.
 
 {% image /assets/images/documentation/en/tree_structure.png "Tree structure of a product"%}
@@ -275,6 +298,7 @@ The possible actions in the 3D visualization mode are:
 * Export 3D visualization of a part. Produces the html code to embed in other web pages (like YouTube or Google Maps)
 
 #Document Management
+
 DocDokuPLM has a document management module that includes a comprehensive versioning system (master, revision and iteration), functions for sharing, publishing documents, treeview and tags organization, ACL configuration...
 In the following paragraph, we will detail all of these functionalities.
 
