@@ -250,13 +250,33 @@ You can move a document to another directory with the below icon. To do so just 
 
 ##Document modification
 
-In order to modify a document, you must first reserve it. You can access the document modification window by clicking on its title.
+In order to modify a document, you must first reserve it. You can access the document modification window by clicking on its title in the list.
 
 The arrows at the bottom left of the window allow you to visualize the different changes done in previous iterations.
 
 You can open the directory containing the document by clicking on the “Folder“ info link.
 
 {% image /assets/images/documentation/dev/en/image10.png "Document details window"%}
+
+###Attributes tab
+
+###Files tab
+
+This tab allows you to associate files.
+
+{% image /assets/images/documentation/dev/en/image52.png "Files view"%}
+
+A file can be renamed by clicking on the small pencil. The new title will be registered only if you click on the check button.
+
+{% image /assets/images/documentation/dev/file_rename.png "File renaming"%}
+
+You can download a file by clicking on its name and delete files by selecting the related checkboxes.
+
+{% image /assets/images/documentation/dev/file_delete.png "File deletion"%}
+
+###Assembly tab
+
+###Notifications tab
 
 ##Document viewer
 
@@ -324,6 +344,20 @@ By selecting a part, you can apply a set of actions including:
 * Access rights management
 * New version creation
 * Release
+
+###Part CAD File
+
+This tab allows you to associate a CAD file to the part. I you choose a file while another was already set, the older file will automatically be replaced with the new one.
+
+{% image /assets/images/documentation/dev/en/image51.png "CAD File view"%}
+
+A file can be renamed by clicking on the small pencil. The new title will be registered only if you click on the check button.
+
+{% image /assets/images/documentation/dev/file_rename.png "File renaming"%}
+
+You can download the file by clicking on its name and delete it by selecting the related checkbox.
+
+{% image /assets/images/documentation/dev/file_delete.png "File deletion"%}
 
 ###Part assembly
 

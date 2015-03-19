@@ -283,6 +283,26 @@ Vous pouvez accéder au dossier qui contient le document en cliquant sur le lien
 
 {% image /assets/images/documentation/dev/fr/image28.png "Fenêtre d’informations relatives à un document"%}
 
+###Onglet Attributs
+
+###Onglet Fichiers
+
+Cet onglet permet d'associer des fichiers.
+
+{% image /assets/images/documentation/dev/fr/image52.png "Vue Fichiers"%}
+
+Un fichier peut être renommé en cliquant sur le petit crayon à droite du titre. Le nouveau titre sera enregistré seulement si vous cliquez sur le bouton valider.
+
+{% image /assets/images/documentation/dev/file_rename.png "Renommage du fichier"%}
+
+Le téléchargement d'un fichier se lance en cliquant sur son nom et la suppression se fait en sélectionnant le fichier.
+
+{% image /assets/images/documentation/dev/file_delete.png "Suppression du fichier"%}
+
+###Onglet Assemblage
+
+###Onglet Notifications
+
 ##Visualisation de document
 
 Pour chaque document, il est possible d’ouvrir un nouvel onglet dans le navigateur contenant les détails de sa dernière révision. Pour y accéder, il vous suffit de cliquer sur le titre de la fenêtre de détail.
@@ -345,7 +365,7 @@ L’article créé sera rajouté à la liste des articles déjà présents.
 
 {% image /assets/images/documentation/dev/fr/image19.png "Liste des articles"%}
 
-En cliquant sur le numéro d’un article, une fenêtre affichera ses détails. Vous pouvez en modifier les éléments suivants : les attributs, le fichier CAD ou encore les liens vers des documents.
+En cliquant sur le numéro d’un article, une fenêtre affichera ses détails. Vous pouvez en modifier les éléments suivants : les attributs, le fichier CAO ou encore les liens vers des documents.
 
 En sélectionnant un article, vous pouvez lui appliquer un ensemble d’actions à savoir :
 
@@ -362,6 +382,20 @@ Lors de la modification d’un article vous pouvez définir son assemblage.
 
 Un assemblage est composé d'autres articles.
 {% image /assets/images/documentation/dev/fr/image24.png "Assemblage d'articles"%}
+
+###Fichier CAO
+
+Cet onglet permet d'associer un fichier CAO à l'article. Si vous choisissez un fichier alors qu'il y en a déjà un, ce dernier sera automatiquement remplacé.
+
+{% image /assets/images/documentation/dev/fr/image51.png "Vue Fichier CAO"%}
+
+Un fichier peut être renommé en cliquant sur le petit crayon à droite du titre. Le nouveau titre sera enregistré seulement si vous cliquez sur le bouton valider.
+
+{% image /assets/images/documentation/dev/file_rename.png "Renommage du fichier"%}
+
+Le téléchargement du fichier se lance en cliquant sur le nom du fichier et la suppression en sélectionnant le fichier.
+
+{% image /assets/images/documentation/dev/file_delete.png "Suppression du fichier"%}
 
 ###Liens rapides
 
