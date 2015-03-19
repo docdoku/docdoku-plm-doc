@@ -251,8 +251,9 @@ En cliquant sur le numéro d’un article, une fenêtre affichera ses détails. 
 
 En sélectionnant un article, vous pouvez lui appliquer un ensemble d’actions à savoir :
 
-* Suppression
 * Réservation / Annulation de la réservation / Libération
+* Suppression
+* Ajout de libellés - par exemple classer des articles comme importants
 * Gestion de ses droits d’accès
 * Création d'une nouvelle version
 * Finalisation
@@ -298,7 +299,7 @@ Parmi les actions possibles dans le mode de visualisation en 3D, vous retrouvere
 * L'export d'un article pour produire le code html à intégrer dans d’autres pages web (comme YouTube ou Google Maps)
 
 #Gestion des documents
-DocDokuPLM offre une gestion complète de documents avec prise en compte des versions (révision, itération), partage et publication de documents, organisation arborescente et par tags, configuration fine des droits d’accès.
+DocDokuPLM offre une gestion complète de documents avec prise en compte des versions (révision, itération), partage et publication de documents, organisation arborescente et par libellés, configuration fine des droits d’accès.
 
 Dans ce qui suit nous détaillons l’ensemble de ces fonctions.
 
@@ -398,24 +399,6 @@ Cette recherche avancée permet de trouver un document à partir de son titre, s
 
 {% image /assets/images/documentation/dev/fr/image25.png "Recherche avancée de documents"%}
 
-##Libellés
-
-Vous pouvez associer des libellés à vos documents. En sélectionnant un ou des document(s), l’icône suivante apparaît :
-
-{% image /assets/images/documentation/fr/image26.png %}
-
-Une fois cliquée, une fenêtre s’affiche et vous pouvez associer des libellés à ce document. Vous pouvez choisir parmi les libellés existants ou en créer de nouveaux.
-
-{% image /assets/images/documentation/dev/fr/image11.png "Fenêtre des libellés"%}
-
-Pour afficher tous les documents liés à un libellé, il vous suffit de sélectionner ce libellé dans le menu de gauche.
-
-{% image /assets/images/documentation/fr/image34.png "Sélection d’un libellé"%}
-
-Vous pouvez supprimer un libellé en cliquant sur la flèche dans la zone du libellé, puis sur “Supprimer”. Les documents associés à ce libellé ne seront pas supprimés.
-
-{% image /assets/images/documentation/fr/image38.png "Suppression d’un libellé"%}
-
 ##Liens Réservés et Tâches
 
 Afin d’assurer un accès rapide aux documents qui concernent un utilisateur donné, vous trouverez deux liens dans le menu de gauche :
@@ -472,11 +455,29 @@ Une tâche peut être approuvée ou rejetée si :
 
 Tous les utilisateurs abonnés aux changements d'état du processus en seront informés par mail.
 
+#Libellés
+
+Vous pouvez associer des libellés à vos documents/articles. En sélectionnant un ou des élément(s), l’icône suivante apparaît :
+
+{% image /assets/images/documentation/fr/image26.png %}
+
+Une fois cliquée, une fenêtre s’affiche et vous pouvez associer des libellés à ces éléments. Vous pouvez choisir parmi les libellés existants ou en créer de nouveaux.
+
+{% image /assets/images/documentation/dev/fr/image11.png "Fenêtre des libellés"%}
+
+Pour afficher tous les éléments liés à un libellé, il vous suffit de sélectionner ce libellé dans le menu de gauche.
+
+{% image /assets/images/documentation/fr/image34.png "Sélection d’un libellé"%}
+
+Vous pouvez supprimer un libellé en cliquant sur la flèche dans la zone du libellé, puis sur “Supprimer”. Les éléments associés à ce libellé ne seront pas supprimés.
+
+{% image /assets/images/documentation/fr/image38.png "Suppression d’un libellé"%}
+
 #Options de partage et de publication
 
 ##Publication
 
-Chaque document et article peut être publié. Pour cela il faut cliquer sur l’icône située à droite de chaque ligne.
+Chaque document/article peut être publié. Pour cela il faut cliquer sur l’icône située à droite de la ligne correspondant à l'élément dans la liste.
 
 {% image /assets/images/documentation/fr/publier.png %}
 
@@ -484,7 +485,7 @@ La fenêtre suivante apparaît :
 
 {% image /assets/images/documentation/dev/fr/image45.png "Fenêtre de publication d’un document"%}
 
-Une fois le document publié en cliquant sur le bouton ON/OFF, il sera accessible depuis internet sans qu’une authentification soit nécessaire.
+Une fois l'élément publié en cliquant sur le bouton ON/OFF, il sera accessible depuis internet sans qu’une authentification soit nécessaire.
 
 ##Accès privé
 

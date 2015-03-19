@@ -224,8 +224,9 @@ From the list, a click on the part number will bring the details window to the f
 
 By selecting a part, you can apply a set of actions including:
 
-* Deletion
 * Check-out / Undo check-out / Check-in
+* Deletion
+* Adding tag to parts - for example, classifying parts as important
 * Access rights management
 * New version creation
 * Release
@@ -368,24 +369,6 @@ This advanced search allows you to find a document from its title, type, identif
 
 {% image /assets/images/documentation/dev/en/image30.png "Advanced search of documents"%}
 
-##Tags
-
-You have the possibility to tag documents. To do so, select one or more documents and press the tag icon:
-
-{% image /assets/images/documentation/en/image27.png %}
-
-From the tag management window, you can affect existing tags or new ones.
-
-{% image /assets/images/documentation/dev/en/image34.png "Tags window"%}
-
-To display the documents associated with a specific tag, select that tag from the left menu.
-
-{% image /assets/images/documentation/en/image37.png "Tag selection"%}
-
-You can delete a tag by clicking on the right arrow into the area of the tag, then click on “Delete”. The tag will be removed but the associated documents will not.
-
-{% image /assets/images/documentation/en/image39.png "Tag deletion"%}
-
 ##“Checked out” and “Tasks” links
 
 To ensure fast access to documents, you will find two shortcut links in the left menu:
@@ -444,11 +427,29 @@ A running task can be marked as done or rejected if:
 
 All the users who have subscribed to state change notification will be informed by email.
 
+#Tags
+
+You have the possibility to tag documents/parts. To do so, select one or more items and press the tag icon:
+
+{% image /assets/images/documentation/en/image27.png %}
+
+From the tag management window, you can affect existing tags or new ones.
+
+{% image /assets/images/documentation/dev/en/image34.png "Tags window"%}
+
+To display the items associated with a specific tag, select that tag from the left menu.
+
+{% image /assets/images/documentation/en/image37.png "Tag selection"%}
+
+You can delete a tag by clicking on the right arrow into the area of the tag, then click on “Delete”. The tag will be removed but the associated items will not.
+
+{% image /assets/images/documentation/en/image39.png "Tag deletion"%}
+
 #Sharing and publishing
 
 ##Publishing
 
-Each document and part can be published. To do so, click on the right icon on the table line.
+Each document/part can be published. To do so, click on the right icon on the item table row.
 
 {% image /assets/images/documentation/en/publish.png %}
 
@@ -456,7 +457,7 @@ The following window will appear:
 
 {% image /assets/images/documentation/dev/en/image21.png "Publishing window"%}
 
-By activating the public share, the document or part is publicly accessible from the Internet.
+By activating the public share, the item is publicly accessible from the Internet.
 
 ##Private access
 
