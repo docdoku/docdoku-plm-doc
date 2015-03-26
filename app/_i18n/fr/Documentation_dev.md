@@ -291,21 +291,6 @@ Cet onglet permet d'associer des fichiers au document.
 
 {% image /assets/images/documentation/dev/fr/image52.png "Vue Fichiers"%}
 
-###Onglet Assemblage
-
-###Onglet Notifications
-
-##Visualisation de document
-
-Pour chaque document, il est possible d’ouvrir un nouvel onglet dans le navigateur contenant les détails de sa dernière révision. Pour y accéder, il vous suffit de cliquer sur le titre de la fenêtre de détail.
-
-{% image /assets/images/documentation/fr/image06.png %}
-
-Vous pouvez visualiser les différentes propriétés des documents créés ainsi que les fichiers qui leur sont rattachés. La visionneuse prend en charge un nombre important de formats : pdf, jpg, mp4, doc… Les fichiers non supportés par la visionneuse seront automatiquement téléchargés.
-
-{% image /assets/images/documentation/fr/image30.png "Visionneuse de document"%}
-
-
 ##Conversion de document
 
 Outre les fonctionnalités citées, DocDokuPLM peut convertir les fichiers rattachés en pdf. La majorité des formats utilisés avec les logiciels de traitement de texte est prise en charge.
@@ -381,13 +366,15 @@ Cet onglet permet d'associer un fichier CAO à l'article. Si vous choisissez un 
 
 {% image /assets/images/documentation/dev/fr/image51.png "Vue Fichier CAO"%}
 
+###Notifications
+
 ###Liens rapides
 
 Vous trouverez un accès rapide à vos articles réservés dans le menu de gauche.
 
 {% image /assets/images/documentation/dev/fr/image50.png "Section des liens"%}
 
-###Création de produit
+##Création de produit
 
 Au moment de la création d’un produit, l’identifiant du produit ainsi que le numéro de l’article sont obligatoires, la description est par contre optionnelle.
 
@@ -509,6 +496,16 @@ Un lien de document se commente en cliquant sur le petit crayon à droite du tit
 {% image /assets/images/documentation/dev/fr/image54.png "Commenter un lien"%}
 
 {% image /assets/images/documentation/dev/fr/image55.png "Lien commenté"%}
+
+#Visualisation ou lien permanent
+
+Pour chaque document/article, il est possible d’ouvrir un nouvel onglet dans le navigateur contenant les détails de sa dernière révision. Pour y accéder, il vous suffit de cliquer sur le titre de la fenêtre de détail.
+
+{% image /assets/images/documentation/fr/image06.png %}
+
+Vous pouvez visualiser les différentes propriétés de l'entité créée ainsi que les fichiers qui lui sont rattachés. La visionneuse prend en charge un nombre important de formats : pdf, jpg, mp4, doc… Les fichiers non supportés par la visionneuse seront automatiquement téléchargés.
+
+{% image /assets/images/documentation/fr/image30.png "Visualisation d'un document"%}
 
 #Libellés
 

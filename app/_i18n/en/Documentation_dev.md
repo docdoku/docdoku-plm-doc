@@ -274,20 +274,6 @@ You can download a file by clicking on its name and delete files by selecting th
 
 {% image /assets/images/documentation/dev/file_delete.png "File deletion"%}
 
-###Assembly tab
-
-###Notifications tab
-
-##Document viewer
-
-Each document provides a permanent link where you see details of its latest revision. To get there, you should simply click on the title of the document window.
-
-{% image /assets/images/documentation/en/image22.png %}
-
-You can explore all properties of the document as well as visualize their attached files. The viewer supports a large number of formats: pdf, jpg, mp4, doc... Files not supported by the viewer will be downloaded.
-
-{% image /assets/images/documentation/en/image02.png "Document viewer"%}
-
 ##Document conversion
 
 In addition to the mentioned features, DocDokuPLM can convert attached files into pdf. The majority of word processing formats are supported.
@@ -359,13 +345,15 @@ An assembly is composed of other parts.
 
 {% image /assets/images/documentation/dev/en/part_assembly.png "Part assembly"%}
 
+###Notifications
+
 ###Quick links
 
 You have a fast access to your checked out parts in the left menu.
 
 {% image /assets/images/documentation/dev/en/image50.png "Links section"%}
 
-###Product creation
+##Product creation
 
 The creation of a product involves supplying an identifier and a part number, filling a description is optional.
 
@@ -490,6 +478,16 @@ You comment a document link by clicking on the small pencil. The comment will be
 {% image /assets/images/documentation/dev/en/image54.png "Comment a link"%}
 
 {% image /assets/images/documentation/dev/en/image55.png "Commented link"%}
+
+#Viewer or permalink
+
+Each document/part provides a permanent link where you see details of its latest revision. To get there, you should simply click on the title of the entity window.
+
+{% image /assets/images/documentation/en/image22.png %}
+
+You can explore all properties of the entity as well as visualize their attached files. The viewer supports a large number of formats: pdf, jpg, mp4, doc... Files not supported by the viewer will be downloaded.
+
+{% image /assets/images/documentation/en/image02.png "Document permalink"%}
 
 #Tags
 
