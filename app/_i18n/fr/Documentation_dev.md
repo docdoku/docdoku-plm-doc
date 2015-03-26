@@ -287,17 +287,9 @@ Vous pouvez accéder au dossier qui contient le document en cliquant sur le lien
 
 ###Onglet Fichiers
 
-Cet onglet permet d'associer des fichiers.
+Cet onglet permet d'associer des fichiers au document.
 
 {% image /assets/images/documentation/dev/fr/image52.png "Vue Fichiers"%}
-
-Un fichier peut être renommé en cliquant sur le petit crayon à droite du titre. Le nouveau titre sera enregistré seulement si vous cliquez sur le bouton valider.
-
-{% image /assets/images/documentation/dev/file_rename.png "Renommage du fichier"%}
-
-Le téléchargement d'un fichier se lance en cliquant sur son nom et la suppression se fait en sélectionnant le fichier.
-
-{% image /assets/images/documentation/dev/file_delete.png "Suppression du fichier"%}
 
 ###Onglet Assemblage
 
@@ -388,14 +380,6 @@ Un assemblage est composé d'autres articles.
 Cet onglet permet d'associer un fichier CAO à l'article. Si vous choisissez un fichier alors qu'il y en a déjà un, ce dernier sera automatiquement remplacé.
 
 {% image /assets/images/documentation/dev/fr/image51.png "Vue Fichier CAO"%}
-
-Un fichier peut être renommé en cliquant sur le petit crayon à droite du titre. Le nouveau titre sera enregistré seulement si vous cliquez sur le bouton valider.
-
-{% image /assets/images/documentation/dev/file_rename.png "Renommage du fichier"%}
-
-Le téléchargement du fichier se lance en cliquant sur le nom du fichier et la suppression en sélectionnant le fichier.
-
-{% image /assets/images/documentation/dev/file_delete.png "Suppression du fichier"%}
 
 ###Liens rapides
 
@@ -501,6 +485,30 @@ Si vous choisissez de libérer l'élément, une fenêtre vous proposera de saisi
 Toutes ces actions sont également disponibles depuis l'onglet “Itération“ dans la fenêtre de détails de l'élément.
 
 {% image /assets/images/documentation/dev/fr/image49.png "Boutons Libérer et Annuler la réservation"%}
+
+#Gestion des fichiers
+
+Tout fichier - qu'il soit associé à un document, un article ou un modèle - peut être renommé en cliquant sur le petit crayon à droite du titre. Le nouveau titre sera enregistré seulement si vous cliquez sur le bouton valider.
+
+{% image /assets/images/documentation/dev/file_rename.png "Renommage du fichier"%}
+
+Le téléchargement d'un fichier se lance en cliquant sur son nom et la suppression se fait en sélectionnant le fichier.
+
+{% image /assets/images/documentation/dev/file_delete.png "Suppression du fichier"%}
+
+N'oubliez pas de cliquer sur le bouton Enregistrer de la fenêtre pour valider vos modifications.
+
+#Gestion des liens vers des documents
+
+Vous avez la possibilité d'ajouter des références vers des documents pendant l'édition d'un article/document. La gestion des liens se fait dans la fenêtre de modification d'une entité depuis l'onglet Liens.
+
+{% image /assets/images/documentation/dev/fr/image53.png "Gestion des liens"%}
+
+Un lien de document se commente en cliquant sur le petit crayon à droite du titre. Le commentaire sera enregistré seulement si vous cliquez sur le bouton valider.
+
+{% image /assets/images/documentation/dev/fr/image54.png "Commenter un lien"%}
+
+{% image /assets/images/documentation/dev/fr/image55.png "Lien commenté"%}
 
 #Libellés
 

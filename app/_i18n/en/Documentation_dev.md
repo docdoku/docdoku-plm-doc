@@ -347,17 +347,9 @@ By selecting a part, you can apply a set of actions including:
 
 ###Part CAD File
 
-This tab allows you to associate a CAD file to the part. I you choose a file while another was already set, the older file will automatically be replaced with the new one.
+This tab allows you to associate a CAD file to the part. If you choose a file while another was already set, the older file will automatically be replaced with the new one.
 
 {% image /assets/images/documentation/dev/en/image51.png "CAD File view"%}
-
-A file can be renamed by clicking on the small pencil. The new title will be registered only if you click on the check button.
-
-{% image /assets/images/documentation/dev/file_rename.png "File renaming"%}
-
-You can download the file by clicking on its name and delete it by selecting the related checkbox.
-
-{% image /assets/images/documentation/dev/file_delete.png "File deletion"%}
 
 ###Part assembly
 
@@ -471,9 +463,33 @@ While releasing (check-in operation) the item, you have a chance to enter an opt
 
 {% image /assets/images/documentation/en/image19.png "Revision note window"%}
 
-All these actions can be performed from the “Iteration“ tab on the item details window.
+All these actions can be performed in the “Iteration“ tab on the item details window.
 
 {% image /assets/images/documentation/dev/en/image49.png "Buttons Check in and Cancel checkout"%}
+
+#Files Management
+
+Any file - associated with any part or document or tempate - can be renamed by clicking on the small pencil. The new title will be registered only if you click on the check button.
+
+{% image /assets/images/documentation/dev/file_rename.png "File renaming"%}
+
+You can download a file by clicking on its name and delete files by selecting the related checkboxes.
+
+{% image /assets/images/documentation/dev/file_delete.png "File deletion"%}
+
+Do not forget to press on the modal Save button to validate your modifications.
+
+#Documents Links Management
+
+You can easily add references to documents during part/document edition. Links can be managed in the “Links“ tab on the item modification window.
+
+{% image /assets/images/documentation/dev/en/image53.png "Links Management"%}
+
+You comment a document link by clicking on the small pencil. The comment will be registered only if you click on the check button.
+
+{% image /assets/images/documentation/dev/en/image54.png "Comment a link"%}
+
+{% image /assets/images/documentation/dev/en/image55.png "Commented link"%}
 
 #Tags
 
