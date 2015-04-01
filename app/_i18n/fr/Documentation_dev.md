@@ -489,6 +489,10 @@ Toutes ces actions sont également disponibles depuis l'onglet “Itération“ 
 
 #Gestion des fichiers
 
+Un clic sur cette icône ouvre directement la fenêtre de détails d'un document, d'un article ou d'un modèle à l'onglet Fichiers.
+
+{% image /assets/images/documentation/dev/file_icon.png "Accès rapide aux Fichiers"%}
+
 Tout fichier - qu'il soit associé à un document, un article ou un modèle - peut être renommé en cliquant sur le petit crayon à droite du titre. Le nouveau titre sera enregistré seulement si vous cliquez sur le bouton valider.
 
 {% image /assets/images/documentation/dev/file_rename.png "Renommage du fichier"%}

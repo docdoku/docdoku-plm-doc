@@ -471,6 +471,10 @@ All these actions can be performed in the “Iteration“ tab on the item detail
 
 #Files Management
 
+A click on the following icon opens the details window of a document or a part or a template at the Files tab.
+
+{% image /assets/images/documentation/dev/file_icon.png "Files quick access"%}
+
 Any file - associated with any part or document or tempate - can be renamed by clicking on the small pencil. The new title will be registered only if you click on the check button.
 
 {% image /assets/images/documentation/dev/file_rename.png "File renaming"%}
