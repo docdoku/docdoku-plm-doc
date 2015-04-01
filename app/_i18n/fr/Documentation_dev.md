@@ -143,7 +143,9 @@ Pour gérer les utilisateurs d’un groupe, vous devez cliquer sur son nom. Vous
 
 {% image /assets/images/documentation/fr/image33.png "Gestion des utilisateurs d’un groupe"%}
 
-##Droits appliqués au niveau des documents et des articles
+##Droits appliqués
+
+###Au niveau des documents et des articles
 
 A la création d’un document ou d’un article, les droits appliqués à ceux-ci sont par défaut ceux définis sur l’espace de travail. Pour redéfinir les droits de l’entité à créer, vous devez utiliser l’onglet “Droits”. Vous pouvez alors modifier les droits spécifiquement pour cette entité.
 
@@ -165,6 +167,14 @@ Quand des droits sont appliqués sur un élément, un cadenas est visible en fin
 
 {% image /assets/images/documentation/dev/full_access.png "Accès complet"%}
 {% image /assets/images/documentation/dev/read_only.png "Lecture seule "%}
+
+###Au niveau des modèles
+
+Si vous êtes en accès complet sur un modèle, vous pouvez modifier ses droits associés pour un utilisateur ou un groupe. Un utilisateur ou un groupe qui sera en lecture seule pourra uniquement rattacher ce modèle à un document ou un article. En interdisant l'accès, l'utilisateur ou le groupe ne verra jamais ce modèle.
+
+###Au niveau des processus
+
+Si vous êtes en accès complet sur un processus, vous pouvez modifier ses droits associés pour un utilisateur ou un groupe. Un utilisateur ou un groupe qui sera en lecture seule pourra uniquement rattacher ce processus à un modèle ou une entité. En interdisant l'accès, l'utilisateur ou le groupe ne verra jamais ce processus.
 
 ##Combinaison et priorité des droits
 

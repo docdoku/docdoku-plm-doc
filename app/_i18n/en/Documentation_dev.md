@@ -127,7 +127,9 @@ Just click on group's name to open the detail view. You can then add or remove u
 
 {% image /assets/images/documentation/en/group_user_management.png "Group Users Management"%}
 
-##Documents and Parts Access Control List
+##Access Control List
+
+###Documents and Parts
 
 If newly created documents and parts are accessible according to the permissions defined at workspace level, it’s possible to override them by selecting the "ACL" tab. From that panel you can upgrade or downgrade access rights to any user or group in the workspace for the specific entity (document or part). The lower level is "forbidden" which means that the entity will not be visible by the user or group.
 
@@ -144,6 +146,14 @@ Entities holding specific rights display a prohibition sign at the end of the li
 
 {% image /assets/images/documentation/dev/full_access.png "Full access"%}
 {% image /assets/images/documentation/dev/read_only.png "Read only"%}
+
+###Templates
+
+If you have full access to a created template, you can change its permissions to any user or group in the workspace. By setting read only permission to a user or group, the user or group will only be able to attach it to an entity. By setting forbidden permission, the user or group will never see that template.
+
+###Workflows
+
+If you have full access to a created workflow, you can change its permissions to any user or group in the workspace. By setting read only permission to a user or group, the user or group will only be able to use it in a template or entity. By setting forbidden permission, the user or group will never see that workflow.
 
 ##Combined Access Rights
 
