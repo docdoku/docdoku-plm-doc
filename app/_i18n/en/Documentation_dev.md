@@ -217,6 +217,10 @@ You can create templates that will be used to instantiate documents. You can cho
 
 {% image /assets/images/documentation/dev/en/image25.png "Document template creation form"%}
 
+###Adding a workflow
+
+Applying a workflow to a template will automatically set the workflow to the new document instantiated with that template.
+
 ###Adding files and attributes
 
 You can define attribute types in the template and attach files to it. All documents created with the same template will have the same attributes set and attached files. Attribute values will be set on those documents and obviously, files will evolve independently.
@@ -308,7 +312,7 @@ These components are named parts, they are assemblies if they are made of other 
 
 ###Part template creation
 
-Sometimes, it’s interesting to ensure that parts are always filled with predefined properties or their reference number respects a given formalism. To enforce such constraints you have to create parts from templates.
+Sometimes, it’s interesting to ensure that parts are always filled with predefined properties (workflow, CAD file, attributes) or their reference number respects a given formalism. To enforce such constraints you have to create parts from templates.
 
 ###Part creation
 

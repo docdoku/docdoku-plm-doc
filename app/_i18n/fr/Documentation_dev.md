@@ -239,6 +239,10 @@ Vous pouvez créer des modèles de documents qui serviront à la création des d
 
 {% image /assets/images/documentation/dev/fr/image31.png "Formulaire de création d'un modèle de document"%}
 
+###Ajout de processus
+
+Un processus peut être associé au modèle depuis l'onglet Processus. Lors de la création d'un document avec ce modèle, le processus associé sera automatiquement présélectionné.
+
 ###Ajout de fichiers et d’attributs
 
 Vous pouvez définir des types d’attributs au modèle et lui associer des fichiers. Tous les documents qui seront créés avec ce modèle auront :
@@ -248,7 +252,7 @@ Vous pouvez définir des types d’attributs au modèle et lui associer des fich
 
 {% image /assets/images/documentation/dev/fr/image41.png "Rattachement de fichiers au modèle"%}
 
-## Création de document
+##Création de document
 
 Tout document doit appartenir à un dossier. Afin de créer un document dans un répertoire spécifique, il faut se placer dessus en cliquant sur son nom dans le menu de gauche.
 
@@ -324,17 +328,17 @@ Les composants sont appelés articles, ou assemblages s'ils sont eux-mêmes comp
 
 ###Création de modèle d’article
 
-DocdokuPLM offre la possibilité de créer des modèles types d’article et de leur associer des attributs, des fichiers et un masque de saisie permettant de faciliter la gestion de nomenclature des articles qui auront ce modèle.
+DocdokuPLM offre la possibilité de créer des modèles types d’article et de leur associer un processus, des attributs, des fichiers et un masque de saisie permettant de faciliter la gestion de nomenclature des articles qui auront ce modèle.
 Cette opération permet par la suite de créer des articles reposant sur ces modèles.
 
 ###Création d’article
 
-Lors de la création d’un article, vous pouvez donc renseigner un modèle d’article. L’article ainsi créé aura les mêmes propriétés que celles du modèle (fichiers, attributs et liens).
+Lors de la création d’un article, vous pouvez donc renseigner un modèle d’article. L’article ainsi créé aura les mêmes propriétés que celles du modèle (processus, attributs et fichier CAO).
 
 Vous pouvez tout aussi bien lui associer de façon individuelle :
 
-* des attributs
-* un processus, afin de gérer le cycle de vie de l’article et régir l'accès à cet article pour les autres collaborateurs de l’espace de travail.
+* un processus, afin de gérer le cycle de vie de l’article et régir l'accès à cet article pour les autres collaborateurs de l’espace de travail
+* des attributs.
 
 {% image /assets/images/documentation/dev/fr/image05.png "Création d'un article"%}
 
@@ -432,7 +436,7 @@ La validation d'une activité entraîne le démarrage de la suivante. Une activi
 
 En cas d’invalidation, le processus reprendra à l’activité de relance si celle-ci a été préalablement définie.
 
-Un modèle de processus peut être modifié à n’importe quand. Cela n’entrainera en aucun cas la modification des processus instanciés depuis ce modèle.
+Un modèle de processus peut être modifié n’importe quand. Cela n’entrainera en aucun cas la modification des processus instanciés depuis ce modèle.
 
 {% image /assets/images/documentation/dev/fr/image20.png "Création d'un modèle de processus"%}
 
