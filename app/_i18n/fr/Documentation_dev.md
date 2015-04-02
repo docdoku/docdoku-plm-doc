@@ -487,6 +487,25 @@ Toutes ces actions sont également disponibles depuis l'onglet “Itération“ 
 
 {% image /assets/images/documentation/dev/fr/image49.png "Boutons Libérer et Annuler la réservation"%}
 
+#Liste de valeurs
+
+DocDokuPLM permet de prédéfinir des valeurs d'attributs, appelés liste de valeurs, que vous pourrez ensuite utiliser en tant qu'attribut pour un document, un article ou un modèle. Pour créer ou modifier des valeurs, cliquez sur l'icône suivante depuis la page des modèles :
+
+{% image /assets/images/documentation/dev/edit_lov.png "Bouton Listes de valeurs"%}
+
+Par exemple, vous pouvez créer des valeurs d'attributs qui seront des couleurs.
+
+{% image /assets/images/documentation/dev/fr/image56.png "Fenêtre des listes de valeurs"%}
+
+Une fois enregistrée, vous aurez accès à cette liste depuis l'onglet Attributs de la fenêtre de détail d'un modèle ou d'une entité. En attribuant une liste de valeurs à un modèle ou une entité, vous créez une nouvelle instance de cette liste.
+
+{% image /assets/images/documentation/dev/fr/image57.png "Choix d'une liste de valeurs"%}
+
+Vous ne pouvez pas :
+
+* supprimer une liste de valeurs qui a des instances
+* modifier une instance de liste de valeurs
+
 #Gestion des fichiers
 
 Un clic sur cette icône ouvre directement la fenêtre de détails d'un document, d'un article ou d'un modèle à l'onglet Fichiers.

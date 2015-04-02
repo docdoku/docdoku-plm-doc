@@ -469,6 +469,25 @@ All these actions can be performed in the “Iteration“ tab on the item detail
 
 {% image /assets/images/documentation/dev/en/image49.png "Buttons Check in and Cancel checkout"%}
 
+#List of values
+
+DocDokuPLM allows you to predefine values of attributes, called list of values, you will then be able to use as attributes for a document, a part or a template. To create or edit values, click on the following icon shown on the templates page :
+
+{% image /assets/images/documentation/dev/edit_lov.png "Button Lists of values"%}
+
+For example, you can create attributes values dedicated for colors.
+
+{% image /assets/images/documentation/dev/en/image56.png "Lists of values window"%}
+
+Once saved, the list is accessible through the Attributes tab of the template or entity detail window. By attributing a list of values to a template or entity, you create a new instance of this list.
+
+{% image /assets/images/documentation/dev/en/image57.png "List of values selection"%}
+
+You will not be able to :
+
+* delete a list of values which has instances
+* edit an instance of list of values
+
 #Files Management
 
 A click on the following icon opens the details window of a document or a part or a template at the Files tab.
