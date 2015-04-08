@@ -297,8 +297,6 @@ Vous pouvez accéder au dossier qui contient le document en cliquant sur le lien
 
 {% image /assets/images/documentation/dev/fr/image28.png "Fenêtre d’informations relatives à un document"%}
 
-###Onglet Attributs
-
 ###Onglet Fichiers
 
 Cet onglet permet d'associer des fichiers au document.
@@ -367,18 +365,25 @@ En sélectionnant un article, vous pouvez lui appliquer un ensemble d’actions 
 * Création d'une nouvelle version
 * Finalisation
 
-###Assemblage d’articles
-
-Lors de la modification d’un article vous pouvez définir son assemblage.
-
-Un assemblage est composé d'autres articles.
-{% image /assets/images/documentation/dev/fr/image24.png "Assemblage d'articles"%}
-
 ###Fichier CAO
 
 Cet onglet permet d'associer un fichier CAO à l'article. Si vous choisissez un fichier alors qu'il y en a déjà un, ce dernier sera automatiquement remplacé.
 
 {% image /assets/images/documentation/dev/fr/image51.png "Vue Fichier CAO"%}
+
+###Assemblage d’articles
+
+Lors de la modification d’un article, vous pouvez définir son assemblage. Un assemblage est composé d'autres articles (sous-article).
+
+{% image /assets/images/documentation/dev/fr/image24.png "Assemblage d'articles"%}
+
+Un sous-article peut être facultatif et avoir des variantes. Pour ajouter des variantes à un article, sélectionnez sa vue. De nouvelles actions apparaissent : créer un nouvel article comme variante ou ajouter un article existant.
+
+{% image /assets/images/documentation/dev/fr/image59.png "Ajouter une variante"%}
+
+Une fois ajouté, la variante apparaît dans la vue du sous-article, tel que montré ci-dessous.
+
+{% image /assets/images/documentation/dev/fr/image60.png "Variante ajoutée"%}
 
 ###Notifications
 
@@ -433,7 +438,7 @@ La création d’une ligne de base (ou baseline) permet d’enregistrer à un in
 
 {% image /assets/images/documentation/dev/baseline_versions.png "Choix de version"%}
 
-De plus, l'onglet Configuration permet de choisir entre un article ou une de ses variantes ou rien, si il est optionnel.
+De plus, l'onglet Configuration permet de choisir entre un article ou une de ses variantes ou rien, si il est facultatif.
 
 {% image /assets/images/documentation/dev/fr/image58.png "Choix de configuration"%}
 

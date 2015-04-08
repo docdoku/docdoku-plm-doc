@@ -272,8 +272,6 @@ You can open the directory containing the document by clicking on the â€œFolderâ
 
 {% image /assets/images/documentation/dev/en/image10.png "Document details window"%}
 
-###Attributes tab
-
 ###Files tab
 
 This tab allows you to associate files.
@@ -353,11 +351,17 @@ This tab allows you to associate a CAD file to the part. If you choose a file wh
 
 ###Part assembly
 
-When modifying a part, you can edit the assembly composition.
-
-An assembly is composed of other parts.
+When modifying a part, you can edit the assembly composition. An assembly is composed of other parts (subparts).
 
 {% image /assets/images/documentation/dev/en/part_assembly.png "Part assembly"%}
+
+A subpart can be optional and have substitutes. To add substitutes to a subpart, select its view. New actions will appear: create a new part as a substitute or add an existing part.
+
+{% image /assets/images/documentation/dev/en/image59.png "Add a substitute part"%}
+
+When added, the substitute will appear inside the subpart view as shown below.
+
+{% image /assets/images/documentation/dev/en/image60.png "Substitute added"%}
 
 ###Notifications
 
