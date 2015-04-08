@@ -314,7 +314,7 @@ Afin d’assurer un accès rapide aux documents qui concernent un utilisateur do
 * Réservés : ce lien affichera l’ensemble des documents réservés par l’utilisateur
 * Tâches : ce lien sert à visualiser les différents documents sur lesquels l’utilisateur est directement impliqué via un processus
 
-{% image /assets/images/documentation/fr/image47.png "Section des liens"%}
+{% image /assets/images/documentation/dev/fr/image47.png "Section des liens"%}
 
 #Gestion des produits
 

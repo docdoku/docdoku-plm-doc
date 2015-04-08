@@ -297,7 +297,7 @@ To ensure fast access to documents, you will find two shortcut links in the left
 * Checked out: this link displays all the documents reserved by the current user
 * Tasks: this link shows the documents the user is directly involved in through a workflow
 
-{% image /assets/images/documentation/en/image06.png "Links section"%}
+{% image /assets/images/documentation/dev/en/image06.png "Links section"%}
 
 #Product Management
 
