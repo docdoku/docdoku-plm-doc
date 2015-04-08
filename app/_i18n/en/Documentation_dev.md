@@ -383,11 +383,19 @@ The new product will be added to the product list. Selecting an item from that l
 
 ##Product explorer
 
-The product structure is displayed as a tree view where each node represents an assembly which is expandable. The node itself is clickable in order to display its main properties.
+The product structure is displayed as a tree view where each node represents an assembly which is expandable.
 
-{% image /assets/images/documentation/en/tree_structure.png "Tree structure of a product"%}
+{% image /assets/images/documentation/dev/tree_structure.png "Tree structure of a product"%}
 
-Sometimes, especially for complex products, locating a part in the tree could be cumbersome. Look at the above example. To facilitate this operation, there is a search bar on the top left allowing you to easily find a part from its number.
+The node itself is clickable in order to display its subparts as a list. And a click on the icon right to the node opens the node's main properties.
+
+{% image /assets/images/documentation/dev/refresh_tree.png "Refresh tree"%}
+{% image /assets/images/documentation/dev/toggle_comments.png "Toggle comments"%}
+{% image /assets/images/documentation/dev/optional.png "Optional"%}
+{% image /assets/images/documentation/dev/has_substitutes.png "Has substitutes"%}
+{% image /assets/images/documentation/dev/is_substitute.png "Is a substitute"%}
+
+Sometimes, especially for complex products, locating a part in the tree could be cumbersome. Look at the above example. To facilitate this operation, there is a search bar on the top left allowing you to easily find a part from its number or name.
 
 {% image /assets/images/documentation/en/search_bar.png "Search bar"%}
 
@@ -403,6 +411,7 @@ The possible actions in the 3D visualization mode are:
 * Creating markers to report a design issue for example
 * Creating layers that hold a set of markers
 * Export 3D visualization of a part. Produces the html code to embed in other web pages (like YouTube or Google Maps)
+* 
 
 ##Baseline creation
 

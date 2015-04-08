@@ -405,11 +405,19 @@ Le produit créé sera rajouté à la liste des produits. En sélectionnant un p
 
 ##Explorateur produit
 
-La structure produit vous permet de localiser un article donné. Chaque noeud représente un assemblage d'articles, il suffit de l'étendre pour voir de quels articles il est composé. Un clic sur l'article affiche ses propriétés.
+La structure produit vous permet de localiser un article donné.
 
-{% image /assets/images/documentation/fr/image08.png "Structure produit"%}
+{% image /assets/images/documentation/dev/tree_structure.png "Structure produit"%}
 
-Cependant, pour les produits complexes comprenant un très grand nombre d'articles, la tâche peut s'avérer fastidieuse. Prenez l'exemple du parcours de la structure produit représentée ci-dessus. Afin de faciliter l'opération, DocDokuPLM intègre une barre de recherche qui permet de trouver facilement un article à partir de son numéro.
+Chaque noeud représente un assemblage d'articles, il suffit de l'étendre pour voir de quels articles il est composé. Un clic sur l'article affiche ses sous-articles sous forme de liste et un clic sur l'icône à droite de l'article affiche ses propriétés.
+
+{% image /assets/images/documentation/dev/refresh_tree.png "Rafraîcher l'arbre"%}
+{% image /assets/images/documentation/dev/toggle_comments.png "Afficher/masquer les commentaires"%}
+{% image /assets/images/documentation/dev/optional.png "Falcutatif"%}
+{% image /assets/images/documentation/dev/has_substitutes.png "Possède des variantes"%}
+{% image /assets/images/documentation/dev/is_substitute.png "Est une variante"%}
+
+Cependant, pour les produits complexes comprenant un très grand nombre d'articles, la tâche peut s'avérer fastidieuse. Prenez l'exemple du parcours de la structure produit représentée ci-dessus. Afin de faciliter l'opération, DocDokuPLM intègre une barre de recherche qui permet de trouver facilement un article à partir de son numéro ou de son nom.
 
 {% image /assets/images/documentation/fr/image46.png "Barre de recherche"%}
 
@@ -424,6 +432,7 @@ Parmi les actions possibles dans le mode de visualisation en 3D, vous retrouvere
 * La création de marqueurs permettant par exemple de rapporter un dysfonctionnement d’une pièce sur le schéma 3D
 * La création de calques comportant plusieurs marqueurs
 * L'export d'un article pour produire le code html à intégrer dans d’autres pages web (comme YouTube ou Google Maps)
+* La mesure de la distance entre 2 points
 
 ##Création d’une ligne de base
 
