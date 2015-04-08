@@ -398,10 +398,6 @@ Le numéro d’article est l’élément de tête de votre produit. Celui-ci peu
 
 Le produit créé sera rajouté à la liste des produits. En sélectionnant un produit dans la liste, les actions possibles sont sa suppression et la création d’une ligne de base.
 
-La création d’une ligne de base permet d’enregistrer à un instant donné une version du produit et donc de gérer différentes versions d’un même produit.
-
-{% image /assets/images/documentation/dev/fr/image02.png "Création d’une ligne de base"%}
-
 ##Explorateur produit
 
 La structure produit vous permet de localiser un article donné. Chaque noeud représente un assemblage d'articles, il suffit de l'étendre pour voir de quels articles il est composé. Un clic sur l'article affiche ses propriétés.
@@ -423,6 +419,23 @@ Parmi les actions possibles dans le mode de visualisation en 3D, vous retrouvere
 * La création de marqueurs permettant par exemple de rapporter un dysfonctionnement d’une pièce sur le schéma 3D
 * La création de calques comportant plusieurs marqueurs
 * L'export d'un article pour produire le code html à intégrer dans d’autres pages web (comme YouTube ou Google Maps)
+
+##Création d’une ligne de base
+
+La création d’une ligne de base (ou baseline) permet d’enregistrer à un instant donné une version du produit et donc de gérer différentes versions d’un même produit.
+
+{% image /assets/images/documentation/dev/fr/image02.png "Création d’une baseline"%}
+
+2 types de configuration sont proposés :
+
+* Derniers libérés, pour inclure les dernières itérations libérées de chaque article impliqué
+* Derniers finalisés, pour inclure automatiquement les dernières versions finalisées de chaque article impliqué. Si des articles existent en plusieurs versions, l'onglet Versions permet de sélectionner une version plus ancienne.
+
+{% image /assets/images/documentation/dev/baseline_versions.png "Choix de version"%}
+
+De plus, l'onglet Configuration permet de choisir entre un article ou une de ses variantes ou rien, si il est optionnel.
+
+{% image /assets/images/documentation/dev/fr/image58.png "Choix de configuration"%}
 
 #Gestion des processus
 

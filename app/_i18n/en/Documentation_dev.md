@@ -377,10 +377,6 @@ The part number designates the root part of your product. It can be a simple par
 
 The new product will be added to the product list. Selecting an item from that list proposes two actions: deletion and baseline creation.
 
-Baselines are kinds of snapshots of the entire product structure at a given time so you can manage different versions of the same product.
-
-{% image /assets/images/documentation/dev/en/image40.png "Baseline creation form"%}
-
 ##Product explorer
 
 The product structure is displayed as a tree view where each node represents an assembly which is expandable. The node itself is clickable in order to display its main properties.
@@ -403,6 +399,23 @@ The possible actions in the 3D visualization mode are:
 * Creating markers to report a design issue for example
 * Creating layers that hold a set of markers
 * Export 3D visualization of a part. Produces the html code to embed in other web pages (like YouTube or Google Maps)
+
+##Baseline creation
+
+Baselines are kinds of snapshots of the entire product structure at a given time so you can manage different versions of the same product.
+
+{% image /assets/images/documentation/dev/en/image40.png "Baseline creation form"%}
+
+2 configuration types are offered :
+
+* Latest checked in, to include the last checked in iterations of each implicated part
+* Latest released, to include automatically the last released versions of each implicated part. If several versions exist for articles then the Versions tab gives you the opportunity to select an older version.
+
+{% image /assets/images/documentation/dev/baseline_versions.png "Version selection"%}
+
+Furthermore the Configuration tab offers you to choose between a part or one of its substitutes or even nothing, if the part is optional.
+
+{% image /assets/images/documentation/dev/en/image58.png "Configuration selection"%}
 
 #Workflow Management
 
