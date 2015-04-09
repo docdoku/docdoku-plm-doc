@@ -333,6 +333,7 @@ From the list, a click on the part number will bring the details window to the f
 By selecting a part, you can apply a set of actions including:
 
 * Check-out / Undo check-out / Check-in
+* Obsolete status to freeze the part iteration
 * Deletion
 * Adding tag to parts - for example, classifying parts as important
 * Access rights management
