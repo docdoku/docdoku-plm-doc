@@ -286,10 +286,6 @@ You can download a file by clicking on its name and delete files by selecting th
 
 {% image /assets/images/documentation/dev/file_delete.png "File deletion"%}
 
-##Document conversion
-
-In addition to the mentioned features, DocDokuPLM can convert attached files into pdf. The majority of word processing formats are supported.
-
 ##“Checked out” and “Tasks” links
 
 To ensure fast access to documents, you will find two shortcut links in the left menu:
@@ -411,7 +407,7 @@ The possible actions in the 3D visualization mode are:
 * Creating markers to report a design issue for example
 * Creating layers that hold a set of markers
 * Export 3D visualization of a part. Produces the html code to embed in other web pages (like YouTube or Google Maps)
-* 
+* Measure of the distance between 2 points
 
 ##Baseline creation
 
@@ -477,6 +473,8 @@ A running task can be marked as done or rejected if:
 * the responsible of the task has downloaded at least once an associated file
 * the document or the part is released (not checked out)
 
+By clicking on the "Signing up" link, you will be able to add a signature block.
+
 All the users who have subscribed to state change notification will be informed by email.
 
 #Check-out / Check-in
@@ -514,13 +512,23 @@ You will not be able to :
 * delete a list of values which has instances
 * edit an instance of list of values
 
+#Viewer or permalink
+
+Each document/part provides a permanent link where you see details of its latest revision. To get there, you should simply click on the title of the entity window.
+
+{% image /assets/images/documentation/en/image22.png %}
+
+You can explore all properties of the entity as well as visualize their attached files. The viewer supports a large number of formats: pdf, jpg, mp4, doc... Files not supported by the viewer will be downloaded.
+
+{% image /assets/images/documentation/en/image02.png "Document permalink"%}
+
 #Files Management
 
-A click on the following icon opens the details window of a document or a part or a template at the Files tab.
+A click on the following icon opens the details window of a document/part or a template at the Files tab.
 
 {% image /assets/images/documentation/dev/file_icon.png "Files quick access"%}
 
-Any file - associated with any part or document or tempate - can be renamed by clicking on the small pencil. The new title will be registered only if you click on the check button.
+Any file - associated with any entity or template - can be renamed by clicking on the small pencil. The new title will be registered only if you click on the check button.
 
 {% image /assets/images/documentation/dev/file_rename.png "File renaming"%}
 
@@ -529,6 +537,22 @@ You can download a file by clicking on its name and delete files by selecting th
 {% image /assets/images/documentation/dev/file_delete.png "File deletion"%}
 
 Do not forget to press on the modal Save button to validate your modifications.
+
+##CAD File conversion
+
+DocDokuPLM must convert CAD files to obj format to enable the 3D visualization. This conversion runs automatically after you add the CAD file.
+
+Here is the exhaustive list of supported formats: dxf, obj, off, ply, stl, 3ds, wrl.
+
+##PDF conversion
+
+DocDokuPLM generates pdf from files attached to a document. The majority of word processing formats are supported.
+
+Here is the exhaustive list of supported formats: odt, ods, odp, odg, odc, odf, odb, odi, odm, doc, docx, ppt, pps, txt, csv, xls, pdf, html, htm, xml, rtf, msg.
+
+Once generated, the pdf file can be opened from the permalink. A front page has been added containing the following informations:
+
+{% image /assets/images/documentation/dev/en/image61.png "Auto-generated page block title"%}
 
 #Documents Links Management
 
@@ -541,16 +565,6 @@ You comment a document link by clicking on the small pencil. The comment will be
 {% image /assets/images/documentation/dev/en/image54.png "Comment a link"%}
 
 {% image /assets/images/documentation/dev/en/image55.png "Commented link"%}
-
-#Viewer or permalink
-
-Each document/part provides a permanent link where you see details of its latest revision. To get there, you should simply click on the title of the entity window.
-
-{% image /assets/images/documentation/en/image22.png %}
-
-You can explore all properties of the entity as well as visualize their attached files. The viewer supports a large number of formats: pdf, jpg, mp4, doc... Files not supported by the viewer will be downloaded.
-
-{% image /assets/images/documentation/en/image02.png "Document permalink"%}
 
 #Tags
 

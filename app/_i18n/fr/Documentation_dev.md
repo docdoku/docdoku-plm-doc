@@ -303,10 +303,6 @@ Cet onglet permet d'associer des fichiers au document.
 
 {% image /assets/images/documentation/dev/fr/image52.png "Vue Fichiers"%}
 
-##Conversion de document
-
-Outre les fonctionnalités citées, DocDokuPLM peut convertir les fichiers rattachés en pdf. La majorité des formats utilisés avec les logiciels de traitement de texte est prise en charge.
-
 ##Liens Réservés et Tâches
 
 Afin d’assurer un accès rapide aux documents qui concernent un utilisateur donné, vous trouverez deux liens dans le menu de gauche :
@@ -496,6 +492,8 @@ Une tâche peut être approuvée ou rejetée si :
 * le responsable a téléchargé au moins une fois un fichier associé
 * le document ou l'article est libéré (pas réservé)
 
+En cliquant sur le lien "Signature", vous aurez la possibilité d'ajouter une signature électronique.
+
 Tous les utilisateurs abonnés aux changements d'état du processus en seront informés par mail.
 
 #Réservation et libération
@@ -533,13 +531,23 @@ Vous ne pouvez pas :
 * supprimer une liste de valeurs qui a des instances
 * modifier une instance de liste de valeurs
 
+#Visualisation ou lien permanent
+
+Pour chaque document/article, il est possible d’ouvrir un nouvel onglet dans le navigateur contenant les détails de sa dernière révision. Pour y accéder, il vous suffit de cliquer sur le titre de la fenêtre de détail.
+
+{% image /assets/images/documentation/fr/image06.png %}
+
+Vous pouvez visualiser les différentes propriétés de l'entité créée ainsi que les fichiers qui lui sont rattachés. La visionneuse prend en charge un nombre important de formats : pdf, jpg, mp4, doc… Les fichiers non supportés par la visionneuse seront automatiquement téléchargés.
+
+{% image /assets/images/documentation/fr/image30.png "Visualisation d'un document"%}
+
 #Gestion des fichiers
 
-Un clic sur cette icône ouvre directement la fenêtre de détails d'un document, d'un article ou d'un modèle à l'onglet Fichiers.
+Un clic sur cette icône ouvre directement la fenêtre de détails d'un document/article ou d'un modèle à l'onglet Fichiers.
 
 {% image /assets/images/documentation/dev/file_icon.png "Accès rapide aux Fichiers"%}
 
-Tout fichier - qu'il soit associé à un document, un article ou un modèle - peut être renommé en cliquant sur le petit crayon à droite du titre. Le nouveau titre sera enregistré seulement si vous cliquez sur le bouton valider.
+Tout fichier - qu'il soit associé à une entité ou un modèle - peut être renommé en cliquant sur le petit crayon à droite du titre. Le nouveau titre sera enregistré seulement si vous cliquez sur le bouton valider.
 
 {% image /assets/images/documentation/dev/file_rename.png "Renommage du fichier"%}
 
@@ -548,6 +556,22 @@ Le téléchargement d'un fichier se lance en cliquant sur son nom et la suppress
 {% image /assets/images/documentation/dev/file_delete.png "Suppression du fichier"%}
 
 N'oubliez pas de cliquer sur le bouton Enregistrer de la fenêtre pour valider vos modifications.
+
+##Conversion de fichier CAO
+
+DocDokuPLM doit convertir les fichiers CAO au format obj pour permettre la visualisation 3D. Cette conversion se fait automatiquement à la suite de l'ajout d'un fichier CAO.
+
+Voici la liste complète des formats supportés : dxf, obj, off, ply, stl, 3ds, wrl.
+
+##Conversion PDF
+
+DocDokuPLM génère une version pdf des fichiers rattachés à un document. La majorité des formats utilisés avec les logiciels de traitement de texte est prise en charge.
+
+Voici la liste complète des formats supportés : odt, ods, odp, odg, odc, odf, odb, odi, odm, doc, docx, ppt, pps, txt, csv, xls, pdf, html, htm, xml, rtf, msg.
+
+Une fois généré, le pdf peut être visionné depuis le lien permanent. Une page de garde a été ajoutée contenant les informations suivantes :
+
+{% image /assets/images/documentation/dev/fr/image61.png "Page de garde auto-générée"%}
 
 #Gestion des liens vers des documents
 
@@ -560,16 +584,6 @@ Un lien de document se commente en cliquant sur le petit crayon à droite du tit
 {% image /assets/images/documentation/dev/fr/image54.png "Commenter un lien"%}
 
 {% image /assets/images/documentation/dev/fr/image55.png "Lien commenté"%}
-
-#Visualisation ou lien permanent
-
-Pour chaque document/article, il est possible d’ouvrir un nouvel onglet dans le navigateur contenant les détails de sa dernière révision. Pour y accéder, il vous suffit de cliquer sur le titre de la fenêtre de détail.
-
-{% image /assets/images/documentation/fr/image06.png %}
-
-Vous pouvez visualiser les différentes propriétés de l'entité créée ainsi que les fichiers qui lui sont rattachés. La visionneuse prend en charge un nombre important de formats : pdf, jpg, mp4, doc… Les fichiers non supportés par la visionneuse seront automatiquement téléchargés.
-
-{% image /assets/images/documentation/fr/image30.png "Visualisation d'un document"%}
 
 #Libellés
 
