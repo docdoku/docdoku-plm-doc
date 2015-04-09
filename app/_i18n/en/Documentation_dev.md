@@ -131,18 +131,18 @@ Just click on group's name to open the detail view. You can then add or remove u
 
 ###Documents and Parts
 
-If newly created documents and parts are accessible according to the permissions defined at workspace level, it’s possible to override them by selecting the "ACL" tab. From that panel you can upgrade or downgrade access rights to any user or group in the workspace for the specific entity (document or part). The lower level is "forbidden" which means that the entity will not be visible by the user or group.
+If newly created documents and parts are accessible according to the permissions defined at workspace level, it’s possible to override them by selecting the "ACL" tab. From that panel you can upgrade or downgrade access rights to any user or group in the workspace for the specific item (document or part). The lower level is "forbidden" which means that the item will not be visible by the user or group.
 
 {% image /assets/images/documentation/dev/en/document_creation.png "Document creation, ACL tab"%}
 
-Only the administrator of the workspace and the authors can modify the permissions of existing entities.
-Once you've selected an entity the following icon appears in the banner at the top.
+Only the administrator of the workspace and the authors can modify the permissions of existing items.
+Once you've selected an item the following icon appears in the banner at the top.
 
 {% image /assets/images/documentation/en/permissions.png%}
 
 You can then change the permissions in the same way as creation time.
 
-Entities holding specific rights display a prohibition sign at the end of the line. Green means you have full access to the entity, yellow means read-only access.
+Items holding specific rights display a prohibition sign at the end of the line. Green means you have full access to the item, yellow means read-only access.
 
 {% image /assets/images/documentation/dev/full_access.png "Full access"%}
 {% image /assets/images/documentation/dev/read_only.png "Read only"%}
@@ -439,7 +439,9 @@ Thus, the first step involved in workflow creations is to define the roles used 
 
 {% image /assets/images/documentation/en/image32.png "Roles definition panel"%}
 
-##Workflow template
+##Workflow
+
+###Workflow template
 
 A workflow template (or model) lists several activities from an initial state to a final state. Each activity contains a label naming its intermediate state and a list of tasks to complete. Those tasks can be performed in series or in parallel.
 
@@ -455,7 +457,7 @@ A workflow template can be changed at any time. That will have no incidence to t
 
 {% image /assets/images/documentation/dev/en/image12.png "Workflow template creation"%}
 
-##Workflow instance
+###Workflow instance
 
 When creating a document or a part, the author can choose the workflow template he wants to apply. All the implied roles can then be respecified.
 
@@ -463,7 +465,7 @@ When creating a document or a part, the author can choose the workflow template 
 
 Once the document or part has been created, the associated workflow (if any) starts on the first activity. When a task has been opened, a mail is sent to the current task responsible user so he can approve or reject it and sign.
 
-##Lifecycle state
+###Lifecycle state
 
 Once an activity is started, every task assignee receives a mail which includes a full description of the task to complete.
 
@@ -477,6 +479,14 @@ A running task can be marked as done or rejected if:
 By clicking on the "Signing up" link, you will be able to add a signature block.
 
 All the users who have subscribed to state change notification will be informed by email.
+
+##Milestone
+
+##Issues
+
+##Requests
+
+##Orders
 
 #Check-out / Check-in
 
@@ -504,7 +514,7 @@ For example, you can create attributes values dedicated for colors.
 
 {% image /assets/images/documentation/dev/en/image56.png "Lists of values window"%}
 
-Once saved, the list is accessible through the Attributes tab of the template or entity detail window. By attributing a list of values to a template or entity, you create a new instance of this list.
+Once saved, the list is accessible through the Attributes tab of the template/item detail window. By attributing a list of values to a template/item, you create a new instance of this list.
 
 {% image /assets/images/documentation/dev/en/image57.png "List of values selection"%}
 
@@ -515,11 +525,11 @@ You will not be able to :
 
 #Viewer or permalink
 
-Each document/part provides a permanent link where you see details of its latest revision. To get there, you should simply click on the title of the entity window.
+Each document/part provides a permanent link where you see details of its latest revision. To get there, you should simply click on the title of the item window.
 
 {% image /assets/images/documentation/en/image22.png %}
 
-You can explore all properties of the entity as well as visualize their attached files. The viewer supports a large number of formats: pdf, jpg, mp4, doc... Files not supported by the viewer will be downloaded.
+You can explore all properties of the item as well as visualize its attached files. The viewer supports a large number of formats: pdf, jpg, mp4, doc... Files not supported by the viewer will be downloaded.
 
 {% image /assets/images/documentation/en/image02.png "Document permalink"%}
 
@@ -529,7 +539,7 @@ A click on the following icon opens the details window of a document/part or a t
 
 {% image /assets/images/documentation/dev/file_icon.png "Files quick access"%}
 
-Any file - associated with any entity or template - can be renamed by clicking on the small pencil. The new title will be registered only if you click on the check button.
+Any file - associated with any item or template - can be renamed by clicking on the small pencil. The new title will be registered only if you click on the check button.
 
 {% image /assets/images/documentation/dev/file_rename.png "File renaming"%}
 
@@ -569,7 +579,7 @@ You comment a document link by clicking on the small pencil. The comment will be
 
 #Tags
 
-You have the possibility to tag documents/parts. To do so, select one or more items and press the tag icon:
+You have the possibility to tag documents, parts, issues, requests and orders. To do so, select one or more items and press the tag icon:
 
 {% image /assets/images/documentation/en/image27.png %}
 

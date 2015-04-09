@@ -458,7 +458,9 @@ Pour créer un modèle de processus, il faut au préalable créer des rôles dan
 
 {% image /assets/images/documentation/fr/image00.png "Création des rôles"%}
 
-##Modèle de processus
+##Processus
+
+###Modèle de processus
 
 Un modèle de processus est composé d'un état initial, d'une série d'activités et d'un état final. Chaque activité contient un libellé définissant son état intermédiaire et une liste de tâches à effectuer. Ces tâches peuvent être effectuées en série ou en parallèle.
 
@@ -474,7 +476,7 @@ Un modèle de processus peut être modifié n’importe quand. Cela n’entraine
 
 {% image /assets/images/documentation/dev/fr/image20.png "Création d'un modèle de processus"%}
 
-##Instance de processus
+###Instance de processus
 
 Chaque modèle de processus créé peut être instancié à la création d'un document ou d'un article. Les rôles peuvent être alors redéfinis.
 
@@ -482,7 +484,7 @@ Chaque modèle de processus créé peut être instancié à la création d'un do
 
 Une fois le document (ou l’article) créé, le processus démarre sur la première activité. Lorsqu'une tâche est ouverte, un mail est envoyé au responsable de la tâche en cours. Le responsable peut alors l'approuver ou la rejeter et signer.
 
-##Etat du cycle de vie
+###Etat du cycle de vie
 
 Une fois la première activité démarrée, les utilisateurs désignés reçoivent par mail un message contenant la description complète de leur(s) tâche(s) à effectuer.
 
@@ -496,6 +498,14 @@ Une tâche peut être approuvée ou rejetée si :
 En cliquant sur le lien "Signature", vous aurez la possibilité d'ajouter une signature électronique.
 
 Tous les utilisateurs abonnés aux changements d'état du processus en seront informés par mail.
+
+##Jalons
+
+##Anomalies
+
+##Demandes
+
+##Ordres
 
 #Réservation et libération
 
@@ -588,7 +598,7 @@ Un lien de document se commente en cliquant sur le petit crayon à droite du tit
 
 #Libellés
 
-Vous pouvez associer des libellés à vos documents/articles. En sélectionnant un ou des élément(s), l’icône suivante apparaît :
+Vous pouvez associer des libellés à vos documents, articles, anomalies, demandes et ordres. En sélectionnant un ou des élément(s), l’icône suivante apparaît :
 
 {% image /assets/images/documentation/fr/image26.png %}
 
