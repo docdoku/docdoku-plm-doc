@@ -168,13 +168,9 @@ Quand des droits sont appliqués sur un élément, un cadenas est visible en fin
 {% image /assets/images/documentation/dev/full_access.png "Accès complet"%}
 {% image /assets/images/documentation/dev/read_only.png "Lecture seule "%}
 
-###Au niveau des modèles
+###Au niveau des modèles, des processus, des configurations et des exemplaires
 
-Si vous êtes en accès complet sur un modèle, vous pouvez modifier ses droits associés pour un utilisateur ou un groupe. Un utilisateur ou un groupe qui sera en lecture seule pourra uniquement rattacher ce modèle à un document ou un article. En interdisant l'accès, l'utilisateur ou le groupe ne verra jamais ce modèle.
-
-###Au niveau des processus
-
-Si vous êtes en accès complet sur un processus, vous pouvez modifier ses droits associés pour un utilisateur ou un groupe. Un utilisateur ou un groupe qui sera en lecture seule pourra uniquement rattacher ce processus à un modèle ou une entité. En interdisant l'accès, l'utilisateur ou le groupe ne verra jamais ce processus.
+Si vous êtes en accès complet sur un modèle (par exemple), vous pouvez modifier ses droits associés pour un utilisateur ou un groupe. Un utilisateur ou un groupe qui sera en lecture seule pourra uniquement utiliser ce modèle. En interdisant l'accès, l'utilisateur ou le groupe ne le verra jamais.
 
 ##Combinaison et priorité des droits
 
@@ -447,6 +443,10 @@ La création d’une ligne de base (ou baseline) permet d’enregistrer à un in
 De plus, l'onglet Configuration permet de choisir entre un article ou une de ses variantes ou rien, si il est facultatif.
 
 {% image /assets/images/documentation/dev/fr/image58.png "Choix de configuration"%}
+
+##Création d’une configuration
+
+##Création d’un exemplaire
 
 #Gestion des processus
 

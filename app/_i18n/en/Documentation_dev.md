@@ -147,13 +147,9 @@ Entities holding specific rights display a prohibition sign at the end of the li
 {% image /assets/images/documentation/dev/full_access.png "Full access"%}
 {% image /assets/images/documentation/dev/read_only.png "Read only"%}
 
-###Templates
+###Templates, Workflows, Configurations, Deliverables
 
-If you have full access to a created template, you can change its permissions to any user or group in the workspace. By setting read only permission to a user or group, the user or group will only be able to attach it to an entity. By setting forbidden permission, the user or group will never see that template.
-
-###Workflows
-
-If you have full access to a created workflow, you can change its permissions to any user or group in the workspace. By setting read only permission to a user or group, the user or group will only be able to use it in a template or entity. By setting forbidden permission, the user or group will never see that workflow.
+If you have full access to a created template (for example), you can change its permissions to any user or group in the workspace. By setting read only permission to a user or group, the user or group will only be able to use it. By setting forbidden permission, the user or group will never see it.
 
 ##Combined Access Rights
 
@@ -426,6 +422,10 @@ Baselines are kinds of snapshots of the entire product structure at a given time
 Furthermore the Configuration tab offers you to choose between a part or one of its substitutes or even nothing, if the part is optional.
 
 {% image /assets/images/documentation/dev/en/image58.png "Configuration selection"%}
+
+##Configuration creation
+
+##Deliverable creation
 
 #Workflow Management
 
