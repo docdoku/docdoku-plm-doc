@@ -306,8 +306,6 @@ Afin d’assurer un accès rapide aux documents qui concernent un utilisateur do
 * Réservés : ce lien affichera l’ensemble des documents réservés par l’utilisateur
 * Tâches : ce lien sert à visualiser les différents documents sur lesquels l’utilisateur est directement impliqué via un processus
 
-{% image /assets/images/documentation/dev/fr/image47.png "Section des liens"%}
-
 #Gestion des produits
 
 DocDokuPLM est donc un système de gestion collaborative de produits dont le but est d’aider les membres d’une même organisation à gérer et partager l'ensemble des actions et des itérations apportées à un produit tout au long de son cycle.
@@ -593,8 +591,6 @@ Vous avez la possibilité d'ajouter des références vers des documents pendant 
 Un lien de document se commente en cliquant sur le petit crayon à droite du titre. Le commentaire sera enregistré seulement si vous cliquez sur le bouton valider.
 
 {% image /assets/images/documentation/dev/fr/image54.png "Commenter un lien"%}
-
-{% image /assets/images/documentation/dev/fr/image55.png "Lien commenté"%}
 
 #Libellés
 

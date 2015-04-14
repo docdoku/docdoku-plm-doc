@@ -289,8 +289,6 @@ To ensure fast access to documents, you will find two shortcut links in the left
 * Checked out: this link displays all the documents reserved by the current user
 * Tasks: this link shows the documents the user is directly involved in through a workflow
 
-{% image /assets/images/documentation/dev/en/image06.png "Links section"%}
-
 #Product Management
 
 DocDokuPLM is a management system for collaborative product development which purpose is to help members of the same organization create and exchange data around products.
@@ -574,8 +572,6 @@ You can easily add references to documents during part/document edition. Links c
 You comment a document link by clicking on the small pencil. The comment will be registered only if you click on the check button.
 
 {% image /assets/images/documentation/dev/en/image54.png "Comment a link"%}
-
-{% image /assets/images/documentation/dev/en/image55.png "Commented link"%}
 
 #Tags
 
