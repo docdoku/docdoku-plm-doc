@@ -496,11 +496,13 @@ A checked out item cannot be edited by other users. To validate the modification
 
 While releasing (check-in operation) the item, you have a chance to enter an optional revision note. If you do not want to fill a note, press the "Ignore" button.
 
-{% image /assets/images/documentation/en/image19.png "Revision note window"%}
+{% image /assets/images/documentation/dev/en/image19.png "Revision note window"%}
 
 All these actions can be performed in the “Iteration“ tab on the item details window.
 
 {% image /assets/images/documentation/dev/en/image49.png "Buttons Check in and Cancel checkout"%}
+
+The revision date indicates the check-in date if the item is checked in or the check-out date if the item is checked out. And the modification date shows the last date when the item was last modified (including the revision note).
 
 #List of values
 

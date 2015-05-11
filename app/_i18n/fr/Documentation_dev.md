@@ -515,11 +515,13 @@ Une fois réservé, l'élément ne sera pas éditable par les autres utilisateur
 
 Si vous choisissez de libérer l'élément, une fenêtre vous proposera de saisir la note de révision. Cette information n’est pas obligatoire, vous pouvez passer cette étape en cliquant sur “Ignorer”.
 
-{% image /assets/images/documentation/fr/image03.png "Fenêtre de note de révision"%}
+{% image /assets/images/documentation/dev/fr/image03.png "Fenêtre de note de révision"%}
 
 Toutes ces actions sont également disponibles depuis l'onglet “Itération“ dans la fenêtre de détails de l'élément.
 
 {% image /assets/images/documentation/dev/fr/image49.png "Boutons Libérer et Annuler la réservation"%}
+
+La date de révision indique la date de libération si l'élément est libéré ou la date de réservation si l'élément est réservé. Et la date de modification précise quand l'élément a été modifié pour la dernière fois (incluant la note de révision).
 
 #Liste de valeurs
 
