@@ -264,7 +264,7 @@ Tout document doit appartenir à un dossier. Afin de créer un document dans un 
 
 {% image /assets/images/documentation/dev/fr/image35.png "Formulaire de création d'un document"%}
 
-Vous pouvez éditer les attributs, spécifier un processus et définir des droits d’accès dès la création du document. Le chargement des fichiers et l’édition des liens vers d’autres documents ne pourra se faire qu’une fois le document créé.
+Vous pouvez ajouter des attributs, spécifier un processus et définir des droits d’accès dès la création du document. Le chargement des fichiers et l’édition des liens vers d’autres documents ne pourra se faire qu’une fois le document créé.
 
 Une fois créé, vous pourrez effectuer les actions suivantes :
 
@@ -425,6 +425,10 @@ Parmi les actions possibles dans le mode de visualisation en 3D, vous retrouvere
 * L'export d'un article pour produire le code html à intégrer dans d’autres pages web (comme YouTube ou Google Maps)
 * La mesure de la distance entre 2 points
 
+##Création d’une configuration
+
+TODO entre un article ou une de ses variantes ou rien, si il est facultatif.
+
 ##Création d’une ligne de base
 
 La création d’une ligne de base (ou baseline) permet d’enregistrer à un instant donné une version du produit et donc de gérer différentes versions d’un même produit.
@@ -438,13 +442,21 @@ La création d’une ligne de base (ou baseline) permet d’enregistrer à un in
 
 {% image /assets/images/documentation/dev/baseline_versions.png "Choix de version"%}
 
-De plus, l'onglet Configuration permet de choisir entre un article ou une de ses variantes ou rien, si il est facultatif.
+De plus, l'onglet Configuration permet de choisir une configuration spécifique ce qui préremplira pour vous tous les choix de configuration. Mais vous pourrez re-modifier ces choix depuis l'onglet Choix.
 
 {% image /assets/images/documentation/dev/fr/image58.png "Choix de configuration"%}
 
-##Création d’une configuration
-
 ##Création d’un exemplaire
+
+Un exemplaire est une instance de produit basée sur une ligne de base et identifiée par un numéro de série.
+
+Vous pouvez ajouter des attributs et définir des droits d’accès dès la création. Par contre le chargement des fichiers et l’édition des liens vers d’autres documents ne pourra se faire qu’une fois l'exemplaire créé.
+
+{% image /assets/images/documentation/dev/fr/image62.png "Création d'un exemplaire"%}
+
+Pour conserver différentes versions d'un même exemplaire, vous devez créer des nouvelles itérations en cliquant sur le bouton "Rebaser". Ce bouton vous permet également de changer de baseline.
+
+{% image /assets/images/documentation/dev/fr/image63.png "Rebaser un exemplaire"%}
 
 #Gestion des processus
 

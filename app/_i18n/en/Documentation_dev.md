@@ -239,7 +239,7 @@ Each documents must belong to a folder. To create a new document in a specific d
 
 {% image /assets/images/documentation/dev/en/image09.png "Document creation form"%}
 
-When creating a document, you can edit its attributes, specify a workflow and set specific access rights. Note that you will not be able to upload files or link the current document to another until you finish the creation process.
+When creating a document, you can add attributes, specify a workflow and set specific access rights. Note that you will not be able to upload files or link the current document to another until you finish the creation process.
 
 Once the document is created you can perform the following actions:
 
@@ -404,6 +404,10 @@ The possible actions in the 3D visualization mode are:
 * Export 3D visualization of a part. Produces the html code to embed in other web pages (like YouTube or Google Maps)
 * Measure of the distance between 2 points
 
+##Configuration creation
+
+TODO between a part or one of its substitutes or even nothing, if the part is optional.
+ 
 ##Baseline creation
 
 Baselines are kinds of snapshots of the entire product structure at a given time so you can manage different versions of the same product.
@@ -417,13 +421,21 @@ Baselines are kinds of snapshots of the entire product structure at a given time
 
 {% image /assets/images/documentation/dev/baseline_versions.png "Version selection"%}
 
-Furthermore the Configuration tab offers you to choose between a part or one of its substitutes or even nothing, if the part is optional.
+Furthermore the Configuration tab offers you to choose a specific configuration. This will prefill for you all configuration choices but you can edit those by yourself in the Choices tab.
 
-{% image /assets/images/documentation/dev/en/image58.png "Configuration selection"%}
-
-##Configuration creation
+{% image /assets/images/documentation/dev/en/image58.png "Choices selection"%}
 
 ##Deliverable creation
+
+A deliverable is a product instance based on a product baseline and identified with a serial number.
+
+When creating a deliverable, you can add attributes and set specific access rights. Note that you will not be able to upload files or link the current deliverable to a document until you finish the creation process.
+
+{% image /assets/images/documentation/dev/en/image62.png "Deliverable creation form"%}
+
+To keep different versions of a deliverable, simply create new iterations by clicking the "Rebase" button. This button allows you to change the baseline if you really need to.
+
+{% image /assets/images/documentation/dev/en/image63.png "Rebase a deliverable"%}
 
 #Workflow Management
 
