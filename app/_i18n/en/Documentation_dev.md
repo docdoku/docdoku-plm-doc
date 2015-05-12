@@ -233,7 +233,7 @@ You can define attribute types in the template and attach files to it. All docum
 
 {% image /assets/images/documentation/dev/en/image42.png "Attaching files to the template"%}
 
-## Document creation
+##Document creation
 
 Each documents must belong to a folder. To create a new document in a specific directory, you must first select the directory then click on the “New document“ button.
 
@@ -281,6 +281,12 @@ Once generated, the pdf file can be opened from the permalink. A front page has 
 {% image /assets/images/documentation/dev/en/image61.png "Auto-generated page block title"%}
 
 Here is the exhaustive list of supported formats: odt, ods, odp, odg, odc, odf, odb, odi, odm, doc, docx, ppt, pps, txt, csv, xls, pdf, html, htm, xml, rtf, msg.
+
+###Used by tab
+
+This view lists the documents and parts using the document as a link.
+
+{% image /assets/images/documentation/dev/en/image68.png "Used by view"%}
 
 ##“Checked out” and “Tasks” links
 

@@ -307,6 +307,12 @@ Une fois généré, le pdf peut être visionné depuis le lien permanent. Une pa
 
 Voici la liste complète des formats supportés : odt, ods, odp, odg, odc, odf, odb, odi, odm, doc, docx, ppt, pps, txt, csv, xls, pdf, html, htm, xml, rtf, msg.
 
+###Onglet Cas d'emploi
+
+Cette vue liste tous les articles et documents qui utilisent le document en tant que lien. 
+
+{% image /assets/images/documentation/dev/fr/image68.png "Vue Cas d'emploi"%}
+
 ##Liens Réservés et Tâches
 
 Afin d’assurer un accès rapide aux documents qui concernent un utilisateur donné, vous trouverez deux liens dans le menu de gauche :
