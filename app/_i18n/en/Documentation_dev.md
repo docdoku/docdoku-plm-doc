@@ -356,7 +356,15 @@ When added, the substitute will appear inside the subpart view as shown below.
 
 ###Notifications
 
+Sometimes a change on a subpart may impact the assembly part. The Notifications tab appearing on an assembly part window offers you a subparts changelog overview to help you managing potential impacts.
 
+{% image /assets/images/documentation/dev/en/image66.png "Notifications view"%}
+
+To mark any modification notification as resolved, click on the "Mark as verified" link next to it.
+
+{% image /assets/images/documentation/dev/en/image67.png "Verified notification"%}
+
+Note: the only way to clear the list is creating a new iteration of the assembly part.
 
 ###Quick links
 

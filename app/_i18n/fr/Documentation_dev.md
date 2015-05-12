@@ -378,7 +378,15 @@ Une fois ajouté, la variante apparaît dans la vue du sous-article, tel que mon
 
 ###Notifications
 
+Parfois un chagement sur un sous-article peut impacter l'article parent. L'onglet Notifications affiche le journal des modifications des sous-composants pour vous aider à régler les impacts potentiels.
 
+{% image /assets/images/documentation/dev/fr/image66.png "Vue Notifications"%}
+
+Pour passer les notifications de modifications en mode résolu, il vous suffit de cliquer sur le lien "Marquer comme vérifié".
+
+{% image /assets/images/documentation/dev/fr/image67.png "Notification vérifiée"%}
+
+Note : le seul moyen de vider la liste des notifications est de créer une nouvelle itération de l'article parent.
 
 ###Liens rapides
 
