@@ -364,6 +364,10 @@ Sometimes a change on a subpart may impact the assembly part. The Notifications 
 
 {% image /assets/images/documentation/dev/en/image66.png "Notifications view"%}
 
+A click on the following icon opens the details window of a part at the Notifications tab.
+
+{% image /assets/images/documentation/dev/notifications_icon.png "Notifications quick access"%}
+
 To mark any modification notification as resolved, click on the "Mark as verified" link next to it.
 
 {% image /assets/images/documentation/dev/en/image67.png "Verified notification"%}

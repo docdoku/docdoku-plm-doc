@@ -386,6 +386,10 @@ Parfois un chagement sur un sous-article peut impacter l'article parent. L'ongle
 
 {% image /assets/images/documentation/dev/fr/image66.png "Vue Notifications"%}
 
+Un clic sur cette icône ouvre directement la fenêtre de détails d'un article à l'onglet Notifications.
+
+{% image /assets/images/documentation/dev/notifications_icon.png "Accès rapide aux Notifications"%}
+
 Pour passer les notifications de modifications en mode résolu, il vous suffit de cliquer sur le lien "Marquer comme vérifié".
 
 {% image /assets/images/documentation/dev/fr/image67.png "Notification vérifiée"%}
