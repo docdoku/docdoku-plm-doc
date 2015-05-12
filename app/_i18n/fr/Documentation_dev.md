@@ -299,6 +299,14 @@ Cet onglet permet d'associer des fichiers au document.
 
 {% image /assets/images/documentation/dev/fr/image52.png "Vue Fichiers"%}
 
+DocDokuPLM génère une version pdf des fichiers rattachés à un document. La majorité des formats utilisés avec les logiciels de traitement de texte est prise en charge.
+
+Une fois généré, le pdf peut être visionné depuis le lien permanent. Une page de garde a été ajoutée contenant les informations suivantes :
+
+{% image /assets/images/documentation/dev/fr/image61.png "Page de garde auto-générée"%}
+
+Voici la liste complète des formats supportés : odt, ods, odp, odg, odc, odf, odb, odi, odm, doc, docx, ppt, pps, txt, csv, xls, pdf, html, htm, xml, rtf, msg.
+
 ##Liens Réservés et Tâches
 
 Afin d’assurer un accès rapide aux documents qui concernent un utilisateur donné, vous trouverez deux liens dans le menu de gauche :
@@ -606,16 +614,6 @@ Le téléchargement d'un fichier se lance en cliquant sur son nom et la suppress
 {% image /assets/images/documentation/dev/file_delete.png "Suppression du fichier"%}
 
 N'oubliez pas de cliquer sur le bouton Enregistrer de la fenêtre pour valider vos modifications.
-
-##Conversion PDF
-
-DocDokuPLM génère une version pdf des fichiers rattachés à un document. La majorité des formats utilisés avec les logiciels de traitement de texte est prise en charge.
-
-Voici la liste complète des formats supportés : odt, ods, odp, odg, odc, odf, odb, odi, odm, doc, docx, ppt, pps, txt, csv, xls, pdf, html, htm, xml, rtf, msg.
-
-Une fois généré, le pdf peut être visionné depuis le lien permanent. Une page de garde a été ajoutée contenant les informations suivantes :
-
-{% image /assets/images/documentation/dev/fr/image61.png "Page de garde auto-générée"%}
 
 #Gestion des liens vers des documents
 

@@ -274,13 +274,13 @@ This tab allows you to associate files.
 
 {% image /assets/images/documentation/dev/en/image52.png "Files view"%}
 
-A file can be renamed by clicking on the small pencil. The new title will be registered only if you click on the check button.
+DocDokuPLM generates pdf from files attached to a document. The majority of word processing formats are supported.
 
-{% image /assets/images/documentation/dev/file_rename.png "File renaming"%}
+Once generated, the pdf file can be opened from the permalink. A front page has been added containing the following informations:
 
-You can download a file by clicking on its name and delete files by selecting the related checkboxes.
+{% image /assets/images/documentation/dev/en/image61.png "Auto-generated page block title"%}
 
-{% image /assets/images/documentation/dev/file_delete.png "File deletion"%}
+Here is the exhaustive list of supported formats: odt, ods, odp, odg, odc, odf, odb, odi, odm, doc, docx, ppt, pps, txt, csv, xls, pdf, html, htm, xml, rtf, msg.
 
 ##“Checked out” and “Tasks” links
 
@@ -587,16 +587,6 @@ You can download a file by clicking on its name and delete files by selecting th
 {% image /assets/images/documentation/dev/file_delete.png "File deletion"%}
 
 Do not forget to press on the modal Save button to validate your modifications.
-
-##PDF conversion
-
-DocDokuPLM generates pdf from files attached to a document. The majority of word processing formats are supported.
-
-Here is the exhaustive list of supported formats: odt, ods, odp, odg, odc, odf, odb, odi, odm, doc, docx, ppt, pps, txt, csv, xls, pdf, html, htm, xml, rtf, msg.
-
-Once generated, the pdf file can be opened from the permalink. A front page has been added containing the following informations:
-
-{% image /assets/images/documentation/dev/en/image61.png "Auto-generated page block title"%}
 
 #Documents Links Management
 
