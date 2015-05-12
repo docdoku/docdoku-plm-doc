@@ -340,6 +340,10 @@ This tab allows you to associate a CAD file to the part. If you choose a file wh
 
 {% image /assets/images/documentation/dev/en/image51.png "CAD File view"%}
 
+DocDokuPLM must convert CAD files to obj format to enable the 3D visualization. This conversion runs automatically after you add the CAD file. If the operation fails, you can retry it manually.
+
+Here is the exhaustive list of supported formats: dxf, obj, off, ply, stl, 3ds, wrl.
+
 ###Part assembly
 
 When modifying a part, you can edit the assembly composition. An assembly is composed of other parts (subparts).
@@ -579,12 +583,6 @@ You can download a file by clicking on its name and delete files by selecting th
 {% image /assets/images/documentation/dev/file_delete.png "File deletion"%}
 
 Do not forget to press on the modal Save button to validate your modifications.
-
-##CAD File conversion
-
-DocDokuPLM must convert CAD files to obj format to enable the 3D visualization. This conversion runs automatically after you add the CAD file.
-
-Here is the exhaustive list of supported formats: dxf, obj, off, ply, stl, 3ds, wrl.
 
 ##PDF conversion
 

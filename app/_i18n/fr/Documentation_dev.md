@@ -362,6 +362,10 @@ Cet onglet permet d'associer un fichier CAO à l'article. Si vous choisissez un 
 
 {% image /assets/images/documentation/dev/fr/image51.png "Vue Fichier CAO"%}
 
+DocDokuPLM doit convertir les fichiers CAO au format obj pour permettre la visualisation 3D. Cette conversion se fait automatiquement à la suite de l'ajout d'un fichier CAO. Si elle échoue, vous pouvez la relancer manuellement en cliquant sur "Ré-essayer".
+
+Voici la liste complète des formats supportés : dxf, obj, off, ply, stl, 3ds, wrl.
+
 ###Assemblage d’articles
 
 Lors de la modification d’un article, vous pouvez définir son assemblage. Un assemblage est composé d'autres articles (sous-article).
@@ -598,12 +602,6 @@ Le téléchargement d'un fichier se lance en cliquant sur son nom et la suppress
 {% image /assets/images/documentation/dev/file_delete.png "Suppression du fichier"%}
 
 N'oubliez pas de cliquer sur le bouton Enregistrer de la fenêtre pour valider vos modifications.
-
-##Conversion de fichier CAO
-
-DocDokuPLM doit convertir les fichiers CAO au format obj pour permettre la visualisation 3D. Cette conversion se fait automatiquement à la suite de l'ajout d'un fichier CAO.
-
-Voici la liste complète des formats supportés : dxf, obj, off, ply, stl, 3ds, wrl.
 
 ##Conversion PDF
 
