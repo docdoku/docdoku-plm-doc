@@ -378,6 +378,8 @@ Une fois ajouté, la variante apparaît dans la vue du sous-article, tel que mon
 
 ###Notifications
 
+
+
 ###Liens rapides
 
 Vous trouverez un accès rapide à vos articles réservés dans le menu de gauche.
@@ -427,7 +429,19 @@ Parmi les actions possibles dans le mode de visualisation en 3D, vous retrouvere
 
 ##Création d’une configuration
 
-TODO entre un article ou une de ses variantes ou rien, si il est facultatif.
+Une configuration est une liste de choix d'assemblage pour un produit donné. En effet, on peut vouloir :
+
+* choisir entre un article ou une de ses variantes
+* ne rien choisir, si un article est facultatif
+
+{% image /assets/images/documentation/dev/fr/image64.png "Création d'une configuration"%}
+
+2 types de configuration sont proposés :
+
+* Derniers libérés, pour inclure les dernières itérations libérées de chaque article impliqué
+* Derniers finalisés, pour inclure automatiquement les dernières versions finalisées de chaque article impliqué
+
+{% image /assets/images/documentation/dev/fr/image65.png "Exemple de choix : Aucun"%}
 
 ##Création d’une ligne de base
 
@@ -435,14 +449,11 @@ La création d’une ligne de base (ou baseline) permet d’enregistrer à un in
 
 {% image /assets/images/documentation/dev/fr/image02.png "Création d’une baseline"%}
 
-2 types de configuration sont proposés :
-
-* Derniers libérés, pour inclure les dernières itérations libérées de chaque article impliqué
-* Derniers finalisés, pour inclure automatiquement les dernières versions finalisées de chaque article impliqué. Si des articles existent en plusieurs versions, l'onglet Versions permet de sélectionner une version plus ancienne.
+Si le type de configuration choisi est "Derniers finalisés" et que des articles existent en plusieurs versions, alors l'onglet Versions permet de sélectionner une version plus ancienne.
 
 {% image /assets/images/documentation/dev/baseline_versions.png "Choix de version"%}
 
-De plus, l'onglet Configuration permet de choisir une configuration spécifique ce qui préremplira pour vous tous les choix de configuration. Mais vous pourrez re-modifier ces choix depuis l'onglet Choix.
+De plus, l'onglet Configuration permet de choisir une configuration spécifique ce qui préremplira pour vous tous les choix de configuration. Bien sûr, vous pourrez re-modifier ces choix depuis l'onglet Choix.
 
 {% image /assets/images/documentation/dev/fr/image58.png "Choix de configuration"%}
 

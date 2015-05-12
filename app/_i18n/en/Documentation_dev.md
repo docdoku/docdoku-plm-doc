@@ -356,6 +356,8 @@ When added, the substitute will appear inside the subpart view as shown below.
 
 ###Notifications
 
+
+
 ###Quick links
 
 You have a fast access to your checked out parts in the left menu.
@@ -406,18 +408,27 @@ The possible actions in the 3D visualization mode are:
 
 ##Configuration creation
 
-TODO between a part or one of its substitutes or even nothing, if the part is optional.
- 
+A configuration is a list of assembly choices for a given product. Indeed you may want to:
+
+* choose between a part or one of its substitutes
+* choose nothing, if a part is optional
+
+{% image /assets/images/documentation/dev/en/image64.png "Configuration creation form"%}
+
+2 configuration types are offered:
+
+* Latest checked in, to include the last checked in iterations of each implicated part
+* Latest released, to include automatically the last released versions of each implicated part
+
+{% image /assets/images/documentation/dev/en/image65.png "Choice example: None"%}
+
 ##Baseline creation
 
 Baselines are kinds of snapshots of the entire product structure at a given time so you can manage different versions of the same product.
 
 {% image /assets/images/documentation/dev/en/image40.png "Baseline creation form"%}
 
-2 configuration types are offered :
-
-* Latest checked in, to include the last checked in iterations of each implicated part
-* Latest released, to include automatically the last released versions of each implicated part. If several versions exist for articles then the Versions tab gives you the opportunity to select an older version.
+If the chosen configuration type is "Latest released" and several versions exist for articles, then the Versions tab gives you the opportunity to select an older version.
 
 {% image /assets/images/documentation/dev/baseline_versions.png "Version selection"%}
 
