@@ -309,10 +309,9 @@ The product management module offers, among others, the following features:
 
 Parts and products creation is explained below.
 
-##Product structure
+##Part
 
-The product structure is a breakdown showing the various items that compose a product.
-These components are named parts, they are assemblies if they are made of other parts. Within DocDokuPLM parts can be created from scratch or imported from CAD tools.
+Components of products are named parts, they are assemblies if they are made of other parts. Within DocDokuPLM parts can be created from scratch or imported from CAD tools.
 
 ###Part template creation
 
@@ -394,7 +393,7 @@ You have a fast access to your checked out parts in the left menu.
 
 {% image /assets/images/documentation/dev/en/image50.png "Links section"%}
 
-##Product creation
+##Product
 
 The creation of a product involves supplying an identifier and a part number, filling a description is optional.
 
@@ -403,38 +402,6 @@ The part number designates the root part of your product. It can be a simple par
 {% image /assets/images/documentation/dev/en/product_creation.png "Product creation form"%}
 
 The new product will be added to the product list. Selecting an item from that list proposes two actions: deletion and baseline creation.
-
-##Product explorer
-
-The product structure is displayed as a tree view where each node represents an assembly which is expandable.
-
-{% image /assets/images/documentation/dev/tree_structure.png "Tree structure of a product"%}
-
-The node itself is clickable in order to display its subparts as a list. And a click on the icon right to the node opens the node's main properties.
-
-{% image /assets/images/documentation/dev/refresh_tree.png "Refresh tree"%}
-{% image /assets/images/documentation/dev/toggle_comments.png "Toggle comments"%}
-{% image /assets/images/documentation/dev/optional.png "Optional"%}
-{% image /assets/images/documentation/dev/has_substitutes.png "Has substitutes"%}
-{% image /assets/images/documentation/dev/is_substitute.png "Is a substitute"%}
-
-Sometimes, especially for complex products, locating a part in the tree could be cumbersome. Look at the above example. To facilitate this operation, there is a search bar on the top left allowing you to easily find a part from its number or name.
-
-{% image /assets/images/documentation/en/search_bar.png "Search bar"%}
-
-As an alternative, you can select the part directly on the 3D scene.
-
-One click on a 3D object selects the results on the left hand panel. The associated part and all its ancestors will be highlighted in yellow. Moreover the part properties are displayed in the right hand panel.
-This feature is useful when the user wants to find a part he ignores the part number.
-
-{% image /assets/images/documentation/dev/en/visualization.png "3D model visualization"%}
-
-The possible actions in the 3D visualization mode are:
-
-* Creating markers to report a design issue for example
-* Creating layers that hold a set of markers
-* Export 3D visualization of a part. Produces the html code to embed in other web pages (like YouTube or Google Maps)
-* Measure of the distance between 2 points
 
 ##Configuration
 
@@ -477,6 +444,56 @@ When creating a deliverable, you can add attributes and set specific access righ
 To keep different versions of a deliverable, simply create new iterations by clicking the "Rebase" button. This button allows you to change the baseline if you really need to.
 
 {% image /assets/images/documentation/dev/en/image63.png "Rebase a deliverable"%}
+
+##Product structure explorer
+
+Click on the above icon to display the product/baseline/deliverable structure or the product/baseline/deliverable 3D scene.
+
+{% image /assets/images/documentation/dev/product_structure.png "Product structure icon"%}
+
+The product structure is a breakdown showing the various items that compose a product. It is displayed as a tree view where each node represents an assembly which is expandable.
+
+{% image /assets/images/documentation/dev/tree_structure.png "Tree structure of a product"%}
+
+The node itself is clickable in order to display its subparts as a list. And a click on the icon right to the node opens the node's main properties.
+
+{% image /assets/images/documentation/dev/refresh_tree.png "Refresh tree"%}
+{% image /assets/images/documentation/dev/toggle_comments.png "Toggle comments"%}
+{% image /assets/images/documentation/dev/optional.png "Optional"%}
+{% image /assets/images/documentation/dev/has_substitutes.png "Has substitutes"%}
+{% image /assets/images/documentation/dev/is_substitute.png "Is a substitute"%}
+
+###Explorer configuration specifications
+
+###Deliverable data
+
+###Typed link
+
+###Part search bar
+
+Sometimes, especially for complex products, locating a part in the tree could be cumbersome. Look at the above example. To facilitate this operation, there is a search bar on the top left allowing you to easily find a part from its number or name.
+
+{% image /assets/images/documentation/en/search_bar.png "Search bar"%}
+
+As an alternative, you can select the part directly on the 3D scene.
+
+##Product 3D scene
+
+Click on the above icon to display the product/baseline/deliverable 3D scene.
+
+{% image /assets/images/documentation/dev/3d_scene.png "3D scene icon"%}
+
+One click on a 3D object selects the results on the left hand panel. The associated part and all its ancestors will be highlighted in yellow. Moreover the part properties are displayed in the right hand panel.
+This feature is useful when the user wants to find a part he ignores the part number.
+
+{% image /assets/images/documentation/dev/en/visualization.png "3D model visualization"%}
+
+The possible actions in the 3D visualization mode are:
+
+* Creating markers to report a design issue for example
+* Creating layers that hold a set of markers
+* Export 3D visualization of a part. Produces the html code to embed in other web pages (like YouTube or Google Maps)
+* Measure of the distance between 2 points
 
 #Workflow Management
 

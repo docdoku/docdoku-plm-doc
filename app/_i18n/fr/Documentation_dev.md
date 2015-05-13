@@ -333,10 +333,9 @@ Vous retrouvez, entre autres, les fonctionnalités suivantes :
 
 La création d’articles et de produits est expliquée dans le paragraphe qui suit.
 
-##La structure produit
+##Article
 
-Il s'agit de rendre compte de la structure d'un produit et de l'organisation de ses composants.
-Les composants sont appelés articles, ou assemblages s'ils sont eux-mêmes composés d'articles. DocDokuPLM permet de créer des articles à partir de rien ou bien à partir de modèles existants.
+Les composants d'un produit sont appelés articles, ou assemblages s'ils sont eux-mêmes composés d'articles. DocDokuPLM permet de créer des articles à partir de rien ou bien à partir de modèles existants.
 
 ###Création de modèle d’article
 
@@ -424,7 +423,7 @@ Vous trouverez un accès rapide à vos articles réservés dans le menu de gauch
 
 {% image /assets/images/documentation/dev/fr/image50.png "Section des liens"%}
 
-##Création de produit
+##Produit
 
 Au moment de la création d’un produit, l’identifiant du produit ainsi que le numéro de l’article sont obligatoires, la description est par contre optionnelle.
 
@@ -433,37 +432,6 @@ Le numéro d’article est l’élément de tête de votre produit. Celui-ci peu
 {% image /assets/images/documentation/dev/fr/image12.png "Formulaire de création de produit"%}
 
 Le produit créé sera rajouté à la liste des produits. En sélectionnant un produit dans la liste, les actions possibles sont sa suppression et la création d’une ligne de base.
-
-##Explorateur produit
-
-La structure produit vous permet de localiser un article donné.
-
-{% image /assets/images/documentation/dev/tree_structure.png "Structure produit"%}
-
-Chaque noeud représente un assemblage d'articles, il suffit de l'étendre pour voir de quels articles il est composé. Un clic sur l'article affiche ses sous-articles sous forme de liste et un clic sur l'icône à droite de l'article affiche ses propriétés.
-
-{% image /assets/images/documentation/dev/refresh_tree.png "Rafraîcher l'arbre"%}
-{% image /assets/images/documentation/dev/toggle_comments.png "Afficher/masquer les commentaires"%}
-{% image /assets/images/documentation/dev/optional.png "Falcutatif"%}
-{% image /assets/images/documentation/dev/has_substitutes.png "Possède des variantes"%}
-{% image /assets/images/documentation/dev/is_substitute.png "Est une variante"%}
-
-Cependant, pour les produits complexes comprenant un très grand nombre d'articles, la tâche peut s'avérer fastidieuse. Prenez l'exemple du parcours de la structure produit représentée ci-dessus. Afin de faciliter l'opération, DocDokuPLM intègre une barre de recherche qui permet de trouver facilement un article à partir de son numéro ou de son nom.
-
-{% image /assets/images/documentation/fr/image46.png "Barre de recherche"%}
-
-Une alternative au moteur de recherche est la navigation dans le modèle géométrique 3D. En cliquant sur une pièce, les résultats s’affichent sur la partie gauche de la page. L’article associé à cette pièce sera surligné en jaune ainsi que tous ses ascendants. Les informations relatives à cet article sont aussi affichées dans le menu de droite.
-
-Cette solution peut s’avérer utile dans le cas où l’utilisateur ne connaît pas l’identifant de l’article.
-
-{% image /assets/images/documentation/dev/fr/image22.png "Navigation dans le modèle 3D"%}
-
-Parmi les actions possibles dans le mode de visualisation en 3D, vous retrouverez :
-
-* La création de marqueurs permettant par exemple de rapporter un dysfonctionnement d’une pièce sur le schéma 3D
-* La création de calques comportant plusieurs marqueurs
-* L'export d'un article pour produire le code html à intégrer dans d’autres pages web (comme YouTube ou Google Maps)
-* La mesure de la distance entre 2 points
 
 ##Configuration
 
@@ -506,6 +474,57 @@ Vous pouvez ajouter des attributs et définir des droits d’accès dès la cré
 Pour conserver différentes versions d'un même exemplaire, vous devez créer des nouvelles itérations en cliquant sur le bouton "Rebaser". Ce bouton vous permet également de changer de ligne de base.
 
 {% image /assets/images/documentation/dev/fr/image63.png "Rebaser un exemplaire"%}
+
+##Explorateur de la structure d'un produit
+
+Cliquez sur l'icône ci-dessous pour faire apparaître la structure d'un produit, d'une ligne de base ou d'un exemplaire.
+
+{% image /assets/images/documentation/dev/product_structure.png "Icône de structure produit"%}
+
+La structure produit vous permet de voir l'organisation des composants d'un produit et de localiser un article donné.
+
+{% image /assets/images/documentation/dev/tree_structure.png "Structure produit"%}
+
+Chaque noeud représente un assemblage d'articles, il suffit de l'étendre pour voir de quels articles il est composé. Un clic sur l'article affiche ses sous-articles sous forme de liste et un clic sur l'icône à droite de l'article affiche ses propriétés.
+
+{% image /assets/images/documentation/dev/refresh_tree.png "Rafraîcher l'arbre"%}
+{% image /assets/images/documentation/dev/toggle_comments.png "Afficher/masquer les commentaires"%}
+{% image /assets/images/documentation/dev/optional.png "Falcutatif"%}
+{% image /assets/images/documentation/dev/has_substitutes.png "Possède des variantes"%}
+{% image /assets/images/documentation/dev/is_substitute.png "Est une variante"%}
+
+###Configuration du parcours de la structure
+
+###Données de l'exemplaire
+
+###Lien de chemin
+
+###Barre de recherche d'article
+
+Cependant, pour les produits complexes comprenant un très grand nombre d'articles, la tâche peut s'avérer fastidieuse. Prenez l'exemple du parcours de la structure produit représentée ci-dessus. Afin de faciliter l'opération, DocDokuPLM intègre une barre de recherche qui permet de trouver facilement un article à partir de son numéro ou de son nom.
+
+{% image /assets/images/documentation/fr/image46.png "Barre de recherche"%}
+
+Une alternative au moteur de recherche est la navigation dans le modèle géométrique 3D.
+
+##Visualisation 3D d'un produit
+
+Cliquez sur l'icône ci-dessous pour visualiser en 3D un produit, une ligne de base ou un exemplaire.
+
+{% image /assets/images/documentation/dev/3d_scene.png "Icône de visualisation 3D"%}
+
+En cliquant sur une pièce, les résultats s’affichent sur la partie gauche de la page. L’article associé à cette pièce sera surligné en jaune ainsi que tous ses ascendants. Les informations relatives à cet article sont aussi affichées dans le menu de droite.
+
+Cette solution peut s’avérer utile dans le cas où l’utilisateur ne connaît pas l’identifant de l’article.
+
+{% image /assets/images/documentation/dev/fr/image22.png "Navigation dans le modèle 3D"%}
+
+Parmi les actions possibles dans le mode de visualisation en 3D, vous retrouverez :
+
+* La création de marqueurs permettant par exemple de rapporter un dysfonctionnement d’une pièce sur le schéma 3D
+* La création de calques comportant plusieurs marqueurs
+* L'export d'un article pour produire le code html à intégrer dans d’autres pages web (comme YouTube ou Google Maps)
+* La mesure de la distance entre 2 points
 
 #Gestion des processus
 
