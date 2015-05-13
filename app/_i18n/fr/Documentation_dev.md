@@ -363,12 +363,14 @@ En cliquant sur le numéro d’un article, une fenêtre affichera ses détails. 
 En sélectionnant un article, vous pouvez lui appliquer un ensemble d’actions à savoir :
 
 * Réservation / Annulation de la réservation / Libération
-* Statut obsolète pour figer un article en itération
 * Suppression
 * Ajout de libellés - par exemple classer des articles comme importants
 * Gestion de ses droits d’accès
 * Création d'une nouvelle version
 * Finalisation
+* Statut obsolète pour figer un article en itération (l'article doit être finalisé)
+
+{% image /assets/images/documentation/dev/obsolete_icon.png "Icône obsolète"%}
 
 ###Fichier CAO
 

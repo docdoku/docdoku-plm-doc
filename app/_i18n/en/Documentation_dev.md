@@ -333,12 +333,14 @@ From the list, a click on the part number will bring the details window to the f
 By selecting a part, you can apply a set of actions including:
 
 * Check-out / Undo check-out / Check-in
-* Obsolete status to freeze the part iteration
 * Deletion
 * Adding tag to parts - for example, classifying parts as important
 * Access rights management
 * New version creation
 * Release
+* Obsolete status to freeze the part iterations (part must be released)
+
+{% image /assets/images/documentation/dev/obsolete_icon.png "Obsolete icon"%}
 
 ###Part CAD File
 
@@ -541,7 +543,7 @@ All the users who have subscribed to state change notification will be informed 
 
 To lock a document/part to prevent modification, just select it and press the check-out button. A new item iteration will be created.
 
-{% image /assets/images/documentation/image14.png "Buttons check-out / undo check-out / check-in"%}
+{% image /assets/images/documentation/image14.png "Check-out / Undo check-out / Check-in buttons"%}
 
 A checked out item cannot be edited by other users. To validate the modifications you will have to check it in. Otherwise, you can cancel the changes with the undo check-out action.
 
@@ -551,9 +553,11 @@ While releasing (check-in operation) the item, you have a chance to enter an opt
 
 All these actions can be performed in the “Iteration“ tab on the item details window.
 
-{% image /assets/images/documentation/dev/en/image49.png "Buttons Check in and Cancel checkout"%}
+{% image /assets/images/documentation/dev/en/image49.png "Check in and Cancel checkout buttons"%}
 
 The revision date indicates the check-in date if the item is checked in or the check-out date if the item is checked out. And the modification date shows the last date when the item was last modified (including the revision note).
+
+{% image /assets/images/documentation/dev/image49.png "Check in and Cancel checkout buttons"%}
 
 #List of values
 
