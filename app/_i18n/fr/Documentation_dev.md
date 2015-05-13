@@ -289,7 +289,7 @@ Pour modifier un document, il vous faut d'abord le réserver. Vous pouvez accéd
 
 Les flèches situées en bas à gauche servent à visualiser les différents changements apportés lors des itérations précédentes.
 
-Vous pouvez accéder au dossier qui contient le document en cliquant sur le lien à droite de “Dossier”.
+Pour accéder au dossier qui contient le document, cliquez sur le lien à droite de “Dossier”.
 
 {% image /assets/images/documentation/dev/fr/image28.png "Fenêtre d’informations relatives à un document"%}
 
@@ -572,7 +572,7 @@ Vous pouvez réserver un document/article en le sélectionnant via sa case à co
 
 {% image /assets/images/documentation/image14.png "Boutons réserver / annuler la réservation / libérer"%}
 
-Une fois réservé, l'élément ne sera pas éditable par les autres utilisateurs. Il vous faudra alors le libérer une fois les modifications effectuées, ou annuler la réservation si vous ne souhaitez pas enregistrer les changements apportés.
+Une fois réservé, l'élément ne sera pas éditable par les autres utilisateurs, il est vérouillé. Il vous faudra alors le libérer une fois les modifications effectuées, ou annuler la réservation si vous ne souhaitez pas enregistrer les changements apportés.
 
 Si vous choisissez de libérer l'élément, une fenêtre vous proposera de saisir la note de révision. Cette information n’est pas obligatoire, vous pouvez passer cette étape en cliquant sur “Ignorer”.
 
@@ -583,6 +583,8 @@ Toutes ces actions sont également disponibles depuis l'onglet “Itération“ 
 {% image /assets/images/documentation/dev/fr/image49.png "Boutons Libérer et Annuler la réservation"%}
 
 La date de révision indique la date de libération si l'élément est libéré ou la date de réservation si l'élément est réservé. Et la date de modification précise quand l'élément a été modifié pour la dernière fois (incluant la note de révision).
+
+{% image /assets/images/documentation/dev/status.png "Statuts réservé / vérouillé / libéré"%}
 
 #Liste de valeurs
 

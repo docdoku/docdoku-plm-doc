@@ -545,7 +545,7 @@ To lock a document/part to prevent modification, just select it and press the ch
 
 {% image /assets/images/documentation/image14.png "Check-out / Undo check-out / Check-in buttons"%}
 
-A checked out item cannot be edited by other users. To validate the modifications you will have to check it in. Otherwise, you can cancel the changes with the undo check-out action.
+A checked out item cannot be edited by other users and appears to them as locked. To validate the modifications you will have to check it in. Otherwise, you can cancel the changes with the undo check-out action.
 
 While releasing (check-in operation) the item, you have a chance to enter an optional revision note. If you do not want to fill a note, press the "Ignore" button.
 
@@ -557,7 +557,7 @@ All these actions can be performed in the “Iteration“ tab on the item detail
 
 The revision date indicates the check-in date if the item is checked in or the check-out date if the item is checked out. And the modification date shows the last date when the item was last modified (including the revision note).
 
-{% image /assets/images/documentation/dev/image49.png "Check in and Cancel checkout buttons"%}
+{% image /assets/images/documentation/dev/status.png "Checked out / Locked / Checked in status"%}
 
 #List of values
 
