@@ -309,7 +309,7 @@ Voici la liste complète des formats supportés : odt, ods, odp, odg, odc, odf, 
 
 ###Onglet Cas d'emploi
 
-Cette vue liste tous les articles et documents qui utilisent le document en tant que lien. 
+Cette vue liste tous les articles et documents qui utilisent le document en tant que lien.
 
 {% image /assets/images/documentation/dev/fr/image68.png "Vue Cas d'emploi"%}
 
@@ -409,6 +409,12 @@ Pour passer les notifications de modifications en mode résolu, il vous suffit d
 {% image /assets/images/documentation/dev/fr/image67.png "Notification vérifiée"%}
 
 Note : le seul moyen de vider la liste des notifications est de créer une nouvelle itération de l'article parent.
+
+###Cas d'emploi
+
+Cette vue liste tous les produits et exemplaires qui utilisent l'article en tant que composant (tête, noeud ou feuille). 
+
+{% image /assets/images/documentation/dev/fr/image69.png "Vue Cas d'emploi"%}
 
 ###Liens rapides
 

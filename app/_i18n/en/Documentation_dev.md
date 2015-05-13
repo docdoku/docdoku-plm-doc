@@ -380,6 +380,12 @@ To mark any modification notification as resolved, click on the "Mark as verifie
 
 Note: the only way to clear the list is creating a new iteration of the assembly part.
 
+###Used by
+
+This view lists the products and deliverables using the part as a sub-component (root part, node or leaf).
+
+{% image /assets/images/documentation/dev/en/image69.png "Used by view"%}
+
 ###Quick links
 
 You have a fast access to your checked out parts in the left menu.
