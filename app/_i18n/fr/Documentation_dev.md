@@ -465,7 +465,7 @@ Parmi les actions possibles dans le mode de visualisation en 3D, vous retrouvere
 * L'export d'un article pour produire le code html à intégrer dans d’autres pages web (comme YouTube ou Google Maps)
 * La mesure de la distance entre 2 points
 
-##Création d’une configuration
+##Configuration
 
 Une configuration est une liste de choix d'assemblage pour un produit donné. En effet, on peut vouloir :
 
@@ -481,7 +481,7 @@ Une configuration est une liste de choix d'assemblage pour un produit donné. En
 
 {% image /assets/images/documentation/dev/fr/image65.png "Exemple de choix : Aucun"%}
 
-##Création d’une ligne de base
+##Ligne de base
 
 La création d’une ligne de base (ou baseline) permet d’enregistrer à un instant donné une version du produit et donc de gérer différentes versions d’un même produit.
 
@@ -495,7 +495,7 @@ De plus, l'onglet Configuration permet de choisir une configuration spécifique 
 
 {% image /assets/images/documentation/dev/fr/image58.png "Choix de configuration"%}
 
-##Création d’un exemplaire
+##Exemplaire
 
 Un exemplaire est une instance de produit basée sur une ligne de base et identifiée par un numéro de série.
 
@@ -503,7 +503,7 @@ Vous pouvez ajouter des attributs et définir des droits d’accès dès la cré
 
 {% image /assets/images/documentation/dev/fr/image62.png "Création d'un exemplaire"%}
 
-Pour conserver différentes versions d'un même exemplaire, vous devez créer des nouvelles itérations en cliquant sur le bouton "Rebaser". Ce bouton vous permet également de changer de baseline.
+Pour conserver différentes versions d'un même exemplaire, vous devez créer des nouvelles itérations en cliquant sur le bouton "Rebaser". Ce bouton vous permet également de changer de ligne de base.
 
 {% image /assets/images/documentation/dev/fr/image63.png "Rebaser un exemplaire"%}
 

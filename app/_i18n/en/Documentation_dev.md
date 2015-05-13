@@ -436,12 +436,14 @@ The possible actions in the 3D visualization mode are:
 * Export 3D visualization of a part. Produces the html code to embed in other web pages (like YouTube or Google Maps)
 * Measure of the distance between 2 points
 
-##Configuration creation
+##Configuration
 
 A configuration is a list of assembly choices for a given product. Indeed you may want to:
 
 * choose between a part or one of its substitutes
 * choose nothing, if a part is optional
+
+###Creation
 
 {% image /assets/images/documentation/dev/en/image64.png "Configuration creation form"%}
 
@@ -452,9 +454,13 @@ A configuration is a list of assembly choices for a given product. Indeed you ma
 
 {% image /assets/images/documentation/dev/en/image65.png "Choice example: None"%}
 
-##Baseline creation
+###Edition
+
+##Baseline
 
 Baselines are kinds of snapshots of the entire product structure at a given time so you can manage different versions of the same product.
+
+###Creation
 
 {% image /assets/images/documentation/dev/en/image40.png "Baseline creation form"%}
 
@@ -466,13 +472,19 @@ Furthermore the Configuration tab offers you to choose a specific configuration.
 
 {% image /assets/images/documentation/dev/en/image58.png "Choices selection"%}
 
-##Deliverable creation
+###Edition
+
+##Deliverable
 
 A deliverable is a product instance based on a product baseline and identified with a serial number.
+
+###Creation
 
 When creating a deliverable, you can add attributes and set specific access rights. Note that you will not be able to upload files or link the current deliverable to a document until you finish the creation process.
 
 {% image /assets/images/documentation/dev/en/image62.png "Deliverable creation form"%}
+
+###Edition
 
 To keep different versions of a deliverable, simply create new iterations by clicking the "Rebase" button. This button allows you to change the baseline if you really need to.
 
