@@ -495,6 +495,8 @@ Chaque noeud représente un assemblage d'articles, il suffit de l'étendre pour 
 
 ###Configuration du parcours de la structure
 
+Vous pouvez choisir comment explorer la structure.
+
 ###Données de l'exemplaire
 
 ###Lien de chemin

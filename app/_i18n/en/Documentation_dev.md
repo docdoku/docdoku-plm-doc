@@ -447,7 +447,7 @@ To keep different versions of a deliverable, simply create new iterations by cli
 
 ##Product structure explorer
 
-Click on the above icon to display the product/baseline/deliverable structure or the product/baseline/deliverable 3D scene.
+Click on the above icon to display the product/baseline/deliverable structure.
 
 {% image /assets/images/documentation/dev/product_structure.png "Product structure icon"%}
 
@@ -457,15 +457,44 @@ The product structure is a breakdown showing the various items that compose a pr
 
 The node itself is clickable in order to display its subparts as a list. And a click on the icon right to the node opens the node's main properties.
 
+Available actions on a tree:
+
 {% image /assets/images/documentation/dev/refresh_tree.png "Refresh tree"%}
 {% image /assets/images/documentation/dev/toggle_comments.png "Toggle comments"%}
-{% image /assets/images/documentation/dev/optional.png "Optional"%}
+
+Available information on a part:
+
+{% image /assets/images/documentation/dev/optional.png "Is optional"%}
 {% image /assets/images/documentation/dev/has_substitutes.png "Has substitutes"%}
 {% image /assets/images/documentation/dev/is_substitute.png "Is a substitute"%}
 
-###Explorer configuration specifications
+###Configuration specifications
 
-###Deliverable data
+You can change the explorer specifications. Look at the top left menu under the search bar. You will find 3 exploration modes:
+
+* "Latest versions", to look a the product structure. Here the submenu lets you choose between different part status (work in progress, latest checked in and latest released)
+
+{% image /assets/images/documentation/dev/en/image70.png "Product mode example"%}
+
+* "Baseline", to look a baseline structure. Here the submenu lets you choose a baseline of the given product.
+
+{% image /assets/images/documentation/dev/tree_conf_baseline.png "Baseline mode example"%}
+
+* "Serial number", to look at a deliverable structure. Here the submenu lets you choose a deliverable
+
+{% image /assets/images/documentation/dev/en/image71.png "Deliverable mode example"%}
+
+###Path data
+
+You may want to associate specific data with a deliverable part (like a serial number attribute for instance). This feature is enabled in deliverable structure. Simply click on the checkbox next to the part to display the following button:
+
+{% image /assets/images/documentation/dev/en/image72.png "Path data button"%}
+
+{% image /assets/images/documentation/dev/en/image73.png "Path data creation view - Attributes tab"%}
+
+During path data edition you can manage attributes, files and document links. Furthermore, it is possible to freeze your modifications if you want to keep a change history by clicking on the "Freeze current iteration button". This operation will freeze the iteration and create a new editable one.
+
+{% image /assets/images/documentation/dev/en/image74.png "Path data edition view - Freeze iteration"%}
 
 ###Typed link
 
