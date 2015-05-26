@@ -526,6 +526,10 @@ Lors de l'édition de ces données, vous pouvez gérer des attributs, des fichie
 
 {% image /assets/images/documentation/dev/fr/image74.png "Edition de données d'exemplaire - Figer l'itération"%}
 
+Si un article possède des données d'exemplaire, l'icône suivant apparaîtra à sa droite dans l'arborescence :
+
+{% image /assets/images/documentation/dev/has_path_data.png "Possède des données d'exemplaire"%}
+
 ###Lien de chemin
 
 ###Barre de recherche d'article

@@ -496,6 +496,10 @@ During path data edition you can manage attributes, files and document links. Fu
 
 {% image /assets/images/documentation/dev/en/image74.png "Path data edition view - Freeze iteration"%}
 
+If a part has defined deliverable data, the following icon shows up on the tree view next to it:
+
+{% image /assets/images/documentation/dev/has_path_data.png "Has path data"%}
+
 ###Typed link
 
 
