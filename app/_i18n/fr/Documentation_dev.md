@@ -413,7 +413,10 @@ Note : le seul moyen de vider la liste des notifications est de créer une nouve
 
 ###Cas d'emploi
 
-Cette vue liste tous les produits et exemplaires qui utilisent l'article en tant que composant (tête, noeud ou feuille). 
+Cette vue liste :
+
+* les assemblages qui utilisent l'article en tant que sous-composant (composant ou variante)
+* les produits et exemplaires qui utilisent l'article en tant que sous-composant (tête, noeud ou feuille)
 
 {% image /assets/images/documentation/dev/fr/image69.png "Vue Cas d'emploi"%}
 

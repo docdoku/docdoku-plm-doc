@@ -383,7 +383,10 @@ Note: the only way to clear the list is creating a new iteration of the assembly
 
 ###Used by
 
-This view lists the products and deliverables using the part as a sub-component (root part, node or leaf).
+This view lists:
+
+* the assembly using the part as a sub-component (component or substitute)
+* the products and deliverables using the part as a sub-component (root part, node or leaf)
 
 {% image /assets/images/documentation/dev/en/image69.png "Used by view"%}
 
