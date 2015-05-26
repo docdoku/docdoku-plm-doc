@@ -371,11 +371,11 @@ En sélectionnant un article, vous pouvez lui appliquer un ensemble d’actions 
 
 {% image /assets/images/documentation/dev/obsolete_icon.png "Icône obsolète"%}
 
-###Fichier CAO
+###Fichiers
 
-Cet onglet permet d'associer un fichier CAO à l'article. Si vous choisissez un fichier alors qu'il y en a déjà un, ce dernier sera automatiquement remplacé.
+Cet onglet permet de joindre des fichiers et d'associer un fichier CAO à l'article. Si vous choisissez un fichier CAO alors qu'il y en a déjà un, ce dernier sera automatiquement remplacé.
 
-{% image /assets/images/documentation/dev/fr/image51.png "Vue Fichier CAO"%}
+{% image /assets/images/documentation/dev/fr/image51.png "Vue Fichiers"%}
 
 DocDokuPLM doit convertir les fichiers CAO au format obj pour permettre la visualisation 3D. Cette conversion se fait automatiquement à la suite de l'ajout d'un fichier CAO. Si elle échoue, vous pouvez la relancer manuellement en cliquant sur "Ré-essayer".
 

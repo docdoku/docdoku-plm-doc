@@ -341,11 +341,11 @@ By selecting a part, you can apply a set of actions including:
 
 {% image /assets/images/documentation/dev/obsolete_icon.png "Obsolete icon"%}
 
-###Part CAD File
+###Part Files
 
-This tab allows you to associate a CAD file to the part. If you choose a file while another was already set, the older file will automatically be replaced with the new one.
+This tab allows you to attach files and associate a CAD file to the part. If you choose a CAD file while another was already set, the older file will automatically be replaced with the new one.
 
-{% image /assets/images/documentation/dev/en/image51.png "CAD File view"%}
+{% image /assets/images/documentation/dev/en/image51.png "Files view"%}
 
 DocDokuPLM must convert CAD files to obj format to enable the 3D visualization. This conversion runs automatically after you add the CAD file. If the operation fails, you can retry it manually.
 
