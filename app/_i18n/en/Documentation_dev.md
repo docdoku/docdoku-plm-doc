@@ -522,9 +522,13 @@ Click on the above icon to display the product/baseline/deliverable 3D scene.
 {% image /assets/images/documentation/dev/3d_scene.png "3D scene icon"%}
 
 One click on a 3D object selects the results on the left hand panel. The associated part and all its ancestors will be highlighted in yellow. Moreover the part properties are displayed in the right hand panel.
-This feature is useful when the user wants to find a part he ignores the part number.
+This feature is useful when the user wants to find a part he ignores the number.
 
 {% image /assets/images/documentation/dev/en/visualization.png "3D model visualization"%}
+
+By switching a part to ON/OFF on the tree, you display/hide the part on the scene view.
+
+{% image /assets/images/documentation/dev/on_switch_button.png "Switch button - ON state"%}
 
 The possible actions in the 3D visualization mode are:
 
@@ -587,6 +591,8 @@ By clicking on the "Signing up" link, you will be able to add a signature block.
 All the users who have subscribed to state change notification will be informed by email.
 
 ##Milestone
+
+
 
 ##Issues
 

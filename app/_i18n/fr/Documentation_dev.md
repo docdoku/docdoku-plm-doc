@@ -555,6 +555,10 @@ Cette solution peut s’avérer utile dans le cas où l’utilisateur ne connaî
 
 {% image /assets/images/documentation/dev/fr/image22.png "Navigation dans le modèle 3D"%}
 
+En activant/désactivant le swith de l'article dans l'arborescence, vous affichez/cachez l'article correspondant dans la visualisation 3D.
+
+{% image /assets/images/documentation/dev/on_switch_button.png "Bouton switch - état activé"%}
+
 Parmi les actions possibles dans le mode de visualisation en 3D, vous retrouverez :
 
 * La création de marqueurs permettant par exemple de rapporter un dysfonctionnement d’une pièce sur le schéma 3D
