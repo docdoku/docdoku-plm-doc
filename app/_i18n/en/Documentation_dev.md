@@ -486,17 +486,19 @@ You can change the explorer specifications. Look at the top left menu under the 
 
 ###Path data
 
-You may want to associate specific data with a deliverable part (like a serial number attribute for instance). This feature is enabled in deliverable structure. Simply click on the checkbox next to the part to display the following button:
+You may want to associate specific data with a deliverable part (like a serial number attribute for instance). This feature is available and accessible through  the deliverable structure explorer. Simply click on the checkbox next to the part to display the following button:
 
 {% image /assets/images/documentation/dev/en/image72.png "Path data button"%}
 
 {% image /assets/images/documentation/dev/en/image73.png "Path data creation view - Attributes tab"%}
 
-During path data edition you can manage attributes, files and document links. Furthermore, it is possible to freeze your modifications if you want to keep a change history by clicking on the "Freeze current iteration button". This operation will freeze the iteration and create a new editable one.
+During path data edition you can manage attributes, files and document links. Furthermore, it is possible to freeze your modifications if you want to keep a change history by clicking on the "Freeze current iteration" button. This operation will freeze the iteration and create a new editable one.
 
 {% image /assets/images/documentation/dev/en/image74.png "Path data edition view - Freeze iteration"%}
 
 ###Typed link
+
+
 
 ###Part search bar
 

@@ -481,23 +481,50 @@ Cliquez sur l'icône ci-dessous pour faire apparaître la structure d'un produit
 
 {% image /assets/images/documentation/dev/product_structure.png "Icône de structure produit"%}
 
-La structure produit vous permet de voir l'organisation des composants d'un produit et de localiser un article donné.
+La structure produit vous permet de voir l'organisation des composants d'un produit en arborescence et de localiser un article donné.
 
 {% image /assets/images/documentation/dev/tree_structure.png "Structure produit"%}
 
 Chaque noeud représente un assemblage d'articles, il suffit de l'étendre pour voir de quels articles il est composé. Un clic sur l'article affiche ses sous-articles sous forme de liste et un clic sur l'icône à droite de l'article affiche ses propriétés.
 
+Actions disponibles sur l'arborescence :
+
 {% image /assets/images/documentation/dev/refresh_tree.png "Rafraîcher l'arbre"%}
 {% image /assets/images/documentation/dev/toggle_comments.png "Afficher/masquer les commentaires"%}
-{% image /assets/images/documentation/dev/optional.png "Falcutatif"%}
+
+Informations disponibles sur un article :
+
+{% image /assets/images/documentation/dev/optional.png "Est falcutatif"%}
 {% image /assets/images/documentation/dev/has_substitutes.png "Possède des variantes"%}
 {% image /assets/images/documentation/dev/is_substitute.png "Est une variante"%}
 
-###Configuration du parcours de la structure
+###Configuration du parcours de l'arborescence
 
-Vous pouvez choisir comment explorer la structure.
+Vous pouvez choisir comment explorer l'arborescence avec le menu en haut à gauche. Il existe 3 modes de parcours :
+
+* "Dernières versions", pour afficher la structure du produit. Dans ce cas, le sous-menu vous permet de choisir entre différents statuts d'article (travail en cours, derniers libérés, derniers finalisés)
+
+{% image /assets/images/documentation/dev/fr/image70.png "Exemple avec le mode produit"%}
+
+* "Baseline", pour afficher la structure d'une ligne de base. Dans ce cas, le sous-menu vous permet de choisir une baseline du produit
+
+{% image /assets/images/documentation/dev/tree_conf_baseline.png "Exemple avec le mode baseline"%}
+
+* "Numéro de série", pour afficher la structure d'un exemplaire. Dans ce cas, le sous-menu vous permet de choisir un exemplaire associé au produit
+
+{% image /assets/images/documentation/dev/fr/image71.png "Exemple avec le mode exemplaire"%}
 
 ###Données de l'exemplaire
+
+Vous pourriez avoir besoin d'associer des données spécifiques à un article d'un exemplaire (comme par exemple un numéro de série). Cette fonctionnalité est disponible et accessible depuis le mode exemplaire. Pour afficher les données d'un article dans un exemplaire, cliquez sur la checkbox de l'article concerné dans l'arborescence puis sur le bouton suivant :
+
+{% image /assets/images/documentation/dev/fr/image72.png "Bouton des données de l'exemplaire"%}
+
+{% image /assets/images/documentation/dev/fr/image73.png "Création de données d'exemplaire - Onglet Attributs"%}
+
+Lors de l'édition de ces données, vous pouvez gérer des attributs, des fichiers et des liens de documents. De plus, il est possible de geler vos modifications si vous souhaitez conserver un historique des changements en cliquant sur le bouton "Figer l'itération en cours". Ceci figera l'itération et en créera une nouvelle qui sera éditable.
+
+{% image /assets/images/documentation/dev/fr/image74.png "Edition de données d'exemplaire - Figer l'itération"%}
 
 ###Lien de chemin
 
