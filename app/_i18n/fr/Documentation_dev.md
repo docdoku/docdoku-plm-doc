@@ -535,6 +535,18 @@ Si un article possède des données d'exemplaire, l'icône suivant apparaîtra �
 
 ###Lien de chemin
 
+Dans un produit, on a parfois besoin de lier certains articles entre eux de différentes façons. Das ce cas, vous pourrez utiliser les liens de chemin. Ces liens vous aident à définir de nouvelles structures pour un même produit, par exemple pour mettre en évidence des connexions électriques entre des articles.
+
+Sélectionnez les 2 articles que vous voulez lier depuis la structure produit pour faire apparaître le bouton ci-dessous :
+
+{% image /assets/images/documentation/dev/fr/image75.png "Bouton Lien de chemin"%}
+
+En cliquant sur ce bouton, vous pouvez ajouter un lien défini avec un type existant ou un nouveau type. Ce type sera utile par la suite pour afficher la nouvelle arborescence définie :
+
+{% image /assets/images/documentation/dev/fr/image76.png "Sélection du type"%}
+
+Tout lien peut être modifié et supprimé.
+
 ###Barre de recherche d'article
 
 Cependant, pour les produits complexes comprenant un très grand nombre d'articles, la tâche peut s'avérer fastidieuse. Prenez l'exemple du parcours de la structure produit représentée ci-dessus. Afin de faciliter l'opération, DocDokuPLM intègre une barre de recherche qui permet de trouver facilement un article à partir de son numéro ou de son nom.

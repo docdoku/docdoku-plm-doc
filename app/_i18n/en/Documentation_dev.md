@@ -505,7 +505,17 @@ If a part has defined deliverable data, the following icon shows up on the tree 
 
 ###Typed link
 
+In a product, you need occasionaly to link parts to each other in a different way. Then you will use typed links. Those links help you define new structures to the product, for instance highlighting electrical connections between parts.
 
+Check 2 different parts in the product structure to show the following button:
+
+{% image /assets/images/documentation/dev/en/image75.png "Typed link button"%}
+
+By clicking on that button, you add the link defined with an existing or a new type. This type will be then useful to display the new defined product connections:
+
+{% image /assets/images/documentation/dev/en/image76.png "Type selection"%}
+
+Any link can be edited and removed.
 
 ###Part search bar
 
