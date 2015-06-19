@@ -1,3 +1,4 @@
+.DS_Store
 dist/
 jkl/
 node_modules/
@@ -6,4 +7,3 @@ app/bower_components/
 npm-debug.log
 *~
 .*~
-.DS_Store
