@@ -220,14 +220,14 @@ Ci-après les tableaux récapitulatifs des combinaisons possibles.
 
 ###Droits définis au niveau entité pour un groupe
 
-| Groupe          | Droit d’accès entité  | Résultat         |
+| Groupe          | Droit d’accès entité  | Droits effectifs |
 | --------------- | --------------------- | ---------------- |
 | accès complet   | accès complet         | accès complet    |
 | accès complet   | lecture seule         | lecture seule    |
 | accès complet   | interdit              | interdit         |
 | lecture seule   | accès complet         | accès complet    |
 | lecture seule   | lecture seule         | lecture seule    |
-| lecture seule   | interdit              | interdit         |
+| lecture seule   | interdit              | interdit
 
 #Gestion des documents
 
@@ -736,7 +736,7 @@ Nous distinguons deux types de recherche : rapide et avancée.
 
 ##Recherche rapide
 
-La barre de recherche rapide se présente au-dessus de la liste des documents/articles. Elle permet de trouver rapidement un élément à partir de sa référence ou son nom.
+La barre de recherche rapide se présente au-dessus de la liste des documents/articles. Elle permet de trouver rapidement un élément à partir de son nom, son type, sa référence, sa version, son auteur, sa date de création, sa date de modification.
 
 {% image /assets/images/documentation/fr/image42.png "Barre de recherche rapide"%}
 
@@ -747,7 +747,16 @@ Vous pouvez accéder à la recherche avancée de deux manières :
 * en cliquant sur le lien “Rechercher“ présent dans le menu de gauche, seulement pour les documents
 * en cliquant sur la petite flèche dans la barre de “Recherche Rapide“
 
-Cette recherche avancée permet de trouver un élément à partir de son nom, son type, sa référence, sa version, son auteur, sa date de création ou encore le contenu des fichiers chargés.
+Cette recherche avancée permet de trouver un élément à partir de plusieurs textes saisis concernant :
+
+* son nom
+* son type
+* sa référence
+* sa version
+* son auteur
+* ses dates de création et de modification
+* ses attributs
+* le contenu des fichiers chargés
 
 {% image /assets/images/documentation/dev/fr/image25.png "Recherche avancée"%}
 

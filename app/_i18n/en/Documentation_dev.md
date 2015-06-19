@@ -709,7 +709,7 @@ We distinguish two types of search: quick and advanced.
 
 ##Quick search
 
-The quick search bar appears on top of the documents/parts list. It lets you quickly find an item from its reference or name.
+The quick search bar appears on top of the documents/parts list. It lets you quickly find an item from its name, type, identifier, version, author, creation date, modification date.
 
 {% image /assets/images/documentation/en/image08.png "Quick search bar"%}
 
@@ -720,7 +720,16 @@ There are two ways to get access to the advanced search:
 * through the “Search” link from the left menu, only for documents
 * through the small arrow from the quick search bar
 
-This advanced search allows you to find an item from its name, type, identifier, version, author, creation date or content files.
+This advanced search allows you to find an item from multiple input texts about its:
+
+* name
+* type
+* identifier
+* version
+* author
+* creation or modification date
+* attributes
+* content files
 
 {% image /assets/images/documentation/dev/en/image30.png "Advanced search"%}
 
