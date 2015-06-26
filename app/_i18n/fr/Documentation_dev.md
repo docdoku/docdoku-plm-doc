@@ -344,7 +344,7 @@ Cette opération permet par la suite de créer des articles reposant sur ces mod
 
 ###Création d’article
 
-Lors de la création d’un article, vous pouvez donc renseigner un modèle d’article. L’article ainsi créé aura les mêmes propriétés que celles du modèle (processus, attributs et fichier CAO).
+Lors de la création d’un article, vous pouvez donc renseigner un modèle d’article. L’article ainsi créé aura les mêmes propriétés que celles du modèle (processus, attributs, fichier CAO).
 
 Vous pouvez tout aussi bien lui associer de façon individuelle :
 
@@ -397,7 +397,7 @@ Une fois ajouté, la variante apparaît dans la vue du sous-article, tel que mon
 
 ###Notifications
 
-Parfois un chagement sur un sous-article peut impacter l'article parent. L'onglet Notifications affiche le journal des modifications des sous-composants pour vous aider à régler les impacts potentiels.
+Parfois un changement sur un sous-article peut impacter l'article parent. L'onglet Notifications affiche le journal des modifications des sous-composants pour vous aider à régler les impacts potentiels.
 
 {% image /assets/images/documentation/dev/fr/image66.png "Vue Notifications"%}
 
@@ -492,7 +492,7 @@ Chaque noeud représente un assemblage d'articles, il suffit de l'étendre pour 
 
 Actions disponibles sur l'arborescence :
 
-{% image /assets/images/documentation/dev/refresh_tree.png "Rafraîcher l'arbre"%}
+{% image /assets/images/documentation/dev/refresh_tree.png "Rafraîchir l'arbre"%}
 {% image /assets/images/documentation/dev/toggle_comments.png "Afficher/masquer les commentaires"%}
 
 Informations disponibles sur un article :
@@ -533,13 +533,13 @@ Si un article possède des données d'exemplaire, l'icône suivant apparaîtra �
 
 {% image /assets/images/documentation/dev/has_path_data.png "Possède des données d'exemplaire"%}
 
-###Lien de chemin
+###Lien typé
 
 Dans un produit, on a parfois besoin de lier certains articles entre eux de différentes façons. Das ce cas, vous pourrez utiliser les liens de chemin. Ces liens vous aident à définir de nouvelles structures pour un même produit, par exemple pour mettre en évidence des connexions électriques entre des articles.
 
 Sélectionnez les 2 articles que vous voulez lier depuis la structure produit pour faire apparaître le bouton ci-dessous :
 
-{% image /assets/images/documentation/dev/fr/image75.png "Bouton Lien de chemin"%}
+{% image /assets/images/documentation/dev/fr/image75.png "Bouton Lien typé"%}
 
 En cliquant sur ce bouton, vous pouvez ajouter un lien défini avec un type existant ou un nouveau type. Ce type sera utile par la suite pour afficher la nouvelle arborescence définie :
 
@@ -549,7 +549,7 @@ Tout lien peut être modifié et supprimé.
 
 ###Barre de recherche d'article
 
-Cependant, pour les produits complexes comprenant un très grand nombre d'articles, la tâche peut s'avérer fastidieuse. Prenez l'exemple du parcours de la structure produit représentée ci-dessus. Afin de faciliter l'opération, DocDokuPLM intègre une barre de recherche qui permet de trouver facilement un article à partir de son numéro ou de son nom.
+Cependant, pour les produits complexes comprenant un très grand nombre d'articles, la tâche peut s'avérer fastidieuse. Prenez l'exemple du parcours de la structure produit représentée ci-dessus. Afin de faciliter l'opération, DocDokuPLM intègre une barre de recherche qui permet de trouver facilement un article à partir de son numéro ou de son nom. Le ou les réultat(s) de la recherche sont surlignés en jaune dans l'arbre.
 
 {% image /assets/images/documentation/fr/image46.png "Barre de recherche"%}
 
@@ -567,7 +567,7 @@ Cette solution peut s’avérer utile dans le cas où l’utilisateur ne connaî
 
 {% image /assets/images/documentation/dev/fr/image22.png "Navigation dans le modèle 3D"%}
 
-En activant/désactivant le swith de l'article dans l'arborescence, vous affichez/cachez l'article correspondant dans la visualisation 3D.
+En activant/désactivant le switch de l'article dans l'arborescence, vous affichez/cachez l'article correspondant dans la visualisation 3D.
 
 {% image /assets/images/documentation/dev/on_switch_button.png "Bouton switch - état activé"%}
 
