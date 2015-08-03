@@ -241,7 +241,13 @@ Dans ce qui suit nous détaillons l’ensemble de ces fonctions.
 
 ###Création d’un modèle de document
 
-Vous pouvez créer des modèles de documents qui serviront à la création des documents. Au moment de la création d’un modèle, vous pouvez choisir de gérer la nomenclature des documents en déterminant un masque de saisie et en cochant la génération de l’identifiant. Ceci entraînera la création automatique d’identifiants pour les documents qui utiliseront ce modèle.
+Vous pouvez créer des modèles de documents qui serviront à la création des documents. Au moment de la création d’un modèle, vous pouvez choisir de gérer la nomenclature des documents en déterminant un masque de saisie. Les caractères disponibles sont les suivants :
+
+* Alphanumériques
+* '#' pour tout chiffre valide
+* '*' pour n'importe quel caractère
+
+Cocher la génération de l’identifiant entraînera la création automatique d’identifiants pour les documents qui utiliseront ce modèle. Si votre masque contient des chiffres, ils seront automatiquement incrémentés pour chaque nouveau document créé.
 
 {% image /assets/images/documentation/dev/fr/image31.png "Formulaire de création d'un modèle de document"%}
 

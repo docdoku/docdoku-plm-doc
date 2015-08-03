@@ -219,7 +219,13 @@ In the following paragraph, we will detail all of these functionalities.
 
 ###Document template creation
 
-You can create templates that will be used to instantiate documents. You can choose to restrict document naming by filling a mask format and selecting the identifier generation option. This will lead to an automatic creation of identifiers for documents using the template.
+You can create templates that will be used to instantiate documents. You can choose to restrict document naming by filling a mask format. The available characters are the following:
+
+* alphanumeric
+* '#' for any valid figure
+* '*' for any character
+
+Selecting the identifier generation option will lead to an automatic creation of identifiers for documents using the template. If your mask contains figures, then the identifiers will be automatically incremented.
 
 {% image /assets/images/documentation/dev/en/image25.png "Document template creation form"%}
 
