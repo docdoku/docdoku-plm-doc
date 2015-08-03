@@ -436,6 +436,16 @@ Furthermore the Configuration tab offers you to choose a specific configuration.
 
 {% image /assets/images/documentation/dev/en/image58.png "Choices selection"%}
 
+##User defined function
+
+You may want to run calculations on every part of a product or baseline, for example determine its total price. This feature is available by blicking this button:
+
+{% image /assets/images/documentation/dev/user_function_button.png "User defined function button"%}
+
+The calculation can be a sum or an average. You choose which attribute will be used for calculation (below the weight). If the attribute is not defined on a part, the part is ignored.
+
+{% image /assets/images/documentation/dev/en/image78.png "User defined function view"%}
+
 ##Deliverable
 
 A deliverable is a product instance based on a product baseline and identified with a serial number.

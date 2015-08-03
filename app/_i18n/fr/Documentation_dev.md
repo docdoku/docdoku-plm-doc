@@ -466,6 +466,16 @@ De plus, l'onglet Configuration permet de choisir une configuration spécifique 
 
 {% image /assets/images/documentation/dev/fr/image58.png "Choix de configuration"%}
 
+##Fonction utilisateur
+
+Parfois, il peut être utile de lancer des calculs sur tous les articles d'un même produit ou d'une même ligne de base, pur déterminer par exemple son prix total. Cette fonctionnalité est disponible en cliquant sur ce bouton :
+
+{% image /assets/images/documentation/dev/user_function_button.png "Bouton Fonction utilisateur"%}
+
+Le calcul peut être une somme ou une moyenne. Vous choisissez l'attribut à utiliser dans le calcul (ci-dessous le poids). Si l'attribut n'est pas défini pour un article, cet article est ignoré.
+
+{% image /assets/images/documentation/dev/fr/image78.png "Vue Fonction utilisateur"%}
+
 ##Exemplaire
 
 Un exemplaire est une instance de produit basée sur une ligne de base et identifiée par un numéro de série.
