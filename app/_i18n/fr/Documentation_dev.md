@@ -671,7 +671,7 @@ C'est impossible de mettre à jour ou de redémarrer un processus arrêté. Le s
 
 #Réservation et libération
 
-Vous pouvez réserver un document/article en le sélectionnant via sa case à cocher. Une nouvelle itération de l'élément sera créée.
+Vous pouvez réserver un document/article en le sélectionnant via sa case à cocher. Une nouvelle itération de l'élément sera créée. Vous pouvez sélectionner plusieurs éléments pour aller plus vite.
 
 {% image /assets/images/documentation/image14.png "Boutons réserver / annuler la réservation / libérer"%}
 

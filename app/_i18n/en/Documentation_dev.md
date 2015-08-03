@@ -640,7 +640,7 @@ There is no way to update or reset a stopped workflow assigned to an item. The o
 
 #Check-out / Check-in
 
-To lock a document/part to prevent modification, just select it and press the check-out button. A new item iteration will be created.
+To lock a document/part to prevent modification, just select it and press the check-out button. A new item iteration will be created. You can select multiple items to proceed faster.
 
 {% image /assets/images/documentation/image14.png "Check-out / Undo check-out / Check-in buttons"%}
 
