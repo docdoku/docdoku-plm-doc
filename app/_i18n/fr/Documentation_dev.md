@@ -584,7 +584,11 @@ Un processus, ou flux des travaux, est la représentation des opérations affect
 
 ##Les rôles
 
-Pour créer un modèle de processus, il faut au préalable créer des rôles dans l’espace de travail. Ces rôles peuvent être assignés par défaut à des utilisateurs, mais ils peuvent être redéfinis lors de l'affectation du processus à la création d'un document ou d'un article.
+Pour créer un modèle de processus, il faut au préalable créer des rôles dans l’espace de travail.
+
+{% image /assets/images/documentation/dev/edit_roles.png "Bouton Rôles"%}
+
+Ces rôles peuvent être assignés par défaut à des utilisateurs, mais ils peuvent être redéfinis lors de l'affectation du processus à la création d'un document ou d'un article.
 
 {% image /assets/images/documentation/fr/image00.png "Création des rôles"%}
 
@@ -593,6 +597,8 @@ Pour créer un modèle de processus, il faut au préalable créer des rôles dan
 ###Modèle de processus
 
 Un modèle de processus est composé d'un état initial, d'une série d'activités et d'un état final. Chaque activité contient un libellé définissant son état intermédiaire et une liste de tâches à effectuer. Ces tâches peuvent être effectuées en série ou en parallèle.
+
+{% image /assets/images/documentation/dev/add_workflow.png "Bouton Processus"%}
 
 Pour une activité de type série, les tâches doivent être réalisées dans l'ordre. Le rejet d'une tâche entraîne l'arrêt de l'activité courante.
 
@@ -605,6 +611,14 @@ En cas d’invalidation, le processus reprendra à l’activité de relance si c
 Un modèle de processus peut être modifié n’importe quand. Cela n’entrainera en aucun cas la modification des processus instanciés depuis ce modèle.
 
 {% image /assets/images/documentation/dev/fr/image20.png "Création d'un modèle de processus"%}
+
+Quand vous modifiez un processus, vous pouvez le dupliquer en cliquant sur ce bouton :
+
+{% image /assets/images/documentation/dev/duplicate_workflow.png "Dupliquer le processus"%}
+
+Il suffit ensuite de renseigner un nom pour le nouveau processus copié.
+
+{% image /assets/images/documentation/dev/fr/image77.png "Copie d'un processus"%}
 
 ###Instance de processus
 
@@ -628,6 +642,8 @@ Une tâche peut être approuvée ou rejetée si :
 En cliquant sur le lien "Signature", vous aurez la possibilité d'ajouter une signature électronique.
 
 Tous les utilisateurs abonnés aux changements d'état du processus en seront informés par mail.
+
+C'est impossible de mettre à jour ou de redémarrer un processus arrêté. Le seul moyen de relancer un processus stoppé est de créer une nouvelle version de l'entité concernée et de lui assigner le même processus.
 
 ##Jalons
 

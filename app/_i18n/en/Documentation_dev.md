@@ -555,6 +555,8 @@ A workflow is a representation of the various tasks that need to be completed an
 
 DocDokuPLM workflows are role-based. This means that to increase the applicability of any workflow model, task assignees are not expressed directly by user names but rather by roles.
 
+{% image /assets/images/documentation/dev/edit_roles.png "Roles button"%}
+
 Thus, the first step involved in workflow creations is to define the roles used inside the workspace. These roles can optionally be mapped to a default user assignee. Anyway, when the workflow model is instantiated and attached to a document or a part, we will have the opportunity to refine those mappings.
 
 {% image /assets/images/documentation/en/image32.png "Roles definition panel"%}
@@ -564,6 +566,8 @@ Thus, the first step involved in workflow creations is to define the roles used 
 ###Workflow template
 
 A workflow template (or model) lists several activities from an initial state to a final state. Each activity contains a label naming its intermediate state and a list of tasks to complete. Those tasks can be performed in series or in parallel.
+
+{% image /assets/images/documentation/dev/add_workflow.png "Workflow button"%}
 
 For a serial activity, the tasks are performed sequentially. If one task is rejected, the current activity is stopped.
 
@@ -576,6 +580,14 @@ In case of an unvalidated activity, the workflow will go on the recovery activit
 A workflow template can be changed at any time. That will have no incidence to the already instantiated workflows.
 
 {% image /assets/images/documentation/dev/en/image12.png "Workflow template creation"%}
+
+When editing a workflow, you can duplicate it by clicking on the following button:
+
+{% image /assets/images/documentation/dev/duplicate_workflow.png "Duplicate workflow"%}
+
+Then simply enter a name for the new copied workflow.
+
+{% image /assets/images/documentation/dev/en/image77.png "Workflow copy"%}
 
 ###Workflow instance
 
@@ -600,9 +612,9 @@ By clicking on the "Signing up" link, you will be able to add a signature block.
 
 All the users who have subscribed to state change notification will be informed by email.
 
+There is no way to update or reset a stopped workflow assigned to an item. The only way to relaunch it is creating a new version of that item and assign it the same workflow.
+
 ##Milestone
-
-
 
 ##Issues
 
