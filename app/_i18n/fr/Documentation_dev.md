@@ -752,7 +752,7 @@ Nous distinguons deux types de recherche : rapide et avancée.
 
 ##Recherche rapide
 
-La barre de recherche rapide se présente au-dessus de la liste des documents/articles. Elle permet de trouver rapidement un élément à partir de son nom, son type, sa référence, sa version, son auteur, sa date de création, sa date de modification.
+La barre de recherche rapide se présente au-dessus de la liste des documents/articles. Elle permet de trouver rapidement un élément à partir de son nom, son type, sa référence, sa version, son auteur, sa date de création, sa date de modification, ses attributs, le contenu des fichiers chargés.
 
 {% image /assets/images/documentation/fr/image42.png "Barre de recherche rapide"%}
 
