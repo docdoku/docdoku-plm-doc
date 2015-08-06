@@ -387,6 +387,8 @@ DocDokuPLM doit convertir les fichiers CAO au format obj pour permettre la visua
 
 Voici la liste complète des formats supportés : dxf, obj, off, ply, stl, 3ds, wrl.
 
+L'ajout de textures est également possible en ajoutant les fichiers correspondants au format jpg ou png. Les textures seront appliquées dans la vue 3D.
+
 ###Assemblage d’articles
 
 Lors de la modification d’un article, vous pouvez définir son assemblage. Un assemblage est composé d'autres articles (sous-article).

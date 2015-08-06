@@ -357,6 +357,8 @@ DocDokuPLM must convert CAD files to obj format to enable the 3D visualization. 
 
 Here is the exhaustive list of supported formats: dxf, obj, off, ply, stl, 3ds, wrl.
 
+You can add textures as well by adding extra attached files as png or jpg. Textures will appear on 3D view.
+
 ###Part assembly
 
 When modifying a part, you can edit the assembly composition. An assembly is composed of other parts (subparts).
