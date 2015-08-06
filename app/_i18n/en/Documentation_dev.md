@@ -464,6 +464,20 @@ To keep different versions of a deliverable, simply create new iterations by cli
 
 {% image /assets/images/documentation/dev/en/image63.png "Rebase a deliverable"%}
 
+##Export files in a zip
+
+To share product files with external users or simply keep a local copy on your disk, you will find a very useful feature on product / baseline / deliverable lists items.
+
+{% image /assets/images/documentation/dev/en/image79.png "Export files"%}
+
+You can choose:
+
+* to only export CAD files
+* to only export files from linked documents
+* to export any files from parts and linked documents
+
+If you export the files of a product, you will obtain the files attached to the last iterations of each parts and documents. Otherwise, you will get the files attached to the baselined iterations.
+
 ##Product structure explorer
 
 Click on the above icon to display the product/baseline/deliverable structure.

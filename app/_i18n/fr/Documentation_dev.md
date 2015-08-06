@@ -494,6 +494,20 @@ Pour conserver différentes versions d'un même exemplaire, vous devez créer de
 
 {% image /assets/images/documentation/dev/fr/image63.png "Rebaser un exemplaire"%}
 
+##Exporter les fichiers dans un zip
+
+Pour partagaer des fichiers avec des personnes n'utilisant pas DocDokuPLM ou simplement pour conserver une copie sur votre disque, vous trouverez une fonctionnalité très utile sur chaque item d'une liste de produits / lignes de base / exemplaires.
+
+{% image /assets/images/documentation/dev/fr/image79.png "Exporter les fichiers"%}
+
+Vous pouvez choisir :
+
+* d'exporter uniquement les fichiers CAO
+* d'exporter uniquement les fichiers des documents liés
+* d'exporter tous les fichiers attachés aux articles et aux documents liés
+
+Si vous exportez les fichiers d'un produit, vous obtiendrez les fichiers joints à la dernière itération de chaque article et de chaque document. Sinon, vous obtiendrez les fichiers joints  the files attached to the baselined iterations.
+
 ##Explorateur de la structure d'un produit
 
 Cliquez sur l'icône ci-dessous pour faire apparaître la structure d'un produit, d'une ligne de base ou d'un exemplaire.
