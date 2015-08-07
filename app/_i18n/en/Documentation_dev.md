@@ -398,6 +398,23 @@ This view lists:
 
 {% image /assets/images/documentation/dev/en/image69.png "Used by view"%}
 
+###Query builder
+
+If you want to display a custom list of parts, go to the query builder from the following button:
+
+{% image /assets/images/documentation/dev/query_builder.png "Query builder button"%}
+
+With the displayed view:
+
+* you filter the parts list by products and / or deliverables
+* you select which field you want to display (for example part number, part name, attributes...)
+* you include or exclude parts with where clauses (at least one must be defined)
+* you order and group the parts in the result list
+
+{% image /assets/images/documentation/dev/en/image80.png "Query builder"%}
+
+If you save the query and select it, you can export the results to an Excel file. This feature is very useful to get bill of materials.
+
 ###Quick links
 
 You have a fast access to your checked out parts in the left menu.
@@ -405,6 +422,8 @@ You have a fast access to your checked out parts in the left menu.
 {% image /assets/images/documentation/dev/en/image50.png "Links section"%}
 
 ##Product
+
+###Product creation
 
 The creation of a product involves supplying an identifier and a part number, filling a description is optional.
 
@@ -414,7 +433,7 @@ The part number designates the root part of your product. It can be a simple par
 
 The new product will be added to the product list. Selecting an item from that list proposes two actions: deletion and baseline creation.
 
-##Configuration
+###Configuration
 
 A configuration is a list of assembly choices for a given product. Indeed you may want to:
 
@@ -430,7 +449,7 @@ A configuration is a list of assembly choices for a given product. Indeed you ma
 
 {% image /assets/images/documentation/dev/en/image65.png "Choice example: None"%}
 
-##Baseline
+###Baseline
 
 Baselines are kinds of snapshots of the entire product structure at a given time so you can manage different versions of the same product.
 
@@ -444,7 +463,7 @@ Furthermore the Configuration tab offers you to choose a specific configuration.
 
 {% image /assets/images/documentation/dev/en/image58.png "Choices selection"%}
 
-##User defined function
+###User defined function
 
 You may want to run calculations on every part of a product or baseline, for example determine its total price. This feature is available by blicking this button:
 
@@ -454,7 +473,7 @@ The calculation can be a sum or an average. You choose which attribute will be u
 
 {% image /assets/images/documentation/dev/en/image78.png "User defined function view"%}
 
-##Deliverable
+###Deliverable
 
 A deliverable is a product instance based on a product baseline and identified with a serial number.
 
@@ -466,7 +485,7 @@ To keep different versions of a deliverable, simply create new iterations by cli
 
 {% image /assets/images/documentation/dev/en/image63.png "Rebase a deliverable"%}
 
-##Export files in a zip
+###Export files in a zip
 
 To share product files with external users or simply keep a local copy on your disk, you will find a very useful feature on product / baseline / deliverable lists items.
 

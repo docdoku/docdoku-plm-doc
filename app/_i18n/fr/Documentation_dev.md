@@ -428,6 +428,22 @@ Cette vue liste :
 
 {% image /assets/images/documentation/dev/fr/image69.png "Vue Cas d'emploi"%}
 
+###Construire une requête
+
+Pour choisir vous-même ce que vous voulez afficher dans la liste des articles, il vous faut construire une requête. Pour ce faire, cliquez sur le bouton suivant :
+
+{% image /assets/images/documentation/dev/query_builder.png "Bouton d'accès"%}
+
+La vue qui s'affiche alors vous permet de :
+
+* filtrer la liste d'articles par produit et / ou exemplaire 
+* sélectionner les champs que vous voulez afficher (par exemple numéro d'article, nom, attributs...). * inclure ou exclure des articles avec des conditions (au moins une condition est requise)
+* ordonner et grouper les articles dans la liste de résultats
+
+{% image /assets/images/documentation/dev/fr/image80.png "Construction d'un requête"%}
+
+Si vous enregistrez la requête et que vous la sélectionnez, vous pourrez exporter les résultats dans un fichier Excel. Cette fonctionnalité peut s'avérer très utile pour obtenir la nomenclature d'un produit.
+
 ###Liens rapides
 
 Vous trouverez un accès rapide à vos articles réservés dans le menu de gauche.
@@ -435,6 +451,8 @@ Vous trouverez un accès rapide à vos articles réservés dans le menu de gauch
 {% image /assets/images/documentation/dev/fr/image50.png "Section des liens"%}
 
 ##Produit
+
+###Création de produit
 
 Au moment de la création d’un produit, l’identifiant du produit ainsi que le numéro de l’article sont obligatoires, la description est par contre optionnelle.
 
@@ -444,7 +462,7 @@ Le numéro d’article est l’élément de tête de votre produit. Celui-ci peu
 
 Le produit créé sera rajouté à la liste des produits. En sélectionnant un produit dans la liste, les actions possibles sont sa suppression et la création d’une ligne de base.
 
-##Configuration
+###Configuration
 
 Une configuration est une liste de choix d'assemblage pour un produit donné. En effet, on peut vouloir :
 
@@ -460,7 +478,7 @@ Une configuration est une liste de choix d'assemblage pour un produit donné. En
 
 {% image /assets/images/documentation/dev/fr/image65.png "Exemple de choix : Aucun"%}
 
-##Ligne de base
+###Ligne de base
 
 La création d’une ligne de base (ou baseline) permet d’enregistrer à un instant donné une version du produit et donc de gérer différentes versions d’un même produit.
 
@@ -474,7 +492,7 @@ De plus, l'onglet Configuration permet de choisir une configuration spécifique 
 
 {% image /assets/images/documentation/dev/fr/image58.png "Choix de configuration"%}
 
-##Fonction utilisateur
+###Fonction utilisateur
 
 Parfois, il peut être utile de lancer des calculs sur tous les articles d'un même produit ou d'une même ligne de base, pur déterminer par exemple son prix total. Cette fonctionnalité est disponible en cliquant sur ce bouton :
 
@@ -484,7 +502,7 @@ Le calcul peut être une somme ou une moyenne. Vous choisissez l'attribut à uti
 
 {% image /assets/images/documentation/dev/fr/image78.png "Vue Fonction utilisateur"%}
 
-##Exemplaire
+###Exemplaire
 
 Un exemplaire est une instance de produit basée sur une ligne de base et identifiée par un numéro de série.
 
@@ -496,7 +514,7 @@ Pour conserver différentes versions d'un même exemplaire, vous devez créer de
 
 {% image /assets/images/documentation/dev/fr/image63.png "Rebaser un exemplaire"%}
 
-##Exporter les fichiers dans un zip
+###Exporter les fichiers dans un zip
 
 Pour partagaer des fichiers avec des personnes n'utilisant pas DocDokuPLM ou simplement pour conserver une copie sur votre disque, vous trouverez une fonctionnalité très utile sur chaque item d'une liste de produits / lignes de base / exemplaires.
 
