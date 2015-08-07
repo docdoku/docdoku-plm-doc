@@ -667,11 +667,33 @@ There is no way to update or reset a stopped workflow assigned to an item. The o
 
 ##Milestone
 
+Milestones allow you to define deadlines for your jobs in progress.
+
+{% image /assets/images/documentation/dev/en/image81.png "Milestone creation"%}
+
 ##Issues
+
+This page allow you to reoprt issues with specific priority about your projects. An issue fix can:
+
+* be affected to a user
+* concern documents and / or parts that you add in tab "Affected items"
+* belong to a category
+
+List of available categories: adaptive, corrective, perfective, preventive.
+
+{% image /assets/images/documentation/dev/en/image82.png "Issue creation"%}
 
 ##Requests
 
+Change requests work exactly the same as issues. You can furthermore reference issues.
+
+{% image /assets/images/documentation/dev/en/image83.png "Request creation"%}
+
 ##Orders
+
+Change orders work exactly the same as issues. You can furthermore reference requests.
+
+{% image /assets/images/documentation/dev/en/image84.png "Order creation"%}
 
 #Check-out / Check-in
 

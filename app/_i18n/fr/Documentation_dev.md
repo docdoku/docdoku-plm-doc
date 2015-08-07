@@ -697,11 +697,33 @@ C'est impossible de mettre à jour ou de redémarrer un processus arrêté. Le s
 
 ##Jalons
 
+Les jalons permettent de définir des dates butoires pour vos projets et travaux en cours.
+
+{% image /assets/images/documentation/dev/fr/image81.png "Création d'un jalon"%}
+
 ##Anomalies
+
+Cette page permet de rapporter des anomalies plus ou moins prioritaires sur vos projets et travaux en cours. Une correction d'anomalie peut :
+
+* être affectée à un utilisateur
+* concerner des documents et / ou des articles que vous ajoutez dans l'onglet "Eléments affectés"
+* appartenir à une catégorie
+
+Liste des catégories disponibles : adaptive, corrective, perfective, préventive.
+
+{% image /assets/images/documentation/dev/fr/image82.png "Création d'une anomalie"%}
 
 ##Demandes
 
+Une demande de modification fonctionne de la même façon qu'une anomalie. On peut en outre y référencer des anomalies.
+
+{% image /assets/images/documentation/dev/fr/image83.png "Création d'une demande"%}
+
 ##Ordres
+
+Un ordre fonctionne de la même façon qu'une anomalie. On peut en outre y référencer des demandes.
+
+{% image /assets/images/documentation/dev/fr/image84.png "Création d'un ordre"%}
 
 #Réservation et libération
 
