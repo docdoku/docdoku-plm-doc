@@ -45,17 +45,17 @@ Chaque nouvel utilisateur doit effectuer cette action.
 
 La toute première étape consiste ainsi à s'enregistrer. Ici, tous les champs sont obligatoires.
 
-{% image /assets/images/documentation/dev/fr/image17.png "Création d'un utilisateur"%}
+{% image /assets/images/documentation/2.0/fr/image17.png "Création d'un utilisateur"%}
 
 ##Modification de l’utilisateur
 
-{% image /assets/images/documentation/dev/fr/image04.png "Gestion du compte"%}
+{% image /assets/images/documentation/2.0/fr/image04.png "Gestion du compte"%}
 
 Dans le sous-menu “Mon compte” vous pouvez modifier toutes vos caractéristiques à l'exception de votre identifiant utilisateur.
 
 Cette page vous permet également de modifier votre mot de passe. Le fuseau horaire permet d'afficher les heures selon vos préférences.
 
-{% image /assets/images/documentation/dev/fr/image10.png "Édition du compte"%}
+{% image /assets/images/documentation/2.0/fr/image10.png "Édition du compte"%}
 
 #Gestion des espaces de travail
 
@@ -73,7 +73,7 @@ L’option “geler la structure des répertoires sauf pour le gestionnaire de l
 
 Pour accéder aux options d’un espace de travail, cliquez sur le lien “Administration des espaces de travail”.
 
-{% image /assets/images/documentation/dev/fr/image04.png "Gestion du compte"%}
+{% image /assets/images/documentation/2.0/fr/image04.png "Gestion du compte"%}
 
 Plusieurs actions sont ici possibles :
 
@@ -105,7 +105,7 @@ Depuis le menu Collaborateurs, vous visualisez en temps réel les utilisateurs c
 
 En complément du menu Collaborateurs, chaque fois qu’un nom d’utilisateur apparaît en bleu dans l’application, cliquez dessus et un menu de conversation contextualisé avec le nom de l’espace de travail et le nom de l’élément concerné apparaît. Ce contexte est indiqué dans le titre de chaque fenêtre de conversation.
 
-{% image /assets/images/documentation/dev/fr/image29.png "Menu collaboratif contextuel"%}
+{% image /assets/images/documentation/2.0/fr/image29.png "Menu collaboratif contextuel"%}
 
 #Gestion des contrôles d’accès
 
@@ -153,7 +153,7 @@ Vous pouvez ainsi donner des droits supplémentaires sur des entités ciblées a
 
 En choisissant “Interdit” pour un utilisateur sur une entité, celle-ci ne sera pas visible dans la liste qui lui est servie.
 
-{% image /assets/images/documentation/dev/fr/image01.png "Formulaire de création de document, onglet de gestion de droits d'accès "%}
+{% image /assets/images/documentation/2.0/fr/image01.png "Formulaire de création de document, onglet de gestion de droits d'accès "%}
 
 Ces droits sont modifiables une fois le document créé, seuls l’administrateur de l’espace de travail et l’auteur du document ou de l’article peuvent le faire.
 
@@ -165,8 +165,8 @@ Vous pouvez alors modifier les droits associés au document ou à l’article, o
 
 Quand des droits sont appliqués sur un élément, un cadenas est visible en fin de ligne. La couleur verte signifie que vous avez un accès complet sur l’entité, la couleur jaune signifie un accès en lecture seule.
 
-{% image /assets/images/documentation/dev/full_access.png "Accès complet"%}
-{% image /assets/images/documentation/dev/read_only.png "Lecture seule "%}
+{% image /assets/images/documentation/2.0/full_access.png "Accès complet"%}
+{% image /assets/images/documentation/2.0/read_only.png "Lecture seule "%}
 
 ###Au niveau des modèles, des processus, des configurations et des exemplaires
 
@@ -235,7 +235,7 @@ DocDokuPLM offre une gestion complète de documents avec prise en compte des ver
 
 Dans ce qui suit nous détaillons l’ensemble de ces fonctions.
 
-{% image /assets/images/documentation/dev/fr/image09.png "Menu de gestion de documents"%}
+{% image /assets/images/documentation/2.0/fr/image09.png "Menu de gestion de documents"%}
 
 ##Modèles de document
 
@@ -249,7 +249,7 @@ Vous pouvez créer des modèles de documents qui serviront à la création des d
 
 Cocher la génération de l’identifiant entraînera la création automatique d’identifiants pour les documents qui utiliseront ce modèle. Si votre masque contient des chiffres, ils seront automatiquement incrémentés pour chaque nouveau document créé.
 
-{% image /assets/images/documentation/dev/fr/image31.png "Formulaire de création d'un modèle de document"%}
+{% image /assets/images/documentation/2.0/fr/image31.png "Formulaire de création d'un modèle de document"%}
 
 ###Ajout de processus
 
@@ -262,13 +262,13 @@ Vous pouvez définir des types d’attributs au modèle et lui associer des fich
 * ses attributs - il faudra alors renseigner leur valeur
 * ses fichiers - qui pourront bien sûr évoluer, le fichier positionné au niveau du modèle n’étant qu’un squelette
 
-{% image /assets/images/documentation/dev/fr/image41.png "Rattachement de fichiers au modèle"%}
+{% image /assets/images/documentation/2.0/fr/image41.png "Rattachement de fichiers au modèle"%}
 
 ##Création de document
 
 Tout document doit appartenir à un dossier. Afin de créer un document dans un répertoire spécifique, il faut se placer dessus en cliquant sur son nom dans le menu de gauche.
 
-{% image /assets/images/documentation/dev/fr/image35.png "Formulaire de création d'un document"%}
+{% image /assets/images/documentation/2.0/fr/image35.png "Formulaire de création d'un document"%}
 
 Vous pouvez ajouter des attributs, spécifier un processus et définir des droits d’accès dès la création du document. Le chargement des fichiers et l’édition des liens vers d’autres documents ne pourra se faire qu’une fois le document créé.
 
@@ -287,7 +287,7 @@ Une fois créé, vous pourrez effectuer les actions suivantes :
 
 Vous pouvez déplacer un document vers un dossier grace à l'icône ci-dessous. Pour ce faire, il suffit de glisser-déposer le document depuis l'icône vers le dossier voulu.
 
-{% image /assets/images/documentation/dev/document_move.png "Bouton de déplacement"%}
+{% image /assets/images/documentation/2.0/document_move.png "Bouton de déplacement"%}
 
 ##Modification d’un document
 
@@ -297,19 +297,19 @@ Les flèches situées en bas à gauche servent à visualiser les différents cha
 
 Pour accéder au dossier qui contient le document, cliquez sur le lien à droite de “Dossier”.
 
-{% image /assets/images/documentation/dev/fr/image28.png "Fenêtre d’informations relatives à un document"%}
+{% image /assets/images/documentation/2.0/fr/image28.png "Fenêtre d’informations relatives à un document"%}
 
 ###Onglet Fichiers
 
 Cet onglet permet d'associer des fichiers au document.
 
-{% image /assets/images/documentation/dev/fr/image52.png "Vue Fichiers"%}
+{% image /assets/images/documentation/2.0/fr/image52.png "Vue Fichiers"%}
 
 DocDokuPLM génère une version pdf des fichiers rattachés à un document. La majorité des formats utilisés avec les logiciels de traitement de texte est prise en charge.
 
 Une fois généré, le pdf peut être visionné depuis le lien permanent. Une page de garde a été ajoutée contenant les informations suivantes :
 
-{% image /assets/images/documentation/dev/fr/image61.png "Page de garde auto-générée"%}
+{% image /assets/images/documentation/2.0/fr/image61.png "Page de garde auto-générée"%}
 
 Voici la liste complète des formats supportés : odt, ods, odp, odg, odc, odf, odb, odi, odm, doc, docx, ppt, pps, txt, csv, xls, pdf, html, htm, xml, rtf, msg.
 
@@ -317,7 +317,7 @@ Voici la liste complète des formats supportés : odt, ods, odp, odg, odc, odf, 
 
 Cette vue liste tous les articles et documents qui utilisent le document en tant que lien.
 
-{% image /assets/images/documentation/dev/fr/image68.png "Vue Cas d'emploi"%}
+{% image /assets/images/documentation/2.0/fr/image68.png "Vue Cas d'emploi"%}
 
 ##Liens Réservés et Tâches
 
@@ -357,11 +357,11 @@ Vous pouvez tout aussi bien lui associer de façon individuelle :
 * un processus, afin de gérer le cycle de vie de l’article et régir l'accès à cet article pour les autres collaborateurs de l’espace de travail
 * des attributs.
 
-{% image /assets/images/documentation/dev/fr/image05.png "Création d'un article"%}
+{% image /assets/images/documentation/2.0/fr/image05.png "Création d'un article"%}
 
 L’article créé sera rajouté à la liste des articles déjà présents.
 
-{% image /assets/images/documentation/dev/fr/image19.png "Liste des articles"%}
+{% image /assets/images/documentation/2.0/fr/image19.png "Liste des articles"%}
 
 En cliquant sur le numéro d’un article, une fenêtre affichera ses détails. Vous pouvez en modifier les éléments suivants : les attributs, le fichier CAO ou encore les liens vers des documents.
 
@@ -375,13 +375,13 @@ En sélectionnant un article, vous pouvez lui appliquer un ensemble d’actions 
 * Finalisation
 * Statut obsolète pour figer un article en itération (l'article doit être finalisé)
 
-{% image /assets/images/documentation/dev/obsolete_icon.png "Icône obsolète"%}
+{% image /assets/images/documentation/2.0/obsolete_icon.png "Icône obsolète"%}
 
 ###Fichiers
 
 Cet onglet permet de joindre des fichiers et d'associer un fichier CAO à l'article. Si vous choisissez un fichier CAO alors qu'il y en a déjà un, ce dernier sera automatiquement remplacé.
 
-{% image /assets/images/documentation/dev/fr/image51.png "Vue Fichiers"%}
+{% image /assets/images/documentation/2.0/fr/image51.png "Vue Fichiers"%}
 
 DocDokuPLM doit convertir les fichiers CAO au format obj pour permettre la visualisation 3D. Cette conversion se fait automatiquement à la suite de l'ajout d'un fichier CAO. Si elle échoue, vous pouvez la relancer manuellement en cliquant sur "Ré-essayer".
 
@@ -393,29 +393,29 @@ L'ajout de textures est également possible en ajoutant les fichiers corresponda
 
 Lors de la modification d’un article, vous pouvez définir son assemblage. Un assemblage est composé d'autres articles (sous-article).
 
-{% image /assets/images/documentation/dev/fr/image24.png "Assemblage d'articles"%}
+{% image /assets/images/documentation/2.0/fr/image24.png "Assemblage d'articles"%}
 
 Un sous-article peut être facultatif et avoir des variantes. Pour ajouter des variantes à un article, sélectionnez sa vue. De nouvelles actions apparaissent : créer un nouvel article comme variante ou ajouter un article existant.
 
-{% image /assets/images/documentation/dev/fr/image59.png "Ajouter une variante"%}
+{% image /assets/images/documentation/2.0/fr/image59.png "Ajouter une variante"%}
 
 Une fois ajouté, la variante apparaît dans la vue du sous-article, tel que montré ci-dessous.
 
-{% image /assets/images/documentation/dev/fr/image60.png "Variante ajoutée"%}
+{% image /assets/images/documentation/2.0/fr/image60.png "Variante ajoutée"%}
 
 ###Notifications
 
 Parfois un changement sur un sous-article peut impacter l'article parent. L'onglet Notifications affiche le journal des modifications des sous-composants pour vous aider à régler les impacts potentiels.
 
-{% image /assets/images/documentation/dev/fr/image66.png "Vue Notifications"%}
+{% image /assets/images/documentation/2.0/fr/image66.png "Vue Notifications"%}
 
 Un clic sur cette icône ouvre directement la fenêtre de détails d'un article à l'onglet Notifications.
 
-{% image /assets/images/documentation/dev/notifications_icon.png "Accès rapide aux Notifications"%}
+{% image /assets/images/documentation/2.0/notifications_icon.png "Accès rapide aux Notifications"%}
 
 Pour passer les notifications de modifications en mode résolu, il vous suffit de cliquer sur le lien "Marquer comme vérifié".
 
-{% image /assets/images/documentation/dev/fr/image67.png "Notification vérifiée"%}
+{% image /assets/images/documentation/2.0/fr/image67.png "Notification vérifiée"%}
 
 Note : le seul moyen de vider la liste des notifications est de créer une nouvelle itération de l'article parent.
 
@@ -426,13 +426,13 @@ Cette vue liste :
 * les assemblages qui utilisent l'article en tant que sous-composant (composant ou variante)
 * les produits et exemplaires qui utilisent l'article en tant que sous-composant (tête, noeud ou feuille)
 
-{% image /assets/images/documentation/dev/fr/image69.png "Vue Cas d'emploi"%}
+{% image /assets/images/documentation/2.0/fr/image69.png "Vue Cas d'emploi"%}
 
 ###Construire une requête
 
 Pour choisir vous-même ce que vous voulez afficher dans la liste des articles, il vous faut construire une requête. Pour ce faire, cliquez sur le bouton suivant :
 
-{% image /assets/images/documentation/dev/query_builder.png "Bouton d'accès"%}
+{% image /assets/images/documentation/2.0/query_builder.png "Bouton d'accès"%}
 
 La vue qui s'affiche alors vous permet de :
 
@@ -440,7 +440,7 @@ La vue qui s'affiche alors vous permet de :
 * sélectionner les champs que vous voulez afficher (par exemple numéro d'article, nom, attributs...). * inclure ou exclure des articles avec des conditions (au moins une condition est requise)
 * ordonner et grouper les articles dans la liste de résultats
 
-{% image /assets/images/documentation/dev/fr/image80.png "Construction d'un requête"%}
+{% image /assets/images/documentation/2.0/fr/image80.png "Construction d'un requête"%}
 
 Si vous enregistrez la requête et que vous la sélectionnez, vous pourrez exporter les résultats dans un fichier Excel. Cette fonctionnalité peut s'avérer très utile pour obtenir la nomenclature d'un produit.
 
@@ -448,7 +448,7 @@ Si vous enregistrez la requête et que vous la sélectionnez, vous pourrez expor
 
 Vous trouverez un accès rapide à vos articles réservés dans le menu de gauche.
 
-{% image /assets/images/documentation/dev/fr/image50.png "Section des liens"%}
+{% image /assets/images/documentation/2.0/fr/image50.png "Section des liens"%}
 
 ##Produit
 
@@ -458,7 +458,7 @@ Au moment de la création d’un produit, l’identifiant du produit ainsi que l
 
 Le numéro d’article est l’élément de tête de votre produit. Celui-ci peut être un simple article ou un assemblage d’articles.
 
-{% image /assets/images/documentation/dev/fr/image12.png "Formulaire de création de produit"%}
+{% image /assets/images/documentation/2.0/fr/image12.png "Formulaire de création de produit"%}
 
 Le produit créé sera rajouté à la liste des produits. En sélectionnant un produit dans la liste, les actions possibles sont sa suppression et la création d’une ligne de base.
 
@@ -469,38 +469,38 @@ Une configuration est une liste de choix d'assemblage pour un produit donné. En
 * choisir entre un article ou une de ses variantes
 * ne rien choisir, si un article est facultatif
 
-{% image /assets/images/documentation/dev/fr/image64.png "Création d'une configuration"%}
+{% image /assets/images/documentation/2.0/fr/image64.png "Création d'une configuration"%}
 
 2 types de configuration sont proposés :
 
 * Derniers libérés, pour inclure les dernières itérations libérées de chaque article impliqué
 * Derniers finalisés, pour inclure automatiquement les dernières versions finalisées de chaque article impliqué
 
-{% image /assets/images/documentation/dev/fr/image65.png "Exemple de choix : Aucun"%}
+{% image /assets/images/documentation/2.0/fr/image65.png "Exemple de choix : Aucun"%}
 
 ###Ligne de base
 
 La création d’une ligne de base (ou baseline) permet d’enregistrer à un instant donné une version du produit et donc de gérer différentes versions d’un même produit.
 
-{% image /assets/images/documentation/dev/fr/image02.png "Création d’une baseline"%}
+{% image /assets/images/documentation/2.0/fr/image02.png "Création d’une baseline"%}
 
 Si le type de configuration choisi est "Derniers finalisés" et que des articles existent en plusieurs versions, alors l'onglet Versions permet de sélectionner une version plus ancienne.
 
-{% image /assets/images/documentation/dev/baseline_versions.png "Choix de version"%}
+{% image /assets/images/documentation/2.0/baseline_versions.png "Choix de version"%}
 
 De plus, l'onglet Configuration permet de choisir une configuration spécifique ce qui préremplira pour vous tous les choix de configuration. Bien sûr, vous pourrez re-modifier ces choix depuis l'onglet Choix.
 
-{% image /assets/images/documentation/dev/fr/image58.png "Choix de configuration"%}
+{% image /assets/images/documentation/2.0/fr/image58.png "Choix de configuration"%}
 
 ###Fonction utilisateur
 
 Parfois, il peut être utile de lancer des calculs sur tous les articles d'un même produit ou d'une même ligne de base, pur déterminer par exemple son prix total. Cette fonctionnalité est disponible en cliquant sur ce bouton :
 
-{% image /assets/images/documentation/dev/user_function_button.png "Bouton Fonction utilisateur"%}
+{% image /assets/images/documentation/2.0/user_function_button.png "Bouton Fonction utilisateur"%}
 
 Le calcul peut être une somme ou une moyenne. Vous choisissez l'attribut à utiliser dans le calcul (ci-dessous le poids). Si l'attribut n'est pas défini pour un article, cet article est ignoré.
 
-{% image /assets/images/documentation/dev/fr/image78.png "Vue Fonction utilisateur"%}
+{% image /assets/images/documentation/2.0/fr/image78.png "Vue Fonction utilisateur"%}
 
 ###Exemplaire
 
@@ -508,17 +508,17 @@ Un exemplaire est une instance de produit basée sur une ligne de base et identi
 
 Vous pouvez ajouter des attributs et définir des droits d’accès dès la création. Par contre le chargement des fichiers et l’édition des liens vers d’autres documents ne pourra se faire qu’une fois l'exemplaire créé.
 
-{% image /assets/images/documentation/dev/fr/image62.png "Création d'un exemplaire"%}
+{% image /assets/images/documentation/2.0/fr/image62.png "Création d'un exemplaire"%}
 
 Pour conserver différentes versions d'un même exemplaire, vous devez créer des nouvelles itérations en cliquant sur le bouton "Rebaser". Ce bouton vous permet également de changer de ligne de base.
 
-{% image /assets/images/documentation/dev/fr/image63.png "Rebaser un exemplaire"%}
+{% image /assets/images/documentation/2.0/fr/image63.png "Rebaser un exemplaire"%}
 
 ###Exporter les fichiers dans un zip
 
 Pour partagaer des fichiers avec des personnes n'utilisant pas DocDokuPLM ou simplement pour conserver une copie sur votre disque, vous trouverez une fonctionnalité très utile sur chaque item d'une liste de produits / lignes de base / exemplaires.
 
-{% image /assets/images/documentation/dev/fr/image79.png "Exporter les fichiers"%}
+{% image /assets/images/documentation/2.0/fr/image79.png "Exporter les fichiers"%}
 
 Vous pouvez choisir :
 
@@ -532,24 +532,24 @@ Si vous exportez les fichiers d'un produit, vous obtiendrez les fichiers joints 
 
 Cliquez sur l'icône ci-dessous pour faire apparaître la structure d'un produit, d'une ligne de base ou d'un exemplaire.
 
-{% image /assets/images/documentation/dev/product_structure.png "Icône de structure produit"%}
+{% image /assets/images/documentation/2.0/product_structure.png "Icône de structure produit"%}
 
 La structure produit vous permet de voir l'organisation des composants d'un produit en arborescence et de localiser un article donné.
 
-{% image /assets/images/documentation/dev/tree_structure.png "Structure produit"%}
+{% image /assets/images/documentation/2.0/tree_structure.png "Structure produit"%}
 
 Chaque noeud représente un assemblage d'articles, il suffit de l'étendre pour voir de quels articles il est composé. Un clic sur l'article affiche ses sous-articles sous forme de liste et un clic sur l'icône à droite de l'article affiche ses propriétés.
 
 Actions disponibles sur l'arborescence :
 
-{% image /assets/images/documentation/dev/refresh_tree.png "Rafraîchir l'arbre"%}
-{% image /assets/images/documentation/dev/toggle_comments.png "Afficher/masquer les commentaires"%}
+{% image /assets/images/documentation/2.0/refresh_tree.png "Rafraîchir l'arbre"%}
+{% image /assets/images/documentation/2.0/toggle_comments.png "Afficher/masquer les commentaires"%}
 
 Informations disponibles sur un article :
 
-{% image /assets/images/documentation/dev/optional.png "Est falcutatif"%}
-{% image /assets/images/documentation/dev/has_substitutes.png "Possède des variantes"%}
-{% image /assets/images/documentation/dev/is_substitute.png "Est une variante"%}
+{% image /assets/images/documentation/2.0/optional.png "Est falcutatif"%}
+{% image /assets/images/documentation/2.0/has_substitutes.png "Possède des variantes"%}
+{% image /assets/images/documentation/2.0/is_substitute.png "Est une variante"%}
 
 ###Configuration du parcours de l'arborescence
 
@@ -557,31 +557,31 @@ Vous pouvez choisir comment explorer l'arborescence avec le menu en haut à gauc
 
 * "Dernières versions", pour afficher la structure du produit. Dans ce cas, le sous-menu vous permet de choisir entre différents statuts d'article (travail en cours, derniers libérés, derniers finalisés)
 
-{% image /assets/images/documentation/dev/fr/image70.png "Exemple avec le mode produit"%}
+{% image /assets/images/documentation/2.0/fr/image70.png "Exemple avec le mode produit"%}
 
 * "Baseline", pour afficher la structure d'une ligne de base. Dans ce cas, le sous-menu vous permet de choisir une baseline du produit
 
-{% image /assets/images/documentation/dev/tree_conf_baseline.png "Exemple avec le mode baseline"%}
+{% image /assets/images/documentation/2.0/tree_conf_baseline.png "Exemple avec le mode baseline"%}
 
 * "Numéro de série", pour afficher la structure d'un exemplaire. Dans ce cas, le sous-menu vous permet de choisir un exemplaire associé au produit
 
-{% image /assets/images/documentation/dev/fr/image71.png "Exemple avec le mode exemplaire"%}
+{% image /assets/images/documentation/2.0/fr/image71.png "Exemple avec le mode exemplaire"%}
 
 ###Données de l'exemplaire
 
 Vous pourriez avoir besoin d'associer des données spécifiques à un article d'un exemplaire (comme par exemple un numéro de série). Cette fonctionnalité est disponible et accessible depuis le mode exemplaire. Pour afficher les données d'un article dans un exemplaire, cliquez sur la checkbox de l'article concerné dans l'arborescence puis sur le bouton suivant :
 
-{% image /assets/images/documentation/dev/fr/image72.png "Bouton des données de l'exemplaire"%}
+{% image /assets/images/documentation/2.0/fr/image72.png "Bouton des données de l'exemplaire"%}
 
-{% image /assets/images/documentation/dev/fr/image73.png "Création de données d'exemplaire - Onglet Attributs"%}
+{% image /assets/images/documentation/2.0/fr/image73.png "Création de données d'exemplaire - Onglet Attributs"%}
 
 Lors de l'édition de ces données, vous pouvez gérer des attributs, des fichiers et des liens de documents. De plus, il est possible de geler vos modifications si vous souhaitez conserver un historique des changements en cliquant sur le bouton "Figer l'itération en cours". Ceci figera l'itération et en créera une nouvelle qui sera éditable.
 
-{% image /assets/images/documentation/dev/fr/image74.png "Edition de données d'exemplaire - Figer l'itération"%}
+{% image /assets/images/documentation/2.0/fr/image74.png "Edition de données d'exemplaire - Figer l'itération"%}
 
 Si un article possède des données d'exemplaire, l'icône suivant apparaîtra à sa droite dans l'arborescence :
 
-{% image /assets/images/documentation/dev/has_path_data.png "Possède des données d'exemplaire"%}
+{% image /assets/images/documentation/2.0/has_path_data.png "Possède des données d'exemplaire"%}
 
 ###Lien typé
 
@@ -589,11 +589,11 @@ Dans un produit, on a parfois besoin de lier certains articles entre eux de diff
 
 Sélectionnez les 2 articles que vous voulez lier depuis la structure produit pour faire apparaître le bouton ci-dessous :
 
-{% image /assets/images/documentation/dev/fr/image75.png "Bouton Lien typé"%}
+{% image /assets/images/documentation/2.0/fr/image75.png "Bouton Lien typé"%}
 
 En cliquant sur ce bouton, vous pouvez ajouter un lien défini avec un type existant ou un nouveau type. Ce type sera utile par la suite pour afficher la nouvelle arborescence définie :
 
-{% image /assets/images/documentation/dev/fr/image76.png "Sélection du type"%}
+{% image /assets/images/documentation/2.0/fr/image76.png "Sélection du type"%}
 
 Tout lien peut être modifié et supprimé.
 
@@ -609,17 +609,17 @@ Une alternative au moteur de recherche est la navigation dans le modèle géomé
 
 Cliquez sur l'icône ci-dessous pour visualiser en 3D un produit, une ligne de base ou un exemplaire.
 
-{% image /assets/images/documentation/dev/3d_scene.png "Icône de visualisation 3D"%}
+{% image /assets/images/documentation/2.0/3d_scene.png "Icône de visualisation 3D"%}
 
 En cliquant sur une pièce, les résultats s’affichent sur la partie gauche de la page. L’article associé à cette pièce sera surligné en jaune ainsi que tous ses ascendants. Les informations relatives à cet article sont aussi affichées dans le menu de droite.
 
 Cette solution peut s’avérer utile dans le cas où l’utilisateur ne connaît pas l’identifant de l’article.
 
-{% image /assets/images/documentation/dev/fr/image22.png "Navigation dans le modèle 3D"%}
+{% image /assets/images/documentation/2.0/fr/image22.png "Navigation dans le modèle 3D"%}
 
 En activant/désactivant le switch de l'article dans l'arborescence, vous affichez/cachez l'article correspondant dans la visualisation 3D.
 
-{% image /assets/images/documentation/dev/on_switch_button.png "Bouton switch - état activé"%}
+{% image /assets/images/documentation/2.0/on_switch_button.png "Bouton switch - état activé"%}
 
 Parmi les actions possibles dans le mode de visualisation en 3D, vous retrouverez :
 
@@ -636,7 +636,7 @@ Un processus, ou flux des travaux, est la représentation des opérations affect
 
 Pour créer un modèle de processus, il faut au préalable créer des rôles dans l’espace de travail.
 
-{% image /assets/images/documentation/dev/edit_roles.png "Bouton Rôles"%}
+{% image /assets/images/documentation/2.0/edit_roles.png "Bouton Rôles"%}
 
 Ces rôles peuvent être assignés par défaut à des utilisateurs, mais ils peuvent être redéfinis lors de l'affectation du processus à la création d'un document ou d'un article.
 
@@ -648,7 +648,7 @@ Ces rôles peuvent être assignés par défaut à des utilisateurs, mais ils peu
 
 Un modèle de processus est composé d'un état initial, d'une série d'activités et d'un état final. Chaque activité contient un libellé définissant son état intermédiaire et une liste de tâches à effectuer. Ces tâches peuvent être effectuées en série ou en parallèle.
 
-{% image /assets/images/documentation/dev/add_workflow.png "Bouton Processus"%}
+{% image /assets/images/documentation/2.0/add_workflow.png "Bouton Processus"%}
 
 Pour une activité de type série, les tâches doivent être réalisées dans l'ordre. Le rejet d'une tâche entraîne l'arrêt de l'activité courante.
 
@@ -660,21 +660,21 @@ En cas d’invalidation, le processus reprendra à l’activité de relance si c
 
 Un modèle de processus peut être modifié n’importe quand. Cela n’entrainera en aucun cas la modification des processus instanciés depuis ce modèle.
 
-{% image /assets/images/documentation/dev/fr/image20.png "Création d'un modèle de processus"%}
+{% image /assets/images/documentation/2.0/fr/image20.png "Création d'un modèle de processus"%}
 
 Quand vous modifiez un processus, vous pouvez le dupliquer en cliquant sur ce bouton :
 
-{% image /assets/images/documentation/dev/duplicate_workflow.png "Dupliquer le processus"%}
+{% image /assets/images/documentation/2.0/duplicate_workflow.png "Dupliquer le processus"%}
 
 Il suffit ensuite de renseigner un nom pour le nouveau processus copié.
 
-{% image /assets/images/documentation/dev/fr/image77.png "Copie d'un processus"%}
+{% image /assets/images/documentation/2.0/fr/image77.png "Copie d'un processus"%}
 
 ###Instance de processus
 
 Chaque modèle de processus créé peut être instancié à la création d'un document ou d'un article. Les rôles peuvent être alors redéfinis.
 
-{% image /assets/images/documentation/dev/fr/image23.png "Définition des rôles à la création d’un document"%}
+{% image /assets/images/documentation/2.0/fr/image23.png "Définition des rôles à la création d’un document"%}
 
 Une fois le document (ou l’article) créé, le processus démarre sur la première activité. Lorsqu'une tâche est ouverte, un mail est envoyé au responsable de la tâche en cours. Le responsable peut alors l'approuver ou la rejeter et signer.
 
@@ -682,7 +682,7 @@ Une fois le document (ou l’article) créé, le processus démarre sur la premi
 
 Une fois la première activité démarrée, les utilisateurs désignés reçoivent par mail un message contenant la description complète de leur(s) tâche(s) à effectuer.
 
-{% image /assets/images/documentation/dev/fr/image43.png "Processus instancié sur un document"%}
+{% image /assets/images/documentation/2.0/fr/image43.png "Processus instancié sur un document"%}
 
 Une tâche peut être approuvée ou rejetée si :
 
@@ -699,7 +699,7 @@ C'est impossible de mettre à jour ou de redémarrer un processus arrêté. Le s
 
 Les jalons permettent de définir des dates butoires pour vos projets et travaux en cours.
 
-{% image /assets/images/documentation/dev/fr/image81.png "Création d'un jalon"%}
+{% image /assets/images/documentation/2.0/fr/image81.png "Création d'un jalon"%}
 
 ##Anomalies
 
@@ -711,19 +711,19 @@ Cette page permet de rapporter des anomalies plus ou moins prioritaires sur vos 
 
 Liste des catégories disponibles : adaptive, corrective, perfective, préventive.
 
-{% image /assets/images/documentation/dev/fr/image82.png "Création d'une anomalie"%}
+{% image /assets/images/documentation/2.0/fr/image82.png "Création d'une anomalie"%}
 
 ##Demandes
 
 Une demande de modification fonctionne de la même façon qu'une anomalie. On peut en outre y référencer des anomalies.
 
-{% image /assets/images/documentation/dev/fr/image83.png "Création d'une demande"%}
+{% image /assets/images/documentation/2.0/fr/image83.png "Création d'une demande"%}
 
 ##Ordres
 
 Un ordre fonctionne de la même façon qu'une anomalie. On peut en outre y référencer des demandes.
 
-{% image /assets/images/documentation/dev/fr/image84.png "Création d'un ordre"%}
+{% image /assets/images/documentation/2.0/fr/image84.png "Création d'un ordre"%}
 
 #Réservation et libération
 
@@ -735,29 +735,29 @@ Une fois réservé, l'élément ne sera pas éditable par les autres utilisateur
 
 Si vous choisissez de libérer l'élément, une fenêtre vous proposera de saisir la note de révision. Cette information n’est pas obligatoire, vous pouvez passer cette étape en cliquant sur “Ignorer”.
 
-{% image /assets/images/documentation/dev/fr/image03.png "Fenêtre de note de révision"%}
+{% image /assets/images/documentation/2.0/fr/image03.png "Fenêtre de note de révision"%}
 
 Toutes ces actions sont également disponibles depuis l'onglet “Itération“ dans la fenêtre de détails de l'élément.
 
-{% image /assets/images/documentation/dev/fr/image49.png "Boutons Libérer et Annuler la réservation"%}
+{% image /assets/images/documentation/2.0/fr/image49.png "Boutons Libérer et Annuler la réservation"%}
 
 La date de révision indique la date de libération si l'élément est libéré ou la date de réservation si l'élément est réservé. Et la date de modification précise quand l'élément a été modifié pour la dernière fois (incluant la note de révision).
 
-{% image /assets/images/documentation/dev/status.png "Statuts réservé / vérouillé / libéré"%}
+{% image /assets/images/documentation/2.0/status.png "Statuts réservé / vérouillé / libéré"%}
 
 #Liste de valeurs
 
 DocDokuPLM permet de prédéfinir des valeurs d'attributs, appelés liste de valeurs, que vous pourrez ensuite utiliser en tant qu'attribut pour un document, un article ou un modèle. Pour créer ou modifier des valeurs, cliquez sur l'icône suivante depuis la page des modèles :
 
-{% image /assets/images/documentation/dev/edit_lov.png "Bouton Listes de valeurs"%}
+{% image /assets/images/documentation/2.0/edit_lov.png "Bouton Listes de valeurs"%}
 
 Par exemple, vous pouvez créer des valeurs d'attributs qui seront des couleurs.
 
-{% image /assets/images/documentation/dev/fr/image56.png "Fenêtre des listes de valeurs"%}
+{% image /assets/images/documentation/2.0/fr/image56.png "Fenêtre des listes de valeurs"%}
 
 Une fois enregistrée, vous aurez accès à cette liste depuis l'onglet Attributs de la fenêtre de détail d'un modèle ou d'une entité. En attribuant une liste de valeurs à un modèle ou une entité, vous créez une nouvelle instance de cette liste.
 
-{% image /assets/images/documentation/dev/fr/image57.png "Choix d'une liste de valeurs"%}
+{% image /assets/images/documentation/2.0/fr/image57.png "Choix d'une liste de valeurs"%}
 
 Vous ne pouvez pas :
 
@@ -778,15 +778,15 @@ Vous pouvez visualiser les différentes propriétés de l'entité créée ainsi 
 
 Un clic sur cette icône ouvre directement la fenêtre de détails d'un document/article ou d'un modèle à l'onglet Fichiers.
 
-{% image /assets/images/documentation/dev/file_icon.png "Accès rapide aux Fichiers"%}
+{% image /assets/images/documentation/2.0/file_icon.png "Accès rapide aux Fichiers"%}
 
 Tout fichier - qu'il soit associé à une entité ou un modèle - peut être renommé en cliquant sur le petit crayon à droite du titre. Le nouveau titre sera enregistré seulement si vous cliquez sur le bouton valider.
 
-{% image /assets/images/documentation/dev/file_rename.png "Renommage du fichier"%}
+{% image /assets/images/documentation/2.0/file_rename.png "Renommage du fichier"%}
 
 Le téléchargement d'un fichier se lance en cliquant sur son nom et la suppression se fait en sélectionnant le fichier.
 
-{% image /assets/images/documentation/dev/file_delete.png "Suppression du fichier"%}
+{% image /assets/images/documentation/2.0/file_delete.png "Suppression du fichier"%}
 
 N'oubliez pas de cliquer sur le bouton Enregistrer de la fenêtre pour valider vos modifications.
 
@@ -794,11 +794,11 @@ N'oubliez pas de cliquer sur le bouton Enregistrer de la fenêtre pour valider v
 
 Vous avez la possibilité d'ajouter des références vers des documents pendant l'édition d'un article/document. La gestion des liens se fait dans la fenêtre de modification d'une entité depuis l'onglet Liens.
 
-{% image /assets/images/documentation/dev/fr/image53.png "Gestion des liens"%}
+{% image /assets/images/documentation/2.0/fr/image53.png "Gestion des liens"%}
 
 Un lien de document se commente en cliquant sur le petit crayon à droite du titre. Le commentaire sera enregistré seulement si vous cliquez sur le bouton valider.
 
-{% image /assets/images/documentation/dev/fr/image54.png "Commenter un lien"%}
+{% image /assets/images/documentation/2.0/fr/image54.png "Commenter un lien"%}
 
 #Libellés
 
@@ -808,7 +808,7 @@ Vous pouvez associer des libellés à vos documents, articles, anomalies, demand
 
 Une fois cliquée, une fenêtre s’affiche et vous pouvez associer des libellés à ces éléments. Vous pouvez choisir parmi les libellés existants ou en créer de nouveaux.
 
-{% image /assets/images/documentation/dev/fr/image11.png "Fenêtre des libellés"%}
+{% image /assets/images/documentation/2.0/fr/image11.png "Fenêtre des libellés"%}
 
 Pour afficher tous les éléments liés à un libellé, il vous suffit de sélectionner ce libellé dans le menu de gauche.
 
@@ -846,7 +846,7 @@ Cette recherche avancée permet de trouver un élément à partir de plusieurs t
 * ses attributs
 * le contenu des fichiers chargés
 
-{% image /assets/images/documentation/dev/fr/image25.png "Recherche avancée"%}
+{% image /assets/images/documentation/2.0/fr/image25.png "Recherche avancée"%}
 
 #Options de partage et de publication
 
@@ -858,7 +858,7 @@ Chaque document/article peut être publié. Pour cela il faut cliquer sur l’ic
 
 La fenêtre suivante apparaît :
 
-{% image /assets/images/documentation/dev/fr/image45.png "Fenêtre de publication d’un document"%}
+{% image /assets/images/documentation/2.0/fr/image45.png "Fenêtre de publication d’un document"%}
 
 Une fois l'élément publié en cliquant sur le bouton ON/OFF, il sera accessible depuis internet sans qu’une authentification soit nécessaire.
 
