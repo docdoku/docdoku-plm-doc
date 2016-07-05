@@ -2,7 +2,7 @@ encoding: utf-8
 name: "DocDoku user guides"
 exclude: [bower_components]
 languages: ["en", "fr"]
-versions: ["1.1", "1.1-RC1", "2.0", "dev"]
+versions: ["dev", "2.0", "1.1-RC1", "1.1"]
 defaultlanguage: ["en"]
 relative_permalinks: true
 url: /docdoku-plm/user-guide/
