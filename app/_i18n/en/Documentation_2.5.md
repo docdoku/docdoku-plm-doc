@@ -608,9 +608,9 @@ DocDokuPLM workflows are role-based. This means that to increase the applicabili
 
 {% image /assets/images/documentation/2.0/edit_roles.png "Roles button"%}
 
-Thus, the first step involved in workflow creations is to define the roles used inside the workspace. These roles can optionally be mapped to a default user assignee. Anyway, when the workflow model is instantiated and attached to a document or a part, we will have the opportunity to refine those mappings.
+Thus, the first step involved in workflow creations is to define the roles used inside the workspace. These roles can optionally be mapped to a default user or group assignee. Anyway, when the workflow model is instantiated and attached to a document or a part, we will have the opportunity to refine those mappings.
 
-{% image /assets/images/documentation/en/image32.png "Roles definition panel"%}
+{% image /assets/images/documentation/2.5/en/image32.png "Roles definition panel"%}
 
 ##Workflow
 
@@ -644,15 +644,15 @@ Then simply enter a name for the new copied workflow.
 
 When creating a document or a part, the author can choose the workflow template he wants to apply. All the implied roles can then be respecified.
 
-{% image /assets/images/documentation/2.0/en/image41.png "Roles definition during document creation"%}
+{% image /assets/images/documentation/2.5/en/image41.png "Roles definition during document creation"%}
 
-Once the document or part has been created, the associated workflow (if any) starts on the first activity. When a task has been opened, a mail is sent to the current task responsible user so he can approve or reject it and sign.
+Once the document or part has been created, the associated workflow (if any) starts on the first activity. When a task has been opened, a mail is sent to the current task responsible user so he can approve or reject it and sign. If a group was assigned to the task, then the mail is sent to all of its users.
 
 ###Lifecycle state
 
 Once an activity is started, every task assignee receives a mail which includes a full description of the task to complete.
 
-{% image /assets/images/documentation/2.0/en/image46.png "Workflow instantiated on a document"%}
+{% image /assets/images/documentation/2.5/en/image46.png "Workflow instantiated on a document"%}
 
 A running task can be marked as done or rejected if:
 

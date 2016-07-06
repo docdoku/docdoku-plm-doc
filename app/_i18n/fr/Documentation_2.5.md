@@ -638,9 +638,9 @@ Pour créer un modèle de processus, il faut au préalable créer des rôles dan
 
 {% image /assets/images/documentation/2.0/edit_roles.png "Bouton Rôles"%}
 
-Ces rôles peuvent être assignés par défaut à des utilisateurs, mais ils peuvent être redéfinis lors de l'affectation du processus à la création d'un document ou d'un article.
+Ces rôles peuvent être assignés par défaut à un utilisateur ou à un groupe, mais ils peuvent être redéfinis lors de l'affectation du processus à la création d'un document ou d'un article.
 
-{% image /assets/images/documentation/fr/image00.png "Création des rôles"%}
+{% image /assets/images/documentation/2.5/fr/image00.png "Création des rôles"%}
 
 ##Processus
 
@@ -674,15 +674,15 @@ Il suffit ensuite de renseigner un nom pour le nouveau processus copié.
 
 Chaque modèle de processus créé peut être instancié à la création d'un document ou d'un article. Les rôles peuvent être alors redéfinis.
 
-{% image /assets/images/documentation/2.0/fr/image23.png "Définition des rôles à la création d’un document"%}
+{% image /assets/images/documentation/2.5/fr/image23.png "Définition des rôles à la création d’un document"%}
 
-Une fois le document (ou l’article) créé, le processus démarre sur la première activité. Lorsqu'une tâche est ouverte, un mail est envoyé au responsable de la tâche en cours. Le responsable peut alors l'approuver ou la rejeter et signer.
+Une fois le document (ou l’article) créé, le processus démarre sur la première activité. Lorsqu'une tâche est ouverte, un mail est envoyé au responsable de la tâche en cours. Le responsable peut alors l'approuver ou la rejeter et signer. Si le responsable est un groupe, le mail est envoyé à tous les membres du groupe.
 
 ###Etat du cycle de vie
 
 Une fois la première activité démarrée, les utilisateurs désignés reçoivent par mail un message contenant la description complète de leur(s) tâche(s) à effectuer.
 
-{% image /assets/images/documentation/2.0/fr/image43.png "Processus instancié sur un document"%}
+{% image /assets/images/documentation/2.5/fr/image43.png "Processus instancié sur un document"%}
 
 Une tâche peut être approuvée ou rejetée si :
 
