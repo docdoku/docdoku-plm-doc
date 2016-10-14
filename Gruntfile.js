@@ -114,11 +114,13 @@ module.exports = function (grunt) {
         jekyll: {
             jkl: {
                 src: '<%= yeoman.app %>',
-                dest: '<%= yeoman.jkl %>'
+                dest: '<%= yeoman.jkl %>',
+                config:'<%= yeoman.app %>/_config.dev.yml'
             },
             dist: {
                 src: '<%= yeoman.app %>',
-                dest: '<%= yeoman.dist %>'
+                dest: '<%= yeoman.dist %>',
+                config:'<%= yeoman.app %>/_config.dist.yml'
             }
         },
         copy: {

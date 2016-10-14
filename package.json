@@ -1,5 +1,5 @@
 {
-    "name": "docdokup-user-guides",
+    "name": "docdokuplm-user-guides",
     "version": "1.0.0",
     "dependencies":{},
     "devDependencies": {
@@ -28,5 +28,12 @@
         },
     "engines": {
         "node": ">=0.8.0"
+    },
+    "scripts":{
+        "build":"grunt build",
+        "dev":"grunt serve",
+        "prebuild":"npm install",
+        "predev":"npm install",
+        "postinstall":"bower install"
     }
 }
