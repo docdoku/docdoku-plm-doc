@@ -3,7 +3,7 @@
 * This will become a table of contents (this text will be scraped).
 {:toc}
 
-#Presentation
+# Presentation
 
 PLM (Product Lifecycle Management) is an area of ​​activity whose purpose is to create and maintain products throughout their life cycle, since the establishment of the specification of product and related services until the end of life. (source: Wikipedia)
 
@@ -17,13 +17,13 @@ DocDokuPLM is a user friendly, ergonomic tool.
 
 DocDokuPLM User Guide describes and explains how to use the software. It is a comprehensive manual useful for any end users.
 
-#User Management
+# User Management
 
 To be able to log into the application, everyone needs an account identified by a login and protected by a password.
 
 Each user which hence represents an actor of the system holds specific access rights for every workspace he belongs to. Users can also participate in business processes.
 
-##User creation
+## User creation
 
 To create an account, click on the link “sign up!” from the home page.
 
@@ -33,7 +33,7 @@ The first step is thus to register. All fields are required.
 
 {% image /assets/images/documentation/2.0/en/register2.png "Creating a User"%}
 
-##User edition
+## User edition
 
 {% image /assets/images/documentation/2.0/en/settings.png "Account Management"%}
 
@@ -43,9 +43,9 @@ The account edition page is accessible on the "My account" submenu which also al
 
 {% image /assets/images/documentation/2.0/en/edition.png "Account Edition"%}
 
-#Workspace Management
+# Workspace Management
 
-##Workspace creation
+## Workspace creation
 
 Once your account created, you can instantiate new workspaces.
 
@@ -55,7 +55,7 @@ Workspace is the top level context object that gathers documents, parts, busines
 
 The "freeze folder structure except for workspace manager" option must be checked if you do not want other users to modify the directory structure.
 
-##Workspace settings
+## Workspace settings
 
 To edit the workspace properties, click on "Workspaces administration".
 
@@ -68,13 +68,13 @@ Then, select the workspace you want to edit.
 You manage workspaces access at user level or by creating groups.
 Access rights administration is discussed in the next chapter.
 
-###Dashboard
+### Dashboard
 
 The dashboard provides statistics on your workspace (disk space, number of documents and parts, checkin/checkout per user, etc..).
 
 {% image /assets/images/documentation/en/dashboard.png "Airplane-T01 workspace dashboard"%}
 
-##Collaborative messaging
+## Collaborative messaging
 
 All users of the same workspace can communicate in real-time with our built-in communication module.
 This module offers the ability to engage an instant messaging conversation or a video conference on the fly. Hence, users can easily exchange parts and documents and thus speed up the process of product development.
@@ -89,11 +89,11 @@ In addition to the co-workers menu, whenever a user name appears in blue inside 
 
 {% image /assets/images/documentation/2.0/en/conversation.png "Co-worker contextual conversation menu"%}
 
-#Access right controls
+# Access right controls
 
-##Workspace access rights
+## Workspace access rights
 
-###User access management
+### User access management
 
 Workspace administrator defines permissions to users which can be either full or read-only access.
 
@@ -119,7 +119,7 @@ A disabled user cannot do anything.
 
 To update user or group access, check the related checkbox and click on the desired action button (remove, disable, enable...) below the list.
 
-###Managing Groups
+### Managing Groups
 
 Groups are useful when the number of users tends to increase. They can hold the same kind of permissions.
 
@@ -127,9 +127,9 @@ Just click on group's name to open the detail view. You can then add or remove u
 
 {% image /assets/images/documentation/en/group_user_management.png "Group Users Management"%}
 
-##Access Control List
+## Access Control List
 
-###Documents and Parts
+### Documents and Parts
 
 If newly created documents and parts are accessible according to the permissions defined at workspace level, it’s possible to override them by selecting the "ACL" tab. From that panel you can upgrade or downgrade access rights to any user or group in the workspace for the specific item (document or part). The lower level is "forbidden" which means that the item will not be visible by the user or group.
 
@@ -147,11 +147,11 @@ Items holding specific rights display a prohibition sign at the end of the line.
 {% image /assets/images/documentation/2.0/full_access.png "Full access"%}
 {% image /assets/images/documentation/2.0/read_only.png "Read only"%}
 
-###Templates, Workflows, Configurations, Deliverables
+### Templates, Workflows, Configurations, Deliverables
 
 If you have full access to a created template (for example), you can change its permissions to any user or group in the workspace. By setting read only permission to a user or group, the user or group will only be able to use it. By setting forbidden permission, the user or group will never see it.
 
-##Combined Access Rights
+## Combined Access Rights
 
 Important concepts:
 
@@ -166,7 +166,7 @@ Important concepts:
 
 Below the summary tables of possible combinations.
 
-###User present in one group
+### User present in one group
 
 | Group rights | User rights on Workspace | Effective rights |
 | ------------ | ------------------------ | ---------------- |
@@ -176,7 +176,7 @@ Below the summary tables of possible combinations.
 | read only    | full access              | full access
 
 
-###User present in several groups
+### User present in several groups
 
 | Group I rights | Group II rights | Effective rights |
 | -------------- | --------------- | ---------------- |
@@ -186,7 +186,7 @@ Below the summary tables of possible combinations.
 | read only      | disable         | read only        |
 | read only      | read only       | read only
 
-###User access rights for a document/part
+### User access rights for a document/part
 
 | User rights on Workspace | User Rights on Document/Part | Effective Rights |
 | ------------------------ | ---------------------------- | ---------------- |
@@ -197,7 +197,7 @@ Below the summary tables of possible combinations.
 | read only                | read only                    | read only        |
 | read only                | forbidden                    | forbidden
 
-###Group access rights for a document/part
+### Group access rights for a document/part
 
 | Group rights on Workspace | Group Rights on Document/Part | Effective Rights |
 | ------------------------- | ----------------------------- | ---------------- |
@@ -208,16 +208,16 @@ Below the summary tables of possible combinations.
 | read only                 | read only                     | read only        |
 | read only                 | forbidden                     | forbidden        |
 
-#Document Management
+# Document Management
 
 DocDokuPLM has a document management module that includes a comprehensive versioning system (master, revision and iteration), functions for sharing, publishing documents, treeview and tags organization, ACL configuration...
 In the following paragraph, we will detail all of these functionalities.
 
 {% image /assets/images/documentation/2.0/en/image00.png "Document management menu"%}
 
-##Document template
+## Document template
 
-###Document template creation
+### Document template creation
 
 You can create templates that will be used to instantiate documents. You can choose to restrict document naming by filling a mask format. The available characters are the following:
 
@@ -229,17 +229,17 @@ Selecting the identifier generation option will lead to an automatic creation of
 
 {% image /assets/images/documentation/2.0/en/image25.png "Document template creation form"%}
 
-###Adding a workflow
+### Adding a workflow
 
 Applying a workflow to a template will automatically set the workflow to the new document instantiated with that template.
 
-###Adding files and attributes
+### Adding files and attributes
 
 You can define attribute types in the template and attach files to it. All documents created with the same template will have the same attributes set and attached files. Attribute values will be set on those documents and obviously, files will evolve independently.
 
 {% image /assets/images/documentation/2.0/en/image42.png "Attaching files to the template"%}
 
-##Document creation
+## Document creation
 
 Each documents must belong to a folder. To create a new document in a specific directory, you must first select the directory then click on the “New document“ button.
 
@@ -258,13 +258,13 @@ Once the document is created you can perform the following actions:
 * New version creation
 * Public or private document publishing
 
-##Document move
+## Document move
 
 You can move a document to another directory with the below icon. To do so just drag and drop the document from the icon to the targetted folder.
 
 {% image /assets/images/documentation/2.0/document_move.png "Move button"%}
 
-##Document modification
+## Document modification
 
 In order to modify a document, you must first reserve it. You can access the document modification window by clicking on its title in the list.
 
@@ -274,7 +274,7 @@ You can open the directory containing the document by clicking on the “Folder�
 
 {% image /assets/images/documentation/2.0/en/image10.png "Document details window"%}
 
-###Files tab
+### Files tab
 
 This tab allows you to associate files.
 
@@ -288,20 +288,20 @@ Once generated, the pdf file can be opened from the permalink. A front page has 
 
 Here is the exhaustive list of supported formats: odt, ods, odp, odg, odc, odf, odb, odi, odm, doc, docx, ppt, pps, txt, csv, xls, pdf, html, htm, xml, rtf, msg.
 
-###Used by tab
+### Used by tab
 
 This view lists the documents and parts using the document as a link.
 
 {% image /assets/images/documentation/2.0/en/image68.png "Used by view"%}
 
-##“Checked out” and “Tasks” links
+## “Checked out” and “Tasks” links
 
 To ensure fast access to documents, you will find two shortcut links in the left menu:
 
 * Checked out: this link displays all the documents reserved by the current user
 * Tasks: this link shows the documents the user is directly involved in through a workflow
 
-#Product Management
+# Product Management
 
 DocDokuPLM is a management system for collaborative product development which purpose is to help members of the same organization create and exchange data around products.
 
@@ -315,15 +315,15 @@ The product management module offers, among others, the following features:
 
 Parts and products creation is explained below.
 
-##Part
+## Part
 
 Components of products are named parts, they are assemblies if they are made of other parts. Within DocDokuPLM parts can be created from scratch or imported from CAD tools.
 
-###Part template creation
+### Part template creation
 
 Sometimes, it’s interesting to ensure that parts are always filled with predefined properties (workflow, CAD file, attributes) or their reference number respects a given formalism. To enforce such constraints you have to create parts from templates.
 
-###Part creation
+### Part creation
 
 As seen, part creation panel has an optional template property but there are also several other input fields like name, description, attributes, workflow (see paragraph below) or ACL (Access Control List).
 
@@ -347,7 +347,7 @@ By selecting a part, you can apply a set of actions including:
 
 {% image /assets/images/documentation/2.0/obsolete_icon.png "Obsolete icon"%}
 
-###Part Files
+### Part Files
 
 This tab allows you to attach files and associate a CAD file to the part. If you choose a CAD file while another was already set, the older file will automatically be replaced with the new one.
 
@@ -359,7 +359,7 @@ Here is the exhaustive list of supported formats: dxf, obj, off, ply, stl, 3ds, 
 
 You can add textures as well by adding extra attached files as png or jpg. Textures will appear on 3D view.
 
-###Part assembly
+### Part assembly
 
 When modifying a part, you can edit the assembly composition. An assembly is composed of other parts (subparts).
 
@@ -373,7 +373,7 @@ When added, the substitute will appear inside the subpart view as shown below.
 
 {% image /assets/images/documentation/2.0/en/image60.png "Substitute added"%}
 
-###Notifications
+### Notifications
 
 Sometimes a change on a subpart may impact the assembly part. The Notifications tab appearing on an assembly part window offers you a subparts changelog overview to help you managing potential impacts.
 
@@ -389,7 +389,7 @@ To mark any modification notification as resolved, click on the "Mark as verifie
 
 Note: the only way to clear the list is creating a new iteration of the assembly part.
 
-###Used by
+### Used by
 
 This view lists:
 
@@ -398,7 +398,7 @@ This view lists:
 
 {% image /assets/images/documentation/2.0/en/image69.png "Used by view"%}
 
-###Query builder
+### Query builder
 
 If you want to display a custom list of parts, go to the query builder from the following button:
 
@@ -415,15 +415,15 @@ With the displayed view:
 
 If you save the query and select it, you can export the results to an Excel file. This feature is very useful to get bill of materials.
 
-###Quick links
+### Quick links
 
 You have a fast access to your checked out parts in the left menu.
 
 {% image /assets/images/documentation/2.0/en/image50.png "Links section"%}
 
-##Product
+## Product
 
-###Product creation
+### Product creation
 
 The creation of a product involves supplying an identifier and a part number, filling a description is optional.
 
@@ -433,7 +433,7 @@ The part number designates the root part of your product. It can be a simple par
 
 The new product will be added to the product list. Selecting an item from that list proposes two actions: deletion and baseline creation.
 
-###Configuration
+### Configuration
 
 A configuration is a list of assembly choices for a given product. Indeed you may want to:
 
@@ -449,7 +449,7 @@ A configuration is a list of assembly choices for a given product. Indeed you ma
 
 {% image /assets/images/documentation/2.0/en/image65.png "Choice example: None"%}
 
-###Baseline
+### Baseline
 
 Baselines are kinds of snapshots of the entire product structure at a given time so you can manage different versions of the same product.
 
@@ -463,7 +463,7 @@ Furthermore the Configuration tab offers you to choose a specific configuration.
 
 {% image /assets/images/documentation/2.0/en/image58.png "Choices selection"%}
 
-###User defined function
+### User defined function
 
 You may want to run calculations on every part of a product or baseline, for example determine its total price. This feature is available by blicking this button:
 
@@ -473,7 +473,7 @@ The calculation can be a sum or an average. You choose which attribute will be u
 
 {% image /assets/images/documentation/2.0/en/image78.png "User defined function view"%}
 
-###Deliverable
+### Deliverable
 
 A deliverable is a product instance based on a product baseline and identified with a serial number.
 
@@ -485,7 +485,7 @@ To keep different versions of a deliverable, simply create new iterations by cli
 
 {% image /assets/images/documentation/2.0/en/image63.png "Rebase a deliverable"%}
 
-###Export files in a zip
+### Export files in a zip
 
 To share product files with external users or simply keep a local copy on your disk, you will find a very useful feature on product / baseline / deliverable lists items.
 
@@ -499,7 +499,7 @@ You can choose:
 
 If you export the files of a product, you will obtain the files attached to the last iterations of each parts and documents. Otherwise, you will get the files attached to the baselined iterations.
 
-##Product structure explorer
+## Product structure explorer
 
 Click on the above icon to display the product/baseline/deliverable structure.
 
@@ -522,7 +522,7 @@ Available information on a part:
 {% image /assets/images/documentation/2.0/has_substitutes.png "Has substitutes"%}
 {% image /assets/images/documentation/2.0/is_substitute.png "Is a substitute"%}
 
-###Configuration specifications
+### Configuration specifications
 
 You can change the explorer specifications. Look at the top left menu under the search bar. You will find 3 exploration modes:
 
@@ -538,7 +538,7 @@ You can change the explorer specifications. Look at the top left menu under the 
 
 {% image /assets/images/documentation/2.0/en/image71.png "Deliverable mode example"%}
 
-###Path data
+### Path data
 
 You may want to associate specific data with a deliverable part (like a serial number attribute for instance). This feature is available and accessible through  the deliverable structure explorer. Simply click on the checkbox next to the part to display the following button:
 
@@ -554,7 +554,7 @@ If a part has defined deliverable data, the following icon shows up on the tree 
 
 {% image /assets/images/documentation/2.0/has_path_data.png "Has path data"%}
 
-###Typed link
+### Typed link
 
 In a product, you need occasionaly to link parts to each other in a different way. Then you will use typed links. Those links help you define new structures to the product, for instance highlighting electrical connections between parts.
 
@@ -568,7 +568,7 @@ By clicking on that button, you add the link defined with an existing or a new t
 
 Any link can be edited and removed.
 
-###Part search bar
+### Part search bar
 
 Sometimes, especially for complex products, locating a part in the tree could be cumbersome. Look at the above example. To facilitate this operation, there is a search bar on the top left allowing you to easily find a part from its number or name.
 
@@ -576,7 +576,7 @@ Sometimes, especially for complex products, locating a part in the tree could be
 
 As an alternative, you can select the part directly on the 3D scene.
 
-##Product 3D scene
+## Product 3D scene
 
 Click on the above icon to display the product/baseline/deliverable 3D scene.
 
@@ -598,11 +598,11 @@ The possible actions in the 3D visualization mode are:
 * Export 3D visualization of a part. Produces the html code to embed in other web pages (like YouTube or Google Maps)
 * Measure of the distance between 2 points
 
-#Workflow Management
+# Workflow Management
 
 A workflow is a representation of the various tasks that need to be completed and their interactions. These operations are assigned to different users belonging to the same workspace and are related to an identified document or part.
 
-##Roles
+## Roles
 
 DocDokuPLM workflows are role-based. This means that to increase the applicability of any workflow model, task assignees are not expressed directly by user names but rather by roles.
 
@@ -612,9 +612,9 @@ Thus, the first step involved in workflow creations is to define the roles used 
 
 {% image /assets/images/documentation/2.5/en/image32.png "Roles definition panel"%}
 
-##Workflow
+## Workflow
 
-###Workflow template
+### Workflow template
 
 A workflow template (or model) lists several activities from an initial state to a final state. Each activity contains a label naming its intermediate state and a list of tasks to complete. Those tasks can be performed in series or in parallel.
 
@@ -640,7 +640,7 @@ Then simply enter a name for the new copied workflow.
 
 {% image /assets/images/documentation/2.0/en/image77.png "Workflow copy"%}
 
-###Workflow instance
+### Workflow instance
 
 When creating a document or a part, the author can choose the workflow template he wants to apply. All the implied roles can then be respecified.
 
@@ -648,7 +648,7 @@ When creating a document or a part, the author can choose the workflow template 
 
 Once the document or part has been created, the associated workflow (if any) starts on the first activity. When a task has been opened, a mail is sent to the current task responsible user so he can approve or reject it and sign. If a group was assigned to the task, then the mail is sent to all of its users.
 
-###Lifecycle state
+### Lifecycle state
 
 Once an activity is started, every task assignee receives a mail which includes a full description of the task to complete.
 
@@ -665,13 +665,13 @@ All the users who have subscribed to state change notification will be informed 
 
 There is no way to update or reset a stopped workflow assigned to an item. The only way to relaunch it is creating a new version of that item and assign it the same workflow.
 
-##Milestone
+## Milestone
 
 Milestones allow you to define deadlines for your jobs in progress.
 
 {% image /assets/images/documentation/2.0/en/image81.png "Milestone creation"%}
 
-##Issues
+## Issues
 
 This page allow you to reoprt issues with specific priority about your projects. An issue fix can:
 
@@ -683,19 +683,19 @@ List of available categories: adaptive, corrective, perfective, preventive.
 
 {% image /assets/images/documentation/2.0/en/image82.png "Issue creation"%}
 
-##Requests
+## Requests
 
 Change requests work exactly the same as issues. You can furthermore reference issues.
 
 {% image /assets/images/documentation/2.0/en/image83.png "Request creation"%}
 
-##Orders
+## Orders
 
 Change orders work exactly the same as issues. You can furthermore reference requests.
 
 {% image /assets/images/documentation/2.0/en/image84.png "Order creation"%}
 
-#Check-out / Check-in
+# Check-out / Check-in
 
 To lock a document/part to prevent modification, just select it and press the check-out button. A new item iteration will be created. You can select multiple items to proceed faster.
 
@@ -715,7 +715,7 @@ The revision date indicates the check-in date if the item is checked in or the c
 
 {% image /assets/images/documentation/2.0/status.png "Checked out / Locked / Checked in status"%}
 
-#List of values
+# List of values
 
 DocDokuPLM allows you to predefine values of attributes, called list of values, you will then be able to use as attributes for a document, a part or a template. To create or edit values, click on the following icon shown on the templates page :
 
@@ -734,7 +734,7 @@ You will not be able to :
 * delete a list of values which has instances
 * edit an instance of list of values
 
-#Viewer or permalink
+# Viewer or permalink
 
 Each document/part provides a permanent link where you see details of its latest revision. To get there, you should simply click on the title of the item window.
 
@@ -744,7 +744,7 @@ You can explore all properties of the item as well as visualize its attached fil
 
 {% image /assets/images/documentation/en/image02.png "Document permalink"%}
 
-#Files Management
+# Files Management
 
 A click on the following icon opens the details window of a document/part or a template at the Files tab.
 
@@ -760,7 +760,7 @@ You can download a file by clicking on its name and delete files by selecting th
 
 Do not forget to press on the modal Save button to validate your modifications.
 
-#Documents Links Management
+# Documents Links Management
 
 You can easily add references to documents during part/document edition. Links can be managed in the “Links“ tab on the item modification window.
 
@@ -770,7 +770,7 @@ You comment a document link by clicking on the small pencil. The comment will be
 
 {% image /assets/images/documentation/2.0/en/image54.png "Comment a link"%}
 
-#Tags
+# Tags
 
 You have the possibility to tag documents, parts, issues, requests and orders. To do so, select one or more items and press the tag icon:
 
@@ -788,17 +788,17 @@ You can delete a tag by clicking on the right arrow into the area of the tag, th
 
 {% image /assets/images/documentation/en/image39.png "Tag deletion"%}
 
-#Search
+# Search
 
 We distinguish two types of search: quick and advanced.
 
-##Quick search
+## Quick search
 
 The quick search bar appears on top of the documents/parts list. It lets you quickly find an item from its name, type, identifier, version, author, creation date, modification date, attributes, files content.
 
 {% image /assets/images/documentation/en/image08.png "Quick search bar"%}
 
-##Advanced search
+## Advanced search
 
 There are two ways to get access to the advanced search:
 
@@ -818,9 +818,9 @@ This advanced search allows you to find an item from multiple input texts about 
 
 {% image /assets/images/documentation/2.0/en/image30.png "Advanced search"%}
 
-#Sharing and publishing
+# Sharing and publishing
 
-##Publishing
+## Publishing
 
 Each document/part can be published. To do so, click on the right icon on the item table row.
 
@@ -832,7 +832,7 @@ The following window will appear:
 
 By activating the public share, the item is publicly accessible from the Internet.
 
-##Private access
+## Private access
 
 You may also want to generate a private link optionally protected by a password or an expiration date. For that, just fill the password and/or expiration date and push the share button.
 

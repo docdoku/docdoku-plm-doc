@@ -3,7 +3,7 @@
 * This will become a table of contents (this text will be scraped).
 {:toc}
 
-#Presentation
+# Presentation
 PLM (Product Lifecycle Management) is an area of ​​activity whose purpose is to create and maintain products throughout their life cycle, since the establishment of the specification of product and related services until the end of life. (source: Wikipedia)
 
 PLM is a strategy that allows companies to share product data allowing all stakeholders (employees, suppliers, customers, etc...) to act collaboratively on product development.
@@ -16,12 +16,12 @@ DocDokuPLM is a user friendly, ergonomic tool.
 
 DocDokuPLM User Guide describes and explains how to use the software. It is a comprehensive manual useful for any end users.
 
-#User Management
+# User Management
 To be able to log into the application, everyone needs an account identified by a login and protected by a password.
 
 Each user which hence represents an actor of the system holds specific access rights for every workspace he belongs to. Users can also participate in business processes.
 
-##User creation
+## User creation
 To create an account, click on the link “sign up!” from the home page.
 
 {% image /assets/images/documentation/en/register.png "Registration link"%}
@@ -30,7 +30,7 @@ The first step is thus to register. All fields are required.
 
 {% image /assets/images/documentation/en/register2.png "Creating a User"%}
 
-##User settings
+## User settings
 
 {% image /assets/images/documentation/en/settings.png "Account Management"%}
 
@@ -39,9 +39,9 @@ The account edition page is accessible on the "My Account" submenu which also al
 
 {% image /assets/images/documentation/en/edition.png "Account Edition"%}
 
-#Workspace Management
+# Workspace Management
 
-##Workspace creation
+## Workspace creation
 Once account created, you can instantiate new workspaces.
 
 {% image /assets/images/documentation/en/creation.png "Workspace creation"%}
@@ -50,7 +50,7 @@ Workspace is the top level context object that gathers documents, parts, busines
 
 The "freeze folder structure except for workspace manager" option must be checked if you do not want other users to modify the directory structure.
 
-##Workspace settings
+## Workspace settings
 To edit the workspace properties, click on "Administration".
 
 {% image /assets/images/documentation/en/account.png "Account Management"%}
@@ -62,12 +62,12 @@ Then, select the workspace you want to edit.
 You manage workspaces access at user level or by creating groups.
 Access rights administration is discussed in the next chapter.
 
-###Dashboard
+### Dashboard
 The dashboard provides statistics on your workspace (disk space, number of documents and parts, checkin/checkout per user, etc..).
 
 {% image /assets/images/documentation/en/dashboard.png "Airplane-T01 workspace dashboard"%}
 
-##Collaborative messaging
+## Collaborative messaging
 All users of the same workspace can communicate in real-time with our built-in communication module.
 This module offers the ability to engage an instant messaging conversation or a video conference on the fly. Hence, users can easily exchange parts and documents and thus speed up the process of product development.
 
@@ -81,11 +81,11 @@ In addition to the co-workers menu, whenever a user name appears in blue inside 
 
 {% image /assets/images/documentation/en/conversation.png "Co-worker contextual conversation menu"%}
 
-#Access right controls
+# Access right controls
 
-##Workspace access rights
+## Workspace access rights
 
-###User access management
+### User access management
 Workspace administrator defines permissions to users which can be either full or read-only access.
 
 It’s also possible to disable users which has the effect to forbid them to log in.
@@ -106,12 +106,12 @@ A read-only user can:
 
 A disabled user cannot do anything.
 
-###Managing Groups
+### Managing Groups
 Groups are useful when the number of users tends to increase. They can hold the same kind of permissions.
 
 {% image /assets/images/documentation/en/group_user_management.png "Group Users Management"%}
 
-##Documents and Parts Access Control List
+## Documents and Parts Access Control List
 If newly created documents and parts are accessible according to the permissions defined at workspace level, it’s possible to override them by selecting the "Rights" tab. From that panel you can upgrade or downgrade access rights to any user in the workspace for the specific entity (document or part). The lower level is "forbidden" which means that the entity will not be visible by the user or group.
 
 {% image /assets/images/documentation/en/document_creation.png "Document creation, ACL tab"%}
@@ -128,7 +128,7 @@ Entities that hold specific rights display a padlock at the end of the line. Gre
 {% image /assets/images/documentation/en/full_access.png "Full access"%}
 {% image /assets/images/documentation/en/read_only.png "Read-only"%}
 
-##Combined Access Rights
+## Combined Access Rights
 
 Important concepts:
 
@@ -143,7 +143,7 @@ Important concepts:
 
 Below the summary tables of possible combinations.
 
-###User present in one groups
+### User present in one groups
 
 | Group rights | User rights on Workspace | Effective rights |
 | ------------ | ------------------------ | ---------------- |
@@ -153,7 +153,7 @@ Below the summary tables of possible combinations.
 | read only    | full access              | full access
 
 
-###User present in several groups
+### User present in several groups
 
 | Group I rights | Group II rights | Effective rights |
 | -------------- | --------------- | ---------------- |
@@ -163,7 +163,7 @@ Below the summary tables of possible combinations.
 | read only      | disable         | read only        |
 | read only      | read only       | read only
 
-###User access rights for a document/part
+### User access rights for a document/part
 
 | User rights on Workspace | User Rights on Document/Part | Effective Rights |
 | ------------------------ | ---------------------------- | ---------------- |
@@ -174,7 +174,7 @@ Below the summary tables of possible combinations.
 | read only                | read only                    | read only        |
 | read only                | forbidden                    | forbidden
 
-###Group access rights for a document/part
+### Group access rights for a document/part
 
 | Group rights on Workspace | Group Rights on Document/Part | Effective Rights |
 | ------------------------- | ----------------------------- | ---------------- |
@@ -185,7 +185,7 @@ Below the summary tables of possible combinations.
 | read only                 | read only                     | read only        |
 | read only                 | forbidden                     | forbidden        |
 
-#Product Management
+# Product Management
 DocDokuPLM is a management system for collaborative product development which purpose is to help members of the same organization create and exchange data around products.
 
 The product management module offers, among others, the following features:
@@ -196,14 +196,14 @@ The product management module offers, among others, the following features:
 * Parts metadata
 * Part-document links
 
-##Product structure
+## Product structure
 The product structure is a breakdown showing the various items that compose a product.
 These components are named parts, they are assemblies if they are made of other parts. Within DocDokuPLM parts can be created from scratch or imported from CAD tools.
 
-###Part template creation
+### Part template creation
 Sometimes, it’s interesting to ensure that parts are always filled with predefined properties or their reference number respects a given formalism. To enforce such constraints you have to create parts from templates.
 
-###Part creation
+### Part creation
 As seen, part creation panel has an optional template property but there are also several other input fields like name, description, attributes, workflow (see paragraph below) or ACL (Access Control List).
 
 {% image /assets/images/documentation/en/part.png "Part creation"%}
@@ -220,12 +220,12 @@ By selecting a part, you can apply a set of actions including:
 * check-out / undo check-out / check-in
 * Access rights management
 
-###Part assembly
+### Part assembly
 The assembly tab allows to edit the composition of the assembly if obviously the part is not a leaf of the product structure.
 
 {% image /assets/images/documentation/en/part_assembly.png "Part Assembly"%}
 
-###Product creation
+### Product creation
 The creation of a product involves supplying an identifier and a part number, filling a description is optional.
 
 The part number designates the root part of your product.
@@ -238,7 +238,7 @@ Baselines are kinds of snapshots of the entire product structure at a given vers
 
 {% image /assets/images/documentation/en/image40.png "Baseline creation form"%}
 
-##Product explorer
+## Product explorer
 The product structure is displayed as a tree view where each node represents an assembly which is expandable. The node itself is clickable in order to display its main properties.
 
 {% image /assets/images/documentation/en/tree_structure.png "Tree structure of the product"%}
@@ -260,21 +260,21 @@ The possible actions in the 3D visualization mode are:
 * Creating layers that hold a set of markers
 * Export 3D visualization of a part. Produces the html code to embed in other web pages (like YouTube or Google Maps)
 
-#Document Management
+# Document Management
 DocDokuPLM has a document management module that includes a comprehensive versioning system (master, revision and iteration), functions for sharing, publishing documents, treeview and tags organisation...
 In the following paragraph, we will detail all of these functionalities.
 
 {% image /assets/images/documentation/en/image00.png "Document management menu"%}
 
-##Document template
+## Document template
 
-###Document template creation
+### Document template creation
 
 You can create templates that will be used to instantiate documents. You can choose to restrict document name by filling a mask format and selecting the identifier generation option. This will lead to an automatic creation of identifiers for documents that use the template.
 
 {% image /assets/images/documentation/en/image25.png "Document template creation form"%}
 
-###Adding files and attributes
+### Adding files and attributes
 
 You can define attribute types in the template as well as attach files to it. All documents created using the same template will have the same attribute set and attached files. Attribute values will be set on those documents and obviously files will evolve as they are simply themselves template files.
 
@@ -299,7 +299,7 @@ Once the document created you can perform the following actions:
 * Creating a new version of document
 * Public or private document publishing
 
-##Modifying document
+## Modifying document
 
 In order to modify a document, you must first reserve it. You can access the document modification window by clicking on its name.
 
@@ -307,7 +307,7 @@ The arrows at the bottom left are used to visualize the different changes done i
 
 {% image /assets/images/documentation/en/image10.png "Document details window"%}
 
-##Document viewer
+## Document viewer
 
 Each document provides a permanent link where you see details of its latest revision. To get there, you should simply click on the title of the document window.
 
@@ -319,11 +319,11 @@ You can explore all properties of the document as well as visualize their attach
 
 Files not supported by the viewer will be downloaded.
 
-##Document conversion
+## Document conversion
 
 In addition to the mentioned features, DocDokuPLM can convert documents into pdf. The majority of word processing formats are supported.
 
-##Document checkout/checkin
+## Document checkout/checkin
 
 To lock a document for modification, just select it and then push the checkout button:
 
@@ -335,17 +335,17 @@ When releasing (check-in operation) the document, you have the opportunity to en
 
 {% image /assets/images/documentation/en/image19.png "Window of revision note"%}
 
-##Search a document
+## Search a document
 
 We distinguish two types of search:
 
-###Quick search
+### Quick search
 
 The quick search bar appears on top of the document list. It lets you quickly find a document from its name.
 
 {% image /assets/images/documentation/en/image08.png "Quick search bar"%}
 
-###Advanced search
+### Advanced search
 
 You can access the advanced search in two ways:
 
@@ -356,7 +356,7 @@ You can access the advanced search in two ways:
 
 This advanced search allows you to find a document from its title, type, reference, version, author, creation date or content files.
 
-##Tags
+## Tags
 
 You have the possibility to tag documents. To do so, select one or more documents and push the tag icon:
 
@@ -374,7 +374,7 @@ You can delete a tag by clicking on the right arrow into the area of the tag, th
 
 {% image /assets/images/documentation/en/image39.png "Delete a label"%}
 
-##“Checked out” and “Tasks” links
+## “Checked out” and “Tasks” links
 
 To ensure fast access to documents, you will find two shortcut links in the left menu:
 
@@ -383,11 +383,11 @@ To ensure fast access to documents, you will find two shortcut links in the left
 
 {% image /assets/images/documentation/en/image06.png "Links section"%}
 
-#Workflow Management
+# Workflow Management
 
 A workflow is a representation of the various tasks that need to be completed and their interactions. These operations are assigned to different users of the same workspace and are related to an identified document or part.
 
-##Roles
+## Roles
 
 DocDokuPLM Workflows are role-based. That means to increase the applicability of any workflow models, task assignees are not expressed directly by user names but rather by roles.
 
@@ -395,7 +395,7 @@ Thus, the first step involved in workflow creations is to define the roles used 
 
 {% image /assets/images/documentation/en/image32.png "Roles definition panel"%}
 
-##Workflow template
+## Workflow template
 
 A workflow template or model consists of a serie of activities. Each activity contains tasks to be done and an associated label which represents the state the entity when the workflow current step will be the activity. Those tasks can be performed in series or in parallel.
 
@@ -411,7 +411,7 @@ A workflow template can be changed at any time, but that will not have any incid
 
 {% image /assets/images/documentation/en/image12.png "Creation of a workflow template"%}
 
-##Workflow instance
+## Workflow instance
 
 When creating a document or a part, the author can choose the workflow template to apply. All the roles implied have then to be resolved.
 
@@ -419,7 +419,7 @@ When creating a document or a part, the author can choose the workflow template 
 
 Immediately after the creation of a document (or a part), the associated workflow (if any) starts on the first activity.
 
-##Lifecycle state
+## Lifecycle state
 
 Once an activity is started, every task assignee receives a mail which includes a full description of the task to complete.
 
@@ -432,9 +432,9 @@ A running task can be marked as done or rejected if:
 
 All the users who have subscribed to state change notification will be informed.
 
-#Sharing and publishing
+# Sharing and publishing
 
-##Publishing
+## Publishing
 
 Each document and part can be published. To do so, click on the right icon on the table line.
 
@@ -446,7 +446,7 @@ The following window will appear:
 
 By activating the public share, the document or part is publicly accessible from the Internet.
 
-##Private access
+## Private access
 
 You may also want to generate a private link optionally protected by a password or an expiration date. For that, just fill the password and/or expiration date and push the share button.
 

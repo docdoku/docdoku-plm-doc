@@ -3,7 +3,7 @@
 * This will become a table of contents (this text will be scraped).
 {:toc}
 
-#Présentation
+# Présentation
 Le PLM (Product Lifecycle Management, littéralement gestion du cycle de vie du produit) est un
 domaine d'activité dont le but est de créer et maintenir des produits tout au long de leur cycle de
 vie, depuis l'établissement du cahier des charges du produit et des services associés jusqu'à la
@@ -26,14 +26,14 @@ DocDokuPLM est un outil simple, à l’ergonomie soignée dont la prise en main 
 L’objectif de ce document est de présenter en détail l’ensemble des possibilités offertes par
 cette solution pour une utilisation optimale.
 
-#Gestion des utilisateurs
+# Gestion des utilisateurs
 Dans DocDokuPLM, la notion d'utilisateur ne se restreint pas à un simple accès à l'application.
 C'est par exemple à partir de ce même utilisateur que vous pourrez spécifier des droits sur un
 document ou encore lui attribuer un rôle dans un workflow.
 
 Vous découvrez DocDokuPLM ? Les chapitres suivants devraient retenir toute votre attention...
 
-##Création d'un utilisateur
+## Création d'un utilisateur
 Pour créer un compte, cliquez sur le lien inscrivez-vous depuis la page d'accueil.
 
 {% image /assets/images/documentation/fr/image32.png "Lien d’inscription"%}
@@ -44,7 +44,7 @@ La toute première étape consiste ainsi à s'enregistrer. Ici, tous les champs 
 
 {% image /assets/images/documentation/fr/image17.png "Création d'un utilisateur"%}
 
-##Modification de l’utilisateur
+## Modification de l’utilisateur
 
 {% image /assets/images/documentation/fr/image04.png "Gestion du compte"%}
 
@@ -54,9 +54,9 @@ Cette page vous permet également de modifier votre mot de passe.
 
 {% image /assets/images/documentation/fr/image10.png "Édition du compte"%}
 
-#Gestion des espaces de travail
+# Gestion des espaces de travail
 
-##Création d'un espace de travail
+## Création d'un espace de travail
 Votre compte désormais créé, vous avez la possibilité de créer un espace de travail.
 
 {% image /assets/images/documentation/fr/image37.png "image37"%}
@@ -65,7 +65,7 @@ Une fois cette opération effectuée, vous en serez l’administrateur. Celui-ci
 
 L’option “geler la structure des répertoires sauf pour le gestionnaire de l’espace de travail” doit être cochée si vous ne souhaitez pas que les autres utilisateurs puissent modifier la structure des répertoires.
 
-##Modification d'un espace de travail
+## Modification d'un espace de travail
 Pour accéder aux options d’un espace de travail, cliquez sur le lien “Administration”.
 
 {% image /assets/images/documentation/fr/image04.png "Gestion du compte"%}
@@ -80,12 +80,12 @@ Vous pouvez également gérer les accès sur l'espace de travail, soit au niveau
 
 Cette gestion des droits est abordée dans le chapitre suivant.
 
-###Tableau de bord
+### Tableau de bord
 Le tableau de bord donne accès à des statistiques sur votre espace de travail (espace disque, nombre de documents et d'articles, taux de réservation/utilisateur, etc.).
 
 {% image /assets/images/documentation/fr/image39.png "Tableau de bord de l’espace de travail Airplane-T01"%}
 
-##Messagerie collaborative
+## Messagerie collaborative
 L’ensemble des utilisateurs d’un même espace de travail peuvent échanger en temps réel grâce aux modules de communication intégrés dans DocDokuPLM.
 
 Ces modules offrent la possibilité d’avoir des conversations de type messagerie instantanée et visioconférence. Il est par ailleurs possible de partager les visualisations d’articles entre collaborateurs dans l’objectif de faciliter l’échange d’informations et d’accélérer le processus de développement de produits.
@@ -100,11 +100,11 @@ En complément du menu Collaborateurs, chaque fois qu’un nom d’utilisateur a
 
 {% image /assets/images/documentation/fr/image29.png "Menu collaboratif contextuel"%}
 
-#Gestion des contrôles d’accès
+# Gestion des contrôles d’accès
 
-##Droits appliqués au niveau de l’espace de travail
+## Droits appliqués au niveau de l’espace de travail
 
-###Gestion des accès utilisateurs
+### Gestion des accès utilisateurs
 L’administrateur de l’espace de travail peut définir des droits par défaut aux utilisateurs. Un utilisateur peut avoir un accès complet en lecture/écriture, un accès en lecture seule, ou bien n’avoir aucun droit.
 
 {% image /assets/images/documentation/fr/image44.png "Gestion des utilisateurs et des groupes "%}
@@ -127,12 +127,12 @@ Un utilisateur désactivé ne peut accéder ni aux documents ni aux articles.
 
 Pour changer les droits d’un utilisateur ou d’un groupe, il faut cliquer sur la case à cocher correspondante, puis cliquer sur un bouton d’action (supprimer, désactiver, activer, ...) en bas de la liste.
 
-###Gestion des groupes
+### Gestion des groupes
 Pour gérer les utilisateurs d’un groupe, vous devez cliquer sur son nom. Vous pouvez alors ajouter ou enlever des utilisateurs au groupe sélectionné.
 
 {% image /assets/images/documentation/fr/image33.png "Gestion des utilisateurs d’un groupe"%}
 
-##Droits appliqués au niveau des documents et des articles
+## Droits appliqués au niveau des documents et des articles
 A la création d’un document ou d’un article, les droits appliqués à ceux-ci sont par défaut ceux définis sur l’espace de travail. Pour redéfinir spécialement les droits de l’entité à créer, vous devez utiliser l’onglet “Droits”. Vous pouvez alors modifier les droits spécifiquement pour cette entité.
 
 Vous pouvez ainsi donner des droits supplémentaires aux utilisateurs en lecture seule au niveau de l’espace de travail sur des entités ciblées, ou au contraire restreindre l’accès à des données à des utilisateurs en accès complet.
@@ -154,7 +154,7 @@ Quand des droits sont appliqués sur un élément, un cadenas est visible en fin
 {% image /assets/images/documentation/fr/image15.png "accès complet"%}
 {% image /assets/images/documentation/fr/image21.png "lecture seule "%}
 
-##Combinaison et priorité des droits
+## Combinaison et priorité des droits
 
 Une notion importante à retenir : les droits définis sur une entité pour un utilisateur prime sur tous les autres droits (à l’exception de l’utilisateur désactivé).
 
@@ -162,7 +162,7 @@ De plus, l’administrateur de l’espace de travail outrepasse ces droits.
 
 Ci-après les tableaux récapitulatifs des combinaisons possibles.
 
-###Utilisateur présent directement dans l’espace de travail ET dans un groupe
+### Utilisateur présent directement dans l’espace de travail ET dans un groupe
 
 | Groupe        | Utilisateur       | Droits effectifs |
 | ------------- | ----------------- | ---------------- |
@@ -172,7 +172,7 @@ Ci-après les tableaux récapitulatifs des combinaisons possibles.
 | lecture seule | accès complet     | accès complet
 
 
-###Utilisateur présent dans plusieurs groupes
+### Utilisateur présent dans plusieurs groupes
 
 | Groupe I       | Groupe II       | Droits effectifs |
 | -------------- | --------------- | ---------------- |
@@ -182,7 +182,7 @@ Ci-après les tableaux récapitulatifs des combinaisons possibles.
 | lecture seule  | désactivé       | lecture seule    |
 | lecture seule  | lecture seule   | lecture seule
 
-###Droits définis au niveau entité (document/article) pour un utilisateur (présent directement dans l’espace de travail)
+### Droits définis au niveau entité (document/article) pour un utilisateur (présent directement dans l’espace de travail)
 
 | Utilisateur    | Droit d’accès entité | Droits effectifs |
 | -------------- | -------------------- | ---------------- |
@@ -193,7 +193,7 @@ Ci-après les tableaux récapitulatifs des combinaisons possibles.
 | lecture seule  | lecture seule        | lecture seule    |
 | lecture seule  | interdit             | interdit
 
-###Droits définis au niveau entité pour un groupe
+### Droits définis au niveau entité pour un groupe
 
 | Groupe          | Droit d’accès entité  | Résultat         |
 | --------------- | --------------------- | ---------------- |
@@ -204,7 +204,7 @@ Ci-après les tableaux récapitulatifs des combinaisons possibles.
 | lecture seule   | lecture seule         | lecture seule    |
 | lecture seule   | interdit              | interdit
 
-#Gestion des produits
+# Gestion des produits
 DocDokuPLM est donc un système de gestion collaborative de produits dont le but est d’aider les membres d’une même organisation à gérer et partager l'ensemble des actions et des itérations apportées à un produit tout au long de son cycle.
 
 Vous retrouvez, entre autres, les fonctionnalités suivantes :
@@ -216,15 +216,15 @@ Vous retrouvez, entre autres, les fonctionnalités suivantes :
 
 La création d’articles et de produits est expliquée dans le paragraphe qui suit.
 
-##La structure produit
+## La structure produit
 Il s'agit de rendre compte de la structure d'un produit et de l'organisation de ses composants.
 Les composants sont appelés articles. DocDokuPLM permet de créer des articles à partir de rien ou bien à partir de modèles existants.
 
-###Création de modèle d’article
+### Création de modèle d’article
 DocdokuPLM offre la possibilité de créer des modèles types d’article et de leur associer des attributs, des fichiers et un masque de saisie permettant de faciliter la gestion de nomenclature des articles qui auront ce modèle.
 Cette opération permet par la suite de créer des articles reposant sur ces modèles.
 
-###Création d’article
+### Création d’article
 Lors de la création d’un article, vous pouvez donc renseigner un modèle d’article. L’article ainsi créé aura les mêmes propriétés que celles du modèle (fichiers, attributs et liens).
 
 Vous pouvez tout aussi bien lui associer de façon individuelle des attributs, un workflow afin de gérer le cycle de vie de l’article et régir l'accès à cet article pour les autres collaborateurs de l’espace de travail.
@@ -243,13 +243,13 @@ En sélectionnant un article, vous pouvez lui appliquer un ensemble d’actions 
 * Réservation  / annulation de la réservation / libération
 * Gestion de ses droits d’accès
 
-###Assemblage d’articles
+### Assemblage d’articles
 Lors de la modification d’un article vous pouvez définir son assemblage.
 
 Un assemblage est composé d'autres articles.
 {% image /assets/images/documentation/fr/image24.png "Définition de l’assemblage"%}
 
-###Création de produit
+### Création de produit
 Au moment de la création d’un produit l’identifiant du produit ainsi que le numéro de l’article sont obligatoires, la description est par contre optionnelle.
 
 Le numéro d’article est l’élément de tête de votre produit. Celui-ci peut être un simple article ou un assemblage d’articles.
@@ -262,7 +262,7 @@ La création d’une ligne de base permet d’enregistrer à un instant donné u
 
 {% image /assets/images/documentation/fr/image02.png "Création d’une ligne de base"%}
 
-##Explorateur produit
+## Explorateur produit
 Via la structure produit, la possibilité vous est offerte de rechercher et localiser l'information relative à un article donné. Cependant, pour les produits complexes comprenant un très grand nombre d'articles, la tâche peut s'avérer fastidieuse.
 
 Prenez l'exemple du parcours de la structure produit représentée ci-dessous.
@@ -283,22 +283,22 @@ Parmi les actions possibles dans le mode de visualisation en 3D, vous retrouvere
 * La création de marqueurs permettant par exemple de rapporter un dysfonctionnement d’une pièce sur le schéma 3D. Notez qu’un calque peut comporter plusieurs marqueurs.
 * Export de l’article qui produit le code html à intégrer dans d’autres pages web.
 
-#Gestion des documents
+# Gestion des documents
 DocDokuPLM offre aussi une gestion complète de documents avec prise en compte des versions, le partage et la publication, une organisation arborescente ainsi qu'une configuration fine des droits d’accès.
 
 Dans ce qui suit nous détaillons l’ensemble de ces fonctions.
 
 {% image /assets/images/documentation/fr/image09.png "Menu de gestion de documents"%}
 
-##Modèles de document
+## Modèles de document
 
-###Création d’un modèle de document
+### Création d’un modèle de document
 
 Vous pouvez créer des modèles de documents qui serviront à la création des documents. Au moment de la création d’un modèle vous pouvez choisir de gérer la nomenclature des documents en déterminant un masque de saisie et en cochant la génération de l’identifiant. Ceci entraînera la création automatique d’identifiants pour les documents qui utiliseront ce modèle.
 
 {% image /assets/images/documentation/fr/image31.png "Formulaire de création de modèle de document"%}
 
-###Ajout de fichiers et d’attributs
+### Ajout de fichiers et d’attributs
 
 Vous pouvez définir des types d’attributs dans le modèle et lui associer des fichiers. Tous les documents qui seront créés avec ce modèle auront ces mêmes attributs, il faudra alors renseigner leur valeur, et fichiers. Ces derniers pourront bien sûr évoluer, le fichier positionné au niveau du modèle n’étant qu’un squelette.
 
@@ -323,7 +323,7 @@ Une fois créé vous pourrez effectuer les actions suivantes :
 * Création d’une nouvelle version du document
 * Publication du document selon deux modes public ou privé
 
-##Modification d’un document
+## Modification d’un document
 
 Pour modifier un document, il vous faut d'abord le réserver. Vous pouvez accéder à la fenêtre de modification en cliquant sur le nom d’un document dans une liste.
 
@@ -333,7 +333,7 @@ Vous pouvez accéder au dossier qui contient le document en cliquant sur le lien
 
 {% image /assets/images/documentation/fr/image28.png "Fenêtre d’informations relatives à un document"%}
 
-##Visualisation de document
+## Visualisation de document
 
 Pour chaque document, il est possible d’ouvrir un nouvel onglet contenant les détails de sa dernière révision. Pour y accéder, il vous suffit de cliquer sur le titre contenu dans la fenêtre de détails.
 
@@ -345,11 +345,11 @@ Vous pouvez visualiser les différents documents créés ainsi que les fichiers 
 
 Les fichiers non pris en charge par la visionneuse seront téléchargés.
 
-##Conversion de document
+## Conversion de document
 
 Outre les fonctionnalités citées, DocDokuPLM peut convertir les documents en pdf. La majorité des formats utilisés avec les logiciels de traitement de texte sont pris en charge.
 
-##Réservation des documents
+## Réservation des documents
 
 En sélectionnant un document via sa case à cocher, vous pouvez le réserver.
 
@@ -361,17 +361,17 @@ Si vous choisissez de libérer le document, une fenêtre vous proposera d’entr
 
 {% image /assets/images/documentation/fr/image03.png "Fenêtre de note de révision"%}
 
-##Recherche de document
+## Recherche de document
 
 Nous distinguons deux types de recherche :
 
-###Recherche rapide
+### Recherche rapide
 
 La barre de recherche rapide se présente au-dessus de la liste des documents. Elle permet de trouver rapidement un document à partir de son nom.
 
 {% image /assets/images/documentation/fr/image42.png "Barre de recherche rapide"%}
 
-###Recherche avancée
+### Recherche avancée
 
 Vous pouvez accéder à la recherche avancée de deux manières :
 
@@ -382,7 +382,7 @@ Vous pouvez accéder à la recherche avancée de deux manières :
 
 Cette recherche avancée permet de trouver un document à partir de son titre, son type, sa référence, sa version, son auteur, sa date de création ou encore le contenu des fichiers chargés.
 
-##Libellés
+## Libellés
 
 Vous pouvez associer des libellés à vos documents. En sélectionnant un document via sa case à cocher l’icône suivante apparaît :
 
@@ -400,7 +400,7 @@ Vous pouvez supprimer un libellé en cliquant sur la flèche dans la zone du lib
 
 {% image /assets/images/documentation/fr/image38.png "Suppression d’un libellé"%}
 
-##Liens Réservés et Tâches
+## Liens Réservés et Tâches
 
 Afin d’assurer un accès rapide aux documents qui concernent un utilisateur donné, vous trouverez deux liens dans le menu de gauche :
 
@@ -409,17 +409,17 @@ Afin d’assurer un accès rapide aux documents qui concernent un utilisateur do
 
 {% image /assets/images/documentation/fr/image47.png "Section des liens"%}
 
-#Gestion des workflows
+# Gestion des workflows
 
 Un workflow, ou flux des travaux, est la représentation des opérations affectées à un document ou un article. Ces opérations peuvent être effectuées par différents utilisateurs d’un même espace de travail.
 
-##Les rôles
+## Les rôles
 
 Pour créer un modèle de workflow, il faut au préalable créer des rôles dans l’espace de travail. Ces rôles peuvent être assignés par défaut à des utilisateurs, mais peuvent être redéfinis lors de l'affectation du workflow à la création d'un document ou d'un article.
 
 {% image /assets/images/documentation/fr/image00.png "Création des rôles"%}
 
-##Modèle de workflow
+## Modèle de workflow
 
 Un modèle de workflow est composé d'un état initial, d'une série d'activités et d'un état final. Chaque activité contient des tâches à effectuer. Ces tâches peuvent être effectuées en série, ou en parallèle.
 
@@ -435,7 +435,7 @@ Un modèle de workflow peut être modifié à n’importe quel instant mais cela
 
 {% image /assets/images/documentation/fr/image20.png "Création d'un modèle de workflow"%}
 
-##Instance de workflow
+## Instance de workflow
 
 Chaque modèle de workflow créé peut être instancié à la création d'un document ou d'un article. Les rôles peuvent être alors redéfinis.
 
@@ -443,7 +443,7 @@ Chaque modèle de workflow créé peut être instancié à la création d'un doc
 
 Une fois le document (ou l’article) créé, le workflow démarre sur la première activité. Lorsqu'une tâche est ouverte, un mail est envoyé au responsable de la tâche en cours. Le responsable peut alors l'approuver ou la rejeter et signer.
 
-##Etat du cycle de vie
+## Etat du cycle de vie
 
 Une fois la première activité démarrée, les utilisateurs désignés effectuent les opérations renseignées.
 
@@ -457,9 +457,9 @@ Une tâche peut être approuvée ou rejetée si :
 * Le document ou l'article est libéré.
 
 
-#Options de partage et de publication
+# Options de partage et de publication
 
-##Publication
+## Publication
 
 Chaque document et article peut être publié. Pour cela il faut cliquer sur l’icône située à droite de chaque ligne.
 
@@ -471,7 +471,7 @@ La fenêtre suivante apparaît :
 
 Une fois le document publié en cliquant sur le bouton ON/OFF, il sera accessible depuis internet sans qu’une authentification soit nécessaire.
 
-##Accès privé
+## Accès privé
 
 Vous pouvez aussi protéger vos publications en utilisant l’accès privé. Vous pouvez choisir une date d’expiration et un mot de passe. Ces deux champs ne sont pas obligatoires, mais seront vérifiés à l’accès si vous les avez renseignés.
 

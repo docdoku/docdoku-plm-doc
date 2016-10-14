@@ -3,7 +3,7 @@
 * This will become a table of contents (this text will be scraped).
 {:toc}
 
-#Présentation
+# Présentation
 
 Le PLM (Product Lifecycle Management, littéralement gestion du cycle de vie du produit) est un
 domaine d'activité dont le but est de créer et maintenir des produits tout au long de leur cycle de
@@ -27,7 +27,7 @@ DocDokuPLM est un outil simple, à l’ergonomie soignée dont la prise en main 
 L’objectif de ce document est de présenter en détail l’ensemble des possibilités offertes par
 cette solution pour une utilisation optimale.
 
-#Gestion des utilisateurs
+# Gestion des utilisateurs
 
 Dans DocDokuPLM, la notion d'utilisateur ne se restreint pas à un simple accès à l'application.
 C'est par exemple à partir de ce même utilisateur que vous pourrez spécifier des droits sur un
@@ -35,7 +35,7 @@ document ou encore lui attribuer un rôle dans un processus.
 
 Vous découvrez DocDokuPLM ? Les chapitres suivants devraient retenir toute votre attention...
 
-##Création d'un utilisateur
+## Création d'un utilisateur
 
 Pour créer un compte, cliquez sur le lien inscrivez-vous depuis la page d'accueil.
 
@@ -47,7 +47,7 @@ La toute première étape consiste ainsi à s'enregistrer. Ici, tous les champs 
 
 {% image /assets/images/documentation/2.0/fr/image17.png "Création d'un utilisateur"%}
 
-##Modification de l’utilisateur
+## Modification de l’utilisateur
 
 {% image /assets/images/documentation/2.0/fr/image04.png "Gestion du compte"%}
 
@@ -57,9 +57,9 @@ Cette page vous permet également de modifier votre mot de passe. Le fuseau hora
 
 {% image /assets/images/documentation/2.0/fr/image10.png "Édition du compte"%}
 
-#Gestion des espaces de travail
+# Gestion des espaces de travail
 
-##Création d'un espace de travail
+## Création d'un espace de travail
 
 Votre compte désormais créé, vous avez la possibilité de créer un espace de travail.
 
@@ -69,7 +69,7 @@ Une fois cette opération effectuée, vous en serez l’administrateur. Celui-ci
 
 L’option “geler la structure des répertoires sauf pour le gestionnaire de l’espace de travail” doit être cochée si vous ne souhaitez pas que les autres utilisateurs puissent modifier la structure des répertoires.
 
-##Modification d'un espace de travail
+## Modification d'un espace de travail
 
 Pour accéder aux options d’un espace de travail, cliquez sur le lien “Administration des espaces de travail”.
 
@@ -85,13 +85,13 @@ Vous pouvez également gérer les accès sur l'espace de travail, soit au niveau
 
 Cette gestion des droits est abordée dans le chapitre suivant.
 
-###Tableau de bord
+### Tableau de bord
 
 Le tableau de bord donne accès à des statistiques sur votre espace de travail (espace disque, nombre de documents et d'articles, taux de réservation par utilisateur, etc.).
 
 {% image /assets/images/documentation/fr/image39.png "Tableau de bord de l’espace de travail Airplane-T01"%}
 
-##Messagerie collaborative
+## Messagerie collaborative
 
 L’ensemble des utilisateurs d’un même espace de travail peuvent échanger en temps réel grâce aux modules de communication intégrés dans DocDokuPLM.
 
@@ -107,11 +107,11 @@ En complément du menu Collaborateurs, chaque fois qu’un nom d’utilisateur a
 
 {% image /assets/images/documentation/2.0/fr/image29.png "Menu collaboratif contextuel"%}
 
-#Gestion des contrôles d’accès
+# Gestion des contrôles d’accès
 
-##Droits appliqués au niveau de l’espace de travail
+## Droits appliqués au niveau de l’espace de travail
 
-###Gestion des accès utilisateurs
+### Gestion des accès utilisateurs
 
 L’administrateur de l’espace de travail peut définir des droits par défaut aux utilisateurs. Un utilisateur peut avoir un accès complet en lecture/écriture, un accès en lecture seule, ou bien n’avoir aucun droit.
 
@@ -137,15 +137,15 @@ Un utilisateur désactivé ne peut accéder ni aux documents ni aux articles.
 
 Pour changer les droits d’un utilisateur ou d’un groupe, il faut cliquer sur la case à cocher correspondante, puis cliquer sur un bouton d’action (supprimer, désactiver, activer, ...) en bas de la liste.
 
-###Gestion des groupes
+### Gestion des groupes
 
 Pour gérer les utilisateurs d’un groupe, vous devez cliquer sur son nom. Vous pouvez alors ajouter ou enlever des utilisateurs au groupe sélectionné.
 
 {% image /assets/images/documentation/fr/image33.png "Gestion des utilisateurs d’un groupe"%}
 
-##Droits appliqués
+## Droits appliqués
 
-###Au niveau des documents et des articles
+### Au niveau des documents et des articles
 
 A la création d’un document ou d’un article, les droits appliqués à ceux-ci sont par défaut ceux définis sur l’espace de travail. Pour redéfinir les droits de l’entité à créer, vous devez utiliser l’onglet “Droits”. Vous pouvez alors modifier les droits spécifiquement pour cette entité.
 
@@ -168,11 +168,11 @@ Quand des droits sont appliqués sur un élément, un cadenas est visible en fin
 {% image /assets/images/documentation/2.0/full_access.png "Accès complet"%}
 {% image /assets/images/documentation/2.0/read_only.png "Lecture seule "%}
 
-###Au niveau des modèles, des processus, des configurations et des exemplaires
+### Au niveau des modèles, des processus, des configurations et des exemplaires
 
 Si vous êtes en accès complet sur un modèle (par exemple), vous pouvez modifier ses droits associés pour un utilisateur ou un groupe. Un utilisateur ou un groupe qui sera en lecture seule pourra uniquement utiliser ce modèle. En interdisant l'accès, l'utilisateur ou le groupe ne le verra jamais.
 
-##Combinaison et priorité des droits
+## Combinaison et priorité des droits
 
 Notions importantes :
 
@@ -187,7 +187,7 @@ Notions importantes :
 
 Ci-après les tableaux récapitulatifs des combinaisons possibles.
 
-###Utilisateur présent directement dans l’espace de travail ET dans un groupe
+### Utilisateur présent directement dans l’espace de travail ET dans un groupe
 
 | Groupe        | Utilisateur       | Droits effectifs |
 | ------------- | ----------------- | ---------------- |
@@ -197,7 +197,7 @@ Ci-après les tableaux récapitulatifs des combinaisons possibles.
 | lecture seule | accès complet     | accès complet
 
 
-###Utilisateur présent dans plusieurs groupes
+### Utilisateur présent dans plusieurs groupes
 
 | Groupe I       | Groupe II       | Droits effectifs |
 | -------------- | --------------- | ---------------- |
@@ -207,7 +207,7 @@ Ci-après les tableaux récapitulatifs des combinaisons possibles.
 | lecture seule  | désactivé       | lecture seule    |
 | lecture seule  | lecture seule   | lecture seule
 
-###Droits définis au niveau entité (document/article) pour un utilisateur (présent directement dans l’espace de travail)
+### Droits définis au niveau entité (document/article) pour un utilisateur (présent directement dans l’espace de travail)
 
 | Utilisateur    | Droit d’accès entité | Droits effectifs |
 | -------------- | -------------------- | ---------------- |
@@ -218,7 +218,7 @@ Ci-après les tableaux récapitulatifs des combinaisons possibles.
 | lecture seule  | lecture seule        | lecture seule    |
 | lecture seule  | interdit             | interdit
 
-###Droits définis au niveau entité pour un groupe
+### Droits définis au niveau entité pour un groupe
 
 | Groupe          | Droit d’accès entité  | Droits effectifs |
 | --------------- | --------------------- | ---------------- |
@@ -229,7 +229,7 @@ Ci-après les tableaux récapitulatifs des combinaisons possibles.
 | lecture seule   | lecture seule         | lecture seule    |
 | lecture seule   | interdit              | interdit
 
-#Gestion des documents
+# Gestion des documents
 
 DocDokuPLM offre une gestion complète de documents avec prise en compte des versions (révision, itération), partage et publication de documents, organisation arborescente et par libellés, configuration fine des droits d’accès.
 
@@ -237,9 +237,9 @@ Dans ce qui suit nous détaillons l’ensemble de ces fonctions.
 
 {% image /assets/images/documentation/2.0/fr/image09.png "Menu de gestion de documents"%}
 
-##Modèles de document
+## Modèles de document
 
-###Création d’un modèle de document
+### Création d’un modèle de document
 
 Vous pouvez créer des modèles de documents qui serviront à la création des documents. Au moment de la création d’un modèle, vous pouvez choisir de gérer la nomenclature des documents en déterminant un masque de saisie. Les caractères disponibles sont les suivants :
 
@@ -251,11 +251,11 @@ Cocher la génération de l’identifiant entraînera la création automatique d
 
 {% image /assets/images/documentation/2.0/fr/image31.png "Formulaire de création d'un modèle de document"%}
 
-###Ajout de processus
+### Ajout de processus
 
 Un processus peut être associé au modèle depuis l'onglet Processus. Lors de la création d'un document avec ce modèle, le processus associé sera automatiquement présélectionné.
 
-###Ajout de fichiers et d’attributs
+### Ajout de fichiers et d’attributs
 
 Vous pouvez définir des types d’attributs au modèle et lui associer des fichiers. Tous les documents qui seront créés avec ce modèle auront :
 
@@ -264,7 +264,7 @@ Vous pouvez définir des types d’attributs au modèle et lui associer des fich
 
 {% image /assets/images/documentation/2.0/fr/image41.png "Rattachement de fichiers au modèle"%}
 
-##Création de document
+## Création de document
 
 Tout document doit appartenir à un dossier. Afin de créer un document dans un répertoire spécifique, il faut se placer dessus en cliquant sur son nom dans le menu de gauche.
 
@@ -283,13 +283,13 @@ Une fois créé, vous pourrez effectuer les actions suivantes :
 * Création d’une nouvelle version
 * Publication du document en mode public ou privé
 
-##Déplacement d'un document
+## Déplacement d'un document
 
 Vous pouvez déplacer un document vers un dossier grace à l'icône ci-dessous. Pour ce faire, il suffit de glisser-déposer le document depuis l'icône vers le dossier voulu.
 
 {% image /assets/images/documentation/2.0/document_move.png "Bouton de déplacement"%}
 
-##Modification d’un document
+## Modification d’un document
 
 Pour modifier un document, il vous faut d'abord le réserver. Vous pouvez accéder à la fenêtre de modification en cliquant sur le titre d’un document de la liste.
 
@@ -299,7 +299,7 @@ Pour accéder au dossier qui contient le document, cliquez sur le lien à droite
 
 {% image /assets/images/documentation/2.0/fr/image28.png "Fenêtre d’informations relatives à un document"%}
 
-###Onglet Fichiers
+### Onglet Fichiers
 
 Cet onglet permet d'associer des fichiers au document.
 
@@ -313,20 +313,20 @@ Une fois généré, le pdf peut être visionné depuis le lien permanent. Une pa
 
 Voici la liste complète des formats supportés : odt, ods, odp, odg, odc, odf, odb, odi, odm, doc, docx, ppt, pps, txt, csv, xls, pdf, html, htm, xml, rtf, msg.
 
-###Onglet Cas d'emploi
+### Onglet Cas d'emploi
 
 Cette vue liste tous les articles et documents qui utilisent le document en tant que lien.
 
 {% image /assets/images/documentation/2.0/fr/image68.png "Vue Cas d'emploi"%}
 
-##Liens Réservés et Tâches
+## Liens Réservés et Tâches
 
 Afin d’assurer un accès rapide aux documents qui concernent un utilisateur donné, vous trouverez deux liens dans le menu de gauche :
 
 * Réservés : ce lien affichera l’ensemble des documents réservés par l’utilisateur
 * Tâches : ce lien sert à visualiser les différents documents sur lesquels l’utilisateur est directement impliqué via un processus
 
-#Gestion des produits
+# Gestion des produits
 
 DocDokuPLM est donc un système de gestion collaborative de produits dont le but est d’aider les membres d’une même organisation à gérer et partager l'ensemble des actions et des itérations apportées à un produit tout au long de son cycle.
 
@@ -339,16 +339,16 @@ Vous retrouvez, entre autres, les fonctionnalités suivantes :
 
 La création d’articles et de produits est expliquée dans le paragraphe qui suit.
 
-##Article
+## Article
 
 Les composants d'un produit sont appelés articles, ou assemblages s'ils sont eux-mêmes composés d'articles. DocDokuPLM permet de créer des articles à partir de rien ou bien à partir de modèles existants.
 
-###Création de modèle d’article
+### Création de modèle d’article
 
 DocdokuPLM offre la possibilité de créer des modèles types d’article et de leur associer un processus, des attributs, des fichiers et un masque de saisie permettant de faciliter la gestion de nomenclature des articles qui auront ce modèle.
 Cette opération permet par la suite de créer des articles reposant sur ces modèles.
 
-###Création d’article
+### Création d’article
 
 Lors de la création d’un article, vous pouvez donc renseigner un modèle d’article. L’article ainsi créé aura les mêmes propriétés que celles du modèle (processus, attributs, fichier CAO).
 
@@ -377,7 +377,7 @@ En sélectionnant un article, vous pouvez lui appliquer un ensemble d’actions 
 
 {% image /assets/images/documentation/2.0/obsolete_icon.png "Icône obsolète"%}
 
-###Fichiers
+### Fichiers
 
 Cet onglet permet de joindre des fichiers et d'associer un fichier CAO à l'article. Si vous choisissez un fichier CAO alors qu'il y en a déjà un, ce dernier sera automatiquement remplacé.
 
@@ -389,7 +389,7 @@ Voici la liste complète des formats supportés : dxf, obj, off, ply, stl, 3ds, 
 
 L'ajout de textures est également possible en ajoutant les fichiers correspondants au format jpg ou png. Les textures seront appliquées dans la vue 3D.
 
-###Assemblage d’articles
+### Assemblage d’articles
 
 Lors de la modification d’un article, vous pouvez définir son assemblage. Un assemblage est composé d'autres articles (sous-article).
 
@@ -403,7 +403,7 @@ Une fois ajouté, la variante apparaît dans la vue du sous-article, tel que mon
 
 {% image /assets/images/documentation/2.0/fr/image60.png "Variante ajoutée"%}
 
-###Notifications
+### Notifications
 
 Parfois un changement sur un sous-article peut impacter l'article parent. L'onglet Notifications affiche le journal des modifications des sous-composants pour vous aider à régler les impacts potentiels.
 
@@ -419,7 +419,7 @@ Pour passer les notifications de modifications en mode résolu, il vous suffit d
 
 Note : le seul moyen de vider la liste des notifications est de créer une nouvelle itération de l'article parent.
 
-###Cas d'emploi
+### Cas d'emploi
 
 Cette vue liste :
 
@@ -428,7 +428,7 @@ Cette vue liste :
 
 {% image /assets/images/documentation/2.0/fr/image69.png "Vue Cas d'emploi"%}
 
-###Construire une requête
+### Construire une requête
 
 Pour choisir vous-même ce que vous voulez afficher dans la liste des articles, il vous faut construire une requête. Pour ce faire, cliquez sur le bouton suivant :
 
@@ -444,13 +444,13 @@ La vue qui s'affiche alors vous permet de :
 
 Si vous enregistrez la requête et que vous la sélectionnez, vous pourrez exporter les résultats dans un fichier Excel. Cette fonctionnalité peut s'avérer très utile pour obtenir la nomenclature d'un produit.
 
-###Liens rapides
+### Liens rapides
 
 Vous trouverez un accès rapide à vos articles réservés dans le menu de gauche.
 
 {% image /assets/images/documentation/2.0/fr/image50.png "Section des liens"%}
 
-##Produit
+## Produit
 
 ###Création de produit
 
@@ -462,7 +462,7 @@ Le numéro d’article est l’élément de tête de votre produit. Celui-ci peu
 
 Le produit créé sera rajouté à la liste des produits. En sélectionnant un produit dans la liste, les actions possibles sont sa suppression et la création d’une ligne de base.
 
-###Configuration
+### Configuration
 
 Une configuration est une liste de choix d'assemblage pour un produit donné. En effet, on peut vouloir :
 
@@ -478,7 +478,7 @@ Une configuration est une liste de choix d'assemblage pour un produit donné. En
 
 {% image /assets/images/documentation/2.0/fr/image65.png "Exemple de choix : Aucun"%}
 
-###Ligne de base
+### Ligne de base
 
 La création d’une ligne de base (ou baseline) permet d’enregistrer à un instant donné une version du produit et donc de gérer différentes versions d’un même produit.
 
@@ -492,7 +492,7 @@ De plus, l'onglet Configuration permet de choisir une configuration spécifique 
 
 {% image /assets/images/documentation/2.0/fr/image58.png "Choix de configuration"%}
 
-###Fonction utilisateur
+### Fonction utilisateur
 
 Parfois, il peut être utile de lancer des calculs sur tous les articles d'un même produit ou d'une même ligne de base, pur déterminer par exemple son prix total. Cette fonctionnalité est disponible en cliquant sur ce bouton :
 
@@ -502,7 +502,7 @@ Le calcul peut être une somme ou une moyenne. Vous choisissez l'attribut à uti
 
 {% image /assets/images/documentation/2.0/fr/image78.png "Vue Fonction utilisateur"%}
 
-###Exemplaire
+### Exemplaire
 
 Un exemplaire est une instance de produit basée sur une ligne de base et identifiée par un numéro de série.
 
@@ -514,7 +514,7 @@ Pour conserver différentes versions d'un même exemplaire, vous devez créer de
 
 {% image /assets/images/documentation/2.0/fr/image63.png "Rebaser un exemplaire"%}
 
-###Exporter les fichiers dans un zip
+### Exporter les fichiers dans un zip
 
 Pour partagaer des fichiers avec des personnes n'utilisant pas DocDokuPLM ou simplement pour conserver une copie sur votre disque, vous trouverez une fonctionnalité très utile sur chaque item d'une liste de produits / lignes de base / exemplaires.
 
@@ -528,7 +528,7 @@ Vous pouvez choisir :
 
 Si vous exportez les fichiers d'un produit, vous obtiendrez les fichiers joints à la dernière itération de chaque article et de chaque document. Sinon, vous obtiendrez les fichiers joints  the files attached to the baselined iterations.
 
-##Explorateur de la structure d'un produit
+## Explorateur de la structure d'un produit
 
 Cliquez sur l'icône ci-dessous pour faire apparaître la structure d'un produit, d'une ligne de base ou d'un exemplaire.
 
@@ -551,7 +551,7 @@ Informations disponibles sur un article :
 {% image /assets/images/documentation/2.0/has_substitutes.png "Possède des variantes"%}
 {% image /assets/images/documentation/2.0/is_substitute.png "Est une variante"%}
 
-###Configuration du parcours de l'arborescence
+### Configuration du parcours de l'arborescence
 
 Vous pouvez choisir comment explorer l'arborescence avec le menu en haut à gauche. Il existe 3 modes de parcours :
 
@@ -567,7 +567,7 @@ Vous pouvez choisir comment explorer l'arborescence avec le menu en haut à gauc
 
 {% image /assets/images/documentation/2.0/fr/image71.png "Exemple avec le mode exemplaire"%}
 
-###Données de l'exemplaire
+### Données de l'exemplaire
 
 Vous pourriez avoir besoin d'associer des données spécifiques à un article d'un exemplaire (comme par exemple un numéro de série). Cette fonctionnalité est disponible et accessible depuis le mode exemplaire. Pour afficher les données d'un article dans un exemplaire, cliquez sur la checkbox de l'article concerné dans l'arborescence puis sur le bouton suivant :
 
@@ -583,7 +583,7 @@ Si un article possède des données d'exemplaire, l'icône suivant apparaîtra �
 
 {% image /assets/images/documentation/2.0/has_path_data.png "Possède des données d'exemplaire"%}
 
-###Lien typé
+### Lien typé
 
 Dans un produit, on a parfois besoin de lier certains articles entre eux de différentes façons. Das ce cas, vous pourrez utiliser les liens de chemin. Ces liens vous aident à définir de nouvelles structures pour un même produit, par exemple pour mettre en évidence des connexions électriques entre des articles.
 
@@ -597,7 +597,7 @@ En cliquant sur ce bouton, vous pouvez ajouter un lien défini avec un type exis
 
 Tout lien peut être modifié et supprimé.
 
-###Barre de recherche d'article
+### Barre de recherche d'article
 
 Cependant, pour les produits complexes comprenant un très grand nombre d'articles, la tâche peut s'avérer fastidieuse. Prenez l'exemple du parcours de la structure produit représentée ci-dessus. Afin de faciliter l'opération, DocDokuPLM intègre une barre de recherche qui permet de trouver facilement un article à partir de son numéro ou de son nom. Le ou les réultat(s) de la recherche sont surlignés en jaune dans l'arbre.
 
@@ -605,7 +605,7 @@ Cependant, pour les produits complexes comprenant un très grand nombre d'articl
 
 Une alternative au moteur de recherche est la navigation dans le modèle géométrique 3D.
 
-##Visualisation 3D d'un produit
+## Visualisation 3D d'un produit
 
 Cliquez sur l'icône ci-dessous pour visualiser en 3D un produit, une ligne de base ou un exemplaire.
 
@@ -628,11 +628,11 @@ Parmi les actions possibles dans le mode de visualisation en 3D, vous retrouvere
 * L'export d'un article pour produire le code html à intégrer dans d’autres pages web (comme YouTube ou Google Maps)
 * La mesure de la distance entre 2 points
 
-#Gestion des processus
+# Gestion des processus
 
 Un processus, ou flux des travaux, est la représentation des opérations affectées à un document ou un article. Ces opérations peuvent être effectuées par différents utilisateurs d’un même espace de travail.
 
-##Les rôles
+## Les rôles
 
 Pour créer un modèle de processus, il faut au préalable créer des rôles dans l’espace de travail.
 
@@ -642,9 +642,9 @@ Ces rôles peuvent être assignés par défaut à un utilisateur ou à un groupe
 
 {% image /assets/images/documentation/2.5/fr/image00.png "Création des rôles"%}
 
-##Processus
+## Processus
 
-###Modèle de processus
+### Modèle de processus
 
 Un modèle de processus est composé d'un état initial, d'une série d'activités et d'un état final. Chaque activité contient un libellé définissant son état intermédiaire et une liste de tâches à effectuer. Ces tâches peuvent être effectuées en série ou en parallèle.
 
@@ -670,7 +670,7 @@ Il suffit ensuite de renseigner un nom pour le nouveau processus copié.
 
 {% image /assets/images/documentation/2.0/fr/image77.png "Copie d'un processus"%}
 
-###Instance de processus
+### Instance de processus
 
 Chaque modèle de processus créé peut être instancié à la création d'un document ou d'un article. Les rôles peuvent être alors redéfinis.
 
@@ -678,7 +678,7 @@ Chaque modèle de processus créé peut être instancié à la création d'un do
 
 Une fois le document (ou l’article) créé, le processus démarre sur la première activité. Lorsqu'une tâche est ouverte, un mail est envoyé au responsable de la tâche en cours. Le responsable peut alors l'approuver ou la rejeter et signer. Si le responsable est un groupe, le mail est envoyé à tous les membres du groupe.
 
-###Etat du cycle de vie
+### Etat du cycle de vie
 
 Une fois la première activité démarrée, les utilisateurs désignés reçoivent par mail un message contenant la description complète de leur(s) tâche(s) à effectuer.
 
@@ -695,13 +695,13 @@ Tous les utilisateurs abonnés aux changements d'état du processus en seront in
 
 C'est impossible de mettre à jour ou de redémarrer un processus arrêté. Le seul moyen de relancer un processus stoppé est de créer une nouvelle version de l'entité concernée et de lui assigner le même processus.
 
-##Jalons
+## Jalons
 
 Les jalons permettent de définir des dates butoires pour vos projets et travaux en cours.
 
 {% image /assets/images/documentation/2.0/fr/image81.png "Création d'un jalon"%}
 
-##Anomalies
+## Anomalies
 
 Cette page permet de rapporter des anomalies plus ou moins prioritaires sur vos projets et travaux en cours. Une correction d'anomalie peut :
 
@@ -713,19 +713,19 @@ Liste des catégories disponibles : adaptive, corrective, perfective, préventiv
 
 {% image /assets/images/documentation/2.0/fr/image82.png "Création d'une anomalie"%}
 
-##Demandes
+## Demandes
 
 Une demande de modification fonctionne de la même façon qu'une anomalie. On peut en outre y référencer des anomalies.
 
 {% image /assets/images/documentation/2.0/fr/image83.png "Création d'une demande"%}
 
-##Ordres
+## Ordres
 
 Un ordre fonctionne de la même façon qu'une anomalie. On peut en outre y référencer des demandes.
 
 {% image /assets/images/documentation/2.0/fr/image84.png "Création d'un ordre"%}
 
-#Réservation et libération
+# Réservation et libération
 
 Vous pouvez réserver un document/article en le sélectionnant via sa case à cocher. Une nouvelle itération de l'élément sera créée. Vous pouvez sélectionner plusieurs éléments pour aller plus vite.
 
@@ -745,7 +745,7 @@ La date de révision indique la date de libération si l'élément est libéré 
 
 {% image /assets/images/documentation/2.0/status.png "Statuts réservé / vérouillé / libéré"%}
 
-#Liste de valeurs
+# Liste de valeurs
 
 DocDokuPLM permet de prédéfinir des valeurs d'attributs, appelés liste de valeurs, que vous pourrez ensuite utiliser en tant qu'attribut pour un document, un article ou un modèle. Pour créer ou modifier des valeurs, cliquez sur l'icône suivante depuis la page des modèles :
 
@@ -764,7 +764,7 @@ Vous ne pouvez pas :
 * supprimer une liste de valeurs qui a des instances
 * modifier une instance de liste de valeurs
 
-#Visualisation ou lien permanent
+# Visualisation ou lien permanent
 
 Pour chaque document/article, il est possible d’ouvrir un nouvel onglet dans le navigateur contenant les détails de sa dernière révision. Pour y accéder, il vous suffit de cliquer sur le titre de la fenêtre de détail.
 
@@ -774,7 +774,7 @@ Vous pouvez visualiser les différentes propriétés de l'entité créée ainsi 
 
 {% image /assets/images/documentation/fr/image30.png "Visualisation d'un document"%}
 
-#Gestion des fichiers
+# Gestion des fichiers
 
 Un clic sur cette icône ouvre directement la fenêtre de détails d'un document/article ou d'un modèle à l'onglet Fichiers.
 
@@ -790,7 +790,7 @@ Le téléchargement d'un fichier se lance en cliquant sur son nom et la suppress
 
 N'oubliez pas de cliquer sur le bouton Enregistrer de la fenêtre pour valider vos modifications.
 
-#Gestion des liens vers des documents
+# Gestion des liens vers des documents
 
 Vous avez la possibilité d'ajouter des références vers des documents pendant l'édition d'un article/document. La gestion des liens se fait dans la fenêtre de modification d'une entité depuis l'onglet Liens.
 
@@ -800,7 +800,7 @@ Un lien de document se commente en cliquant sur le petit crayon à droite du tit
 
 {% image /assets/images/documentation/2.0/fr/image54.png "Commenter un lien"%}
 
-#Libellés
+# Libellés
 
 Vous pouvez associer des libellés à vos documents, articles, anomalies, demandes et ordres. En sélectionnant un ou des élément(s), l’icône suivante apparaît :
 
@@ -818,17 +818,17 @@ Vous pouvez supprimer un libellé en cliquant sur la flèche dans la zone du lib
 
 {% image /assets/images/documentation/fr/image38.png "Suppression d’un libellé"%}
 
-#Recherche
+# Recherche
 
 Nous distinguons deux types de recherche : rapide et avancée.
 
-##Recherche rapide
+## Recherche rapide
 
 La barre de recherche rapide se présente au-dessus de la liste des documents/articles. Elle permet de trouver rapidement un élément à partir de son nom, son type, sa référence, sa version, son auteur, sa date de création, sa date de modification, ses attributs, le contenu des fichiers chargés.
 
 {% image /assets/images/documentation/fr/image42.png "Barre de recherche rapide"%}
 
-##Recherche avancée
+## Recherche avancée
 
 Vous pouvez accéder à la recherche avancée de deux manières :
 
@@ -848,9 +848,9 @@ Cette recherche avancée permet de trouver un élément à partir de plusieurs t
 
 {% image /assets/images/documentation/2.0/fr/image25.png "Recherche avancée"%}
 
-#Options de partage et de publication
+# Options de partage et de publication
 
-##Publication
+## Publication
 
 Chaque document/article peut être publié. Pour cela il faut cliquer sur l’icône située à droite de la ligne correspondant à l'élément dans la liste.
 
@@ -862,7 +862,7 @@ La fenêtre suivante apparaît :
 
 Une fois l'élément publié en cliquant sur le bouton ON/OFF, il sera accessible depuis internet sans qu’une authentification soit nécessaire.
 
-##Accès privé
+## Accès privé
 
 Vous pouvez aussi protéger vos publications en utilisant l’accès privé. Vous pouvez choisir une date d’expiration et un mot de passe. Ces deux champs ne sont pas obligatoires, mais seront vérifiés à l’accès si vous les avez renseignés.
 
