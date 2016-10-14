@@ -12,8 +12,6 @@
 
 'use strict';
 
-var lrSnippet = require('grunt-contrib-livereload/lib/utils').livereloadSnippet;
-
 var mountFolder = function (connect, dir) {
     return connect.static(require('path').resolve(dir));
 };
@@ -34,7 +32,7 @@ module.exports = function (grunt) {
     grunt.initConfig({
         yeoman: yeomanConfig,
         watch: {           
-            livereload: {
+            scripts: {
                 files: [
                     '<%= yeoman.app %>/**/*.md',
                     '<%= yeoman.app %>/*.yml',
@@ -45,7 +43,7 @@ module.exports = function (grunt) {
                     '<%= yeoman.app %>/assets/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}',
                     '<%= yeoman.app %>/assets/styles/{,*/}*.{scss,sass}'
                 ],
-                tasks: ['jekyll:jkl','less:server', 'copy:server','livereload']
+                tasks: ['jekyll:jkl','less:server', 'copy:server','watch:scripts']
             },
             less:{
                 files:[
@@ -58,13 +56,13 @@ module.exports = function (grunt) {
             options: {
                 port: 9002,
                 // change this to '0.0.0.0' to access the server from outside
-                hostname: 'localhost'
+                hostname: 'localhost',
+                livereload: true
             },
-            livereload: {
+            server: {
                 options: {
                     middleware: function (connect) {
                         return [
-                            lrSnippet,
                             mountFolder(connect, '.tmp'),
                             mountFolder(connect, 'jkl')
                         ];
@@ -191,8 +189,7 @@ module.exports = function (grunt) {
             'jekyll:jkl',
             'less',
             'copy:server',
-            'livereload-start',
-            'connect:livereload',
+            'connect:server',
             'open:server',
             'watch'
         ]);
