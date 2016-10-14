@@ -241,7 +241,7 @@ Dans ce qui suit nous détaillons l’ensemble de ces fonctions.
 
 ### Création d’un modèle de document
 
-Vous pouvez créer des modèles de documents qui serviront à la création des documents. Au moment de la création d’un modèle, vous pouvez choisir de gérer la nomenclature des documents en déterminant un masque de saisie. Les caractères disponibles sont les suivants :
+Vous pouvez créer des modèles de documents qui serviront à la création des documents. Au moment de la création d’un modèle, vous pouvez choisir de gérer la nomenclature des documents en déterminant un masque de saisie. Les caractères disponibles sont les suivants :
 
 * Alphanumériques
 * '#' pour tout chiffre valide
