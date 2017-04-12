@@ -417,7 +417,7 @@ If you save the query and select it, you can export the results to an Excel file
 
 #### Filters
 
-There two sort of filters
+There are two sort of filters
 
 * Part filters
 * Context filters
