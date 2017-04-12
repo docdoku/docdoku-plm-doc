@@ -415,6 +415,27 @@ With the displayed view:
 
 If you save the query and select it, you can export the results to an Excel file. This feature is very useful to get bill of materials.
 
+#### Filters
+
+There two sort of filters
+
+* Part filters
+* Context filters
+
+The part filters allow you to filter on part master/revision data, such as
+
+* Part number
+* Part name
+* Author
+* Part iteration attributes
+* and other parts related data ...
+
+The context filters appears only when a deliverable context is added to the select clause.
+
+These filters allow you to filter the result list within deliverable data attributes. They act as a second filter (post filter), and behave like a "AND" condition with the part filters. (Note: context filters will appear only if there are existing deliverable data with attributes)
+
+You are allowed to use no filters (match all query).
+
 ### Quick links
 
 You have a fast access to your checked out parts in the left menu.

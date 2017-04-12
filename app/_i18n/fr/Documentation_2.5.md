@@ -444,6 +444,27 @@ La vue qui s'affiche alors vous permet de :
 
 Si vous enregistrez la requête et que vous la sélectionnez, vous pourrez exporter les résultats dans un fichier Excel. Cette fonctionnalité peut s'avérer très utile pour obtenir la nomenclature d'un produit.
 
+#### Filtres
+
+Il y a deux sortes de filtres
+
+* Filtres sur les articles
+* Filtres sur les données d'exemplaires
+
+Les filtres sur les articles permettent d'ajouter des critères de recherche les champs liés aux révisions/itérations d'articles
+
+* Numéro d'article
+* Nom d'article
+* Auteur
+* Attributs d'itération
+* ainsi que d'autres critères liés aux articles ...
+
+Les filtres de données d'exemplaires apparaissent seulement quand un exemplaire est ajouté dans la zone "champs".
+
+Ces filtres permettent de réduire la liste obtenue dans un contexte d'exemplaire produit selon les attributs des données d'exemplaire. Ils se comportent comme un second filtre à la suite du filtre des articles (condition "ET"). (Note : ces filtres n'apparaissent que si des données d'exemplaires avec attributs existent)
+
+Vous êtes autorisé à n'utiliser aucun filtre (renvoie toutes les données)
+
 ### Liens rapides
 
 Vous trouverez un accès rapide à vos articles réservés dans le menu de gauche.
