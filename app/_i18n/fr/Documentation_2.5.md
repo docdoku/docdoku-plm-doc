@@ -461,9 +461,115 @@ Les filtres sur les articles permettent d'ajouter des critères de recherche les
 
 Les filtres de données d'exemplaires apparaissent seulement quand un exemplaire est ajouté dans la zone "champs".
 
-Ces filtres permettent de réduire la liste obtenue dans un contexte d'exemplaire produit selon les attributs des données d'exemplaire. Ils se comportent comme un second filtre à la suite du filtre des articles (condition "ET"). (Note : ces filtres n'apparaissent que si des données d'exemplaires avec attributs existent)
+Ces filtres permettent de réduire la liste obtenue dans un contexte d'exemplaire produit selon les attributs des données d'exemplaire. Ils se comportent comme un second filtre à la suite du filtre des articles (condition "ET"). 
 
-Vous êtes autorisé à n'utiliser aucun filtre (renvoie toutes les données)
+Note : ces filtres n'apparaissent que si des données d'exemplaires avec attributs existent.
+
+Vous êtes autorisé à n'utiliser aucun filtre (renvoie toutes les données), ou bien seulement un des deux.
+
+#### Opérateurs
+
+Il y a différents opérateurs disponibles selon le type d'attribut que vous voulez utiliser en tant que filtre.
+
+##### Attributs de type texte
+
+Les attributs de type texte ont pour opérateurs :
+
+* égal / non égal
+* contient / ne contient pas
+* commence par/ ne commence pas par
+* finit par / ne finit pas par
+
+##### Attributs de type nombre
+
+Les attributs de type nombre ont pour opérateurs :
+
+* égal / non égal
+* inférieur / inférieur ou égal
+* supérieur / supérieur ou égal
+* entre
+
+##### Attributs de type date
+
+Les attributs de type date ont pour opérateurs :
+
+* égal / non égal
+* inférieur / inférieur ou égal
+* supérieur / supérieur ou égal
+* entre
+
+##### Attributs de type texte long
+
+Les attributs de type texte long ont pour opérateurs :
+
+* égal / non égal
+* contient / ne contient pas
+* commence par/ ne commence pas par
+* finit par / ne finit pas par
+
+##### Attributs de type booléen
+
+Les attributs de type booléen ont pour opérateurs :
+
+* égal / non égal
+
+##### Attributs de type numéro d'article
+
+Les attributs de type numéro d'article ont pour opérateurs :
+
+* égal / non égal
+* contient / ne contient pas
+* commence par/ ne commence pas par
+* finit par / ne finit pas par
+
+##### Attributs de type liste de valeurs
+
+Les attributs de type liste de valeurs ont pour opérateurs :
+
+* égal / non égal
+
+##### Attributs de type URL
+
+Les attributs de type URL ont pour opérateurs :
+
+* égal / non égal
+* contient / ne contient pas
+* commence par/ ne commence pas par
+* finit par / ne finit pas par
+
+#### Utilisation avancée
+
+Il est possible de combiner des critères, et d'ajouter des sous-règles pouvant elles-même être combinées.
+
+Il n'y a pas de limite sur le nombre de combinaisons.
+
+Pour chaque groupe de règle, il y a deux boutons disponibles
+
+{% image /assets/images/documentation/2.5/fr/qb-buttons.png "Boutons d'ajout de règles "%}
+
+Pour ajouter une règle dans un groupe de règles, cliquer sur le premier des deux boutons. Pour ajouter un groupe de règles dans un autre groupe de règles, cliquer sur le deuxième des deux boutons.
+
+{% image /assets/images/documentation/2.5/fr/complex-query.png "Exemple de règles composées "%}
+
+#### Sauvegarde et export
+
+##### Sauvegarde de requêtes
+
+Vous pouvez enregistrer la vue courante dans l'espace de travail en cliquant sur le bouton "Enregistrer". La requête ne sera pas sauvegardée si elle n'est pas valide. Une fois sauvegardée elle apparaitra aussi pour les aurtres utilisateurs de l'espace de travail.
+
+Ces requêtes sauvegardées apparaissent dans un sélecteur en haut du constructeur de requêtes. Une fois sélectionnée, les champs sont mis à jour dans la vue courante.
+
+Ces requêtes sauvegardées peuvent être effacées en cliquant sur le bouton "Supprimer de la liste des requêtes"
+
+##### Export
+
+Il est possible d'exporter soit la vue courante, soit une requête sauvegardée.
+
+Pour exporter la vue courante, cliquer sur le bouton "Export Excel" qui se trouve au bas de la vue.
+
+Pour exporter une requête sauvegardée, choisir la requête depuis le menu déroulant, puis cliquer sur le bouton "Export Excel" se trouvant juste à coté du sélecteur.
+
+Une fois un des deux boutons cliquer, un fichier Excel sera automatiquement téléchargé.
 
 ### Liens rapides
 

@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "dependencies": {},
   "devDependencies": {
+    "bower": "~1.8.0",
     "grunt": "~0.4.1",
     "grunt-concurrent": "~0.1.0",
     "grunt-contrib-clean": "0.4.0",
@@ -34,6 +35,6 @@
     "dev": "grunt serve",
     "prebuild": "npm install",
     "predev": "npm install",
-    "postinstall": "bower install"
+    "postinstall": "./node_modules/.bin/bower install"
   }
 }

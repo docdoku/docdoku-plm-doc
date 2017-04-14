@@ -417,24 +417,124 @@ If you save the query and select it, you can export the results to an Excel file
 
 #### Filters
 
-There are two sort of filters
+There are two sort of filters:
 
-* Part filters
-* Context filters
+* part filters,
+* context filters.
 
-The part filters allow you to filter on part master/revision data, such as
+The part filters allow you to filter on part master/revision data, such as:
 
-* Part number
-* Part name
-* Author
-* Part iteration attributes
-* and other parts related data ...
+* part number,
+* part name,
+* author,
+* part iteration attributes,
+* and other parts related data.
 
 The context filters appears only when a deliverable context is added to the select clause.
 
-These filters allow you to filter the result list within deliverable data attributes. They act as a second filter (post filter), and behave like a "AND" condition with the part filters. (Note: context filters will appear only if there are existing deliverable data with attributes)
+These filters allow you to filter the result list within deliverable data attributes. They act as a second filter (post filter), and behave like a "AND" condition with the part filters.
 
-You are allowed to use no filters (match all query).
+Note: context filters will appear only if there are existing deliverable data with attributes
+
+You are allowed to use no filters (match all query), or only one of them.
+
+#### Operator attributes
+
+There are different available operators depending on the attributes you want to filter on.
+
+##### Text attributes
+
+Text attributes have the following operators:
+
+* equal / not equal
+* contains / does not contains
+* begins with / does not begin with
+* ends with / does not end with
+
+##### Number attributes
+
+Number attributes have the following operators:
+
+* equal / not equal
+* less / less or equal
+* greater / greater or equal
+* between
+
+##### Date attributes
+
+Date attributes have the following operators:
+
+* equal / not equal
+* less / less or equal
+* greater / greater or equal
+* between
+
+##### Long text attributes
+
+Long text attributes have the following operators:
+
+* equal / not equal
+* contains / does not contains
+* begins with / does not begin with
+* ends with / does not end with
+
+##### Boolean attributes
+
+Boolean attributes have the following operators:
+
+* equal / not equal
+
+##### Part number attributes
+
+Part number attributes have the following operators:
+
+* equal / not equal
+* contains / does not contains
+* begins with / does not begin with
+* ends with / does not end with
+
+##### List of values attributes
+
+List of values attributes have the following operators:
+
+* equal / not equal
+
+##### URL attributes
+
+URL attributes have the following operators:
+
+* equal / not equal
+* contains / does not contains
+* begins with / does not begin with
+* ends with / does not end with
+
+#### Advanced filters usage
+
+You can compose and combine filters. There are no limit on the amount of combinations.
+
+There are two buttons on each rule 
+
+{% image /assets/images/documentation/2.5/en/qb-buttons.png "Query builder rules buttons"%}
+
+To add a rule in the current rules group, clic on the first button. To add a rules group in the current rules group, clic on the second button.
+
+{% image /assets/images/documentation/2.5/en/complex-query.png "Query builder compound queries"%}
+
+#### Saving and exporting queries
+
+##### Saving queries
+
+You can save the current view by clicking on the save button at the bottom of the query builder. Your query cannot be saved if it's not valid. Once saved, they are visible for all users in the workspace.
+
+These queries will appear in the select menu at the top of the query builder. Once you select a query from this list, all fields are automatically set.
+
+Queries can be deleted by clicking the delete query button.
+
+##### Exporting queries
+
+You can export the current view by clicking on the export button at the bottom of the query builder. A .xls file will be downloaded automatically. 
+
+You can export a saved query by clicking on the export button near to the query select menu (does not take into account the current view).
 
 ### Quick links
 
