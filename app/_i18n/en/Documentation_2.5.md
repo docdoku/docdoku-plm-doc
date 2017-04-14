@@ -105,15 +105,15 @@ Furthermore, users can be assigned into groups holding the permissions.
 
 A full access user can:
 
-* Create, modify or delete documents and parts
-* Modify the folder structure (if not restricted to administrator)
-* Move documents in folders
-* Checkin/Checkout documents and parts
+* create, modify or delete documents and parts,
+* modify the folder structure (if not restricted to administrator),
+* move documents in folders,
+* checkin/Checkout documents and parts.
 
 A read-only user can:
 
-* View documents and parts
-* View product structures and digital mock-ups
+* view documents and parts,
+* view product structures and digital mock-ups.
 
 A disabled user cannot do anything.
 
@@ -221,9 +221,9 @@ In the following paragraph, we will detail all of these functionalities.
 
 You can create templates that will be used to instantiate documents. You can choose to restrict document naming by filling a mask format. The available characters are the following:
 
-* alphanumeric
-* '#' for any valid figure
-* '*' for any character
+* alphanumeric,
+* '#' for any valid figure,
+* '*' for any character.
 
 Selecting the identifier generation option will lead to an automatic creation of identifiers for documents using the template. If your mask contains figures, then the identifiers will be automatically incremented.
 
@@ -249,14 +249,14 @@ When creating a document, you can add attributes, specify a workflow and set spe
 
 Once the document is created you can perform the following actions:
 
-* Check-in / Undo check-out / Check-out
-* Deletion
-* Subscription to document state change notifications. In this case the user receives an email each time a change is made by other users on the document
-* Subscription to iteration change notifications. The user receives a notification when there is a new iteration on the document
-* Adding tag to documents - for example, classifying a document as important
-* Access rights management
-* New version creation
-* Public or private document publishing
+* check-in / undo check-out / check-out,
+* deletion,
+* subscription to document state change notifications, in this case the user receives an email each time a change is made by other users on the document,
+* subscription to iteration change notifications, the user receives a notification when there is a new iteration on the document,
+* adding tag to documents - for example, classifying a document as important,
+* access rights management,
+* new version creation,
+* public or private document publishing.
 
 ## Document move
 
@@ -307,11 +307,11 @@ DocDokuPLM is a management system for collaborative product development which pu
 
 The product management module offers, among others, the following features:
 
-* Configuration management
-* Product structure exploration
-* 3D digital mock-up visualization
-* Parts metadata
-* Part-document links
+* configuration management,
+* product structure exploration,
+* 3D digital mock-up visualization,
+* parts metadata,
+* part-document links.
 
 Parts and products creation is explained below.
 
@@ -337,13 +337,13 @@ From the list, a click on the part number will bring the details window to the f
 
 By selecting a part, you can apply a set of actions including:
 
-* Check-out / Undo check-out / Check-in
-* Deletion
-* Adding tag to parts - for example, classifying parts as important
-* Access rights management
-* New version creation
-* Release
-* Obsolete status to freeze the part iterations (part must be released)
+* check-out / undo check-out / check-in,
+* deletion,
+* adding tag to parts - for example, classifying parts as important,
+* access rights management,
+* new version creation,
+* release,
+* obsolete status to freeze the part iterations (part must be released).
 
 {% image /assets/images/documentation/2.0/obsolete_icon.png "Obsolete icon"%}
 
@@ -393,8 +393,8 @@ Note: the only way to clear the list is creating a new iteration of the assembly
 
 This view lists:
 
-* the assembly using the part as a sub-component (component or substitute)
-* the products and deliverables using the part as a sub-component (root part, node or leaf)
+* the assembly using the part as a sub-component (component or substitute),
+* the products and deliverables using the part as a sub-component (root part, node or leaf).
 
 {% image /assets/images/documentation/2.0/en/image69.png "Used by view"%}
 
@@ -406,10 +406,10 @@ If you want to display a custom list of parts, go to the query builder from the 
 
 With the displayed view:
 
-* you filter the parts list by products and / or deliverables
-* you select which field you want to display (for example part number, part name, attributes...)
-* you include or exclude parts with where clauses (at least one must be defined)
-* you order and group the parts in the result list
+* you filter the parts list by products and / or deliverables,
+* you select which field you want to display (for example part number, part name, attributes...),
+* you include or exclude parts with where clauses (at least one must be defined),
+* you order and group the parts in the result list.
 
 {% image /assets/images/documentation/2.0/en/image80.png "Query builder"%}
 
@@ -446,73 +446,73 @@ There are different available operators depending on the attributes you want to 
 
 Text attributes have the following operators:
 
-* equal / not equal
-* contains / does not contains
-* begins with / does not begin with
-* ends with / does not end with
+* equal / not equal,
+* contains / does not contains,
+* begins with / does not begin with,
+* ends with / does not end with.
 
 ##### Number attributes
 
 Number attributes have the following operators:
 
-* equal / not equal
-* less / less or equal
-* greater / greater or equal
-* between
+* equal / not equal,
+* less / less or equal,
+* greater / greater or equal,
+* between.
 
 ##### Date attributes
 
 Date attributes have the following operators:
 
-* equal / not equal
-* less / less or equal
-* greater / greater or equal
-* between
+* equal / not equal,
+* less / less or equal,
+* greater / greater or equal,
+* between.
 
 ##### Long text attributes
 
 Long text attributes have the following operators:
 
-* equal / not equal
-* contains / does not contains
-* begins with / does not begin with
-* ends with / does not end with
+* equal / not equal,
+* contains / does not contains,
+* begins with / does not begin with,
+* ends with / does not end with.
 
 ##### Boolean attributes
 
 Boolean attributes have the following operators:
 
-* equal / not equal
+* equal / not equal.
 
 ##### Part number attributes
 
 Part number attributes have the following operators:
 
-* equal / not equal
-* contains / does not contains
-* begins with / does not begin with
-* ends with / does not end with
+* equal / not equal,
+* contains / does not contains,
+* begins with / does not begin with,
+* ends with / does not end with.
 
 ##### List of values attributes
 
 List of values attributes have the following operators:
 
-* equal / not equal
+* equal / not equal.
 
 ##### URL attributes
 
 URL attributes have the following operators:
 
-* equal / not equal
-* contains / does not contains
-* begins with / does not begin with
-* ends with / does not end with
+* equal / not equal,
+* contains / does not contains,
+* begins with / does not begin with,
+* ends with / does not end with.
 
 #### Advanced filters usage
 
 You can compose and combine filters. There are no limit on the amount of combinations.
 
-There are two buttons on each rule 
+There are two buttons on each rule:
 
 {% image /assets/images/documentation/2.5/en/qb-buttons.png "Query builder rules buttons"%}
 
@@ -558,15 +558,15 @@ The new product will be added to the product list. Selecting an item from that l
 
 A configuration is a list of assembly choices for a given product. Indeed you may want to:
 
-* choose between a part or one of its substitutes
-* choose nothing, if a part is optional
+* choose between a part or one of its substitutes,
+* choose nothing, if a part is optional.
 
 {% image /assets/images/documentation/2.0/en/image64.png "Configuration creation form"%}
 
 2 configuration types are offered:
 
-* Latest checked in, to include the last checked in iterations of each implicated part
-* Latest released, to include automatically the last released versions of each implicated part
+* latest checked in, to include the last checked in iterations of each implicated part,
+* latest released, to include automatically the last released versions of each implicated part.
 
 {% image /assets/images/documentation/2.0/en/image65.png "Choice example: None"%}
 
@@ -614,9 +614,9 @@ To share product files with external users or simply keep a local copy on your d
 
 You can choose:
 
-* to only export CAD files
-* to only export files from linked documents
-* to export any files from parts and linked documents
+* to only export CAD files,
+* to only export files from linked documents,
+* to export any files from parts and linked documents.
 
 If you export the files of a product, you will obtain the files attached to the last iterations of each parts and documents. Otherwise, you will get the files attached to the baselined iterations.
 
@@ -647,7 +647,7 @@ Available information on a part:
 
 You can change the explorer specifications. Look at the top left menu under the search bar. You will find 3 exploration modes:
 
-* "Latest versions", to look a the product structure. Here the submenu lets you choose between different part status (work in progress, latest checked in and latest released)
+* "Latest versions", to look a the product structure. Here the submenu lets you choose between different part status (work in progress, latest checked in and latest released).
 
 {% image /assets/images/documentation/2.0/en/image70.png "Product mode example"%}
 
@@ -655,7 +655,7 @@ You can change the explorer specifications. Look at the top left menu under the 
 
 {% image /assets/images/documentation/2.0/tree_conf_baseline.png "Baseline mode example"%}
 
-* "Serial number", to look at a deliverable structure. Here the submenu lets you choose a deliverable
+* "Serial number", to look at a deliverable structure. Here the submenu lets you choose a deliverable.
 
 {% image /assets/images/documentation/2.0/en/image71.png "Deliverable mode example"%}
 
@@ -714,10 +714,10 @@ By switching a part to ON/OFF on the tree, you display/hide the part on the scen
 
 The possible actions in the 3D visualization mode are:
 
-* Creating markers to report a design issue for example
-* Creating layers that hold a set of markers
-* Export 3D visualization of a part. Produces the html code to embed in other web pages (like YouTube or Google Maps)
-* Measure of the distance between 2 points
+* creating markers to report a design issue for example,
+* creating layers that hold a set of markers,
+* export 3D visualization of a part. Produces the html code to embed in other web pages (like YouTube or Google Maps),
+* measure of the distance between 2 points.
 
 # Workflow Management
 
@@ -737,11 +737,11 @@ Thus, the first step involved in workflow creations is to define the roles used 
 
 ### Workflow template
 
-A workflow template (or model) lists several activities from an initial state to a final state. Each activity contains a label naming its intermediate state and a list of tasks to complete. Those tasks can be performed in series or in parallel.
+A workflow template (or model) lists several activities from an initial state to a final state. Each activity contains a label naming its intermediate state and a list of tasks to complete. Those tasks can be performed sequentially or in parallel.
 
 {% image /assets/images/documentation/2.0/add_workflow.png "Workflow button"%}
 
-For a serial activity, the tasks are performed sequentially. If one task is rejected, the current activity is stopped.
+For a sequential activity, the tasks are performed sequentially. If one task is rejected, the current activity is stopped.
 
 For a parallel activity, the tasks are simultaneously open and as a consequence can be closed in any order. A rejected task does not necessarily lead to stop the current activity. In effect, parallel activities have an additional property which is the number of done tasks needed to progress to the next activity. This number ranges from 1 to the total number of tasks.
 
@@ -777,8 +777,8 @@ Once an activity is started, every task assignee receives a mail which includes 
 
 A running task can be marked as done or rejected if:
 
-* the responsible of the task has downloaded at least once an associated file
-* the document or the part is released (not checked out)
+* the responsible of the task has downloaded at least once an associated file,
+* the document or the part is released (not checked out).
 
 By clicking on the "Signing up" link, you will be able to add a signature block.
 
@@ -796,9 +796,9 @@ Milestones allow you to define deadlines for your jobs in progress.
 
 This page allow you to reoprt issues with specific priority about your projects. An issue fix can:
 
-* be affected to a user
-* concern documents and / or parts that you add in tab "Affected items"
-* belong to a category
+* be affected to a user,
+* concern documents and / or parts that you add in tab "Affected items",
+* belong to a category.
 
 List of available categories: adaptive, corrective, perfective, preventive.
 
@@ -838,7 +838,7 @@ The revision date indicates the check-in date if the item is checked in or the c
 
 # List of values
 
-DocDokuPLM allows you to predefine values of attributes, called list of values, you will then be able to use as attributes for a document, a part or a template. To create or edit values, click on the following icon shown on the templates page :
+DocDokuPLM allows you to predefine values of attributes, called list of values, you will then be able to use as attributes for a document, a part or a template. To create or edit values, click on the following icon shown on the templates page:
 
 {% image /assets/images/documentation/2.0/edit_lov.png "Button Lists of values"%}
 
@@ -850,10 +850,10 @@ Once saved, the list is accessible through the Attributes tab of the template/it
 
 {% image /assets/images/documentation/2.0/en/image57.png "List of values selection"%}
 
-You will not be able to :
+You will not be able to:
 
-* delete a list of values which has instances
-* edit an instance of list of values
+* delete a list of values which has instances,
+* edit an instance of list of values.
 
 # Viewer or permalink
 
@@ -923,19 +923,19 @@ The quick search bar appears on top of the documents/parts list. It lets you qui
 
 There are two ways to get access to the advanced search:
 
-* through the “Search” link from the left menu, only for documents
-* through the small arrow from the quick search bar
+* through the “Search” link from the left menu, only for documents,
+* through the small arrow from the quick search bar.
 
 This advanced search allows you to find an item from multiple input texts about its:
 
-* name
-* type
-* identifier
-* version
-* author
-* creation or modification date
-* attributes
-* files content
+* name,
+* type,
+* identifier,
+* version,
+* author,
+* creation or modification date,
+* attributes,
+* files content.
 
 {% image /assets/images/documentation/2.0/en/image30.png "Advanced search"%}
 
