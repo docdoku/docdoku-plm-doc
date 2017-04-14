@@ -437,7 +437,7 @@ Pour choisir vous-même ce que vous voulez afficher dans la liste des articles, 
 La vue qui s'affiche alors vous permet de :
 
 * filtrer la liste d'articles par produit et / ou exemplaire,
-* sélectionner les champs que vous voulez afficher (par exemple numéro d'article, nom, attributs...). * inclure ou exclure des articles avec des conditions (au moins une condition est requise),
+* sélectionner les champs que vous voulez afficher (par exemple numéro d'article, nom, attributs...). * inclure ou exclure des articles avec des conditions
 * ordonner et grouper les articles dans la liste de résultats.
 
 {% image /assets/images/documentation/2.0/fr/image80.png "Construction d'un requête"%}
@@ -451,7 +451,7 @@ Il y a deux sortes de filtres :
 * filtres sur les articles,
 * filtres sur les données d'exemplaires.
 
-Les filtres sur les articles permettent d'ajouter des critères de recherche les champs liés aux révisions/itérations d'articles :
+Les filtres sur les articles permettent d'ajouter des critères de recherche sur les champs liés aux révisions/itérations d'articles :
 
 * numéro d'article,
 * nom d'article,
@@ -459,9 +459,9 @@ Les filtres sur les articles permettent d'ajouter des critères de recherche les
 * attributs d'itération,
 * ainsi que d'autres critères liés aux articles.
 
-Les filtres de données d'exemplaires apparaissent seulement quand un exemplaire est ajouté dans la zone "champs".
+Les filtres sur les données d'exemplaires apparaissent seulement quand un exemplaire est ajouté dans la zone "champs".
 
-Ces filtres permettent de réduire la liste obtenue dans un contexte d'exemplaire produit selon les attributs des données d'exemplaire. Ils se comportent comme un second filtre à la suite du filtre des articles (condition "ET"). 
+Ces derniers permettent de réduire la liste obtenue dans un contexte d'exemplaire produit selon les attributs des données d'exemplaire. Ils se comportent comme un second filtre à la suite du filtre des articles (condition "ET").
 
 Note : ces filtres n'apparaissent que si des données d'exemplaires avec attributs existent.
 
@@ -547,7 +547,7 @@ Pour chaque groupe de règle, il y a deux boutons disponibles
 
 {% image /assets/images/documentation/2.5/fr/qb-buttons.png "Boutons d'ajout de règles "%}
 
-Pour ajouter une règle dans un groupe de règles, cliquer sur le premier des deux boutons. Pour ajouter un groupe de règles dans un autre groupe de règles, cliquer sur le deuxième des deux boutons.
+Pour ajouter une règle dans un groupe de règles, cliquez sur le premier des deux boutons. Pour ajouter un groupe de règles dans un autre groupe de règles, cliquez sur le deuxième des deux boutons.
 
 {% image /assets/images/documentation/2.5/fr/complex-query.png "Exemple de règles composées "%}
 
@@ -555,21 +555,21 @@ Pour ajouter une règle dans un groupe de règles, cliquer sur le premier des de
 
 ##### Sauvegarde de requêtes
 
-Vous pouvez enregistrer la vue courante dans l'espace de travail en cliquant sur le bouton "Enregistrer". La requête ne sera pas sauvegardée si elle n'est pas valide. Une fois sauvegardée elle apparaitra aussi pour les aurtres utilisateurs de l'espace de travail.
+Vous pouvez enregistrer la vue courante dans l'espace de travail en cliquant sur le bouton "Enregistrer". La requête ne sera pas sauvegardée si elle n'est pas valide. Une fois sauvegardée elle apparaitra aussi pour les autres utilisateurs de l'espace de travail.
 
 Ces requêtes sauvegardées apparaissent dans un sélecteur en haut du constructeur de requêtes. Une fois sélectionnée, les champs sont mis à jour dans la vue courante.
 
-Ces requêtes sauvegardées peuvent être effacées en cliquant sur le bouton "Supprimer de la liste des requêtes"
+Ces requêtes sauvegardées peuvent être effacées en cliquant sur le bouton "Supprimer de la liste des requêtes".
 
 ##### Export
 
 Il est possible d'exporter soit la vue courante, soit une requête sauvegardée.
 
-Pour exporter la vue courante, cliquer sur le bouton "Export Excel" qui se trouve au bas de la vue.
+Pour exporter la vue courante, cliquez sur le bouton "Export Excel" qui se trouve au bas de la vue.
 
-Pour exporter une requête sauvegardée, choisir la requête depuis le menu déroulant, puis cliquer sur le bouton "Export Excel" se trouvant juste à coté du sélecteur.
+Pour exporter une requête sauvegardée, choisissez la requête depuis le menu déroulant, puis cliquez sur le bouton "Export Excel" se trouvant juste à coté du sélecteur.
 
-Une fois un des deux boutons cliquer, un fichier Excel sera automatiquement téléchargé.
+Une fois un des deux boutons cliqué, un fichier Excel contenant les résultats de la requête est automatiquement téléchargé.
 
 ### Liens rapides
 
