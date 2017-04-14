@@ -123,15 +123,15 @@ Par ailleurs, les utilisateurs peuvent être répartis au sein de groupes qui po
 
 Un utilisateur en accès complet peut :
 
-* Créer, modifier ou supprimer des documents et des articles
-* Modifier la structure des dossiers dans la gestion des documents
-* Déplacer des documents dans les dossiers
-* Réserver des documents et articles
+* créer, modifier ou supprimer des documents et des articles,
+* modifier la structure des dossiers dans la gestion des documents,
+* déplacer des documents dans les dossiers,
+* réserver des documents et articles.
 
 Un utilisateur en lecture seule peut :
 
-* Accéder aux documents et articles en lecture
-* Visualiser la structure des produits
+* accéder aux documents et articles en lecture,
+* visualiser la structure des produits.
 
 Un utilisateur désactivé ne peut accéder ni aux documents ni aux articles.
 
@@ -243,9 +243,9 @@ Dans ce qui suit nous détaillons l’ensemble de ces fonctions.
 
 Vous pouvez créer des modèles de documents qui serviront à la création des documents. Au moment de la création d’un modèle, vous pouvez choisir de gérer la nomenclature des documents en déterminant un masque de saisie. Les caractères disponibles sont les suivants :
 
-* Alphanumériques
-* '#' pour tout chiffre valide
-* '*' pour n'importe quel caractère
+* alphanumériques,
+* '#' pour tout chiffre valide,
+* '*' pour n'importe quel caractère.
 
 Cocher la génération de l’identifiant entraînera la création automatique d’identifiants pour les documents qui utiliseront ce modèle. Si votre masque contient des chiffres, ils seront automatiquement incrémentés pour chaque nouveau document créé.
 
@@ -259,8 +259,8 @@ Un processus peut être associé au modèle depuis l'onglet Processus. Lors de l
 
 Vous pouvez définir des types d’attributs au modèle et lui associer des fichiers. Tous les documents qui seront créés avec ce modèle auront :
 
-* ses attributs - il faudra alors renseigner leur valeur
-* ses fichiers - qui pourront bien sûr évoluer, le fichier positionné au niveau du modèle n’étant qu’un squelette
+* ses attributs - il faudra alors renseigner leur valeur,
+* ses fichiers - qui pourront bien sûr évoluer, le fichier positionné au niveau du modèle n’étant qu’un squelette.
 
 {% image /assets/images/documentation/2.0/fr/image41.png "Rattachement de fichiers au modèle"%}
 
@@ -274,14 +274,14 @@ Vous pouvez ajouter des attributs, spécifier un processus et définir des droit
 
 Une fois créé, vous pourrez effectuer les actions suivantes :
 
-* Réservation / Annulation de la réservation / Libération
-* Suppression
-* Abonnement aux changements d’état du document. Dans ce cas l’utilisateur reçoit un mail à chaque fois qu’une modification est apportée sur le document par d'autres utilisateurs
-* Abonnement aux changements d’itération du document. L’utilisateur reçoit également un mail de notification  en cas de nouvelle itération sur le document
-* Ajout de libellés - par exemple classer un document comme important
-* Gestion de ses droits d’accès
-* Création d’une nouvelle version
-* Publication du document en mode public ou privé
+* réservation / Annulation de la réservation / Libération,
+* suppression,
+* abonnement aux changements d’état du document. Dans ce cas l’utilisateur reçoit un mail à chaque fois qu’une modification est apportée sur le document par d'autres utilisateurs,
+* abonnement aux changements d’itération du document. L’utilisateur reçoit également un mail de notification  en cas de nouvelle itération sur le document,
+* ajout de libellés - par exemple classer un document comme important,
+* gestion de ses droits d’accès,
+* création d’une nouvelle version,
+* publication du document en mode public ou privé.
 
 ## Déplacement d'un document
 
@@ -323,8 +323,8 @@ Cette vue liste tous les articles et documents qui utilisent le document en tant
 
 Afin d’assurer un accès rapide aux documents qui concernent un utilisateur donné, vous trouverez deux liens dans le menu de gauche :
 
-* Réservés : ce lien affichera l’ensemble des documents réservés par l’utilisateur
-* Tâches : ce lien sert à visualiser les différents documents sur lesquels l’utilisateur est directement impliqué via un processus
+* réservés : ce lien affichera l’ensemble des documents réservés par l’utilisateur,
+* tâches : ce lien sert à visualiser les différents documents sur lesquels l’utilisateur est directement impliqué via un processus.
 
 # Gestion des produits
 
@@ -332,10 +332,10 @@ DocDokuPLM est donc un système de gestion collaborative de produits dont le but
 
 Vous retrouvez, entre autres, les fonctionnalités suivantes :
 
-* Gestion des versions successives d'un même produit (notion de ligne de base) permettant la prise en compte des demandes de modifications ou d’évolutions
-* Recherche d'un produit
-* Visualisation 3D d’un produit
-* Partage de documents liés à des produits
+* gestion des versions successives d'un même produit (notion de ligne de base) permettant la prise en compte des demandes de modifications ou d’évolutions,
+* recherche d'un produit,
+* visualisation 3D d’un produit,
+* partage de documents liés à des produits.
 
 La création d’articles et de produits est expliquée dans le paragraphe qui suit.
 
@@ -354,7 +354,7 @@ Lors de la création d’un article, vous pouvez donc renseigner un modèle d’
 
 Vous pouvez tout aussi bien lui associer de façon individuelle :
 
-* un processus, afin de gérer le cycle de vie de l’article et régir l'accès à cet article pour les autres collaborateurs de l’espace de travail
+* un processus, afin de gérer le cycle de vie de l’article et régir l'accès à cet article pour les autres collaborateurs de l’espace de travail,
 * des attributs.
 
 {% image /assets/images/documentation/2.0/fr/image05.png "Création d'un article"%}
@@ -367,13 +367,13 @@ En cliquant sur le numéro d’un article, une fenêtre affichera ses détails. 
 
 En sélectionnant un article, vous pouvez lui appliquer un ensemble d’actions à savoir :
 
-* Réservation / Annulation de la réservation / Libération
-* Suppression
-* Ajout de libellés - par exemple classer des articles comme importants
-* Gestion de ses droits d’accès
-* Création d'une nouvelle version
-* Finalisation
-* Statut obsolète pour figer un article en itération (l'article doit être finalisé)
+* réservation / annulation de la réservation / libération,
+* suppression,
+* ajout de libellés - par exemple classer des articles comme importants,
+* gestion de ses droits d’accès,
+* création d'une nouvelle version,
+* finalisation,
+* statut obsolète pour figer un article en itération (l'article doit être finalisé).
 
 {% image /assets/images/documentation/2.0/obsolete_icon.png "Icône obsolète"%}
 
@@ -423,8 +423,8 @@ Note : le seul moyen de vider la liste des notifications est de créer une nouve
 
 Cette vue liste :
 
-* les assemblages qui utilisent l'article en tant que sous-composant (composant ou variante)
-* les produits et exemplaires qui utilisent l'article en tant que sous-composant (tête, noeud ou feuille)
+* les assemblages qui utilisent l'article en tant que sous-composant (composant ou variante),
+* les produits et exemplaires qui utilisent l'article en tant que sous-composant (tête, noeud ou feuille).
 
 {% image /assets/images/documentation/2.0/fr/image69.png "Vue Cas d'emploi"%}
 
@@ -436,9 +436,9 @@ Pour choisir vous-même ce que vous voulez afficher dans la liste des articles, 
 
 La vue qui s'affiche alors vous permet de :
 
-* filtrer la liste d'articles par produit et / ou exemplaire 
-* sélectionner les champs que vous voulez afficher (par exemple numéro d'article, nom, attributs...). * inclure ou exclure des articles avec des conditions (au moins une condition est requise)
-* ordonner et grouper les articles dans la liste de résultats
+* filtrer la liste d'articles par produit et / ou exemplaire,
+* sélectionner les champs que vous voulez afficher (par exemple numéro d'article, nom, attributs...). * inclure ou exclure des articles avec des conditions (au moins une condition est requise),
+* ordonner et grouper les articles dans la liste de résultats.
 
 {% image /assets/images/documentation/2.0/fr/image80.png "Construction d'un requête"%}
 
@@ -446,18 +446,18 @@ Si vous enregistrez la requête et que vous la sélectionnez, vous pourrez expor
 
 #### Filtres
 
-Il y a deux sortes de filtres
+Il y a deux sortes de filtres :
 
-* Filtres sur les articles
-* Filtres sur les données d'exemplaires
+* filtres sur les articles,
+* filtres sur les données d'exemplaires.
 
-Les filtres sur les articles permettent d'ajouter des critères de recherche les champs liés aux révisions/itérations d'articles
+Les filtres sur les articles permettent d'ajouter des critères de recherche les champs liés aux révisions/itérations d'articles :
 
-* Numéro d'article
-* Nom d'article
-* Auteur
-* Attributs d'itération
-* ainsi que d'autres critères liés aux articles ...
+* numéro d'article,
+* nom d'article,
+* auteur,
+* attributs d'itération,
+* ainsi que d'autres critères liés aux articles.
 
 Les filtres de données d'exemplaires apparaissent seulement quand un exemplaire est ajouté dans la zone "champs".
 
@@ -475,67 +475,67 @@ Il y a différents opérateurs disponibles selon le type d'attribut que vous vou
 
 Les attributs de type texte ont pour opérateurs :
 
-* égal / non égal
-* contient / ne contient pas
-* commence par/ ne commence pas par
-* finit par / ne finit pas par
+* égal / non égal,
+* contient / ne contient pas,
+* commence par/ ne commence pas par,
+* finit par / ne finit pas par.
 
 ##### Attributs de type nombre
 
 Les attributs de type nombre ont pour opérateurs :
 
-* égal / non égal
-* inférieur / inférieur ou égal
-* supérieur / supérieur ou égal
-* entre
+* égal / non égal,
+* inférieur / inférieur ou égal,
+* supérieur / supérieur ou égal,
+* entre.
 
 ##### Attributs de type date
 
 Les attributs de type date ont pour opérateurs :
 
-* égal / non égal
-* inférieur / inférieur ou égal
-* supérieur / supérieur ou égal
-* entre
+* égal / non égal,
+* inférieur / inférieur ou égal,
+* supérieur / supérieur ou égal,
+* entre.
 
 ##### Attributs de type texte long
 
 Les attributs de type texte long ont pour opérateurs :
 
-* égal / non égal
-* contient / ne contient pas
-* commence par/ ne commence pas par
-* finit par / ne finit pas par
+* égal / non égal,
+* contient / ne contient pas,
+* commence par/ ne commence pas par,
+* finit par / ne finit pas par.
 
 ##### Attributs de type booléen
 
 Les attributs de type booléen ont pour opérateurs :
 
-* égal / non égal
+* égal / non égal.
 
 ##### Attributs de type numéro d'article
 
 Les attributs de type numéro d'article ont pour opérateurs :
 
-* égal / non égal
-* contient / ne contient pas
-* commence par/ ne commence pas par
-* finit par / ne finit pas par
+* égal / non égal,
+* contient / ne contient pas,
+* commence par/ ne commence pas par,
+* finit par / ne finit pas par.
 
 ##### Attributs de type liste de valeurs
 
 Les attributs de type liste de valeurs ont pour opérateurs :
 
-* égal / non égal
+* égal / non égal.
 
 ##### Attributs de type URL
 
 Les attributs de type URL ont pour opérateurs :
 
-* égal / non égal
-* contient / ne contient pas
-* commence par/ ne commence pas par
-* finit par / ne finit pas par
+* égal / non égal,
+* contient / ne contient pas,
+* commence par/ ne commence pas par,
+* finit par / ne finit pas par.
 
 #### Utilisation avancée
 
@@ -593,15 +593,15 @@ Le produit créé sera rajouté à la liste des produits. En sélectionnant un p
 
 Une configuration est une liste de choix d'assemblage pour un produit donné. En effet, on peut vouloir :
 
-* choisir entre un article ou une de ses variantes
-* ne rien choisir, si un article est facultatif
+* choisir entre un article ou une de ses variantes,
+* ne rien choisir, si un article est facultatif.
 
 {% image /assets/images/documentation/2.0/fr/image64.png "Création d'une configuration"%}
 
-2 types de configuration sont proposés :
+Deux types de configuration sont proposés :
 
-* Derniers libérés, pour inclure les dernières itérations libérées de chaque article impliqué
-* Derniers finalisés, pour inclure automatiquement les dernières versions finalisées de chaque article impliqué
+* derniers libérés, pour inclure les dernières itérations libérées de chaque article impliqué,
+* derniers finalisés, pour inclure automatiquement les dernières versions finalisées de chaque article impliqué.
 
 {% image /assets/images/documentation/2.0/fr/image65.png "Exemple de choix : Aucun"%}
 
@@ -649,9 +649,9 @@ Pour partagaer des fichiers avec des personnes n'utilisant pas DocDokuPLM ou sim
 
 Vous pouvez choisir :
 
-* d'exporter uniquement les fichiers CAO
-* d'exporter uniquement les fichiers des documents liés
-* d'exporter tous les fichiers attachés aux articles et aux documents liés
+* d'exporter uniquement les fichiers CAO,
+* d'exporter uniquement les fichiers des documents liés,
+* d'exporter tous les fichiers attachés aux articles et aux documents liés.
 
 Si vous exportez les fichiers d'un produit, vous obtiendrez les fichiers joints à la dernière itération de chaque article et de chaque document. Sinon, vous obtiendrez les fichiers joints  the files attached to the baselined iterations.
 
@@ -682,15 +682,15 @@ Informations disponibles sur un article :
 
 Vous pouvez choisir comment explorer l'arborescence avec le menu en haut à gauche. Il existe 3 modes de parcours :
 
-* "Dernières versions", pour afficher la structure du produit. Dans ce cas, le sous-menu vous permet de choisir entre différents statuts d'article (travail en cours, derniers libérés, derniers finalisés)
+* "Dernières versions", pour afficher la structure du produit. Dans ce cas, le sous-menu vous permet de choisir entre différents statuts d'article (travail en cours, derniers libérés, derniers finalisés).
 
 {% image /assets/images/documentation/2.0/fr/image70.png "Exemple avec le mode produit"%}
 
-* "Baseline", pour afficher la structure d'une ligne de base. Dans ce cas, le sous-menu vous permet de choisir une baseline du produit
+* "Baseline", pour afficher la structure d'une ligne de base. Dans ce cas, le sous-menu vous permet de choisir une baseline du produit.
 
 {% image /assets/images/documentation/2.0/tree_conf_baseline.png "Exemple avec le mode baseline"%}
 
-* "Numéro de série", pour afficher la structure d'un exemplaire. Dans ce cas, le sous-menu vous permet de choisir un exemplaire associé au produit
+* "Numéro de série", pour afficher la structure d'un exemplaire. Dans ce cas, le sous-menu vous permet de choisir un exemplaire associé au produit.
 
 {% image /assets/images/documentation/2.0/fr/image71.png "Exemple avec le mode exemplaire"%}
 
@@ -750,10 +750,10 @@ En activant/désactivant le switch de l'article dans l'arborescence, vous affich
 
 Parmi les actions possibles dans le mode de visualisation en 3D, vous retrouverez :
 
-* La création de marqueurs permettant par exemple de rapporter un dysfonctionnement d’une pièce sur le schéma 3D
-* La création de calques comportant plusieurs marqueurs
-* L'export d'un article pour produire le code html à intégrer dans d’autres pages web (comme YouTube ou Google Maps)
-* La mesure de la distance entre 2 points
+* la création de marqueurs permettant par exemple de rapporter un dysfonctionnement d’une pièce sur le schéma 3D,
+* la création de calques comportant plusieurs marqueurs,
+* l'export d'un article pour produire le code html à intégrer dans d’autres pages web (comme YouTube ou Google Maps),
+* la mesure de la distance entre 2 points.
 
 # Gestion des processus
 
@@ -813,8 +813,8 @@ Une fois la première activité démarrée, les utilisateurs désignés reçoive
 
 Une tâche peut être approuvée ou rejetée si :
 
-* le responsable a téléchargé au moins une fois un fichier associé
-* le document ou l'article est libéré (pas réservé)
+* le responsable a téléchargé au moins une fois un fichier associé,
+* le document ou l'article est libéré (pas réservé).
 
 En cliquant sur le lien "Signature", vous aurez la possibilité d'ajouter une signature électronique.
 
@@ -832,9 +832,9 @@ Les jalons permettent de définir des dates butoires pour vos projets et travaux
 
 Cette page permet de rapporter des anomalies plus ou moins prioritaires sur vos projets et travaux en cours. Une correction d'anomalie peut :
 
-* être affectée à un utilisateur
-* concerner des documents et / ou des articles que vous ajoutez dans l'onglet "Eléments affectés"
-* appartenir à une catégorie
+* être affectée à un utilisateur,
+* concerner des documents et / ou des articles que vous ajoutez dans l'onglet "Eléments affectés",
+* appartenir à une catégorie.
 
 Liste des catégories disponibles : adaptive, corrective, perfective, préventive.
 
@@ -888,8 +888,8 @@ Une fois enregistrée, vous aurez accès à cette liste depuis l'onglet Attribut
 
 Vous ne pouvez pas :
 
-* supprimer une liste de valeurs qui a des instances
-* modifier une instance de liste de valeurs
+* supprimer une liste de valeurs qui a des instances,
+* modifier une instance de liste de valeurs.
 
 # Visualisation ou lien permanent
 
@@ -959,19 +959,19 @@ La barre de recherche rapide se présente au-dessus de la liste des documents/ar
 
 Vous pouvez accéder à la recherche avancée de deux manières :
 
-* en cliquant sur le lien “Rechercher“ présent dans le menu de gauche, seulement pour les documents
-* en cliquant sur la petite flèche dans la barre de “Recherche Rapide“
+* en cliquant sur le lien “Rechercher“ présent dans le menu de gauche, seulement pour les documents,
+* en cliquant sur la petite flèche dans la barre de “Recherche Rapide“.
 
 Cette recherche avancée permet de trouver un élément à partir de plusieurs textes saisis concernant :
 
-* son nom
-* son type
-* sa référence
-* sa version
-* son auteur
-* ses dates de création et de modification
-* ses attributs
-* le contenu des fichiers chargés
+* son nom,
+* son type,
+* sa référence,
+* sa version,
+* son auteur,
+* ses dates de création et de modification,
+* ses attributs,
+* le contenu des fichiers chargés.
 
 {% image /assets/images/documentation/2.0/fr/image25.png "Recherche avancée"%}
 
