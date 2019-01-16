@@ -11,7 +11,7 @@ Ruby, Jekyll 2.1.0, nodejs, git, grunt, bower
 
 Install local jekyll from given ruby gem
 
-	[sudo] gem install --local jekyll-2.1.0.gem
+	[sudo] gem install jekyll -v 2.1.0
 
 ### NodeJS
 Use latest LTS version
