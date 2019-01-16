@@ -31,8 +31,8 @@
     "node": ">=0.8.0"
   },
   "scripts": {
-    "build": "grunt build",
-    "dev": "grunt serve",
+    "build": "npx grunt build",
+    "dev": "npx grunt serve",
     "prebuild": "npm install",
     "predev": "npm install",
     "postinstall": "./node_modules/.bin/bower install"
