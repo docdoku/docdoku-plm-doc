@@ -14,7 +14,6 @@ Install local jekyll from given ruby gem
 	[sudo] gem install --local jekyll-2.1.0.gem
 
 ### NodeJS
-
 Use latest LTS version
 
 ### Git
