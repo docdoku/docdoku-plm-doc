@@ -85,7 +85,7 @@ The co-workers menu lists the current connected users (green) and others. A clic
 
 {% image /assets/images/documentation/en/videochat.png "Video chat invitation"%}
 
-In addition to the co-workers menu, whenever a user name appears in blue inside the application, a simple click brings up a contextual menu. A conversation started this way carries out the context to the recipient user so he is informed of what is probably the subject of the communication (document, part).
+In addition to the co-workers menu, whenever a user name appears in blue inside the application, a simple click brings up a contextual menu. A conversation started this way carries out the context to the recipient user, so he is informed of what is probably the subject of the communication (document, part).
 
 {% image /assets/images/documentation/2.0/en/conversation.png "Co-worker contextual conversation menu"%}
 
