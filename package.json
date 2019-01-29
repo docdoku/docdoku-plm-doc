@@ -1,9 +1,7 @@
 {
   "name": "docdokuplm-user-guides",
   "version": "1.0.0",
-  "dependencies": {
-    "jekyll": "^3.0.0-beta1"
-  },
+  "dependencies": {},
   "devDependencies": {
     "bower": "~1.8.0",
     "grunt": "~0.4.1",
